@@ -1,1 +1,662 @@
-{}
+{
+    "traits": [
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Abrasive",
+            "degree": 0,
+            "name": "abrasive",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "AnnoyingVoice",
+            "degree": 0,
+            "name": "annoying voice",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Ascetic",
+            "degree": 0,
+            "name": "ascetic",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": true,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Asexual",
+            "degree": 0,
+            "name": "asexual",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Beauty",
+            "degree": -1,
+            "name": "ugly",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Beauty",
+            "degree": -2,
+            "name": "staggeringly ugly",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Beauty",
+            "degree": 1,
+            "name": "pretty",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Beauty",
+            "degree": 2,
+            "name": "beautiful",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": true,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Bisexual",
+            "degree": 0,
+            "name": "bisexual",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Bloodlust",
+            "degree": 0,
+            "name": "bloodlust",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "BodyPurist",
+            "degree": 0,
+            "name": "body purist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Brawler",
+            "degree": 0,
+            "name": "brawler",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Cannibal",
+            "degree": 0,
+            "name": "cannibal",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "CreepyBreathing",
+            "degree": 0,
+            "name": "creepy breathing",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "DislikesMen",
+            "degree": 0,
+            "name": "misandrist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "DislikesWomen",
+            "degree": 0,
+            "name": "misogynist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "DrugDesire",
+            "degree": 2,
+            "name": "chemical fascination",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "DrugDesire",
+            "degree": 1,
+            "name": "chemical interest",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "DrugDesire",
+            "degree": -1,
+            "name": "teetotaler",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "FastLearner",
+            "degree": 0,
+            "name": "fast learner",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": true,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Gay",
+            "degree": 0,
+            "name": "gay",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Gourmand",
+            "degree": 0,
+            "name": "gourmand",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "GreatMemory",
+            "degree": 0,
+            "name": "great memory",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Greedy",
+            "degree": 0,
+            "name": "greedy",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Immunity",
+            "degree": -1,
+            "name": "sickly",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Immunity",
+            "degree": 1,
+            "name": "super-immune",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Industriousness",
+            "degree": 1,
+            "name": "hard worker",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Industriousness",
+            "degree": 2,
+            "name": "industrious",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Industriousness",
+            "degree": -2,
+            "name": "slothful",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Industriousness",
+            "degree": -1,
+            "name": "lazy",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Jealous",
+            "degree": 0,
+            "name": "jealous",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Kind",
+            "degree": 0,
+            "name": "kind",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Masochist",
+            "degree": 0,
+            "name": "masochist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "NaturalMood",
+            "degree": -1,
+            "name": "pessimist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "NaturalMood",
+            "degree": -2,
+            "name": "depressive",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "NaturalMood",
+            "degree": 2,
+            "name": "sanguine",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "NaturalMood",
+            "degree": 1,
+            "name": "optimist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Nerves",
+            "degree": 1,
+            "name": "steadfast",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Nerves",
+            "degree": -1,
+            "name": "nervous",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Nerves",
+            "degree": -2,
+            "name": "volatile",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Nerves",
+            "degree": 2,
+            "name": "iron-willed",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Neurotic",
+            "degree": 1,
+            "name": "neurotic",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Neurotic",
+            "degree": 2,
+            "name": "very neurotic",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "NightOwl",
+            "degree": 0,
+            "name": "night owl",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Nimble",
+            "degree": 0,
+            "name": "nimble",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Nudist",
+            "degree": 0,
+            "name": "nudist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "PsychicSensitivity",
+            "degree": -1,
+            "name": "psychically dull",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "PsychicSensitivity",
+            "degree": -2,
+            "name": "psychically deaf",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "PsychicSensitivity",
+            "degree": 1,
+            "name": "psychically sensitive",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "PsychicSensitivity",
+            "degree": 2,
+            "name": "psychically hypersensitive",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Psychopath",
+            "degree": 0,
+            "name": "psychopath",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Pyromaniac",
+            "degree": 0,
+            "name": "pyromaniac",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "QuickSleeper",
+            "degree": 0,
+            "name": "quick sleeper",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "ShootingAccuracy",
+            "degree": 1,
+            "name": "careful shooter",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "ShootingAccuracy",
+            "degree": -1,
+            "name": "trigger-happy",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "SlowLearner",
+            "degree": 0,
+            "name": "slow learner",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "SpeedOffset",
+            "degree": -1,
+            "name": "slowpoke",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "SpeedOffset",
+            "degree": 1,
+            "name": "fast walker",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "SpeedOffset",
+            "degree": 2,
+            "name": "jogger",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "TooSmart",
+            "degree": 0,
+            "name": "too smart",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "TorturedArtist",
+            "degree": 0,
+            "name": "tortured artist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Tough",
+            "degree": 0,
+            "name": "tough",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Transhumanist",
+            "degree": 0,
+            "name": "transhumanist",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Undergrounder",
+            "degree": 0,
+            "name": "undergrounder",
+            "removePrice": 5500
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "defName": "Wimp",
+            "degree": 0,
+            "name": "wimp",
+            "removePrice": 5500
+        }
+    ],
+    "races": [
+        {
+            "defName": "Human",
+            "enabled": true,
+            "name": "Human",
+            "price": 2917
+        }
+    ]
+}
