@@ -1,0 +1,37 @@
+# Icons on the footer
+rss: false
+email_address:
+behance:
+bitbucket:
+dribbble:
+facebook:
+flickr:
+gitlab:
+github:
+instagram:
+keybase:
+linkedin:
+pinterest:
+reddit:
+soundcloud:
+stack_overflow:
+stack_exchange:
+steam:
+tumblr:
+twitter:
+vimeo:
+wordpress:
+youtube: # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
+twitch: sirrandoo
+
+# Share button options
+share:
+  facebook: true
+  twitter: true
+  tumblr:
+  pinterest:
+  pocket:
+  reddit: true
+  linkedin:
+  wordpress:
+  email: true

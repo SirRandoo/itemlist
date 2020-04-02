@@ -1,0 +1,83 @@
+---
+layout: page
+title: Commands
+permalink: /commands
+---
+
+{%- assign any_commands_enabled = false -%}
+{%- assign commands_sorted = site.data.commands | sort: "name" -%}
+
+{%- for command in commands_sorted -%}
+{%- if command.enabled -%}
+{%- assign any_commands_enabled = true -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+
+{%- if any_commands_enabled -%}
+<input type="text" class="search" id="commandsInput" onkeyup="filterTable('commands')"
+    placeholder="{{- site.data.language.str_commands_search -}}">
+
+<table style="display: table" class="sortable" id="commands">
+    <tr>
+        <th style="width: 35%">Command</th>
+        <th style="width: 18%">User Level</th>
+        <th>Description</th>
+    </tr>
+
+    {%- for command in commands_sorted -%}
+    {%- if command.enabled -%}
+    <tr>
+        <td>
+            {{- command.command -}}
+            <br />
+            <span style="font-style:italic; color: #a1a1a1; font-size: 17px;">{{- site.data.language.str_usage -}}:
+                {{ command.usage }}</span>
+        </td>
+        <td>{{- command.userLevel -}}</td>
+        <td>{{- command.description -}}</td>
+    </tr>
+    {%- endif -%}
+    {%- endfor -%}
+</table>
+{%- else -%}
+<p align="center">{{- site.data.languages.str_no_commands -}}</p>
+{%- endif -%}
+
+
+
+<script>
+    function filterTable(category) {
+        var input, filter, table, tr, td, i, textValue;
+        input = document.getElementById(category + "Input")
+        filter = input.value.toUpperCase();
+        table = document.getElementById(category);
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<style>
+    .search {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #dddddd;
+        margin-bottom: 12px;
+    }
+</style>

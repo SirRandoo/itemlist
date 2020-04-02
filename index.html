@@ -1,0 +1,209 @@
+---
+layout: page
+title: Store
+---
+
+<div class="tab">
+    <button class="tablinks" onclick="changeTab(event, 'items')"
+        id="defaultOpen">{{- site.data.language.str_items -}}</button>
+    <button class="tablinks" onclick="changeTab(event, 'events')">{{- site.data.language.str_events -}}</button>
+    <button class="tablinks" onclick="changeTab(event, 'traits')">{{- site.data.language.str_traits -}}</button>
+    <button class="tablinks" onclick="changeTab(event, 'races')">{{- site.data.language.str_races -}}</button>
+</div>
+
+<div id="items" class="tabcontent">
+    <input type="text" class="search" id="itemsInput" onkeyup="filterTable('items')"
+        placeholder="{{- site.data.language.str_items_search -}}">
+
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>Category</th>
+        </tr>
+
+        {%- for item in site.data.StoreItems.items -%}
+        {%- if item.price >= 0 -%}
+        <tr>
+            <td>{{- item.abr -}}</td>
+            <td>{{- item.price -}}</td>
+            <td>{{- item.category -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
+
+<div id="events" class="tabcontent">
+    <input type="text" class="search" id="eventsInput" onkeyup="filterTable('events')"
+        placeholder="{{- site.data.language.str_events_search -}}">
+
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>Karma Type</th>
+        </tr>
+
+        {%- for item in site.data.StoreIncidents.incitems -%}
+        {%- if item.price > 0 -%}
+        <tr>
+            <td>{{- item.abr -}}</td>
+            <td>{{- item.price -}}</td>
+            <td>{{- item.karmatype -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
+
+<div id="traits" class="tabcontent">
+    <input type="text" class="search" id="traitsInput" onkeyup="filterTable('traits')"
+        placeholder="{{- site.data.language.str_traits_search -}}">
+
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Add Cost</th>
+            <th>Remove Cost</th>
+        </tr>
+
+        {%- for item in site.data.ShopExt.traits -%}
+        {%- if item.canAdd or item.canRemove -%}
+        <tr>
+            <td>{{- item.name -}}</td>
+
+            {%- if item.canAdd -%}
+            <td>{{- item.addPrice -}}</td>
+            {%- else -%}
+            <td>{{- site.data.language.str_disabled -}}</td>
+            {%- endif -%}
+
+            {%- if item.canRemove -%}
+            <td>{{- item.removePrice -}}</td>
+            {%- else -%}
+            <td>{{- site.data.language.str_disabled -}}</td>
+            {%- endif -%}
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
+
+<div id="races" class="tabcontent">
+    <input type="text" class="search" id="racesInput" onkeyup="filterTable('races')"
+        placeholder="{{- site.data.language.str_races_search -}}">
+
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+        </tr>
+
+        {%- for item in site.data.ShopExt.races -%}
+        {%- if item.enabled -%}
+        <tr>
+            <td>{{- item.name -}}</td>
+            <td>{{- item.price -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
+
+
+<script>
+    document.getElementById("defaultOpen").click();
+
+    function changeTab(evt, category) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(category).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    function filterTable(category) {
+        var input, filter, table, tr, td, i, textValue;
+        input = document.getElementById(category + "Input")
+        filter = input.value.toUpperCase();
+        table = document.getElementById(category).lastElementChild;
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<style>
+    .tab {
+        overflow: hidden;
+        border: 1px solid #cccccc;
+        background-color: #f1f1f1;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+
+    .tab button:hover {
+        background-color: #dddddd;
+    }
+
+    .tab button.active {
+        background-color: #cccccc;
+    }
+
+    .tabcontent {
+        display: none;
+        animation: fadeEffect 320ms;
+        border-top: none;
+    }
+
+    @keyframes fadeEffect {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    .search {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #dddddd;
+        margin-bottom: 12px;
+    }
+</style>

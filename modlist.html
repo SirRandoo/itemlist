@@ -1,0 +1,61 @@
+---
+title: Mod List
+layout: page
+permalink: /modlist
+---
+
+<input type="text" class="search" id="modInput" onkeyup="filterTable('mod')"
+    placeholder="{{- site.data.language.str_mod_search -}}">
+
+
+<table style="display: table;" class="sortable" id="mod">
+    <tr>
+        <th>Mod Name</th>
+        <th style="width: 20%">Version</th>
+    </tr>
+
+    {%- for mod in site.data.modlist -%}
+    <tr>
+        <td>{{- mod.name -}}</td>
+        <td>{{- mod.version -}}</td>
+    </tr>
+    {%- endfor -%}
+</table>
+
+
+
+<script>
+    function filterTable(category) {
+        var input, filter, table, tr, td, i, textValue;
+        input = document.getElementById(category + "Input")
+        filter = input.value.toUpperCase();
+        table = document.getElementById(category);
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<style>
+    .search {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #dddddd;
+        margin-bottom: 12px;
+    }
+</style>
