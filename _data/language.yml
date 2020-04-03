@@ -25,3 +25,6 @@ str_items_search: 'Search for items...'
 str_commands_search: 'Search for commands...'
 str_mod_search: 'Search for mods...'
 str_usage: 'Usage'
+
+str_seetraits: 'See prices in the traits section'
+str_seeraces: 'See prices in the races section'
