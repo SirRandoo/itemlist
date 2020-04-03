@@ -28,3 +28,7 @@ str_usage: 'Usage'
 
 str_seetraits: 'See prices in the traits section'
 str_seeraces: 'See prices in the races section'
+
+str_trait_id: 'trait'
+str_removetrait_id: 'removetrait'
+str_pawn_id: 'pawn'

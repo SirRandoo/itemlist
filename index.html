@@ -49,9 +49,9 @@ title: Store
         {%- if item.price > 0 -%}
         <tr>
             <td>{{- item.abr -}}</td>
-            {%- if item.abr == "trait" or item.abr == "removetrait" -%}
+            {%- if item.abr == site.data.language.str_trait_id or item.abr == site.data.language.str_removetrait_id -%}
             <td>{{- site.data.language.str_seetraits -}}</td>
-            {%- elsif item.abr == "pawn" -%}
+            {%- elsif item.abr == site.data.language.str_pawn_id -%}
             <td>{{- site.data.language.str_seeraces -}}</td>
             {%- else -%}
             <td>{{- item.price -}}</td>
