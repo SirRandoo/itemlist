@@ -11,12 +11,20 @@ permalink: /modlist
 <table style="display: table;" class="sortable" id="mod">
     <tr>
         <th>Mod Name</th>
+        <th style="width: 35%">Author</th>
         <th style="width: 20%">Version</th>
     </tr>
 
     {%- for mod in site.data.modlist -%}
     <tr>
-        <td>{{- mod.name -}}</td>
+        <td>
+            {%- if mod.steamId != "" -%}
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}">{{- mod.name -}}</a>
+            {%- else -%}
+            {{- mod.name -}}
+            {%- endif -%}
+        </td>
+        <td>{{- mod.author -}}</td>
         <td>{{- mod.version -}}</td>
     </tr>
     {%- endfor -%}

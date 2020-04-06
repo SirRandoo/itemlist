@@ -4,17 +4,19 @@ title: Commands
 permalink: /commands
 ---
 
-{%- assign any_commands_enabled = false -%}
+{%- assign buy = "" -%}
 {%- assign commands_sorted = site.data.commands | sort: "name" -%}
 
 {%- for command in commands_sorted -%}
-{%- if command.enabled -%}
-{%- assign any_commands_enabled = true -%}
+{%- if command.name == "Buy" -%}
+{%- capture buy -%}
+{{- command.usage | split: " " | first -}}
+{%- endcapture -%}
 {%- break -%}
 {%- endif -%}
 {%- endfor -%}
 
-{%- if any_commands_enabled -%}
+{%- if site.data.commands -%}
 <input type="text" class="search" id="commandsInput" onkeyup="filterTable('commands')"
     placeholder="{{- site.data.language.str_commands_search -}}">
 
@@ -26,18 +28,29 @@ permalink: /commands
     </tr>
 
     {%- for command in commands_sorted -%}
-    {%- if command.enabled -%}
     <tr>
         <td>
-            {{- command.command -}}
+            {{- command.name -}}
             <br />
-            <span style="font-style:italic; color: #a1a1a1; font-size: 17px;">{{- site.data.language.str_usage -}}:
-                {{ command.usage }}</span>
+            <span style="font-style:italic; color: #5a5454; font-size: 17px;">{{- site.data.language.str_usage -}}:
+                {{- command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}</span>
         </td>
         <td>{{- command.userLevel -}}</td>
-        <td>{{- command.description -}}</td>
+        <td>
+            {{- command.description -}}
+
+            {%- if command.shortcut -%}
+            <br />
+            <span style="font-style:italic; color: #5a5454; font-size: 17px;">
+                {{- site.data.language.str_shortcut -}} {{- buy -}}
+                {%- capture prefix -%}
+                {{- command.usage | slice: 0 -}}
+                {%- endcapture -%}
+                {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}
+            </span>
+            {%- endif -%}
+        </td>
     </tr>
-    {%- endif -%}
     {%- endfor -%}
 </table>
 {%- else -%}

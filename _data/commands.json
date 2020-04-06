@@ -1,219 +1,212 @@
 [
     {
-        "command": "My Pawn Story",
-        "usage": "!mypawnstory",
-        "userLevel": "Anyone",
-        "description": "Shows your pawn's bio.",
-        "enabled": true
-    },
-    {
-        "command": "My Pawn Skills",
-        "usage": "!mypawnskills",
-        "userLevel": "Anyone",
-        "description": "Shows your pawn's current skills, and their passions.",
-        "enabled": true
-    },
-    {
-        "command": "My Pawn Body",
-        "usage": "!mypawnbody",
-        "userLevel": "Anyone",
-        "description": "Shows an overview of your pawn's body, including any health conditions.",
-        "enabled": true
-    },
-    {
-        "command": "My Pawn Health",
-        "usage": "!mypawnhealth [capacity]",
-        "userLevel": "Anyone",
-        "description": "Shows an overview of your pawn's health. If a capacity is specified, it'll show what's impacting it.",
-        "enabled": true
-    },
-    {
-        "command": "My Pawn Work",
-        "usage": "!mypawnwork",
-        "userLevel": "Anyone",
-        "description": "Shows your pawn's current work priorities.",
-        "enabled": true
-    },
-    {
-        "command": "Factions",
-        "usage": "!factions",
-        "userLevel": "Anyone",
-        "description": "Shows the colony's current faction relations.",
-        "enabled": true
-    },
-    {
-        "command": "Research",
-        "usage": "!research [project]",
-        "userLevel": "Anyone",
-        "description": "Shows information about the current research project. If a project is specified, it'll show information about that, including any prerequisites missing.",
-        "enabled": true
-    },
-    {
-        "command": "My Pawn Gear",
-        "usage": "!mypawngear",
-        "userLevel": "Anyone",
-        "description": "Shows your pawn's current gear and armor values.",
-        "enabled": true
-    },
-    {
-        "command": "Fix My Pawn",
-        "usage": "!fixmypawn",
-        "userLevel": "Anyone",
-        "description": "Attempts to relink you to your pawn.",
-        "enabled": true
-    },
-    {
-        "command": "Fix All Pawns",
-        "usage": "!fixallpawns",
-        "userLevel": "Moderator",
-        "description": "Attempts to relink viewers to their pawns.",
-        "enabled": true
-    },
-    {
-        "command": "Leave",
-        "usage": "!leave",
-        "userLevel": "Anyone",
-        "description": "Makes your pawn leave the colony.",
-        "enabled": true
-    },
-    {
-        "command": "My Pawn Needs",
-        "usage": "!mypawnneeds",
-        "userLevel": "Anyone",
-        "description": "Shows an overview of your pawn's current needs.",
-        "enabled": true
-    },
-    {
-        "command": "Price",
-        "usage": "!price {category} {query} [quantity]",
-        "userLevel": "Anyone",
-        "description": "Similar to !lookup, but shows the price of the first result.",
-        "enabled": true
-    },
-    {
-        "command": "Lookup",
-        "usage": "!lookup {category} {query}",
-        "userLevel": "Anyone",
-        "description": "Returns items in-game that match the query given in the specified category. Valid categories are: 'races', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'",
-        "enabled": true
-    },
-    {
-        "command": "Balance",
-        "usage": "!bal",
-        "userLevel": "Anyone",
         "description": "Shows your current balance.",
-        "enabled": true
+        "name": "Check balance",
+        "shortcut": false,
+        "usage": "!bal",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Buy",
-        "usage": "!buy {product} [arguments .. ..]",
-        "userLevel": "Anyone",
-        "description": "Allows your to purchase something from the shop.",
-        "enabled": true
-    },
-    {
-        "command": "What is Karma",
-        "usage": "!whatiskarma",
-        "userLevel": "Anyone",
         "description": "Gives a brief overview on what karma is.",
-        "enabled": true
+        "name": "Karma explanation",
+        "shortcut": false,
+        "usage": "!whatiskarma",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Purchase List",
-        "usage": "!purchaselist",
-        "userLevel": "Anyone",
-        "description": "Directs you here!",
-        "enabled": true
-    },
-    {
-        "command": "Instructions",
-        "usage": "!instructions",
-        "userLevel": "Anyone",
-        "description": "Gives you some basic instructions on how to use TwitchToolkit",
-        "enabled": true
-    },
-    {
-        "command": "Mod Info",
-        "usage": "!modinfo",
-        "userLevel": "Anyone",
-        "description": "Shows some basic information about TwitchToolkit.",
-        "enabled": true
-    },
-    {
-        "command": "Mod Settings",
-        "usage": "!modsettings",
-        "userLevel": "Anyone",
-        "description": "Shows the streamer's current Toolkit settings.",
-        "enabled": true
-    },
-    {
-        "command": "Gift Coins",
-        "usage": "!giftcoins {username} {amount}",
-        "userLevel": "Anyone",
         "description": "Allows you to give your coins to another viewer.",
-        "enabled": true
+        "name": "Gift coins",
+        "shortcut": false,
+        "usage": "!giftcoins (user) (amount)",
+        "userLevel": "Anyone"
     },
     {
-        "command": "All Commands",
-        "usage": "!allcommands",
-        "userLevel": "Anyone",
-        "description": "Shows you a list of all commands available.",
-        "enabled": true
-    },
-    {
-        "command": "Join Queue",
-        "usage": "!joinqueue",
-        "userLevel": "Anyone",
         "description": "Allows you to join the viewer queue.",
-        "enabled": true
+        "name": "Join queue",
+        "shortcut": false,
+        "usage": "!joinqueue",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Heal Me",
-        "usage": "!healme",
-        "userLevel": "Anyone",
-        "description": "A personal healer mech serum. This is a shortcut command for !buy healme",
-        "enabled": true
+        "description": "Shows some basic information about TwitchToolkit.",
+        "name": "Mod info",
+        "shortcut": false,
+        "usage": "!modinfo",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Heal All",
-        "usage": "!healall",
-        "userLevel": "Anyone",
-        "description": "A colony wide healer mech serum. This is a shortcut command for !buy healall",
-        "enabled": true
+        "description": "Allows you to purchase a product from the store.",
+        "name": "Buy",
+        "shortcut": false,
+        "usage": "!buy (product) [quantity]",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Revive Me",
-        "usage": "!reviveme",
-        "userLevel": "Anyone",
-        "description": "A personal resurrector mech serum. This is a shortcut command for !buy reviveme",
-        "enabled": true
+        "description": "Allows you to wage coins to level the specified skill.",
+        "name": "Level skill",
+        "shortcut": true,
+        "usage": "!levelskill (skill) (amount)",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Revive All",
-        "usage": "!reviveall",
-        "userLevel": "Anyone",
-        "description": "A colony wide resurrector mech serum. This is a shortcut command for !buy reviveall",
-        "enabled": true
+        "description": "Shows the streamer's current Toolkit settings.",
+        "name": "Mod settings",
+        "shortcut": false,
+        "usage": "!modsettings",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Passion Shuffle",
-        "usage": "!passionshuffle [skill]",
-        "userLevel": "Anyone",
-        "description": "Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it. This is a shortcut command for !buy passionshuffle",
-        "enabled": true
+        "description": "Shows a list of all commands available.",
+        "name": "All commands",
+        "shortcut": false,
+        "usage": "!allcommands",
+        "userLevel": "Anyone"
     },
     {
-        "command": "Surgery",
-        "usage": "!surgery {part}",
-        "userLevel": "Anyone",
-        "description": "Purchases the part specified and queues it for surgery on your pawn. This is a shortcut command for !buy surgery",
-        "enabled": true
-    },
-    {
-        "command": "Installed Mods",
-        "usage": "!installedmods",
-        "userLevel": "Anyone",
         "description": "Shows a list of currently installed mods.",
-        "enabled": true
+        "name": "Installed mods",
+        "shortcut": false,
+        "usage": "!installedmods",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "A colony wide resurrector mech serum.",
+        "name": "Revive all",
+        "shortcut": true,
+        "usage": "!reviveall",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "A personal resurrector mech serum.",
+        "name": "Revive me",
+        "shortcut": true,
+        "usage": "!reviveme",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "A personal healer mech serum.",
+        "name": "Heal me",
+        "shortcut": true,
+        "usage": "!healme",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "A colony wide healer mech serum.",
+        "name": "Healall",
+        "shortcut": true,
+        "usage": "!healall",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.",
+        "name": "Passion shuffle",
+        "shortcut": true,
+        "usage": "!passionshuffle [skill]",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Purchases the part specified and queues it for surgery on your pawn.",
+        "name": "Surgery",
+        "shortcut": true,
+        "usage": "!surgery (part)",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows an overview of your pawn's health. If a capacity is specified, it'll show what's impacting it.",
+        "name": "Viewer health",
+        "shortcut": false,
+        "usage": "!mypawnhealth",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows an overview of your pawn's current needs.",
+        "name": "Viewer needs",
+        "shortcut": false,
+        "usage": "!mypawnneeds",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows your pawn's current gear and armor values.",
+        "name": "Viewer gear",
+        "shortcut": false,
+        "usage": "!mypawngear",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows an overview of your pawn's body, including any health conditions.",
+        "name": "Viewer body",
+        "shortcut": false,
+        "usage": "!mypawnbody",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows your pawn's current work priorities.",
+        "name": "Viewer work",
+        "shortcut": false,
+        "usage": "!mypawnwork",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows your pawn's bio.",
+        "name": "Viewer story",
+        "shortcut": false,
+        "usage": "!mypawnstory",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows your pawn's current skills, and their passions.",
+        "name": "Viewer skills",
+        "shortcut": false,
+        "usage": "!mypawnskills",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Attempts to relink you to your pawn.",
+        "name": "Fix viewer pawn",
+        "shortcut": false,
+        "usage": "!fixmypawn",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Attempts to relink viewers to their pawns.",
+        "name": "Fix all pawns",
+        "shortcut": false,
+        "usage": "!fixallpawns",
+        "userLevel": "Moderator"
+    },
+    {
+        "description": "Makes your pawn leave the colony.",
+        "name": "Abandon pawn",
+        "shortcut": false,
+        "usage": "!leave",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows your pawn's current work priorities.",
+        "name": "Factions",
+        "shortcut": false,
+        "usage": "!factions",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Shows information about the current research project. If a project is specified, it'll show information about that, including any prerequisites missing.",
+        "name": "Research",
+        "shortcut": false,
+        "usage": "!research [project]",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Returns items in-game that match the query given in the specified category. Valid categories are: 'races', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'",
+        "name": "Lookup",
+        "shortcut": false,
+        "usage": "!lookup (category) (query)",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Similar to !lookup, but shows the price of the first result.",
+        "name": "Price check",
+        "shortcut": false,
+        "usage": "!price (category) (query) [quantity]",
+        "userLevel": "Anyone"
     }
 ]
