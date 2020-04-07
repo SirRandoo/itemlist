@@ -99,6 +99,27 @@ title: Store
                     </ul>
                 </span>
                 {%- endif -%}
+
+                {%- capture nameTemp -%}
+                {{- item.conflicts | first -}}
+                {%- endcapture -%}
+
+                {%- if nameTemp != "" -%}
+                <span style="font-style:italic; color: #5a5454; font-size: 17px;">
+                    {%- if temp == "" -%}
+                    <br />
+                    <br />
+                    {%- endif -%}
+
+                    {{- site.data.language.str_trait_conflicts -}}
+
+                    <ul>
+                        {%- for c in item.conflicts -%}
+                        <li>{{- c -}}</li>
+                        {%- endfor -%}
+                    </ul>
+                </span>
+                {%- endif -%}
             </td>
 
             {%- if item.canAdd -%}
