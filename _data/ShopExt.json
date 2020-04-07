@@ -5,650 +5,950 @@
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Abrasive",
             "degree": 0,
+            "description": "{PAWN_nameDef} always says exactly what's on {PAWN_possessive} mind, especially if it's bugging {PAWN_objective}. That tends to rub people the wrong way.",
             "name": "abrasive",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "AnnoyingVoice",
             "degree": 0,
+            "description": "{PAWN_nameDef}'s voice has a particularly grating, nasal quality to it, and {PAWN_pronoun} tends to talk in barked, garbled phrases. This predisposes others to dislike {PAWN_objective}.",
             "name": "annoying voice",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Greedy",
+                "Jealous",
+                "Gourmand"
+            ],
             "defName": "Ascetic",
             "degree": 0,
+            "description": "{PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance.",
             "name": "ascetic",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": true,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Asexual",
             "degree": 0,
+            "description": "{PAWN_nameDef} has no sexual attraction to anyone at all.",
             "name": "asexual",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Beauty",
             "degree": -1,
+            "description": "[PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions.",
             "name": "ugly",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-1.0 Beauty"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Beauty",
             "degree": -2,
+            "description": "[PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing.",
             "name": "staggeringly ugly",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-2.0 Beauty"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Beauty",
             "degree": 1,
+            "description": "[PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective].",
             "name": "pretty",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+1.0 Beauty"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Beauty",
             "degree": 2,
+            "description": "[PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth.",
             "name": "beautiful",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+2.0 Beauty"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": true,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Bisexual",
             "degree": 0,
+            "description": "{PAWN_nameDef} is romantically attracted to both men and women.",
             "name": "bisexual",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Bloodlust",
             "degree": 0,
+            "description": "{PAWN_nameDef} gets a rush from hurting people, and never minds the sight of blood or death. {PAWN_pronoun} is four times as likely to start a social fight as others.",
             "name": "bloodlust",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Transhumanist"
+            ],
             "defName": "BodyPurist",
             "degree": 0,
+            "description": "{PAWN_nameDef} believes the human body is limited for a reason. To {PAWN_objective}, artificial body parts are unethical and disgusting.",
             "name": "body purist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "ShootingAccuracy",
+                "Wimp"
+            ],
             "defName": "Brawler",
             "degree": 0,
+            "description": "{PAWN_nameDef} likes to fight up close and personal. {PAWN_possessive} accuracy is greatly increased in melee combat, but {PAWN_pronoun}'ll be very unhappy if asked to carry a ranged weapon.",
             "name": "brawler",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+4.0 Melee hit chance"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Cannibal",
             "degree": 0,
+            "description": "{PAWN_nameDef} was taught that eating human meat is wrong and horrible. But one time, long ago, {PAWN_pronoun} tried it... and {PAWN_pronoun} liked it.",
             "name": "cannibal",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "CreepyBreathing",
             "degree": 0,
+            "description": "{PAWN_nameDef} breathes heavily all the time, and sweats constantly. People find it creepy.",
             "name": "creepy breathing",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "DislikesMen",
             "degree": 0,
+            "description": "{PAWN_nameDef} really dislikes and distrusts men.",
             "name": "misandrist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "DislikesWomen",
             "degree": 0,
+            "description": "{PAWN_nameDef} really dislikes and distrusts women.",
             "name": "misogynist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "DrugDesire",
             "degree": 2,
+            "description": "[PAWN_nameDef] is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person.",
             "name": "chemical fascination",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "DrugDesire",
             "degree": 1,
+            "description": "[PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person.",
             "name": "chemical interest",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "DrugDesire",
             "degree": -1,
+            "description": "[PAWN_nameDef] abhors the idea of gaining pleasure from chemicals. [PAWN_pronoun] strictly avoids alcohol and recreational drugs.",
             "name": "teetotaler",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "FastLearner",
             "degree": 0,
+            "description": "{PAWN_nameDef} has a knack for learning. {PAWN_pronoun} picks things up much faster than others.",
             "name": "fast learner",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+75% Global learning factor"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": true,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Gay",
             "degree": 0,
+            "description": "{PAWN_nameDef} is romantically attracted to people of {PAWN_possessive} own gender.",
             "name": "gay",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Ascetic"
+            ],
             "defName": "Gourmand",
             "degree": 0,
+            "description": "{PAWN_nameDef}'s life revolves around food. {PAWN_pronoun} gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
             "name": "gourmand",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+50% Hunger rate multiplier"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "GreatMemory",
             "degree": 0,
+            "description": "{PAWN_nameDef} has a fantastic memory for detail. {PAWN_pronoun} will lose unused skills at half the rate of other people.",
             "name": "great memory",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Ascetic",
+                "Jealous"
+            ],
             "defName": "Greedy",
             "degree": 0,
+            "description": "{PAWN_nameDef} needs a really impressive bedroom. {PAWN_pronoun} gets a mood loss if {PAWN_pronoun} doesn't get what {PAWN_pronoun} wants.",
             "name": "greedy",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Immunity",
             "degree": -1,
+            "description": "[PAWN_nameDef] has an awful immune system. [PAWN_pronoun] gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
             "name": "sickly",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Immunity",
             "degree": 1,
+            "description": "[PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
             "name": "super-immune",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+30% Immunity gain speed"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Industriousness",
             "degree": 1,
+            "description": "[PAWN_nameDef] is a natural hard worker and will finish tasks faster than most.",
             "name": "hard worker",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+20% Global work speed"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Industriousness",
             "degree": 2,
+            "description": "[PAWN_nameDef] has an easy time staying on-task and focused, and gets things done much faster than the average person.",
             "name": "industrious",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+35% Global work speed"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Industriousness",
             "degree": -2,
+            "description": "[PAWN_nameDef] loves idleness and hates anything productive. [PAWN_pronoun] moves slowly and rarely stays focused on a task.",
             "name": "slothful",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-35% Global work speed"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Industriousness",
             "degree": -1,
+            "description": "[PAWN_nameDef] is a little bit lazy.",
             "name": "lazy",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-20% Global work speed"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Ascetic",
+                "Greedy"
+            ],
             "defName": "Jealous",
             "degree": 0,
+            "description": "For {PAWN_nameDef}, it's degrading to have a less impressive bedroom than someone else. {PAWN_pronoun} gets a mood loss if any colonist has a more impressive bedroom.",
             "name": "jealous",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Abrasive",
+                "Psychopath"
+            ],
             "defName": "Kind",
             "degree": 0,
+            "description": "{PAWN_nameDef} is exceptionally kind. {PAWN_pronoun} has a special way of using kind words to brighten someone's day. {PAWN_pronoun} never insults others, and never judges people by their appearance.",
             "name": "kind",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Masochist",
             "degree": 0,
+            "description": "For {PAWN_nameDef}, there's something exciting about getting hurt. {PAWN_pronoun} doesn't know why, {PAWN_pronoun}'s just wired differently.",
             "name": "masochist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "NaturalMood",
             "degree": -1,
+            "description": "[PAWN_nameDef] tends to look on the bad side of life.",
             "name": "pessimist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "NaturalMood",
             "degree": -2,
+            "description": "[PAWN_nameDef] is perenially unhappy. [PAWN_pronoun] has trouble sustaining a good mood even when everything is fine.",
             "name": "depressive",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "NaturalMood",
             "degree": 2,
+            "description": "[PAWN_nameDef] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is.",
             "name": "sanguine",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "NaturalMood",
             "degree": 1,
+            "description": "[PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down.",
             "name": "optimist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Nerves",
-            "degree": 1,
-            "name": "steadfast",
-            "removePrice": 5500
+            "degree": 2,
+            "description": "[PAWN_nameDef]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before.",
+            "name": "iron-willed",
+            "removePrice": 5500,
+            "stats": [
+                "-18% Mental break threshold"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
+            "defName": "Nerves",
+            "degree": -2,
+            "description": "[PAWN_nameDef] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation.",
+            "name": "volatile",
+            "removePrice": 5500,
+            "stats": [
+                "+15% Mental break threshold"
+            ]
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "conflicts": [],
             "defName": "Nerves",
             "degree": -1,
+            "description": "[PAWN_nameDef] tends to crack under pressure.",
             "name": "nervous",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+8% Mental break threshold"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Nerves",
-            "degree": -2,
-            "name": "volatile",
-            "removePrice": 5500
+            "degree": 1,
+            "description": "[PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people.",
+            "name": "steadfast",
+            "removePrice": 5500,
+            "stats": [
+                "-9% Mental break threshold"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
-            "defName": "Nerves",
-            "degree": 2,
-            "name": "iron-willed",
-            "removePrice": 5500
-        },
-        {
-            "addPrice": 3500,
-            "bypassLimit": false,
-            "canAdd": true,
-            "canRemove": true,
+            "conflicts": [],
             "defName": "Neurotic",
             "degree": 1,
+            "description": "[PAWN_nameDef] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective].",
             "name": "neurotic",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+20% Global work speed",
+                "+8% Mental break threshold"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Neurotic",
             "degree": 2,
+            "description": "[PAWN_nameDef] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective].",
             "name": "very neurotic",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+40% Global work speed",
+                "+14% Mental break threshold"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "NightOwl",
             "degree": 0,
+            "description": "{PAWN_nameDef} likes to be up during the night, and sleep during the day.\n\n{PAWN_pronoun} gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n{PAWN_pronoun} doesn't get a mood penalty for being in the dark.",
             "name": "night owl",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Nimble",
             "degree": 0,
+            "description": "{PAWN_nameDef} has remarkable kinesthetic intelligence. {PAWN_pronoun} seems to dance around danger with preternatural grace.",
             "name": "nimble",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+15.0 Melee dodge chance",
+                "x10% Trap spring chance"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Nudist",
             "degree": 0,
+            "description": "{PAWN_nameDef} enjoys the feeling of freedom that comes from being nude. {PAWN_pronoun} can handle clothing, but will be happier without it.",
             "name": "nudist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "PsychicSensitivity",
-            "degree": -1,
-            "name": "psychically dull",
-            "removePrice": 5500
+            "degree": 2,
+            "description": "[PAWN_nameDef]'s mind is like a psychic tuning fork. [PAWN_pronoun] is extremely sensitive to psychic phenomena.",
+            "name": "psychically hypersensitive",
+            "removePrice": 5500,
+            "stats": [
+                "+80% Psychic sensitivity"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "PsychicSensitivity",
             "degree": -2,
+            "description": "[PAWN_nameDef]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena.",
             "name": "psychically deaf",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-100% Psychic sensitivity"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "PsychicSensitivity",
             "degree": 1,
+            "description": "[PAWN_nameDef]'s mind is unusually sensitive to psychic phenomena.",
             "name": "psychically sensitive",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+40% Psychic sensitivity"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "PsychicSensitivity",
-            "degree": 2,
-            "name": "psychically hypersensitive",
-            "removePrice": 5500
+            "degree": -1,
+            "description": "[PAWN_nameDef]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena.",
+            "name": "psychically dull",
+            "removePrice": 5500,
+            "stats": [
+                "-50% Psychic sensitivity"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Psychopath",
             "degree": 0,
+            "description": "{PAWN_nameDef} has no empathy. The suffering of others doesn't bother {PAWN_objective} at all. {PAWN_pronoun} doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects {PAWN_objective}. {PAWN_pronoun} also feels no mood boost from socializing.",
             "name": "psychopath",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Pyromaniac",
             "degree": 0,
+            "description": "{PAWN_nameDef} loves fire. {PAWN_pronoun} will never extinguish fires. To relieve stress, {PAWN_pronoun} will occasionally go on random fire starting sprees. This happens more often if {PAWN_possessive} mood is low.",
             "name": "pyromaniac",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "QuickSleeper",
             "degree": 0,
+            "description": "{PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time.",
             "name": "quick sleeper",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+50% Rest rate multiplier"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Brawler"
+            ],
             "defName": "ShootingAccuracy",
             "degree": 1,
+            "description": "[PAWN_nameDef] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy.",
             "name": "careful shooter",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+25% Aiming time",
+                "+5.0 Shooting accuracy (people)"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Brawler"
+            ],
             "defName": "ShootingAccuracy",
             "degree": -1,
+            "description": "Pew! Pew! Pew! [PAWN_nameDef] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately.",
             "name": "trigger-happy",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-50% Aiming time",
+                "-5.0 Shooting accuracy (people)"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "TooSmart"
+            ],
             "defName": "SlowLearner",
             "degree": 0,
+            "description": "{PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others.",
             "name": "slow learner",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "-75% Global learning factor"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
-            "defName": "SpeedOffset",
-            "degree": -1,
-            "name": "slowpoke",
-            "removePrice": 5500
-        },
-        {
-            "addPrice": 3500,
-            "bypassLimit": false,
-            "canAdd": true,
-            "canRemove": true,
-            "defName": "SpeedOffset",
-            "degree": 1,
-            "name": "fast walker",
-            "removePrice": 5500
-        },
-        {
-            "addPrice": 3500,
-            "bypassLimit": false,
-            "canAdd": true,
-            "canRemove": true,
+            "conflicts": [],
             "defName": "SpeedOffset",
             "degree": 2,
+            "description": "[PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up.",
             "name": "jogger",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+0.40 Move speed"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
+            "defName": "SpeedOffset",
+            "degree": 1,
+            "description": "[PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people.",
+            "name": "fast walker",
+            "removePrice": 5500,
+            "stats": [
+                "+0.20 Move speed"
+            ]
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "conflicts": [],
+            "defName": "SpeedOffset",
+            "degree": -1,
+            "description": "[PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere.",
+            "name": "slowpoke",
+            "removePrice": 5500,
+            "stats": [
+                "-0.20 Move speed"
+            ]
+        },
+        {
+            "addPrice": 3500,
+            "bypassLimit": false,
+            "canAdd": true,
+            "canRemove": true,
+            "conflicts": [
+                "Nerves",
+                "SlowLearner"
+            ],
             "defName": "TooSmart",
             "degree": 0,
+            "description": "{PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric.",
             "name": "too smart",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "+75% Global learning factor",
+                "+12% Mental break threshold"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "TorturedArtist",
             "degree": 0,
+            "description": "{PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
             "name": "tortured artist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Tough",
             "degree": 0,
+            "description": "{PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill.",
             "name": "tough",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": [
+                "x50% Incoming damage multiplier"
+            ]
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "BodyPurist"
+            ],
             "defName": "Transhumanist",
             "degree": 0,
+            "description": "{PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced by artificial body parts.",
             "name": "transhumanist",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
             "addPrice": 3500,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [],
             "defName": "Undergrounder",
             "degree": 0,
+            "description": "{PAWN_nameDef} has no need to experience the outdoors or light. {PAWN_pronoun} will never feel cooped up or get cabin fever, no matter how long {PAWN_pronoun} stays inside, and is not bothered by darkness.",
             "name": "undergrounder",
-            "removePrice": 5500
+            "removePrice": 5500,
+            "stats": []
         },
         {
-            "addPrice": 3500,
+            "addPrice": 0,
             "bypassLimit": false,
             "canAdd": true,
             "canRemove": true,
+            "conflicts": [
+                "Brawler"
+            ],
             "defName": "Wimp",
             "degree": 0,
+            "description": "{PAWN_nameDef} is weak and cowardly. Even a little pain will immobilize {PAWN_objective}.",
             "name": "wimp",
-            "removePrice": 5500
+            "removePrice": 0,
+            "stats": [
+                "-60% Pain shock threshold"
+            ]
         }
     ],
     "races": [
@@ -656,7 +956,7 @@
             "defName": "Human",
             "enabled": true,
             "name": "Human",
-            "price": 2917
+            "price": 1500
         }
     ]
 }

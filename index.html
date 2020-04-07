@@ -70,14 +70,36 @@ title: Store
     <table style="display: table" class="sortable">
         <tr>
             <th>Name</th>
-            <th>Add Cost</th>
-            <th>Remove Cost</th>
+            <th>Description</th>
+            <th style="width: 15%">Add Cost</th>
+            <th style="width: 15%">Remove Cost</th>
         </tr>
 
         {%- for item in site.data.ShopExt.traits -%}
         {%- if item.canAdd or item.canRemove -%}
         <tr>
-            <td>{{- item.name -}}</td>
+            <td>{{- item.name | capitalize -}}</td>
+            <td style="font-size: 17px;">
+                {{- item.description -}}
+
+                {%- capture temp -%}
+                {{- item.stats | first -}}
+                {%- endcapture -%}
+
+                {%- if temp != "" -%}
+                <span style="font-style:italic; color: #5a5454; font-size: 17px;">
+                    <br />
+                    <br />
+                    {{- site.data.language.str_trait_stats -}}
+
+                    <ul>
+                        {%- for stat in item.stats -%}
+                        <li>{{- stat -}}</li>
+                        {%- endfor -%}
+                    </ul>
+                </span>
+                {%- endif -%}
+            </td>
 
             {%- if item.canAdd -%}
             <td>{{- item.addPrice -}}</td>
@@ -139,22 +161,114 @@ title: Store
     }
 
     function filterTable(category) {
-        var input, filter, table, tr, td, i, textValue;
+        var input, filter, table, tr, td, i, textValue, column, price, priceSearch;
         input = document.getElementById(category + "Input")
         filter = input.value.toUpperCase();
         table = document.getElementById(category).lastElementChild;
         tr = table.getElementsByTagName("tr");
+        column = 0;
+        price = 0;
+        priceSearch = 1;
+
+        if (filter.startsWith("CATEGORY:") && category == "items") {
+            filter = filter.substring("category".length + 1);
+            column = 2;
+        }
+
+        if (filter.startsWith("KARMA:") && category == "events") {
+            filter = filter.substring("karma".length + 1);
+            column = 2;
+        }
+
+
+        if (category != "traits") {
+            if (filter.startsWith("BELOW:")) {
+                filter = filter.substring("below".length + 1);
+                column = 1;
+                price = parseInt(filter);
+                priceSearch = -1;
+            }
+            if (filter.startsWith("ABOVE:")) {
+                filter = filter.substring("above".length + 1);
+                column = 1;
+                price = parseInt(filter);
+                priceSearch = 1;
+            }
+
+            if (filter.startsWith("EQUALS:")) {
+                filter = filter.substring("equals".length + 1);
+                column = 1;
+                price = parseInt(filter);
+                priceSearch = 0;
+            }
+        } else {
+            if (filter.startsWith("ADDBELOW:")) {
+                filter = filter.substring("addbelow".length + 1);
+                column = 2;
+                price = parseInt(filter);
+                priceSearch = -1;
+            }
+            if (filter.startsWith("ADDABOVE:")) {
+                filter = filter.substring("addabove".length + 1);
+                column = 2;
+                price = parseInt(filter);
+                priceSearch = 1;
+            }
+
+            if (filter.startsWith("ADDEQUALS:")) {
+                filter = filter.substring("addequals".length + 1);
+                column = 2;
+                price = parseInt(filter);
+                priceSearch = 0;
+            }
+
+            if (filter.startsWith("REMOVEBELOW:")) {
+                filter = filter.substring("removebelow".length + 1);
+                column = 3;
+                price = parseInt(filter);
+                priceSearch = -1;
+            }
+            if (filter.startsWith("REMOVEABOVE:")) {
+                filter = filter.substring("removeabove".length + 1);
+                column = 3;
+                price = parseInt(filter);
+                priceSearch = 1;
+            }
+
+            if (filter.startsWith("REMOVEEQUALS:")) {
+                filter = filter.substring("removeequals".length + 1);
+                column = 3;
+                price = parseInt(filter);
+                priceSearch = 0;
+            }
+        }
 
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0];
+            td = tr[i].getElementsByTagName("td")[column];
 
             if (td) {
                 txtValue = td.textContent || td.innerText;
 
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
+                if ((category != "traits" && column != 1) || (category == "traits" && column < 2)) {
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
                 } else {
-                    tr[i].style.display = "none";
+                    intValue = parseInt(txtValue);
+
+                    switch (priceSearch) {
+                        case 0:
+                            tr[i].style.display = (intValue == price) ? "" : "none";
+                            break;
+                        case 1:
+                            tr[i].style.display = (intValue > price) ? "" : "none";
+                            break;
+                        case -1:
+                            tr[i].style.display = (intValue < price) ? "" : "none";
+                            break;
+                    }
                 }
             }
         }
