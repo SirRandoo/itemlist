@@ -29,8 +29,8 @@ permalink: /commands
 
     {%- for command in commands_sorted -%}
     <tr>
-        <td>
-            {{- command.name -}}
+        <td id="{{- command.name | slugify -}}">
+            <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
             <br />
             <span style="font-style:italic; color: #5a5454; font-size: 17px;">{{- site.data.language.str_usage -}}:
                 {{- command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}</span>

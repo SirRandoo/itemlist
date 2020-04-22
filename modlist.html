@@ -18,10 +18,11 @@ permalink: /modlist
     {%- for mod in site.data.modlist -%}
     <tr>
         <td>
-            {%- if mod.steamId != "" -%}
+            {%- if mod.steamId != "" and mod.steamId != "0" -%}
             <a href="https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}">{{- mod.name -}}</a>
             {%- else -%}
-            {{- mod.name -}}
+            <a
+                href="https://steamcommunity.com/workshop/browse/?appid=294100&searchtext={{- mod.name | url_encode -}}&browsesort=textsearch&section=home">{{- mod.name -}}</a>
             {%- endif -%}
         </td>
         <td>{{- mod.author -}}</td>
@@ -34,14 +35,27 @@ permalink: /modlist
 
 <script>
     function filterTable(category) {
-        var input, filter, table, tr, td, i, textValue;
+        var input, filter, table, tr, td, i, textValue, column;
         input = document.getElementById(category + "Input")
         filter = input.value.toUpperCase();
         table = document.getElementById(category);
         tr = table.getElementsByTagName("tr");
+        column = 0;
+
+        if (category == "mod") {
+            if (filter.startsWith("AUTHOR:")) {
+                filter = filter.substring("AUTHOR".length + 1);
+                column = 1;
+            }
+
+            if (filter.startsWith("NAME:")) {
+                filter = filter.substring("NAME".length + 1);
+                column = 0;
+            }
+        }
 
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0];
+            td = tr[i].getElementsByTagName("td")[column];
 
             if (td) {
                 txtValue = td.textContent || td.innerText;
