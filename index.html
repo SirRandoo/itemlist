@@ -3,14 +3,38 @@ layout: page
 title: Store
 ---
 
+{%- assign showItems = site.data.StoreItems.items.size -%}
+{%- assign showEvents = site.data.StoreIncidents.incitems.size -%}
+{%- assign showTraits = site.data.ShopExt.traits.size -%}
+{%- assign showRaces = site.data.ShopExt.races.size -%}
+{%- assign animals = site.data.StoreItems.items | where: "category", "Animal" -%}
+{%- assign showAnimals = animals.size -%}
+
+
 <div class="tab">
+    {%- if showItems > 0 -%}
     <button class="tablinks" onclick="changeTab(event, 'items')"
         id="defaultOpen">{{- site.data.language.str_items -}}</button>
+    {%- endif -%}
+
+    {%- if showEvents > 0 -%}
     <button class="tablinks" onclick="changeTab(event, 'events')">{{- site.data.language.str_events -}}</button>
+    {%- endif -%}
+
+    {%- if showAnimals > 0 -%}
+    <button class="tablinks" onclick="changeTab(event, 'animals')">{{- site.data.language.str_animals -}}</button>
+    {%- endif -%}
+
+    {%- if showTraits > 0 -%}
     <button class="tablinks" onclick="changeTab(event, 'traits')">{{- site.data.language.str_traits -}}</button>
+    {%- endif -%}
+
+    {%- if showRaces > 0 -%}
     <button class="tablinks" onclick="changeTab(event, 'races')">{{- site.data.language.str_races -}}</button>
+    {%- endif -%}
 </div>
 
+{%- if showItems > 0 -%}
 <div id="items" class="tabcontent">
     <input type="text" class="search" id="itemsInput" onkeyup="filterTable('items')"
         placeholder="{{- site.data.language.str_items_search -}}">
@@ -23,7 +47,7 @@ title: Store
         </tr>
 
         {%- for item in site.data.StoreItems.items -%}
-        {%- if item.price >= 0 -%}
+        {%- if item.price >= 0 and item.category != "Animal" -%}
         <tr>
             <td>{{- item.abr -}}</td>
             <td>{{- item.price -}}</td>
@@ -33,7 +57,9 @@ title: Store
         {%- endfor -%}
     </table>
 </div>
+{%- endif -%}
 
+{%- if showEvents > 0 -%}
 <div id="events" class="tabcontent">
     <input type="text" class="search" id="eventsInput" onkeyup="filterTable('events')"
         placeholder="{{- site.data.language.str_events_search -}}">
@@ -62,7 +88,32 @@ title: Store
         {%- endfor -%}
     </table>
 </div>
+{%- endif -%}
 
+{%- if showAnimals > 0 -%}
+<div id="animals" class="tabcontent">
+    <input type="text" class="search" id="animalsInput" onkeyup="filterTable('animals')"
+        placeholder="{{- site.data.language.str_events_search -}}">
+
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+        </tr>
+
+        {%- for item in animals -%}
+        {%- if item.price > 0 -%}
+        <tr>
+            <td>{{- item.abr -}}</td>
+            <td>{{- item.price -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
+{%- endif -%}
+
+{%- if showTraits > 0 -%}
 <div id="traits" class="tabcontent">
     <input type="text" class="search" id="traitsInput" onkeyup="filterTable('traits')"
         placeholder="{{- site.data.language.str_traits_search -}}">
@@ -138,7 +189,9 @@ title: Store
         {%- endfor -%}
     </table>
 </div>
+{%- endif -%}
 
+{%- if showRaces > 0 -%}
 <div id="races" class="tabcontent">
     <input type="text" class="search" id="racesInput" onkeyup="filterTable('races')"
         placeholder="{{- site.data.language.str_races_search -}}">
@@ -159,6 +212,7 @@ title: Store
         {%- endfor -%}
     </table>
 </div>
+{%- endif -%}
 
 
 <script>
@@ -192,72 +246,72 @@ title: Store
         priceSearch = 1;
 
         if (filter.startsWith("CATEGORY:") && category == "items") {
-            filter = filter.substring("category".length + 1);
+            filter = filter.substring("category".length + 1).trimLeft();
             column = 2;
         }
 
         if (filter.startsWith("KARMA:") && category == "events") {
-            filter = filter.substring("karma".length + 1);
+            filter = filter.substring("karma".length + 1).trimLeft();
             column = 2;
         }
 
 
         if (category != "traits") {
             if (filter.startsWith("BELOW:")) {
-                filter = filter.substring("below".length + 1);
+                filter = filter.substring("below".length + 1).trimLeft();
                 column = 1;
                 price = parseInt(filter);
                 priceSearch = -1;
             }
             if (filter.startsWith("ABOVE:")) {
-                filter = filter.substring("above".length + 1);
+                filter = filter.substring("above".length + 1).trimLeft();
                 column = 1;
                 price = parseInt(filter);
                 priceSearch = 1;
             }
 
             if (filter.startsWith("EQUALS:")) {
-                filter = filter.substring("equals".length + 1);
+                filter = filter.substring("equals".length + 1).trimLeft();
                 column = 1;
                 price = parseInt(filter);
                 priceSearch = 0;
             }
         } else {
             if (filter.startsWith("ADDBELOW:")) {
-                filter = filter.substring("addbelow".length + 1);
+                filter = filter.substring("addbelow".length + 1).trimLeft();
                 column = 2;
                 price = parseInt(filter);
                 priceSearch = -1;
             }
             if (filter.startsWith("ADDABOVE:")) {
-                filter = filter.substring("addabove".length + 1);
+                filter = filter.substring("addabove".length + 1).trimLeft();
                 column = 2;
                 price = parseInt(filter);
                 priceSearch = 1;
             }
 
             if (filter.startsWith("ADDEQUALS:")) {
-                filter = filter.substring("addequals".length + 1);
+                filter = filter.substring("addequals".length + 1).trimLeft();
                 column = 2;
                 price = parseInt(filter);
                 priceSearch = 0;
             }
 
             if (filter.startsWith("REMOVEBELOW:")) {
-                filter = filter.substring("removebelow".length + 1);
+                filter = filter.substring("removebelow".length + 1).trimLeft();
                 column = 3;
                 price = parseInt(filter);
                 priceSearch = -1;
             }
             if (filter.startsWith("REMOVEABOVE:")) {
-                filter = filter.substring("removeabove".length + 1);
+                filter = filter.substring("removeabove".length + 1).trimLeft();
                 column = 3;
                 price = parseInt(filter);
                 priceSearch = 1;
             }
 
             if (filter.startsWith("REMOVEEQUALS:")) {
-                filter = filter.substring("removeequals".length + 1);
+                filter = filter.substring("removeequals".length + 1).trimLeft();
                 column = 3;
                 price = parseInt(filter);
                 priceSearch = 0;
