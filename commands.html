@@ -4,6 +4,8 @@ title: Commands
 permalink: /commands
 ---
 
+{%- assign showCommands = site.data.commands.size -%}
+
 {%- assign buy = "" -%}
 {%- assign commands_sorted = site.data.commands | sort: "name" -%}
 
@@ -16,7 +18,7 @@ permalink: /commands
 {%- endif -%}
 {%- endfor -%}
 
-{%- if site.data.commands -%}
+{%- if showCommands > 0 -%}
 <input type="text" class="search" id="commandsInput" onkeyup="filterTable('commands')"
     placeholder="{{- site.data.language.str_commands_search -}}">
 
@@ -61,14 +63,25 @@ permalink: /commands
 
 <script>
     function filterTable(category) {
-        var input, filter, table, tr, td, i, textValue;
+        var input, filter, table, tr, td, i, textValue, column;
         input = document.getElementById(category + "Input")
         filter = input.value.toUpperCase();
         table = document.getElementById(category);
         tr = table.getElementsByTagName("tr");
+        column = 0;
+
+        if (filter.startsWith("LEVEL:")) {
+            filter = filter.substring("LEVEL".length + 1).trimLeft();
+            column = 1;
+        }
+
+        if (filter.startsWith("NAME:")) {
+            filter = filter.substring("NAME".length + 1).trimLeft();
+            column = 0;
+        }
 
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0];
+            td = tr[i].getElementsByTagName("td")[column];
 
             if (td) {
                 txtValue = td.textContent || td.innerText;
