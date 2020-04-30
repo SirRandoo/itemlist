@@ -44,12 +44,12 @@ permalink: /modlist
 
         if (category == "mod") {
             if (filter.startsWith("AUTHOR:")) {
-                filter = filter.substring("AUTHOR".length + 1);
+                filter = filter.substring("AUTHOR".length + 1).trimLeft();
                 column = 1;
             }
 
             if (filter.startsWith("NAME:")) {
-                filter = filter.substring("NAME".length + 1);
+                filter = filter.substring("NAME".length + 1).trimLeft();
                 column = 0;
             }
         }
