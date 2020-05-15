@@ -47,7 +47,7 @@ title: Store
         </tr>
 
         {%- for item in site.data.StoreItems.items -%}
-        {%- if item.price >= 0 and item.category != "Animal" -%}
+        {%- if item.price > 0 and item.category != "Animal" -%}
         <tr>
             <td>{{- item.abr -}}</td>
             <td>{{- item.price -}}</td>
