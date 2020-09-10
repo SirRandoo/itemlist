@@ -282,8 +282,8 @@
 		},
 		{
 			"abr": "pawn",
-			"price": 1500,
-			"karmatype": "Good"
+			"price": 1,
+			"karmatype": "Neutral"
 		},
 		{
 			"abr": "levelskill",
@@ -293,12 +293,12 @@
 		{
 			"abr": "trait",
 			"price": 1,
-			"karmatype": "Good"
+			"karmatype": "Neutral"
 		},
 		{
 			"abr": "removetrait",
-			"price": 5500,
-			"karmatype": "Good"
+			"price": 1,
+			"karmatype": "Neutral"
 		},
 		{
 			"abr": "genderswap",
@@ -346,7 +346,12 @@
 			"karmatype": "Good"
 		},
 		{
-			"abr": "heal",
+			"abr": "healanypawn",
+			"price": 2000,
+			"karmatype": "Good"
+		},
+		{
+			"abr": "healme",
 			"price": 2167,
 			"karmatype": "Good"
 		},
@@ -359,7 +364,22 @@
 			"abr": "passionshuffle",
 			"price": 2000,
 			"karmatype": "Neutral"
+		},
+		{
+			"abr": "replacetrait",
+			"price": 1,
+			"karmatype": "Neutral"
+		},
+		{
+			"abr": "rescueme",
+			"price": 800,
+			"karmatype": "Neutral"
+		},
+		{
+			"abr": "fullheal",
+			"price": 2167,
+			"karmatype": "Good"
 		}
 	],
-	"total": 72
+	"total": 76
 }

@@ -1,0 +1,61 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #cccccc;
+}
+
+.tabContent {
+    display: none;
+    animation: fadeEffect 320ms;
+    border-top: none;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.search {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #dddddd;
+    margin-bottom: 12px;
+}
+
+table {
+    display: table;
+}
+
+th.price {
+    width: 15%;
+}
+
+td.description {
+    font-size: 17px;
+}
+
+span.stats {
+    font-style: italic;
+    color: #5a5454;
+    font-size: 17px;
+}
