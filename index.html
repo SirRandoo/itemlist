@@ -9,9 +9,12 @@ title: Store
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
 
-{%- assign itemsForDisplay = site.data.StoreItems.items | where_exp: "item", "item.category != 'Animal'" | where_exp: "item", "item.price > 0" | sort: "abr" -%}
-{%- assign eventsForDisplay = site.data.StoreIncidents.incitems | where_exp: "incident", "incident.price > 0" | sort: "abr" -%}
-{%- assign animalsForDisplay = site.data.StoreItems.items | where: "category", "Animal" | where_exp: "animal", "animal.price > 0" | sort: "abr" -%}
+{%- assign itemsForDisplay = site.data.StoreItems.items | where_exp: "item", "item.category != 'Animal'" | where_exp:
+"item", "item.price > 0" | sort: "abr" -%}
+{%- assign eventsForDisplay = site.data.StoreIncidents.incitems | where_exp: "incident", "incident.price > 0" | sort:
+"abr" -%}
+{%- assign animalsForDisplay = site.data.StoreItems.items | where: "category", "Animal" | where_exp: "animal",
+"animal.price > 0" | sort: "abr" -%}
 {%- assign traitsForDisplay = site.data.ShopExt.traits | sort: "name" -%}
 {%- assign kindsForDisplay = site.data.ShopExt.races | where: "enabled", "true" | sort: "name" -%}
 {%- assign displayableTraitCount = 0 -%}
@@ -24,8 +27,8 @@ title: Store
 
 <div class="tab">
     {%- if itemsForDisplay.size > 0 -%}
-    <button class="tabLinks" onclick="changeTab(event, 'items')"
-        id="defaultOpen">{{- site.data.language.str_items -}}</button>
+    <button class="tabLinks" onclick="changeTab(event, 'items')" id="defaultOpen">{{- site.data.language.str_items
+        -}}</button>
     {%- endif -%}
 
     {%- if eventsForDisplay.size > 0 -%}
@@ -54,17 +57,58 @@ title: Store
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Cost</th>
+                <th class="priceWithData">Cost</th>
+                {%- if site.store.items.category -%}
                 <th>Category</th>
+                {%- endif -%}
             </tr>
         </thead>
 
         <tbody>
             {%- for item in itemsForDisplay -%}
             <tr>
-                <td>{{- item.abr -}}</td>
-                <td>{{- item.price -}}</td>
+                <td>
+                    {%- if site.data.itemdata[item.defname].CustomName != nil -%}
+                    {{- site.data.itemdata[item.defname].CustomName -}}
+                    {%- else -%}
+                    {{- item.abr -}}
+                    {%- endif -%}
+
+                    {%- if site.store.items.mod -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_from -}} {{- site.data.itemdata[item.defname].Mod -}}
+                    </span>
+                    {%- endif -%}
+                </td>
+                <td>
+                    {{- item.price -}}
+
+                    {%- if site.store.items.weight and site.data.itemdata[item.defname].Weight != 1 -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_weight -}}:&nbsp;{{- site.data.itemdata[item.defname].Weight -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.items.quantity and site.data.itemdata[item.defname].QuantityLimit > 0 -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_quantity_limit -}}:&nbsp;{{-
+                        site.data.itemdata[item.defname].QuantityLimit -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.items.karma and site.data.itemdata[item.defname].KarmaType != nil -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_karma -}}:&nbsp;{{- site.data.itemdata[item.defname].KarmaType -}}
+                    </span>
+                    {%- endif -%}
+                </td>
+                {%- if site.store.items.category -%}
                 <td>{{- item.category -}}</td>
+                {%- endif -%}
             </tr>
             {%- endfor -%}
         </tbody>
@@ -81,7 +125,7 @@ title: Store
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Cost</th>
+                <th class="price">Cost</th>
                 <th>Karma Type</th>
             </tr>
         </thead>
@@ -90,13 +134,18 @@ title: Store
             {%- for item in eventsForDisplay -%}
             <tr>
                 <td>{{- item.abr -}}</td>
-                {%- if item.abr == site.data.language.str_trait_id or item.abr == site.data.language.str_removetrait_id -%}
-                <td>{{- site.data.language.str_seetraits -}}</td>
-                {%- elsif item.abr == site.data.language.str_pawn_id -%}
-                <td>{{- site.data.language.str_seekinds -}}</td>
-                {%- else -%}
-                <td>{{- item.price -}}</td>
-                {%- endif -%}
+
+                <td>
+                    {%- if site.store_redirects.trait contains item.abr -%}
+                    {{- site.data.language.str_see_traits -}}
+                    {%- elsif site.store_redirects.kind contains item.abr -%}
+                    {{- site.data.language.str_see_kinds -}}
+                    {%- elsif site.store_redirects.item contains item.abr -%}
+                    {{- site.data.language.str_see_items -}}
+                    {%- else -%}
+                    {{- item.price -}}
+                    {%- endif -%}
+                </td>
                 <td>{{- item.karmatype -}}</td>
             </tr>
             {%- endfor -%}
@@ -108,21 +157,58 @@ title: Store
 {%- if animalsForDisplay.size > 0 -%}
 <div id="animals" class="tabContent">
     <input type="text" class="search" id="animalsInput" onkeyup="filterTable('animals')"
-        placeholder="{{- site.data.language.str_events_search -}}">
+        placeholder="{{- site.data.language.str_animals_search -}}">
 
     <table class="sortable">
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Cost</th>
+                <th class="priceWithData">Cost</th>
             </tr>
         </thead>
 
         <tbody>
             {%- for item in animalsForDisplay -%}
             <tr>
-                <td>{{- item.abr -}}</td>
-                <td>{{- item.price -}}</td>
+                <td>
+                    {%- if site.data.itemdata[item.defname].CustomName != nil -%}
+                    {{- site.data.itemdata[item.defname].CustomName -}}
+                    {%- else -%}
+                    {{- item.abr -}}
+                    {%- endif -%}
+
+                    {%- if site.store.items.mod -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_from -}} {{- site.data.itemdata[item.defname].Mod -}}
+                    </span>
+                    {%- endif -%}
+                </td>
+                <td>
+                    {{- item.price -}}
+
+                    {%- if site.store.items.weight and site.data.itemdata[item.defname].Weight != 1 -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_weight -}}:&nbsp;{{- site.data.itemdata[item.defname].Weight -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.items.quantity and site.data.itemdata[item.defname].QuantityLimit > 0 -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_quantity_limit -}}:&nbsp;{{-
+                        site.data.itemdata[item.defname].QuantityLimit -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.items.karma and site.data.itemdata[item.defname].KarmaType != nil -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_karma -}}:&nbsp;{{- site.data.itemdata[item.defname].KarmaType -}}
+                    </span>
+                    {%- endif -%}
+                </td>
             </tr>
             {%- endfor -%}
         </tbody>
@@ -139,7 +225,10 @@ title: Store
         <thead>
             <tr>
                 <th>Name</th>
+                {%- if site.store.traits.description or site.store.traits.conflicts or site.store.traits.stats or
+                site.store.traits.limit -%}
                 <th>Description</th>
+                {%- endif -%}
                 <th class="price">Add Cost</th>
                 <th class="price">Remove Cost</th>
             </tr>
@@ -151,16 +240,28 @@ title: Store
             {%- continue -%}
             {%- endif -%}
             <tr>
-                <td>{{- trait.name | capitalize -}}</td>
-                <td class="description">
-                    {{- trait.description -}}
+                <td>
+                    {{- trait.name -}}
 
+                    {%- if site.store.traits.limit and trait.data.canBypassLimit -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_bypasses_limit -}}
+                    </span>
+                    {%- endif -%}
+                </td>
+                <td class="description">
+                    {%- if site.store.traits.description -%}
+                    {{- trait.description -}}
+                    {%- endif -%}
+
+                    {%- if site.store.traits.stats -%}
                     {%- capture temp -%}
                     {{- trait.stats | first -}}
                     {%- endcapture -%}
 
                     {%- if temp != "" -%}
-                    <span class="stats">
+                    <span class="metadata">
                         <br />
                         <br />
                         {{- site.data.language.str_trait_stats -}}
@@ -172,13 +273,15 @@ title: Store
                         </ul>
                     </span>
                     {%- endif -%}
+                    {%- endif -%}
 
+                    {%- if site.store.traits.conflicts -%}
                     {%- capture nameTemp -%}
                     {{- trait.conflicts | first -}}
                     {%- endcapture -%}
 
                     {%- if nameTemp != "" -%}
-                    <span class="stats">
+                    <span class="metadata">
                         {%- if temp == "" -%}
                         <br />
                         <br />
@@ -193,16 +296,35 @@ title: Store
                         </ul>
                     </span>
                     {%- endif -%}
+                    {%- endif -%}
                 </td>
 
                 {%- if trait.canAdd -%}
-                <td>{{- trait.addPrice -}}</td>
+                <td>
+                    {{- trait.addPrice -}}
+
+                    {%- if site.store.traits.karma and trait.data.karmaTypeForAdding != nil -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_karma -}}:&nbsp;{{- trait.data.karmaTypeForAdding -}}
+                    </span>
+                    {%- endif -%}
+                </td>
                 {%- else -%}
                 <td>{{- site.data.language.str_disabled -}}</td>
                 {%- endif -%}
 
                 {%- if trait.canRemove -%}
-                <td>{{- trait.removePrice -}}</td>
+                <td>
+                    {{- trait.removePrice -}}
+
+                    {%- if site.store.traits.karma and trait.data.karmaTypeForRemoving != nil -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_karma -}}:&nbsp;{{- trait.data.karmaTypeForRemoving -}}
+                    </span>
+                    {%- endif -%}
+                </td>
                 {%- else -%}
                 <td>{{- site.data.language.str_disabled -}}</td>
                 {%- endif -%}
@@ -222,7 +344,7 @@ title: Store
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Cost</th>
+                <th class="price">Cost</th>
             </tr>
         </thead>
 
@@ -230,7 +352,16 @@ title: Store
             {%- for item in kindsForDisplay-%}
             <tr>
                 <td>{{- item.name -}}</td>
-                <td>{{- item.price -}}</td>
+                <td>
+                    {{- item.price -}}
+
+                    {%- if site.store.kinds.karma and item.data.karmaType != nil -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_karma -}}:&nbsp;{{- item.data.karmaType -}}
+                    </span>
+                    {%- endif -%}
+                </td>
             </tr>
             {%- endfor -%}
         </tbody>

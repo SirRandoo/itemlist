@@ -4,6 +4,8 @@ title: Commands
 permalink: /commands
 ---
 
+<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} " />
+
 {%- assign showCommands = site.data.commands.size -%}
 
 {%- assign buy = "" -%}
@@ -25,7 +27,9 @@ permalink: /commands
 <table style="display: table" class="sortable" id="commands">
     <tr>
         <th style="width: 35%">Command</th>
+        {%- if site.commands.userlevel -%}
         <th style="width: 18%">User Level</th>
+        {%- endif -%}
         <th>Description</th>
     </tr>
 
@@ -33,22 +37,30 @@ permalink: /commands
     <tr>
         <td id="{{- command.name | slugify -}}">
             <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
-            <br />
-            <span style="font-style:italic; color: #5a5454; font-size: 17px;">{{- site.data.language.str_usage -}}:
-                {{- command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}</span>
+
+            {%- if site.commands.usage -%}
+            <span class="metadata">
+                <br />
+                {{- site.data.language.str_usage -}}:&nbsp;{{- command.usage | prepend: " " | replace: "(", "&lt;" |
+                replace: ")", "&gt;" -}}
+            </span>
+            {%- endif -%}
         </td>
+        {%- if site.commands.userlevel -%}
         <td>{{- command.userLevel -}}</td>
+        {%- endif -%}
         <td>
             {{- command.description -}}
 
-            {%- if command.shortcut -%}
+            {%- if site.commands.shortcut and command.shortcut -%}
             <br />
-            <span style="font-style:italic; color: #5a5454; font-size: 17px;">
+            <span class="metadata">
                 {{- site.data.language.str_shortcut -}} {{- buy -}}
                 {%- capture prefix -%}
                 {{- command.usage | slice: 0 -}}
                 {%- endcapture -%}
-                {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}
+                {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;"
+                -}}
             </span>
             {%- endif -%}
         </td>
@@ -97,13 +109,3 @@ permalink: /commands
 </script>
 
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-
-<style>
-    .search {
-        width: 100%;
-        font-size: 16px;
-        padding: 12px 20px 12px 40px;
-        border: 1px solid #dddddd;
-        margin-bottom: 12px;
-    }
-</style>

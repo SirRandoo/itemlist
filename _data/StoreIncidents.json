@@ -283,7 +283,7 @@
 		{
 			"abr": "pawn",
 			"price": 1,
-			"karmatype": "Neutral"
+			"karmatype": "Good"
 		},
 		{
 			"abr": "levelskill",
@@ -293,12 +293,12 @@
 		{
 			"abr": "trait",
 			"price": 1,
-			"karmatype": "Neutral"
+			"karmatype": "Good"
 		},
 		{
 			"abr": "removetrait",
 			"price": 1,
-			"karmatype": "Neutral"
+			"karmatype": "Good"
 		},
 		{
 			"abr": "genderswap",
@@ -332,11 +332,11 @@
 		},
 		{
 			"abr": "reviveall",
-			"price": 8000,
+			"price": 22664,
 			"karmatype": "Good"
 		},
 		{
-			"abr": "revive",
+			"abr": "reviveme",
 			"price": 2833,
 			"karmatype": "Good"
 		},
@@ -357,7 +357,7 @@
 		},
 		{
 			"abr": "surgery",
-			"price": 500,
+			"price": 1,
 			"karmatype": "Neutral"
 		},
 		{
@@ -379,7 +379,22 @@
 			"abr": "fullheal",
 			"price": 2167,
 			"karmatype": "Good"
+		},
+		{
+			"abr": "passion",
+			"price": 7000,
+			"karmatype": "Good"
+		},
+		{
+			"abr": "removepassion",
+			"price": 5000,
+			"karmatype": "Good"
+		},
+		{
+			"abr": "backpack",
+			"price": 1,
+			"karmatype": "Neutral"
 		}
 	],
-	"total": 76
+	"total": 79
 }

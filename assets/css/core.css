@@ -46,16 +46,51 @@ table {
     display: table;
 }
 
+th.priceWithData {
+    font-size: 0.9em;
+}
 th.price {
-    width: 15%;
+    font-size: 0.9em;
 }
-
 td.description {
-    font-size: 17px;
+    font-size: 0.8em;
 }
-
-span.stats {
+span.metadata {
+    font-size: 0.9em;
     font-style: italic;
     color: #5a5454;
-    font-size: 17px;
+}
+
+@media screen and (max-width: $break) {
+  th.priceWithData {
+    font-size: 0.9em;
+  }
+  th.price {
+      font-size: 0.9em;
+  }
+  td.description {
+    font-size: 0.8em;
+  }
+  span.metadata {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #5a5454;
+  }
+}
+
+@media screen and (max-width: $sm-break) {
+  th.priceWithData {
+    font-size: 0.85em;
+  }
+  th.price {
+    font-size: 0.85em;
+  }
+  td.description {
+    font-size: 0.8em;
+  }
+  span.metadata {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #5a5454;
+  }
 }
