@@ -25,6 +25,16 @@ title: Store
 {%- endif -%}
 {%- endfor -%}
 
+{%- assign buy = "" -%}
+{%- for command in site.data.commands -%}
+{%- if command.name == "Buy" -%}
+{%- capture buy -%}
+{{- command.usage | split: " " | first -}}
+{%- endcapture -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+
 <div class="tab">
     {%- if itemsForDisplay.size > 0 -%}
     <button class="tabLinks" onclick="changeTab(event, 'items')" id="defaultOpen">{{- site.data.language.str_items
@@ -77,7 +87,21 @@ title: Store
                     {%- if site.store.items.mod -%}
                     <span class="metadata">
                         <br />
-                        {{- site.data.language.str_from -}} {{- site.data.itemdata[item.defname].Mod -}}
+                        {{- site.data.language.str_from -}}&nbsp;{{- site.data.itemdata[item.defname].Mod -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.items.usage -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_usage -}}:&nbsp;{{- buy -}}&nbsp;
+
+                        {%- if site.data.itemdata[item.defname].CustomName != nil -%}
+                        {{- site.data.itemdata[item.defname].CustomName -}}
+                        {%- else -%}
+                        {{- item.abr -}}
+                        {%- endif -%}
+                        &nbsp;1
                     </span>
                     {%- endif -%}
                 </td>
@@ -133,7 +157,17 @@ title: Store
         <tbody>
             {%- for item in eventsForDisplay -%}
             <tr>
-                <td>{{- item.abr -}}</td>
+                <td>
+                    {{- item.abr -}}
+
+                    {%- if site.store.events.usage -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_usage -}}:&nbsp;{{- buy -}}&nbsp;
+                        {{- item.abr -}}
+                    </span>
+                    {%- endif -%}
+                </td>
 
                 <td>
                     {%- if site.store_redirects.trait contains item.abr -%}
@@ -181,6 +215,20 @@ title: Store
                     <span class="metadata">
                         <br />
                         {{- site.data.language.str_from -}} {{- site.data.itemdata[item.defname].Mod -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.animals.usage -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_usage -}}:&nbsp;{{- buy -}}&nbsp;
+
+                        {%- if site.data.itemdata[item.defname].CustomName != nil -%}
+                        {{- site.data.itemdata[item.defname].CustomName -}}
+                        {%- else -%}
+                        {{- item.abr -}}
+                        {%- endif -%}
+                        &nbsp;1
                     </span>
                     {%- endif -%}
                 </td>
@@ -247,6 +295,15 @@ title: Store
                     <span class="metadata">
                         <br />
                         {{- site.data.language.str_bypasses_limit -}}
+                    </span>
+                    {%- endif -%}
+
+                    {%- if site.store.traits.usage -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_usage -}}:&nbsp;{{- buy -}}&nbsp;trait&nbsp;{{- trait.name -}}
+                        <br />
+                        {{- site.data.language.str_usage -}}:&nbsp;{{- buy -}}&nbsp;removetrait&nbsp;{{- trait.name -}}
                     </span>
                     {%- endif -%}
                 </td>
@@ -351,7 +408,16 @@ title: Store
         <tbody>
             {%- for item in kindsForDisplay-%}
             <tr>
-                <td>{{- item.name -}}</td>
+                <td>
+                    {{- item.name -}}
+
+                    {%- if site.store.kinds.usage -%}
+                    <span class="metadata">
+                        <br />
+                        {{- site.data.language.str_usage -}}:&nbsp;{{- buy -}}&nbsp;pawn&nbsp;{{- item.name -}}
+                    </span>
+                    {%- endif -%}
+                </td>
                 <td>
                     {{- item.price -}}
 

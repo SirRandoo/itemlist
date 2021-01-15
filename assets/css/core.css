@@ -48,6 +48,7 @@ table {
 
 th.priceWithData {
     font-size: 0.9em;
+    width: 20%;
 }
 th.price {
     font-size: 0.9em;
@@ -56,7 +57,7 @@ td.description {
     font-size: 0.8em;
 }
 span.metadata {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-style: italic;
     color: #5a5454;
 }
@@ -72,7 +73,7 @@ span.metadata {
     font-size: 0.8em;
   }
   span.metadata {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-style: italic;
     color: #5a5454;
   }
