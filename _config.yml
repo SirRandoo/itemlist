@@ -23,12 +23,12 @@ store:
     # Whether or not the trait list will display trait descriptions.
     description: true
     # Whether or not the trait list will display the command a viewer should type for adding/removing that trait.
-    usage: true
+    usage: false
   kinds:
     # Whether or not the kind list will display karma type overrides.
     karma: true
     # Whether or not the kind list will display the command a viewer should type for purchasing that kind.
-    usage: true
+    usage: false
   items:
     # Whether or not the item list will display an item's in-game category.
     category: true
@@ -44,10 +44,10 @@ store:
     usage: true
   events:
     # Whether or not the event list will display the command a viewer should type for purchasing that event.
-    usage: true
+    usage: false
   animals:
     # Whether or not the animal list will display the command a viewer should type for purchasing that animal.
-    usage: true
+    usage: false
 
 commands:
   # Whether or not the command list will display the command's shortcut disclaimer.
