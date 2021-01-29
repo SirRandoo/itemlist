@@ -52,6 +52,7 @@ th.priceWithData {
 }
 th.price {
     font-size: 0.9em;
+    width: 15%;
 }
 td.description {
     font-size: 0.8em;
