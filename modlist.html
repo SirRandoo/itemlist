@@ -25,7 +25,7 @@ permalink: /modlist
     {%- for mod in site.data.modlist -%}
     <tr>
         <td>
-            {%- if mod.steamId != "" and mod.steamId != "0" -%}
+            {%- if mod.steamId != nil and mod.steamId != "" and mod.steamId != "0" -%}
             <a href="https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}">{{- mod.name -}}</a>
             {%- else -%}
             <a
