@@ -291,6 +291,56 @@
   },
   {
     "data": {
+      "isShortcut": true
+    },
+    "description": "It's like buy item, but it gets added to your inventory if possible.",
+    "name": "Backpack",
+    "usage": "!backpack <item> [quantity]",
+    "userLevel": "Anyone",
+    "shortcut": true
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "Downgrades a skill's passion... sometimes.",
+    "name": "Remove passion",
+    "usage": "!removepassion <skill>",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "Upgrades a skill's passion... sometimes.",
+    "name": "Add passion",
+    "usage": "!passion <skill>",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "Heals all healable injuries your pawn currently has.",
+    "name": "Full heal",
+    "usage": "!fullheal",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "Creates a prisoner rescue quest for your most recent pawn.",
+    "name": "Rescue me",
+    "usage": "!rescueme",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
       "isShortcut": false
     },
     "description": "Shows your current kill count.",
@@ -305,7 +355,7 @@
     },
     "description": "Shows your current stats within a given category.",
     "name": "Viewer stats",
-    "usage": "!mypawnstats [category]",
+    "usage": "!mypawnstats [stat1] [stat2]",
     "userLevel": "Anyone",
     "shortcut": false
   },
@@ -355,7 +405,7 @@
     },
     "description": "Shows your pawn's work priorities.",
     "name": "Viewer work",
-    "usage": "!mypawnwork",
+    "usage": "!mypawnwork [worktype=priority] [...]",
     "userLevel": "Anyone",
     "shortcut": false
   },
@@ -415,7 +465,7 @@
     },
     "description": "Shows your pawn's relationships to other viewers.",
     "name": "Viewer relations",
-    "usage": "!mypawnrelations",
+    "usage": "!mypawnrelations [viewer]",
     "userLevel": "Anyone",
     "shortcut": false
   },
@@ -443,7 +493,7 @@
     "data": {
       "isShortcut": false
     },
-    "description": "Shows the first few results for the query in the given category. Valid categories are: 'races', 'traits', 'items', 'events', 'diseases', 'animals', 'skills', and 'stats'.",
+    "description": "Shows the first few results for the query in the given category. Valid categories are: 'races', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'.",
     "name": "Lookup",
     "usage": "!lookup <item/category> [query]",
     "userLevel": "Anyone",
@@ -507,6 +557,45 @@
     "name": "Colonist count",
     "usage": "!colonists",
     "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "Provides some information about supported things. Supported categories are: weapons",
+    "name": "Database",
+    "usage": "!rwdata <category/weaponname> [weaponname]",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "It's like unstick, but safe for viewers to use.",
+    "name": "Unstick me",
+    "usage": "!unstickme",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "description": "Shows information about your current RimWorld of Magic class. This command will only be usable when RimWorld of Magic is installed.",
+    "name": "Viewer class",
+    "usage": "!mypawnclass",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "name": "hello",
+    "usage": "!hello",
+    "userLevel": "Moderator",
     "shortcut": false
   }
 ]
