@@ -5790,6 +5790,252 @@
 		"category": "Raw fish",
 		"defname": "VCEF_RawHerring"
 	},
+	{
+		"abr": "ahuizotl",
+		"price": 583,
+		"category": "Animal",
+		"defname": "MM_Ahuizotl"
+	},
+	{
+		"abr": "ahuizotlmeat",
+		"price": 3,
+		"category": "Meat",
+		"defname": "Meat_MM_Ahuizotl"
+	},
+	{
+		"abr": "arbalest(flamingarrow)",
+		"price": 375,
+		"category": "Ranged weapons",
+		"defname": "Flame_Arbalest"
+	},
+	{
+		"abr": "ballistabolt(ap)",
+		"price": 92,
+		"category": "Ballista bolts",
+		"defname": "BallistaBolt_AP"
+	},
+	{
+		"abr": "ballistabolt(heavy)",
+		"price": 92,
+		"category": "Ballista bolts",
+		"defname": "BallistaBolt_Heavy"
+	},
+	{
+		"abr": "ballistabolt(standard)",
+		"price": 92,
+		"category": "Ballista bolts",
+		"defname": "BallistaBolt_Normal"
+	},
+	{
+		"abr": "basilisk",
+		"price": 750,
+		"category": "Animal",
+		"defname": "MM_Basilisk"
+	},
+	{
+		"abr": "basiliskegg(fert.)",
+		"price": 15,
+		"category": "Eggs (fert.)",
+		"defname": "MM_EggBasiliskFertilized"
+	},
+	{
+		"abr": "bulletproofvest",
+		"price": 1100,
+		"category": "Armor",
+		"defname": "VAE_Apparel_BulletproofVest"
+	},
+	{
+		"abr": "catoblepas",
+		"price": 667,
+		"category": "Animal",
+		"defname": "MM_Catoblepas"
+	},
+	{
+		"abr": "cerberus",
+		"price": 500,
+		"category": "Animal",
+		"defname": "MM_Cerberus"
+	},
+	{
+		"abr": "cerberusmeat",
+		"price": 3,
+		"category": "Meat",
+		"defname": "Meat_MM_Cerberus"
+	},
+	{
+		"abr": "ceryneianhind",
+		"price": 583,
+		"category": "Animal",
+		"defname": "MM_CeryneianHind"
+	},
+	{
+		"abr": "ceryneianhindmeat",
+		"price": 3,
+		"category": "Meat",
+		"defname": "Meat_MM_CeryneianHind"
+	},
+	{
+		"abr": "chimera",
+		"price": 833,
+		"category": "Animal",
+		"defname": "MM_Chimera"
+	},
+	{
+		"abr": "chimerameat",
+		"price": 3,
+		"category": "Meat",
+		"defname": "Meat_MM_Chimera"
+	},
+	{
+		"abr": "emplauncher",
+		"price": 842,
+		"category": "Ranged weapons",
+		"defname": "Gun_EmpLauncher"
+	},
+	{
+		"abr": "erymanthianboar",
+		"price": 1000,
+		"category": "Animal",
+		"defname": "MM_ErymanthianBoar"
+	},
+	{
+		"abr": "fenghuang",
+		"price": 625,
+		"category": "Animal",
+		"defname": "MM_Fenghuang"
+	},
+	{
+		"abr": "fenghuangegg(fert.)",
+		"price": 15,
+		"category": "Eggs (fert.)",
+		"defname": "MM_EggFenghuangFertilized"
+	},
+	{
+		"abr": "greatbow(flamingarrow)",
+		"price": 204,
+		"category": "Ranged weapons",
+		"defname": "Bowgreat_Flame"
+	},
+	{
+		"abr": "griffin",
+		"price": 1000,
+		"category": "Animal",
+		"defname": "MM_Griffin"
+	},
+	{
+		"abr": "griffinegg(fert.)",
+		"price": 15,
+		"category": "Eggs (fert.)",
+		"defname": "MM_EggGriffinFertilized"
+	},
+	{
+		"abr": "griffinmeat",
+		"price": 3,
+		"category": "Meat",
+		"defname": "Meat_MM_Griffin"
+	},
+	{
+		"abr": "heavymagicalleather",
+		"price": 8,
+		"category": "Leathers",
+		"defname": "MM_HeavyMagicalLeather"
+	},
+	{
+		"abr": "hnefatafltable",
+		"price": 281,
+		"category": "Furniture",
+		"defname": "VFEV_Hnefatafl"
+	},
+	{
+		"abr": "hologrambase",
+		"price": 467,
+		"category": "Art",
+		"defname": "HologramBase"
+	},
+	{
+		"abr": "holycasterspell:shieldother",
+		"price": 1267,
+		"category": "Scrolls",
+		"defname": "SpellOf_ShieldOther"
+	},
+	{
+		"abr": "hood",
+		"price": 174,
+		"category": "Headgear",
+		"defname": "Apparel_HatHood"
+	},
+	{
+		"abr": "hood",
+		"price": 108,
+		"category": "Headgear",
+		"defname": "VAE_Headgear_Hood"
+	},
+	{
+		"abr": "hoodofmadness",
+		"price": 1008,
+		"category": "Magic apparel",
+		"defname": "HoodOfMadness"
+	},
+	{
+		"abr": "hoodie",
+		"price": 259,
+		"category": "Apparel",
+		"defname": "VAE_Apparel_Hoodie"
+	},
+	{
+		"abr": "hotsauce",
+		"price": 2,
+		"category": "Condiments",
+		"defname": "VCE_HotSauce"
+	},
+	{
+		"abr": "hottub",
+		"price": 800,
+		"category": "Hygiene",
+		"defname": "HotTub"
+	},
+	{
+		"abr": "hotwatertank",
+		"price": 245,
+		"category": "Hygiene",
+		"defname": "HotWaterTank"
+	},
+	{
+		"abr": "hygieneenhancer",
+		"price": 1308,
+		"category": "Bionic",
+		"defname": "HygieneEnhancer"
+	},
+	{
+		"abr": "hyporegulator",
+		"price": 7500,
+		"category": "Brain implants",
+		"defname": "Hyporegulator"
+	},
+	{
+		"abr": "ibex",
+		"price": 417,
+		"category": "Animal",
+		"defname": "Ibex"
+	},
+	{
+		"abr": "icespell:blizzard",
+		"price": 3583,
+		"category": "Scrolls",
+		"defname": "SpellOf_Blizzard"
+	},
+	{
+		"abr": "icespell:moisturizeground",
+		"price": 900,
+		"category": "Scrolls",
+		"defname": "SpellOf_WetGround"
+	},
+	{
+		"abr": "icedcoffee",
+		"price": 15,
+		"category": "Drugs",
+		"defname": "VBE_IceCoffee"
+	}
 	],
-	"total": 1530
+	"total": 1571
 }
