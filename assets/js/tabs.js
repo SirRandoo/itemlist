@@ -6,4 +6,5 @@ function changeTab(evt, category) {
     [...tabLinks].forEach(element => { element.className = element.className.replace(" active", ""); })
     document.getElementById(category).style.display = "block";
     evt.currentTarget.className += " active";
+    window.scrollTo(0, 0)
 }

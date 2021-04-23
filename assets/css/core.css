@@ -6,7 +6,6 @@
 
 .tab button {
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
@@ -46,24 +45,35 @@ table {
     display: table;
 }
 
+th {
+  font-size: 0.9em;
+}
+
 th.priceWithData {
-    font-size: 0.9em;
     width: 20%;
 }
+th.karmaType {
+  width: 20%;
+}
 th.price {
-    font-size: 0.9em;
     width: 15%;
 }
 td.description {
     font-size: 0.8em;
 }
+span.eventRedirect {
+  cursor: pointer;
+  text-decoration: underline;
+  color:#22527b;;
+}
 span.metadata {
     font-size: 0.8em;
     font-style: italic;
     color: #5a5454;
+    display: block;
 }
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: break) {
   th.priceWithData {
     font-size: 0.9em;
   }
@@ -80,7 +90,7 @@ span.metadata {
   }
 }
 
-@media screen and (max-width: $sm-break) {
+@media screen and (max-width: sm-break) {
   th.priceWithData {
     font-size: 0.85em;
   }

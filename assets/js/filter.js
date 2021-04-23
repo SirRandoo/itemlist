@@ -1,112 +1,111 @@
 function filterTable(category) {
-    var input = document.getElementById(category + "Input")
-    var filter = input.value.toUpperCase();
-    var table = document.getElementById(category).lastElementChild;
-    var tr = table.getElementsByTagName("tr");
-    var column = 0;
-    var price = 0;
-    var priceSearch = 1;
+    let input = document.getElementById(category + "Input")
+    let table = document.getElementById(category);
 
-    if (filter.startsWith("CATEGORY:") && category == "items") {
-        filter = filter.substring("category".length + 1).trimLeft();
-        column = 2;
+    if (table === null) {
+        return;
     }
 
-    if (filter.startsWith("KARMA:") && category == "events") {
-        filter = filter.substring("karma".length + 1).trimLeft();
-        column = 2;
-    }
+    table = table.lastElementChild;
 
-
-    if (category != "traits") {
-        if (filter.startsWith("BELOW:")) {
-            filter = filter.substring("below".length + 1).trimLeft();
-            column = 1;
-            price = parseInt(filter);
-            priceSearch = -1;
-        }
-        if (filter.startsWith("ABOVE:")) {
-            filter = filter.substring("above".length + 1).trimLeft();
-            column = 1;
-            price = parseInt(filter);
-            priceSearch = 1;
-        }
-
-        if (filter.startsWith("EQUALS:")) {
-            filter = filter.substring("equals".length + 1).trimLeft();
-            column = 1;
-            price = parseInt(filter);
-            priceSearch = 0;
-        }
-    } else {
-        if (filter.startsWith("ADDBELOW:")) {
-            filter = filter.substring("addbelow".length + 1).trimLeft();
-            column = 2;
-            price = parseInt(filter);
-            priceSearch = -1;
-        }
-        if (filter.startsWith("ADDABOVE:")) {
-            filter = filter.substring("addabove".length + 1).trimLeft();
-            column = 2;
-            price = parseInt(filter);
-            priceSearch = 1;
-        }
-
-        if (filter.startsWith("ADDEQUALS:")) {
-            filter = filter.substring("addequals".length + 1).trimLeft();
-            column = 2;
-            price = parseInt(filter);
-            priceSearch = 0;
-        }
-
-        if (filter.startsWith("REMOVEBELOW:")) {
-            filter = filter.substring("removebelow".length + 1).trimLeft();
-            column = 3;
-            price = parseInt(filter);
-            priceSearch = -1;
-        }
-        if (filter.startsWith("REMOVEABOVE:")) {
-            filter = filter.substring("removeabove".length + 1).trimLeft();
-            column = 3;
-            price = parseInt(filter);
-            priceSearch = 1;
-        }
-
-        if (filter.startsWith("REMOVEEQUALS:")) {
-            filter = filter.substring("removeequals".length + 1).trimLeft();
-            column = 3;
-            price = parseInt(filter);
-            priceSearch = 0;
-        }
-    }
+    let tr = table.getElementsByTagName("tr");
+    let params = getSearchParams(table, input.value.toUpperCase());
 
     for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[column];
+        let td = tr[i].getElementsByTagName("td")[params.column];
 
         if (td) {
-            txtValue = td.textContent || td.innerText;
+            let txtValue = td.textContent || td.innerText;
+            let isVisible = true;
 
-            if ((category != "traits" && column != 1) || (category == "traits" && column < 2)) {
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
-                } else {
-                    tr[i].style.display = "none";
+            if (params.numeric !== null) {
+                let numeric = Number.parseInt(txtValue);
+
+                switch (params.comparison) {
+                    case ">":
+                        isVisible = numeric > params.numeric;
+                        break;
+                    case "<":
+                        isVisible = numeric < params.numeric;
+                        break;
+                    case "<=":
+                        isVisible = numeric <= params.numeric;
+                        break;
+                    case ">=":
+                        isVisible = numeric >= params.numeric;
+                        break;
+                    default:
+                        isVisible = numeric === params.numeric;
+                        break;
                 }
             } else {
-                intValue = parseInt(txtValue);
-
-                switch (priceSearch) {
-                    case 0:
-                        tr[i].style.display = (intValue == price) ? "" : "none";
-                        break;
-                    case 1:
-                        tr[i].style.display = (intValue > price) ? "" : "none";
-                        break;
-                    case -1:
-                        tr[i].style.display = (intValue < price) ? "" : "none";
-                        break;
-                }
+                isVisible = txtValue.toUpperCase().includes(params.query);
             }
+
+            tr[i].style.display = isVisible ? "" : "none";
         }
     }
+}
+
+function getSearchParams(table, query) {
+    let response = { "column": 0, "query": query, "comparison": "=", "numeric": null };
+    let tHead = table.firstElementChild;
+    let tRow = tHead.firstElementChild;
+    let headers = [];
+
+    for (let i = 0; i < tRow.childNodes.length; i++) {
+        let node = tRow.childNodes[i];
+
+        if (node.nodeName !== "TH") {
+            continue;
+        }
+
+        let text = node.innerText || node.textContent;
+        headers.push(text.toUpperCase().replace(" ", ""));
+    }
+
+    for (let i = 0; i < headers.length; i++) {
+        let header = headers[i];
+
+        if (query.startsWith(header)) {
+            response.query = response.query.substring(header.length + 1).trimLeft();
+            response.column = i;
+        }
+    }
+
+    switch (response.query.substring(0, 1)) {
+        case ">":
+        case "<":
+        case "=":
+            let result = processComparison(response.query);
+            response.comparison = result.comparison;
+            response.numeric = result.numeric;
+
+            console.log(response);
+            break;
+    }
+
+    return response;
+}
+
+function processComparison(query) {
+    let response = { "comparison": "=", "numeric": 0 };
+    let first = query.substring(0, 1);
+    let second = query.substring(1, 1);
+
+    response.comparison = first;
+
+    if (second === "=") {
+        response.comparison = response.comparison + second;
+    }
+
+    let stripped = query.substring(response.comparison.length).trimLeft();
+
+    if (stripped.length <= 0) {
+        response.numeric = 0;
+    } else {
+        response.numeric = Number.parseInt(stripped);
+    }
+
+    return response;
 }
