@@ -45,7 +45,6 @@ permalink: /commands
 
                             {%- if site.commands.usage -%}
                                 <span class="metadata">
-                                    <br/>
                                     {{- site.data.language.str_usage -}}:&nbsp;{{- command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}
                                 </span>
                             {%- endif -%}
