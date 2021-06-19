@@ -1,0 +1,18 @@
+<button class="tabLinks"
+        onclick="changeTab(event, '{{- include.id -}}')">
+
+        {%- case include.id -%}
+            {%- when 'items' -%}
+                {{- site.data.language.items_tab -}}
+            {%- when 'events' -%}
+                {{- site.data.language.events_tab -}}
+            {%- when 'weapons' -%}
+                {{- site.data.language.weapons_tab -}}
+            {%- when 'animals' -%}
+                {{- site.data.language.animals_tab -}}
+            {%- when 'traits' -%}
+                {{- site.data.language.traits_tab -}}
+            {%- when 'kinds' -%}
+                {{- site.data.language.pawn_kinds_tab -}}
+        {%- endcase -%}
+</button>

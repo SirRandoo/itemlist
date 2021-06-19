@@ -5,39 +5,49 @@ permalink: /modlist
 ---
 
 <script src="{{- 'assets/js/filter.js' | relative_url -}}"></script>
-<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} "/>
+<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} " />
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
 <div id="mods">
-    <input type="text" aria-label="Mod searchbox" class="search" id="modsInput" onkeyup="filterTable('mods')" placeholder="{{- site.data.language.str_mod_search -}}">
+    {%- include search.html
+        id='mods'
+        type='Mod'
+        placeholder=site.data.language.search_mods -%}
 
-
-    <table class="sortable" style="display: table;">
+    <table class="sortable">
         <thead>
             <tr>
-                <th>Mod Name</th>
+                <th>{{- site.data.language.mod_name_header -}}</th>
+
                 {%- if site.mods.author -%}
-                    <th style="width: 35%">Author</th>
+                    <th class="author">{{- site.data.language.author_header -}}</th>
                 {%- endif -%}
+
                 {%- if site.mods.version -%}
-                    <th style="width: 20%">Version</th>
+                    <th class="version">{{- site.data.language.version_header -}}</th>
                 {%- endif -%}
             </tr>
         </thead>
 
         <tbody>
             {%- for mod in site.data.modlist -%}
+                {%- capture link -%}
+                    {%- if mod.steamId == nil or mod.steamId == "" or mod.steamId == "0" -%}
+                        https://steamcommunity.com/workshop/browse/?appid=294100&searchtext={{- mod.name | url_encode-}}
+                    {%- else -%}
+                        https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}
+                    {%- endif -%}
+                {%- endcapture -%}
+
                 <tr>
                     <td>
-                        {%- if mod.steamId != nil and mod.steamId != "" and mod.steamId != "0" -%}
-                            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}">{{- mod.name -}}</a>
-                        {%- else -%}
-                            <a href="https://steamcommunity.com/workshop/browse/?appid=294100&searchtext={{- mod.name | url_encode -}}&browsesort=textsearch&section=home">{{- mod.name -}}</a>
-                        {%- endif -%}
+                        <a href="{{- link -}}">{{- mod.name -}}</a>
                     </td>
+
                     {%- if site.mods.author -%}
                         <td>{{- mod.author -}}</td>
                     {%- endif -%}
+
                     {%- if site.mods.version -%}
                         <td>{{- mod.version -}}</td>
                     {%- endif -%}

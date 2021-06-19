@@ -1,0 +1,87 @@
+<tr>
+    <td>
+        {{- include.trait.name -}}
+
+        {%- if site.store.traits.mod -%}
+            <span class="metadata">
+                {% capture mod %}
+                    {{ site.data.language.from | replace: '%s', include.trait.data.mod }}
+                {% endcapture %}
+
+                {{- mod -}}
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.traits.limit and trait.data.canBypassLimit -%}
+            <span class="metadata">
+                {{- site.data.language.bypasses_limit -}}
+            </span>
+        {%- endif -%}
+        
+        {%- if site.store.traits.usage -%}
+            {%- for event in include.traitEvents -%}
+                <span class="metadata">
+                    {% capture usage %}
+                        {{ include.buyName }} {{ event }} {{ include.trait.name }}
+                    {% endcapture %}
+
+                    {{- site.data.language.usage | replace: '%s', usage -}}
+                </span>
+            {%- endfor -%}
+        {%- endif -%}
+    </td>
+    
+    <td class="description">
+        {%- if site.store.traits.description -%}
+            {{- include.trait.description -}}
+        {%- endif -%}
+
+        {%- if site.store.traits.stats and include.trait.data.stats.size > 0 -%}
+            <span class="metadata">
+                {{- site.data.language.stats -}}
+
+                <ul>
+                    {% for stat in include.trait.data.stats -%}
+                        <li>{{- stat -}}</li>
+                    {%- endfor -%}
+                </ul>
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.traits.conflicts and include.trait.data.conflicts.size > 0 -%}
+            <span class="metadata">
+                {{- site.data.language.conflicts_with -}}
+
+                <ul>
+                    {%- for conflict in include.trait.data.conflicts -%}
+                        <li>{{- conflict -}}</li>
+                    {%- endfor -%}
+                </ul>
+            </span>
+        {%- endif -%}
+    </td>
+
+    <td>
+        {% if include.trait.canAdd == true %}
+            {{ include.trait.addPrice }}
+
+            {% if site.store.traits.karma and include.trait.data.karmaTypeForAdding != nil %}
+                <span class="metadata">
+                    {{ site.data.language.karma }}: {{ include.trait.data.karmaTypeForAdding }}
+                </span>
+            {% endif %}
+        {% endif %}
+    </td>
+
+    <td>
+        {% if include.trait.canRemove == true %}
+            {{ include.trait.removePrice }}
+
+            {% if site.store.traits.karma and include.trait.data.karmaTypeForRemoving != nil %}
+                <span class="metadata">
+                    {{ site.data.language.karma }}: {{ include.trait.data.karmaTypeForRemoving }}
+                </span>
+            {% endif %}
+        {% endif %}
+    </td>
+</tr>

@@ -1,41 +1,50 @@
-# Localization strings
-str_follow_on: 'Follow on'
-str_rss_follow: 'Follow RSS feed'
-str_share_on: 'Share on'
-str_add_to: 'Add to'
-str_email: 'Email'
-str_tweet: 'Tweet'
-str_pin_it: 'Pin it'
-str_next_post: 'Next post'
-str_previous_post: 'Previous post'
-str_next_page: 'Next'
-str_previous_page: 'Prev'
-str_javascript_required_disqus: 'Please enable JavaScript to view comments.'
+# Tabs
+items_tab: 'Items'
+events_tab: 'Events'
+traits_tab: 'Traits'
+animals_tab: 'Animals'
+weapons_tab: 'Weapons'
+pawn_kinds_tab: 'Pawn Kinds'
 
-str_no_commands: 'These are not the commands you are looking for.'
-str_items: 'Items'
-str_events: 'Events'
-str_animals: 'Animals'
-str_traits: 'Traits'
-str_kinds: 'Pawn Kinds'
-str_disabled: 'disabled'
-str_kinds_search: 'Search for pawn kinds...'
-str_traits_search: 'Search for traits...'
-str_events_search: 'Search for events...'
-str_animals_search: 'Search for animals...'
-str_items_search: 'Search for items...'
-str_commands_search: 'Search for commands...'
-str_mod_search: 'Search for mods...'
-str_usage: 'Usage'
-str_shortcut: 'This is a shortcut for '
-str_trait_stats: 'Stats'
-str_trait_conflicts: 'Conflicts with'
-str_from: 'From '
-str_weight: 'Weight'
-str_quantity_limit: 'Limit'
-str_karma: 'Karma'
-str_bypasses_limit: 'This trait may exceed the trait limit'
+# Table headers
+mod_name_header: Mod Name
+author_header: Author
+version_header: Version
+command_name_header: Command Name
+user_level_header: User Level
+description_header: Description
+cost_header: Cost
+category_header: Category
+karma_type_header: Karma Type
+add_cost_header: Add Cost
+remove_cost_header: Remove Cost
+name_header: Name
 
-str_see_traits: 'See prices in the traits section'
-str_see_kinds: 'See prices in the pawn kinds section'
-str_see_items: 'See prices in the items section'
+# Error messages
+no_commands: 'These are not the commands you are looking for.'
+
+# Redirect messages
+see_traits: 'See prices in the traits section'
+see_kinds: 'See prices in the pawn kinds section'
+see_items: 'See prices in the items section'
+
+# Search texts
+search_items: 'Search for items...'
+search_traits: 'Search for traits...'
+search_pawn_kinds: 'Search for pawn kinds...'
+search_mods: 'Search for mods...'
+search_commands: 'Search for commands...'
+search_animals: 'Search for animals...'
+search_events: 'Search for events...'
+search_weapons: 'Search for weapons...'
+
+# Metadata
+usage: 'Usage: %s'
+shortcut: 'This is a shortcut for %s'
+stats: 'Stats'
+conflicts_with: 'Conflicts with'
+from: 'From %s'
+weight: 'Weight'
+limit: 'Limit'
+karma: 'Karma'
+bypasses_limit: 'This trait may exceed the trait limit'

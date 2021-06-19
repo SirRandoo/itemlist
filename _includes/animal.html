@@ -1,0 +1,67 @@
+<tr>
+    <td>
+        {%- capture name -%}
+            {%- if include.itemdata.CustomName != nil -%}
+                {{- include.itemdata.CustomName -}}
+            {%- else -%}
+                {{- include.item.abr -}}
+            {%- endif -%}
+        {%- endcapture -%}
+
+        {{- name -}}
+
+        {%- if site.store.animals.mod -%}
+            <span class="metadata">
+                {% capture mod %}
+                    {{ site.data.language.from | replace: '%s', include.itemdata.Mod }}
+                {%- endcapture -%}
+
+                {{- mod -}}
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.animals.usage -%}
+            <span class="metadata">
+                {% capture usage %}
+                    {{ include.buyName }} {{ name }} 1
+                {% endcapture %}
+
+                {{- site.data.language.usage | replace: '%s', usage -}}
+            </span>
+        {%- endif -%}
+    </td>
+
+    <td>
+        {{- item.price -}}
+
+        {%- if site.store.animals.weight and include.itemdata.Weight != 1 -%}
+            <span class="metadata">
+                {% capture weight %}
+                    {{ site.data.language.weight }}: {{ include.itemdata.Weight }}
+                {%- endcapture -%}
+
+                {{- weight -}}
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.animals.quantity and include.itemdata.HasQuantityLimit == true -%}
+            <span class="metadata">
+                {% capture quantity %}
+                    {{ site.data.language.limit }}: {{ include.itemdata.QuantityLimit }}
+                {% endcapture %}
+
+                {{- quantity -}}
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.animals.karma and include.itemdata.KarmaType != nil -%}
+            <span class="metadata">
+                {% capture karmaType %}
+                    {{ site.data.language.karma }}: {{ include.itemdata.KarmaType }}
+                {% endcapture %}
+
+                {{- karmaType -}}
+            </span>
+        {%- endif -%}
+    </td>
+</tr>

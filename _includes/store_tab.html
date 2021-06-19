@@ -1,0 +1,20 @@
+<div class="tabContent" id="{{- include.id -}}">
+    {%- assign id = include.id -%}
+    {%- assign type = include.type -%}
+    {%- assign buyName = include.buyName -%}
+    {%- assign headers = include.headers -%}
+    {%- assign displayData = include.displayData -%}
+    {%- assign placeholder = include.placeholder -%}
+    {%- assign priceHeaers = include.priceHeaders -%}
+    {%- assign karmaHeaders = include.karmaHeaders -%}
+    {%- assign priceDataHeaders = include.priceDataHeaders -%}
+
+    {%- include search.html id=id type=type placeholder=placeholder -%}
+    {%- include content.html
+        type=type
+        buyName=buyName
+        headers=headers
+        priceDataHeaders=priceDataHeaders
+        priceHeaders=priceHeaders
+        displayData=displayData -%}
+</div>

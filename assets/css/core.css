@@ -9,8 +9,9 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 12px 12px;
     transition: 0.3s;
+    font-size: 0.75em;
 }
 
 .tab button:hover {
@@ -58,6 +59,12 @@ th.karmaType {
 th.price {
     width: 15%;
 }
+th.author {
+  width: 30%;
+}
+th.version {
+  width: 20%;
+}
 td.description {
     font-size: 0.8em;
 }
@@ -68,6 +75,7 @@ span.eventRedirect {
 }
 span.metadata {
     font-size: 0.8em;
+    padding: 0px;
     font-style: italic;
     color: #5a5454;
     display: block;
@@ -85,6 +93,7 @@ span.metadata {
   }
   span.metadata {
     font-size: 0.8em;
+    padding: 0px;
     font-style: italic;
     color: #5a5454;
   }

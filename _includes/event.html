@@ -1,0 +1,42 @@
+<tr>
+    <td>
+        {{- include.event.abr -}}
+
+        {%- if site.store.events.mod -%}
+            <span class="metadata">
+                {% capture mod %}
+                    {{ site.data.language.from | replace: '%s', include.eventdata.Mod }}
+                {% endcapture %}
+
+                {{- mod -}}
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.events.usage -%}
+            <span class="metadata">
+                {% capture usage %}
+                    {{ include.buyName}} {{ include.event.abr }}
+                {% endcapture %}
+
+                {{- site.data.language.usage | replace: '%s', usage -}}
+            </span>
+        {%- endif -%}
+    </td>
+
+    <td>
+        {% case include.eventdata.EventType %}
+            {% when 'Trait' %}
+                <span class="eventRedirect" onclick="changetab(event, 'traits')">{{- site.data.language.see_traits -}}</span>
+            {% when 'Item' %}
+                <span class="eventRedirect" onclick="changeTab(event, 'items')">{{- site.data.language.see_items -}}</span>
+            {% when 'PawnKind' %}
+                <span class="eventRedirect" onclick="changetab(event, 'pawns')">{{- site.data.language.see_kinds -}}</span>
+            {% when 'Variable' %}
+                {{ include.event.price }} * X
+            {% else %}
+                {{ include.event.price }}
+        {% endcase %}
+    </td>
+
+    <td>{{- include.event.karmatype -}}</td>
+</tr>

@@ -24,16 +24,21 @@ permalink: /commands
 
 <div id="commands">
     {%- if showCommands > 0 -%}
-        <input aria-label="Command searchbox" type="text" class="search" id="commandsInput" onkeyup="filterTable('commands')" placeholder="{{- site.data.language.str_commands_search -}}">
+        {%- include search.html
+            id='commands'
+            type='Command'
+            placeholder=site.data.language.search_commands -%}
 
         <table class="sortable" style="display: table">
             <thead>
                 <tr>
-                    <th style="width: 35%">Command</th>
+                    <th style="width: 35%">{{- site.data.language.command_name_header -}}</th>
+                    
                     {%- if site.commands.userlevel -%}
-                        <th style="width: 18%">User Level</th>
+                        <th style="width: 18%">{{- site.data.language.user_level_header -}}</th>
                     {%- endif -%}
-                    <th>Description</th>
+
+                    <th>{{- site.data.language.description_header -}}</th>
                 </tr>
             </thead>
 
@@ -43,26 +48,37 @@ permalink: /commands
                         <td id="{{- command.name | slugify -}}">
                             <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
 
+                            {%- if site.commands.mod -%}
+                                <span class="metadata">
+                                    {{- site.data.language.from | replace: '%s', command.data.mod -}}
+                                </span>
+                            {%- endif -%}
+
                             {%- if site.commands.usage -%}
                                 <span class="metadata">
-                                    {{- site.data.language.str_usage -}}:&nbsp;{{- command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}
+                                    {% capture usage %}
+                                        {{ command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" }}
+                                    {% endcapture %}
+
+                                    {{- site.data.language.usage | replace: '%s', usage -}}
                                 </span>
                             {%- endif -%}
                         </td>
+
                         {%- if site.commands.userlevel -%}
                             <td>{{- command.userLevel -}}</td>
                         {%- endif -%}
+                        
                         <td>
                             {{- command.description -}}
 
                             {%- if site.commands.shortcut and command.shortcut -%}
                                 <span class="metadata">
-                                    {{- site.data.language.str_shortcut -}}
-                                    {{- buy -}}
-                                    {%- capture prefix -%}
-                                        {{- command.usage | slice: 0 -}}
-                                    {%- endcapture -%}
-                                    {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}
+                                    {% capture shortcut %}
+                                        {{ buy }} {{ command.usage | slice: 1, command.usage.size | replace: "(" , "&lt;" | replace: ")", "&gt;" }}
+                                    {% endcapture %}
+
+                                    {{- site.data.language.shortcut | replace: '%s', shortcut -}}
                                 </span>
                             {%- endif -%}
                         </td>
@@ -71,6 +87,6 @@ permalink: /commands
             </tbody>
         </table>
     {%- else -%}
-        <p style="text-align: center;">{{- site.data.languages.str_no_commands -}}</p>
+        <p style="text-align: center;">{{- site.data.languages.no_commands -}}</p>
     {%- endif -%}
 </div>

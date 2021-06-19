@@ -1,0 +1,33 @@
+<tr>
+    <td>
+        {{- include.kind.name -}}
+
+        {%- if site.store.kinds.mod -%}
+            <span class="metadata">
+                {{- site.data.language.from | replace: '%s', include.kind.data.mod -}}
+            </span>
+        {%- endif -%}
+
+        {%- if site.store.kinds.usage -%}
+            {%- for pawn in include.pawnEvents -%}
+                <span class="metadata">
+                    {% capture usage %}
+                        {{ include.buyName }} {{ pawn }} {{ include.kind.name }}
+                    {% endcapture %}
+
+                    {{- site.data.language.usage | replace: '%s', usage -}}
+                </span>
+            {%- endfor -%}
+        {%- endif -%}
+    </td>
+
+    <td>
+        {{- include.kind.price -}}
+
+        {%- if site.store.kinds.karma and include.kind.data.karmaType != nil -%}
+            <span class="metadata">
+                {{ site.data.language.karma }}: {{ include.kind.data.karmaType }}
+            </span>
+        {%- endif -%}
+    </td>
+</tr>

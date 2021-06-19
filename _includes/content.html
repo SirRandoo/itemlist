@@ -1,0 +1,70 @@
+<table class="sortable">
+    {%- assign type = include.type -%}
+    {%- assign buyName = include.buyName -%}
+    {%- assign headers = include.headers | split: ',' -%}
+    {%- assign karmaHeaders = include.karmaHeaders | split: ',' -%}
+    {%- assign priceHeaders = include.priceHeaders | split: ',' -%}
+    {%- assign priceWithDataHeaders = include.priceDataHeaders | split: ',' -%}
+
+    <thead>
+        <tr>
+            {%- for header in headers -%}
+                {%- if karmaHeaders contains header -%}
+                    <th class="karmaType">{{- header -}}</th>
+                    {%- continue -%}
+                {%- endif -%}
+                
+                {%- if priceWithDataHeaders contains header -%}
+                    <th class="priceWithData">{{- header -}}</th>
+                    {%- continue -%}
+                {%- endif -%}
+
+                {%- if priceHeaders contains header -%}
+                    <th class="price">{{- header -}}</th>
+                {%- else -%}
+                    <th>{{- header -}}</th>
+                {%- endif -%}
+            {%- endfor -%}
+        </tr>
+    </thead>
+
+
+    <tbody>
+        {%- for item in include.displayData -%}
+            {%- case type -%}
+                {%- when 'Item' -%}
+                    {%- assign itemdata = site.data.itemdata[item.defname] -%}
+                    {%- include item.html item=item itemdata=itemdata buyName=buyName -%}
+                {%- when 'Weapon' -%}
+                    {%- assign itemdata = site.data.itemdata[item.defname] -%}
+                    {%- include weapon.html item=item itemdata=itemdata buyName=buyName -%}
+                {%- when 'Animal' -%}
+                    {%- assign itemdata = site.data.itemdata[item.defname] -%}
+                    {%- include animal.html item=item itemdata=itemdata buyName=buyName -%}
+                {%- when 'Event' -%}
+                    {%- assign eventdata = site.data.eventdata[item.abr] -%}
+                    {%- include event.html event=item eventdata=eventdata buyName=buyName -%}
+                {%- when 'Trait' -%}
+                    {%- assign traitEvents = '' | split: ',' -%}
+                    {%- for event in site.data.StoreIncidents.incitems -%}
+                        {%- if event.price > 0 and site.data.eventdata[event.abr].EventType == 'Trait' -%}
+                            {%- assign traitEvents = traitEvents | push: event.abr -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                    {%- include trait.html trait=item buyName=buyName traitEvents=traitEvents -%}
+                {%- when 'Pawn' -%}
+                    {%- assign pawnEvents = '' | split: ',' -%}
+                    {%- for event in site.data.StoreIncidents.incitems -%}
+                        {%- if event.price > 0 and site.data.eventdata[event.abr].EventType == 'PawnKind' -%}
+                            {%- assign pawnEvents = pawnEvents | push: event.abr -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                    {%- include pawn_kind.html kind=item buyName=buyName pawnEvents=pawnEvents -%}
+                {%- when 'Mod' -%}
+                    {%- include mod.html mod=item -%}
+                {%- when 'Command' -%}
+                    {%- include command.html command=item -%}
+            {%- endcase -%}
+        {%- endfor -%}
+    </tbody>
+</table>

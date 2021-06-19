@@ -1,0 +1,362 @@
+{
+  "tornado": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "tornados": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "clearweather": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "rain": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "vomitrain": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "foggyrain": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "rainythunderstorm": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "drythunderstorm": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "snowgentle": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "snowhard": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "fog": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "heatwave": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "flashstorm": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "coldsnap": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "solarflare": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "shortcircuit": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "toxicfallout": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "volcanicwinter": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "eclipse": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "aurora": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "blight": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "animaltame": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "wandererjoins": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "resourcepodcrash": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "transportpodcrash": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "tradercaravan": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "orbitaltraderarrival": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "meteor": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "maninblack": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "madanimal": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "psychicdrone": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "psychicsoothe": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "ambrosiasprout": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "herdmigration": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "farmanimals": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "wildman": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "rarethrumbos": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "shipchunkdrop": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "travelergroup": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "visitorgroup": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "skillincrease": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "party": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "alphabeavers": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "shippartpoison": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "shippartpsychic": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "militaryaid": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "raid": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "dropraid": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "sapperraid": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "siegeraid": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "mechanoidraid": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "infestation": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "manhunterpack": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "predators": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "randomdisease": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "disease": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "reviveanypawn": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "pawn": {
+    "EventType": "PawnKind",
+    "Mod": "Twitch Toolkit"
+  },
+  "levelskill": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "trait": {
+    "EventType": "Trait",
+    "Mod": "Twitch Toolkit"
+  },
+  "removetrait": {
+    "EventType": "Trait",
+    "Mod": "Twitch Toolkit"
+  },
+  "genderswap": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "item": {
+    "EventType": "Item",
+    "Mod": "Twitch Toolkit"
+  },
+  "prisoner": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "visitcolony": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "randominspire": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "torytalkervote": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "hodlbotvote": {
+    "EventType": "Default",
+    "Mod": "Twitch Toolkit"
+  },
+  "reviveall": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "reviveme": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "healall": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "healanypawn": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "healme": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "surgery": {
+    "EventType": "Item",
+    "Mod": "ToolkitUtils"
+  },
+  "passionshuffle": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "replacetrait": {
+    "EventType": "Trait",
+    "Mod": "ToolkitUtils"
+  },
+  "rescueme": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "fullheal": {
+    "EventType": "Variable",
+    "Mod": "ToolkitUtils"
+  },
+  "passion": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "removepassion": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "backpack": {
+    "EventType": "Item",
+    "Mod": "ToolkitUtils"
+  },
+  "settraits": {
+    "EventType": "Trait",
+    "Mod": "ToolkitUtils"
+  },
+  "cleartraits": {
+    "EventType": "Trait",
+    "Mod": "ToolkitUtils"
+  },
+  "use": {
+    "EventType": "Item",
+    "Mod": "ToolkitUtils"
+  },
+  "wear": {
+    "EventType": "Item",
+    "Mod": "ToolkitUtils"
+  },
+  "equip": {
+    "EventType": "Item",
+    "Mod": "ToolkitUtils"
+  },
+  "randomchildhood": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "randomadulthood": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "smite": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  },
+  "sanctuary": {
+    "EventType": "Default",
+    "Mod": "ToolkitUtils"
+  }
+}

@@ -1,7 +1,8 @@
 [
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Updates the current list of active viewers.",
     "name": "Refresh viewers",
@@ -11,7 +12,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Awards all active viewers coins.",
     "name": "Karma round",
@@ -21,9 +23,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Gives everyone coins.",
+    "description": "Gives eveyrone coins.",
     "name": "Give all coins",
     "usage": "!giveallcoins <coins>",
     "userLevel": "Moderator",
@@ -31,7 +34,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Gives a viewer coins.",
     "name": "Give coins",
@@ -41,7 +45,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Shows the balance of a given user.",
     "name": "Check user",
@@ -51,7 +56,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Sets the current karma for a given user.",
     "name": "Set karma",
@@ -61,7 +67,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Toggles coin generation.",
     "name": "Toggle coins",
@@ -71,9 +78,11 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit",
+      "isBal": true
     },
-    "description": "Shows your current balance, karma, and, optionally, the amount of coins earned per cycle.",
+    "description": "Shows your current balance, karma, and optionally, the amount of coins earned per cycle.",
     "name": "Check balance",
     "usage": "!bal",
     "userLevel": "Anyone",
@@ -81,9 +90,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Gives an overview of what karma is in relation to Twitch Toolkit.",
+    "description": null,
     "name": "Karma explanation",
     "usage": "!whatiskarma",
     "userLevel": "Anyone",
@@ -91,9 +101,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Directs you here!",
+    "description": null,
     "name": "Purchase list",
     "usage": "!purchaselist",
     "userLevel": "Anyone",
@@ -101,9 +112,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Adds you to the name queue.",
+    "description": null,
     "name": "Join queue",
     "usage": "!joinqueue",
     "userLevel": "Anyone",
@@ -111,9 +123,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Shows you information about Twitch Toolkit.",
+    "description": null,
     "name": "Mod info",
     "usage": "!modinfo",
     "userLevel": "Anyone",
@@ -121,9 +134,11 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit",
+      "isBuy": true
     },
-    "description": "Lets you buy things from the store.",
+    "description": null,
     "name": "Buy",
     "usage": "!buy",
     "userLevel": "Anyone",
@@ -131,7 +146,8 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "Twitch Toolkit"
     },
     "description": "Lets you wager coins to level up a skill of your choosing.",
     "name": "Level skill",
@@ -141,9 +157,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Shows you important settings for Twitch Toolkit, like the karma cap.",
+    "description": null,
     "name": "Mod settings",
     "usage": "!modsettings",
     "userLevel": "Anyone",
@@ -151,9 +168,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Gives you a brief set of instructions on how to use Twitch Toolkit.",
+    "description": null,
     "name": "Instructions",
     "usage": "!instructions",
     "userLevel": "Anyone",
@@ -161,9 +179,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Shows you the current list of commands, which may or may not be this list.",
+    "description": null,
     "name": "All commands",
     "usage": "!allcommands",
     "userLevel": "Anyone",
@@ -171,7 +190,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "Twitch Toolkit"
     },
     "description": "Shows you the complete list of installed mods.",
     "name": "Installed mods",
@@ -181,9 +201,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "A colony wide resurrector mech serum.",
+    "description": null,
     "name": "Revive all",
     "usage": "!reviveall",
     "userLevel": "Anyone",
@@ -191,9 +212,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "A personal resurrector mech serum.",
+    "description": null,
     "name": "Revive me",
     "usage": "!reviveme",
     "userLevel": "Anyone",
@@ -201,9 +223,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "A personal healer mech serum/",
+    "description": null,
     "name": "Heal me",
     "usage": "!healme",
     "userLevel": "Anyone",
@@ -211,9 +234,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "A colony wide healer mech serum.",
+    "description": null,
     "name": "Healall",
     "usage": "!healall",
     "userLevel": "Anyone",
@@ -221,7 +245,8 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
     "description": "Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.",
     "name": "Passion shuffle",
@@ -231,7 +256,8 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
     "description": "Purchases the part specified and queues it for surgery on your pawn.",
     "name": "Surgery",
@@ -241,9 +267,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "Adds a trait for your pawn.",
+    "description": null,
     "name": "Add trait",
     "usage": "!trait",
     "userLevel": "Anyone",
@@ -251,9 +278,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "Removes a trait from our pawn.",
+    "description": null,
     "name": "Remove trait",
     "usage": "!removetrait",
     "userLevel": "Anyone",
@@ -261,9 +289,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "A resurrector mech serum for a random dead colonist.",
+    "description": null,
     "name": "Revive any pawn",
     "usage": "!reviveanypawn",
     "userLevel": "Anyone",
@@ -271,9 +300,10 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "A healer mech serum for a random colonist.",
+    "description": null,
     "name": "Heal any pawn",
     "usage": "!healanypawn",
     "userLevel": "Anyone",
@@ -281,7 +311,8 @@
   },
   {
     "data": {
-      "isShortcut": true
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
     "description": "Replaces a trait with a different trait.",
     "name": "Replace trait",
@@ -291,9 +322,65 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows your current kill count.",
+    "description": "It's like buy item, but it gets added to your inventory if possible.",
+    "name": "Backpack",
+    "usage": "!backpack <item> [quantity]",
+    "userLevel": "Anyone",
+    "shortcut": true
+  },
+  {
+    "data": {
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
+    },
+    "description": "Downgrades a skill's passion... sometimes.",
+    "name": "Remove passion",
+    "usage": "!removepassion <skill>",
+    "userLevel": "Anyone",
+    "shortcut": true
+  },
+  {
+    "data": {
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
+    },
+    "description": "Upgrades a skill's passion... sometimes.",
+    "name": "Add passion",
+    "usage": "!passion <skill>",
+    "userLevel": "Anyone",
+    "shortcut": true
+  },
+  {
+    "data": {
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "Full heal",
+    "usage": "!fullheal",
+    "userLevel": "Anyone",
+    "shortcut": true
+  },
+  {
+    "data": {
+      "isShortcut": true,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "Rescue me",
+    "usage": "!rescueme",
+    "userLevel": "Anyone",
+    "shortcut": true
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
     "name": "Viewer kill count",
     "usage": "!mypawnkills",
     "userLevel": "Anyone",
@@ -301,17 +388,19 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Shows your current stats within a given category.",
     "name": "Viewer stats",
-    "usage": "!mypawnstats [category]",
+    "usage": "!mypawnstats [stat1] [stat2]",
     "userLevel": "Anyone",
     "shortcut": false
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Shows an overview of your pawn's health. If a capacity is specified, it'll show what's affecting it.",
     "name": "Viewer health",
@@ -321,9 +410,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows an overview of your pawn's needs.",
+    "description": null,
     "name": "Viewer needs",
     "usage": "!mypawnneeds",
     "userLevel": "Anyone",
@@ -331,7 +421,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Shows an overview of your pawn's gear.",
     "name": "Viewer gear",
@@ -341,9 +432,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows an overview of your pawn's body.",
+    "description": null,
     "name": "Viewer body",
     "usage": "!mypawnbody",
     "userLevel": "Anyone",
@@ -351,19 +443,21 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Shows your pawn's work priorities.",
     "name": "Viewer work",
-    "usage": "!mypawnwork",
+    "usage": "!mypawnwork [worktype=priority] [...]",
     "userLevel": "Anyone",
     "shortcut": false
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows your pawn's bio.",
+    "description": null,
     "name": "Viewer story",
     "usage": "!mypawnstory",
     "userLevel": "Anyone",
@@ -371,9 +465,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows your pawn's current skills and their passions.",
+    "description": null,
     "name": "Viewer skills",
     "usage": "!mypawnskills",
     "userLevel": "Anyone",
@@ -381,9 +476,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Attempts to relink your pawn to you. (Doesn't work for Puppeteer)",
+    "description": null,
     "name": "Fix viewer pawn",
     "usage": "!fixmypawn",
     "userLevel": "Anyone",
@@ -391,9 +487,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Attempts to relink all pawns to their respective viewers. (Doesn't work for Puppeteer)",
+    "description": null,
     "name": "Fix all pawns",
     "usage": "!fixallpawns",
     "userLevel": "Moderator",
@@ -401,7 +498,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Makes your pawn leave the colony.",
     "name": "Abandon pawn",
@@ -411,19 +509,21 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Shows your pawn's relationships to other viewers.",
     "name": "Viewer relations",
-    "usage": "!mypawnrelations",
+    "usage": "!mypawnrelations [viewer]",
     "userLevel": "Anyone",
     "shortcut": false
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows an overview of the colony's current faction relations.",
+    "description": null,
     "name": "Factions",
     "usage": "!factions",
     "userLevel": "Anyone",
@@ -431,7 +531,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Shows the current research progress. If a project is specified, it'll show the progress of that instead.",
     "name": "Research",
@@ -441,9 +542,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows the first few results for the query in the given category. Valid categories are: 'races', 'traits', 'items', 'events', 'diseases', 'animals', 'skills', and 'stats'.",
+    "description": "Shows the first few results for the query in the given category. Valid categories are: 'pawns', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'.",
     "name": "Lookup",
     "usage": "!lookup <item/category> [query]",
     "userLevel": "Anyone",
@@ -451,7 +553,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Similar to the lookup command, except it'll show the price for the first valid match.",
     "name": "Price check",
@@ -461,9 +564,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Removes viewers that were stuck in the \"game paused\" limbo.",
+    "description": null,
     "name": "Unstick",
     "usage": "!unstick",
     "userLevel": "Moderator",
@@ -471,9 +575,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Toggles whether or not viewers can actively purchase things from the store.",
+    "description": null,
     "name": "Toggle store",
     "usage": "!togglestore",
     "userLevel": "Moderator",
@@ -481,7 +586,8 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
     "description": "Makes your pawn insult a random viewer. If a viewer is specified, you'll insult them instead.",
     "name": "Insult",
@@ -491,9 +597,10 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows the colony's current wealth. This command uses the same value the storyteller will use.",
+    "description": null,
     "name": "Colony wealth",
     "usage": "!wealth",
     "userLevel": "Anyone",
@@ -501,12 +608,46 @@
   },
   {
     "data": {
-      "isShortcut": false
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
     },
-    "description": "Shows the current number of colonists remaining in the colony.",
+    "description": null,
     "name": "Colonist count",
     "usage": "!colonists",
     "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
+    },
+    "description": "Provides some information about supported things. Supported categories are: 'weapons'",
+    "name": "Database",
+    "usage": "!rwdata <category/weaponname> [weaponname]",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "Unstick me",
+    "usage": "!imstuck",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "mod": "ToolkitCore"
+    },
+    "description": null,
+    "name": "hello",
+    "usage": "!hello",
+    "userLevel": "Moderator",
     "shortcut": false
   }
 ]
