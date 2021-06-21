@@ -46,7 +46,7 @@
         {%- if site.store.items.quantity and include.itemdata.HasQuantityLimit == true -%}
             <span class="metadata">
                 {% capture quantityLimit %}
-                    {{ site.data.language.quantity_limit }}: {{ include.itemdata.QuantityLimit }}
+                    {{ site.data.language.limit }}: {{ include.itemdata.QuantityLimit }}
                 {% endcapture %}
 
                 {{- quantityLimit -}}
