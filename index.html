@@ -16,6 +16,10 @@ title: Store
 {%- assign weaponsForDisplay = '' | split: ',' -%}
 
 {%- for item in site.data.StoreItems.items -%}
+    {%- if item.price <= 0 -%}
+        {%- continue -%}
+    {%- endif -%}
+
     {%- if site.data.itemdata[item.defname].IsWeapon -%}
         {%- assign weaponsForDisplay = weaponsForDisplay | push: item | sort: "abr" -%}
         {%- continue -%}
