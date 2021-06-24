@@ -4,9 +4,7 @@ title: Commands
 permalink: /commands
 ---
 
-<script src="{{- 'assets/js/filter.js' | relative_url -}}"></script>
-<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} "/>
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} " />
 
 {%- assign showCommands = site.data.commands.size -%}
 
@@ -14,79 +12,100 @@ permalink: /commands
 {%- assign commands_sorted = site.data.commands | sort: "name" -%}
 
 {%- for command in commands_sorted -%}
-    {%- if command.name == "Buy" -%}
-        {%- capture buy -%}
-            {{- command.usage | split: " " | first -}}
-        {%- endcapture -%}
-        {%- break -%}
-    {%- endif -%}
+{%- if command.name == "Buy" -%}
+{%- capture buy -%}
+{{- command.usage | split: " " | first -}}
+{%- endcapture -%}
+{%- break -%}
+{%- endif -%}
 {%- endfor -%}
 
-<div id="commands">
-    {%- if showCommands > 0 -%}
-        {%- include search.html
-            id='commands'
-            type='Command'
-            placeholder=site.data.language.search_commands -%}
+{%- if showCommands > 0 -%}
+<input type="text" class="search" id="commandsInput" onkeyup="filterTable('commands')"
+    placeholder="{{- site.data.language.str_commands_search -}}">
 
-        <table class="sortable" style="display: table">
-            <thead>
-                <tr>
-                    <th style="width: 35%">{{- site.data.language.command_name_header -}}</th>
-                    
-                    {%- if site.commands.userlevel -%}
-                        <th style="width: 18%">{{- site.data.language.user_level_header -}}</th>
-                    {%- endif -%}
+<table style="display: table" class="sortable" id="commands">
+    <tr>
+        <th style="width: 35%">Command</th>
+        {%- if site.commands.userlevel -%}
+        <th style="width: 18%">User Level</th>
+        {%- endif -%}
+        <th>Description</th>
+    </tr>
 
-                    <th>{{- site.data.language.description_header -}}</th>
-                </tr>
-            </thead>
+    {%- for command in commands_sorted -%}
+    <tr>
+        <td id="{{- command.name | slugify -}}">
+            <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
 
-            <tbody>
-                {%- for command in commands_sorted -%}
-                    <tr>
-                        <td id="{{- command.name | slugify -}}">
-                            <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
+            {%- if site.commands.usage -%}
+            <span class="metadata">
+                <br />
+                {{- site.data.language.str_usage -}}:&nbsp;{{- command.usage | prepend: " " | replace: "(", "&lt;" |
+                replace: ")", "&gt;" -}}
+            </span>
+            {%- endif -%}
+        </td>
+        {%- if site.commands.userlevel -%}
+        <td>{{- command.userLevel -}}</td>
+        {%- endif -%}
+        <td>
+            {{- command.description -}}
 
-                            {%- if site.commands.mod -%}
-                                <span class="metadata">
-                                    {{- site.data.language.from | replace: '%s', command.data.mod -}}
-                                </span>
-                            {%- endif -%}
+            {%- if site.commands.shortcut and command.shortcut -%}
+            <br />
+            <span class="metadata">
+                {{- site.data.language.str_shortcut -}} {{- buy -}}
+                {%- capture prefix -%}
+                {{- command.usage | slice: 0 -}}
+                {%- endcapture -%}
+                {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;"
+                -}}
+            </span>
+            {%- endif -%}
+        </td>
+    </tr>
+    {%- endfor -%}
+</table>
+{%- else -%}
+<p align="center">{{- site.data.languages.str_no_commands -}}</p>
+{%- endif -%}
 
-                            {%- if site.commands.usage -%}
-                                <span class="metadata">
-                                    {% capture usage %}
-                                        {{ command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" }}
-                                    {% endcapture %}
 
-                                    {{- site.data.language.usage | replace: '%s', usage -}}
-                                </span>
-                            {%- endif -%}
-                        </td>
 
-                        {%- if site.commands.userlevel -%}
-                            <td>{{- command.userLevel -}}</td>
-                        {%- endif -%}
-                        
-                        <td>
-                            {{- command.description -}}
+<script>
+    function filterTable(category) {
+        var input, filter, table, tr, td, i, textValue, column;
+        input = document.getElementById(category + "Input")
+        filter = input.value.toUpperCase();
+        table = document.getElementById(category);
+        tr = table.getElementsByTagName("tr");
+        column = 0;
 
-                            {%- if site.commands.shortcut and command.shortcut -%}
-                                <span class="metadata">
-                                    {% capture shortcut %}
-                                        {{ buy }} {{ command.usage | slice: 1, command.usage.size | replace: "(" , "&lt;" | replace: ")", "&gt;" }}
-                                    {% endcapture %}
+        if (filter.startsWith("LEVEL:")) {
+            filter = filter.substring("LEVEL".length + 1).trimLeft();
+            column = 1;
+        }
 
-                                    {{- site.data.language.shortcut | replace: '%s', shortcut -}}
-                                </span>
-                            {%- endif -%}
-                        </td>
-                    </tr>
-                {%- endfor -%}
-            </tbody>
-        </table>
-    {%- else -%}
-        <p style="text-align: center;">{{- site.data.languages.no_commands -}}</p>
-    {%- endif -%}
-</div>
+        if (filter.startsWith("NAME:")) {
+            filter = filter.substring("NAME".length + 1).trimLeft();
+            column = 0;
+        }
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[column];
+
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
