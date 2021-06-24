@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Commands
-permalink: /commands
+title: Bingo Dare List 
+permalink: /bingodarelist
 ---
 
 # Bingo Dare List  
