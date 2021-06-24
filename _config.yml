@@ -1,55 +1,53 @@
 # Metadata
 title: "NekoRivera's Purchase List"
 favicon: assets/img/favicon.png
-description: A custom version of Toolkit's item list
-
-baseurl: '/itemlist' # the subpath of your site, e.g. /blog
-url: '' 
+description: >-
+  An expanded item list for TwitchToolkit 
+  
+baseurl: '/NekoRivera' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Nekovampire13
-github_username: NekoRivera
+github_username: 'NekoRivera'
 
 # Item list settings
-#
-# A brief overview of the settings in this section include:
 store:
-#   category    → Whether or not the item's in-game category willbe visible on the list.
-#   weight      → Whether or not the item's purchase weight will be visible on the list.
-#   karma       → Whether or not the product's karma type override will be visible on the list
-#   usage       → Whether or not the list will display an example command on how to purchase the product.
-#   quantity    → Whether or not the item's quantity limit will be visible on the list.
-#   mod         → Whether or not the list will display the mod that added the product.
-#   conflicts   → Whether or not the list will display any trait conflicts the trait has.
-#   stats       → Whether or not the list will display any stats the trait has.
-#   limit       → Whether or not the list will display when a trait can bypass the trait limit.
-#   description → Whether or not the list will display the trait's description.
   traits:
+    # Whether or not the trait list will display conflicts with other traits.
     conflicts: true
+    # Whether or not the trait list will display trait stats.
     stats: true
+    # Whether or not the trait list will display karma type overrides.
     karma: true
+    # Whether or not the trait list will display whether or not a trait bypasses the trait limit.
     limit: true
+    # Whether or not the trait list will display trait descriptions.
     description: true
+    # Whether or not the trait list will display the command a viewer should type for adding/removing that trait.
     usage: false
-    mod: true
   kinds:
-    mod: true
+    # Whether or not the kind list will display karma type overrides.
     karma: true
-    usage: true
+    # Whether or not the kind list will display the command a viewer should type for purchasing that kind.
+    usage: false
   items:
+    # Whether or not the item list will display an item's in-game category.
     category: true
+    # Whether or not the item list will display an item's purchase weight.
     weight: true
+    # Whether or not the item list will display an item's karma type override.
     karma: true
+    # Whether or not the item list will display an item's quantity limit.
     quantity: true
+    # Whether or not the item list will display the mod that added it.
     mod: true
+    # Whether or not the item list will display the command a viewer should type for purchasing that item.
     usage: true
   events:
-    usage: true
-    mod: true
+    # Whether or not the event list will display the command a viewer should type for purchasing that event.
+    usage: false
   animals:
-    usage: true
-    mod: true
-    weight: true
-    quantity: true
-    karma: true
+    # Whether or not the animal list will display the command a viewer should type for purchasing that animal.
+    usage: false
 
 commands:
   # Whether or not the command list will display the command's shortcut disclaimer.
@@ -58,14 +56,23 @@ commands:
   userlevel: true
   # Whether or not the command list will display the command's uage.
   usage: true
-  # Whether or not the command list will display the mod that added it.
-  mod: true
 
 mods:
   # Whether or not the mod list will display the mod's version.
   version: true
   # Whether or not the mod list will display the mod's author(s).
   author: true
+
+store_redirects:
+  trait:
+    - 'removetrait'
+    - 'trait'
+    - 'replacetrait'
+  kind:
+    - 'pawn'
+  item:
+    - 'backpack'
+    - 'surgery'
 
 # Build settings
 remote_theme: SirRandoo/Type-on-Strap
