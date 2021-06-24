@@ -4,55 +4,80 @@ layout: page
 permalink: /modlist
 ---
 
-<script src="{{- 'assets/js/filter.js' | relative_url -}}"></script>
 <link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} " />
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
-<div id="mods">
-    {%- include search.html
-        id='mods'
-        type='Mod'
-        placeholder=site.data.language.search_mods -%}
+<input type="text" class="search" id="modInput" onkeyup="filterTable('mod')"
+    placeholder="{{- site.data.language.str_mod_search -}}">
 
-    <table class="sortable">
-        <thead>
-            <tr>
-                <th>{{- site.data.language.mod_name_header -}}</th>
 
-                {%- if site.mods.author -%}
-                    <th class="author">{{- site.data.language.author_header -}}</th>
-                {%- endif -%}
+<table style="display: table;" class="sortable" id="mod">
+    <tr>
+        <th>Mod Name</th>
+        {%- if site.mods.author -%}
+        <th style="width: 35%">Author</th>
+        {%- endif -%}
+        {%- if site.mods.version -%}
+        <th style="width: 20%">Version</th>
+        {%- endif -%}
+    </tr>
 
-                {%- if site.mods.version -%}
-                    <th class="version">{{- site.data.language.version_header -}}</th>
-                {%- endif -%}
-            </tr>
-        </thead>
+    {%- for mod in site.data.modlist -%}
+    <tr>
+        <td>
+            {%- if mod.steamId != nil and mod.steamId != "" and mod.steamId != "0" -%}
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}">{{- mod.name -}}</a>
+            {%- else -%}
+            <a
+                href="https://steamcommunity.com/workshop/browse/?appid=294100&searchtext={{- mod.name | url_encode -}}&browsesort=textsearch&section=home">{{-
+                mod.name -}}</a>
+            {%- endif -%}
+        </td>
+        {%- if site.mods.author -%}
+        <td>{{- mod.author -}}</td>
+        {%- endif -%}
+        {%- if site.mods.version -%}
+        <td>{{- mod.version -}}</td>
+        {%- endif -%}
+    </tr>
+    {%- endfor -%}
+</table>
 
-        <tbody>
-            {%- for mod in site.data.modlist -%}
-                {%- capture link -%}
-                    {%- if mod.steamId == nil or mod.steamId == "" or mod.steamId == "0" -%}
-                        https://steamcommunity.com/workshop/browse/?appid=294100&searchtext={{- mod.name | url_encode-}}
-                    {%- else -%}
-                        https://steamcommunity.com/sharedfiles/filedetails/?id={{- mod.steamId -}}
-                    {%- endif -%}
-                {%- endcapture -%}
 
-                <tr>
-                    <td>
-                        <a href="{{- link -}}">{{- mod.name -}}</a>
-                    </td>
 
-                    {%- if site.mods.author -%}
-                        <td>{{- mod.author -}}</td>
-                    {%- endif -%}
+<script>
+    function filterTable(category) {
+        var input, filter, table, tr, td, i, textValue, column;
+        input = document.getElementById(category + "Input")
+        filter = input.value.toUpperCase();
+        table = document.getElementById(category);
+        tr = table.getElementsByTagName("tr");
+        column = 0;
 
-                    {%- if site.mods.version -%}
-                        <td>{{- mod.version -}}</td>
-                    {%- endif -%}
-                </tr>
-            {%- endfor -%}
-        </tbody>
-    </table>
-</div>
+        if (category == "mod") {
+            if (filter.startsWith("AUTHOR:")) {
+                filter = filter.substring("AUTHOR".length + 1).trimLeft();
+                column = 1;
+            }
+
+            if (filter.startsWith("NAME:")) {
+                filter = filter.substring("NAME".length + 1).trimLeft();
+                column = 0;
+            }
+        }
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[column];
+
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
