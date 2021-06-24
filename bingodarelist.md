@@ -1,4 +1,8 @@
-[Return Home](index.md)
+---
+layout: page
+title: Commands
+permalink: /commands
+---
 
 # Bingo Dare List  
 
