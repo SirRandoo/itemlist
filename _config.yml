@@ -1,73 +1,56 @@
-# Metadata
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: "NekoRivera's Purchase List"
 favicon: assets/img/favicon.png
-description: A custom version of Toolkit's item list
+description: >-
+  An expanded item list for TwitchToolkit
 
-baseurl: '/itemlist' # the subpath of your site, e.g. /blog
-url: '' 
-twitter_username: Nekovampire13
-github_username: NekoRivera
+email: ''
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'twith.tv/NekoRivera' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'Nekovampire13'
+github_username: 'NekoRivera'
 
-# Item list settings
-#
-# A brief overview of the settings in this section include:
-store:
-#   category    → Whether or not the item's in-game category willbe visible on the list.
-#   weight      → Whether or not the item's purchase weight will be visible on the list.
-#   karma       → Whether or not the product's karma type override will be visible on the list
-#   usage       → Whether or not the list will display an example command on how to purchase the product.
-#   quantity    → Whether or not the item's quantity limit will be visible on the list.
-#   mod         → Whether or not the list will display the mod that added the product.
-#   conflicts   → Whether or not the list will display any trait conflicts the trait has.
-#   stats       → Whether or not the list will display any stats the trait has.
-#   limit       → Whether or not the list will display when a trait can bypass the trait limit.
-#   description → Whether or not the list will display the trait's description.
-  traits:
-    conflicts: true
-    stats: true
-    karma: true
-    limit: true
-    description: true
-    usage: false
-    mod: true
-  kinds:
-    mod: true
-    karma: true
-    usage: true
-  items:
-    category: true
-    weight: true
-    karma: true
-    quantity: true
-    mod: true
-    usage: true
-  events:
-    usage: true
-    mod: true
-  animals:
-    usage: true
-    mod: true
-    weight: true
-    quantity: true
-    karma: true
-
-commands:
-  # Whether or not the command list will display the command's shortcut disclaimer.
-  shortcut: true
-  # Whether or not the command list will display the command's required user level.
-  userlevel: true
-  # Whether or not the command list will display the command's uage.
-  usage: true
-  # Whether or not the command list will display the mod that added it.
-  mod: true
-
-mods:
-  # Whether or not the mod list will display the mod's version.
-  version: true
-  # Whether or not the mod list will display the mod's author(s).
-  author: true
+remote_theme: Sylhare/Type-on-Strap
 
 # Build settings
-remote_theme: SirRandoo/Type-on-Strap
+# theme: minima
 plugins:
-  -
+  - jekyll-feed
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

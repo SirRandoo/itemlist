@@ -3,225 +3,352 @@ layout: page
 title: Store
 ---
 
-<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} "/>
-<script src="{{- 'assets/js/tabs.js' | relative_url -}}"></script>
-<script src="{{- 'assets/js/filter.js' | relative_url -}}"></script>
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-
-{%- assign itemsForDisplay = '' | split: ',' -%}
-{%- assign eventsForDisplay = site.data.StoreIncidents.incitems | where_exp: "incident", "incident.price > 0" | sort: "abr" -%}
-{%- assign animalsForDisplay = site.data.StoreItems.items | where: "category", "Animal" | where_exp: "animal", "animal.price > 0" | sort: "abr" -%}
-{%- assign traitsForDisplay = '' | split: ',' -%}
-{%- assign kindsForDisplay = site.data.ShopExt.races | where: "enabled", "true" | sort: "name" -%}
-{%- assign weaponsForDisplay = '' | split: ',' -%}
-
-{%- for item in site.data.StoreItems.items -%}
-    {%- if item.price <= 0 -%}
-        {%- continue -%}
-    {%- endif -%}
-
-    {%- if site.data.itemdata[item.defname].IsWeapon -%}
-        {%- assign weaponsForDisplay = weaponsForDisplay | push: item | sort: "abr" -%}
-        {%- continue -%}
-    {%- endif -%}
-
-    {%- if item.category != "Animal" -%}
-        {%- assign itemsForDisplay = itemsForDisplay | push: item | sort: "abr" -%}
-        {%- continue -%}
-    {%- endif -%}
-{%- endfor -%}
-
-{%- for trait in site.data.ShopExt.traits -%}
-    {%- if trait.canAdd == true or trait.canRemove == true -%}
-        {%- assign traitsForDisplay = traitsForDisplay | push: trait | sort: "name" -%}
-    {%- endif -%}
-{%- endfor -%}
-
-{%- assign buy = "" -%}
-{%- for command in site.data.commands -%}
-    {%- if command.data.isBuy == true -%}
-        {%- capture buy -%}
-            {{- command.usage | split: " " | first -}}
-        {%- endcapture -%}
-        {%- break -%}
-    {%- endif -%}
-{%- endfor -%}
-
 <div class="tab">
-    {%- if itemsForDisplay.size > 0 -%}
-        {%- include tab.html id='items' -%}
-    {%- endif -%}
-
-    {%- if eventsForDisplay.size > 0 -%}
-        {%- include tab.html id='events' -%}
-    {%- endif -%}
-
-    {%- if weaponsForDisplay.size > 0 -%}
-        {%- include tab.html id='weapons' -%}
-    {%- endif -%}
-
-    {%- if animalsForDisplay.size > 0 -%}
-        {%- include tab.html id='animals' -%}
-    {%- endif -%}
-
-    {%- if traitsForDisplay.size > 0 -%}
-        {%- include tab.html id='traits' -%}
-    {%- endif -%}
-
-    {%- if kindsForDisplay.size > 0 -%}
-        {%- include tab.html id='kinds' -%}
-    {%- endif -%}
+    <button class="tablinks" onclick="changeTab(event, 'items')"
+        id="defaultOpen">{{- site.data.language.str_items -}}</button>
+    <button class="tablinks" onclick="changeTab(event, 'events')">{{- site.data.language.str_events -}}</button>
+    <button class="tablinks" onclick="changeTab(event, 'traits')">{{- site.data.language.str_traits -}}</button>
+    <button class="tablinks" onclick="changeTab(event, 'races')">{{- site.data.language.str_races -}}</button>
 </div>
 
-{%- if itemsForDisplay.size > 0 -%}
-    {%- assign headers = '' | split: ',' -%}
-    {%- assign headers = headers | push: site.data.language.name_header -%}
-    {%- assign headers = headers | push: site.data.language.cost_header -%}
+<div id="items" class="tabcontent">
+    <input type="text" class="search" id="itemsInput" onkeyup="filterTable('items')"
+        placeholder="{{- site.data.language.str_items_search -}}">
 
-    {%- if site.store.items.category -%}
-        {%- assign headers = headers | push: site.data.language.category_header -%}
-    {%- endif -%}
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>Category</th>
+        </tr>
 
-    {%- assign headers = headers | join: ',' -%}
+        {%- for item in site.data.StoreItems.items -%}
+        {%- if item.price >= 0 -%}
+        <tr>
+            <td>{{- item.abr -}}</td>
+            <td>{{- item.price -}}</td>
+            <td>{{- item.category -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
 
-    {%- include store_tab.html 
-        id='items'
-        type='Item'
-        buyName=buy
-        headers=headers
-        priceDataHeaders='Cost'
-        displayData=itemsForDisplay
-        placeholder=site.data.language.search_items -%}
-{%- endif -%}
+<div id="events" class="tabcontent">
+    <input type="text" class="search" id="eventsInput" onkeyup="filterTable('events')"
+        placeholder="{{- site.data.language.str_events_search -}}">
 
-{%- if eventsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }},{{ site.data.language.karma_type_header }}
-    {% endcapture %}
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>Karma Type</th>
+        </tr>
 
-    {%- include store_tab.html
-        id='events'
-        type='Event'
-        buyName=buy
-        headers=headers
-        karmaHeaders=site.data.language.karma_type_header
-        displayData=eventsForDisplay
-        placeholder=site.data.language.search_events -%}
-{%- endif -%}
+        {%- for item in site.data.StoreIncidents.incitems -%}
+        {%- if item.price > 0 -%}
+        <tr>
+            <td>{{- item.abr -}}</td>
+            {%- if item.abr == site.data.language.str_trait_id or item.abr == site.data.language.str_removetrait_id -%}
+            <td>{{- site.data.language.str_seetraits -}}</td>
+            {%- elsif item.abr == site.data.language.str_pawn_id -%}
+            <td>{{- site.data.language.str_seeraces -}}</td>
+            {%- else -%}
+            <td>{{- item.price -}}</td>
+            {%- endif -%}
+            <td>{{- item.karmatype -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
 
-{%- if weaponsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }}
-    {% endcapture %}
+<div id="traits" class="tabcontent">
+    <input type="text" class="search" id="traitsInput" onkeyup="filterTable('traits')"
+        placeholder="{{- site.data.language.str_traits_search -}}">
 
-    {%- include store_tab.html
-        id='weapons'
-        type='Weapon'
-        buyName=buy
-        headers=headers
-        priceDataHeaders=site.data.language.cost_header
-        displayData=weaponsForDisplay
-        placeholder=site.data.language.search_weapons -%}
-{%- endif -%}
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th style="width: 15%">Add Cost</th>
+            <th style="width: 15%">Remove Cost</th>
+        </tr>
 
-{%- if animalsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }}
-    {% endcapture %}
+        {%- for item in site.data.ShopExt.traits -%}
+        {%- if item.canAdd or item.canRemove -%}
+        <tr>
+            <td>{{- item.name | capitalize -}}</td>
+            <td style="font-size: 17px;">
+                {{- item.description -}}
 
-    {%- include store_tab.html
-        id='animals'
-        type='Animal'
-        buyName=buy
-        headers=headers
-        priceDataHeaders=site.data.language.cost_header
-        displayData=animalsForDisplay
-        placeholder=site.data.language.search_animals -%}
-{%- endif -%}
+                {%- capture temp -%}
+                {{- item.stats | first -}}
+                {%- endcapture -%}
 
-{%- if traitsForDisplay.size > 0 -%}
-    {%- assign headers = site.data.language.name_header | split: ',' -%}
+                {%- if temp != "" -%}
+                <span style="font-style:italic; color: #5a5454; font-size: 17px;">
+                    <br />
+                    <br />
+                    {{- site.data.language.str_trait_stats -}}
 
-    {%- if site.store.traits.description or site.store.traits.conflicts or site.store.traits.stats or site.store.traits.limit -%}
-        {%- assign headers = headers | push: site.data.language.description_header -%}
-    {%- endif -%}
+                    <ul>
+                        {%- for stat in item.stats -%}
+                        <li>{{- stat -}}</li>
+                        {%- endfor -%}
+                    </ul>
+                </span>
+                {%- endif -%}
 
-    {%- assign headers = headers | push: site.data.language.add_cost_header -%}
-    {%- assign headers = headers | push: site.data.language.remove_cost_header -%}
-    {%- assign headers = headers | join: ',' -%}
+                {%- capture nameTemp -%}
+                {{- item.conflicts | first -}}
+                {%- endcapture -%}
 
-    {% capture priceDataHeaders %}
-        {{ site.data.language.add_cost_header }},{{ site.data.language.remove_cost_header }}
-    {% endcapture %}
+                {%- if nameTemp != "" -%}
+                <span style="font-style:italic; color: #5a5454; font-size: 17px;">
+                    {%- if temp == "" -%}
+                    <br />
+                    <br />
+                    {%- endif -%}
 
-    {%- include store_tab.html
-        id='traits'
-        type='Trait'
-        buyName=buyName
-        priceDataHeaders=priceDataHeaders
-        headers=headers
-        displayData=traitsForDisplay
-        placeholder=site.data.language.search_traits -%}
-{%- endif -%}
+                    {{- site.data.language.str_trait_conflicts -}}
 
-{%- if kindsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }}
-    {% endcapture %}
+                    <ul>
+                        {%- for c in item.conflicts -%}
+                        <li>{{- c -}}</li>
+                        {%- endfor -%}
+                    </ul>
+                </span>
+                {%- endif -%}
+            </td>
 
-    {%- include store_tab.html
-        id='kinds'
-        type='Pawn'
-        buyName=buyName
-        priceDataHeaders=site.data.language.price_header
-        headers=headers
-        displayData=kindsForDisplay
-        placeholder=site.data.language.search_pawn_kinds -%}
-{%- endif -%}
+            {%- if item.canAdd -%}
+            <td>{{- item.addPrice -}}</td>
+            {%- else -%}
+            <td>{{- site.data.language.str_disabled -}}</td>
+            {%- endif -%}
+
+            {%- if item.canRemove -%}
+            <td>{{- item.removePrice -}}</td>
+            {%- else -%}
+            <td>{{- site.data.language.str_disabled -}}</td>
+            {%- endif -%}
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
+
+<div id="races" class="tabcontent">
+    <input type="text" class="search" id="racesInput" onkeyup="filterTable('races')"
+        placeholder="{{- site.data.language.str_races_search -}}">
+
+    <table style="display: table" class="sortable">
+        <tr>
+            <th>Name</th>
+            <th>Cost</th>
+        </tr>
+
+        {%- for item in site.data.ShopExt.races -%}
+        {%- if item.enabled -%}
+        <tr>
+            <td>{{- item.name -}}</td>
+            <td>{{- item.price -}}</td>
+        </tr>
+        {%- endif -%}
+        {%- endfor -%}
+    </table>
+</div>
 
 
 <script>
-    window.addEventListener("load", function (event) {
-        var query = "";
-        var queryStarted = false;
-        var tab = "items";
-        var url = document.URL;
+    document.getElementById("defaultOpen").click();
 
-        for (var i = 0; i < url.length; i++) {
-            var e = url[i];
+    function changeTab(evt, category) {
+        var i, tabcontent, tablinks;
 
-            if (e == "?") {
-                queryStarted = true;
-                continue;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(category).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    function filterTable(category) {
+        var input, filter, table, tr, td, i, textValue, column, price, priceSearch;
+        input = document.getElementById(category + "Input")
+        filter = input.value.toUpperCase();
+        table = document.getElementById(category).lastElementChild;
+        tr = table.getElementsByTagName("tr");
+        column = 0;
+        price = 0;
+        priceSearch = 1;
+
+        if (filter.startsWith("CATEGORY:") && category == "items") {
+            filter = filter.substring("category".length + 1);
+            column = 2;
+        }
+
+        if (filter.startsWith("KARMA:") && category == "events") {
+            filter = filter.substring("karma".length + 1);
+            column = 2;
+        }
+
+
+        if (category != "traits") {
+            if (filter.startsWith("BELOW:")) {
+                filter = filter.substring("below".length + 1);
+                column = 1;
+                price = parseInt(filter);
+                priceSearch = -1;
+            }
+            if (filter.startsWith("ABOVE:")) {
+                filter = filter.substring("above".length + 1);
+                column = 1;
+                price = parseInt(filter);
+                priceSearch = 1;
             }
 
-            if (e == "#" || e == "/") {
-                queryStarted = false;
-                continue;
+            if (filter.startsWith("EQUALS:")) {
+                filter = filter.substring("equals".length + 1);
+                column = 1;
+                price = parseInt(filter);
+                priceSearch = 0;
+            }
+        } else {
+            if (filter.startsWith("ADDBELOW:")) {
+                filter = filter.substring("addbelow".length + 1);
+                column = 2;
+                price = parseInt(filter);
+                priceSearch = -1;
+            }
+            if (filter.startsWith("ADDABOVE:")) {
+                filter = filter.substring("addabove".length + 1);
+                column = 2;
+                price = parseInt(filter);
+                priceSearch = 1;
             }
 
-            if (queryStarted) {
-                query = query + e;
+            if (filter.startsWith("ADDEQUALS:")) {
+                filter = filter.substring("addequals".length + 1);
+                column = 2;
+                price = parseInt(filter);
+                priceSearch = 0;
+            }
+
+            if (filter.startsWith("REMOVEBELOW:")) {
+                filter = filter.substring("removebelow".length + 1);
+                column = 3;
+                price = parseInt(filter);
+                priceSearch = -1;
+            }
+            if (filter.startsWith("REMOVEABOVE:")) {
+                filter = filter.substring("removeabove".length + 1);
+                column = 3;
+                price = parseInt(filter);
+                priceSearch = 1;
+            }
+
+            if (filter.startsWith("REMOVEEQUALS:")) {
+                filter = filter.substring("removeequals".length + 1);
+                column = 3;
+                price = parseInt(filter);
+                priceSearch = 0;
             }
         }
 
-        if (query.length <= 0) {
-            return document.getElementsByClassName("tabLinks")[0].click();
-        }
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[column];
 
-        var segments = query.split("&");
-        for (var i = 0; i < segments.length; i++) {
-            var e = segments[i].split('=');
+            if (td) {
+                txtValue = td.textContent || td.innerText;
 
-            if (e[1] == null || e[1] == "") {
-                continue;
+                if ((category != "traits" && column != 1) || (category == "traits" && column < 2)) {
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                } else {
+                    intValue = parseInt(txtValue);
+
+                    switch (priceSearch) {
+                        case 0:
+                            tr[i].style.display = (intValue == price) ? "" : "none";
+                            break;
+                        case 1:
+                            tr[i].style.display = (intValue > price) ? "" : "none";
+                            break;
+                        case -1:
+                            tr[i].style.display = (intValue < price) ? "" : "none";
+                            break;
+                    }
+                }
             }
-
-            if (e[0].toUpperCase() == "TAB") {
-                return changeTab({ currentTarget: document.getElementById(e[1]) }, e[1])
-            }
         }
-
-        return document.getElementsByClassName("tabLinks")[0].click();
-    });
+    }
 </script>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<style>
+    .tab {
+        overflow: hidden;
+        border: 1px solid #cccccc;
+        background-color: #f1f1f1;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+
+    .tab button:hover {
+        background-color: #dddddd;
+    }
+
+    .tab button.active {
+        background-color: #cccccc;
+    }
+
+    .tabcontent {
+        display: none;
+        animation: fadeEffect 320ms;
+        border-top: none;
+    }
+
+    @keyframes fadeEffect {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    .search {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #dddddd;
+        margin-bottom: 12px;
+    }
+    
+    table.sortable tr:nth-child(even) {
+      background: #CCC
+    }
+</style>

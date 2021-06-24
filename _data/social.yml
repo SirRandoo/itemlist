@@ -1,5 +1,5 @@
 # Icons on the footer
-rss: false
+rss: true
 email_address:
 behance:
 bitbucket:
@@ -7,8 +7,8 @@ dribbble:
 facebook:
 flickr:
 gitlab:
-github: NekoRivera
-instagram: Nekovampire13
+github:
+instagram:
 keybase:
 linkedin:
 pinterest:
@@ -21,7 +21,7 @@ tumblr:
 twitter: Nekovampire13
 vimeo:
 wordpress:
-youtube: 
+youtube: # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
 twitch: NekoRivera
 
 # Share button options
