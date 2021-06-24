@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Scav's Purchase List"
+title: "NekoRivera's Purchase List"
 favicon: assets/img/favicon.png
 description: >-
-  An expanded item list for TwitchToolkit that supports ToolkitUtils' shop.
+  An expanded item list for TwitchToolkit
 
 email: ''
-baseurl: '/itemlist' # the subpath of your site, e.g. /blog
-url: 'twith.tv/scavenging_mechanic' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 'ScavMechanic'
-github_username: 'scavmech'
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'twith.tv/NekoRivera' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'Nekovampire13'
+github_username: 'NekoRivera'
 
 remote_theme: Sylhare/Type-on-Strap
 
