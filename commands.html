@@ -4,10 +4,6 @@ title: Commands
 permalink: /commands
 ---
 
-<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} " />
-
-{%- assign showCommands = site.data.commands.size -%}
-
 {%- assign buy = "" -%}
 {%- assign commands_sorted = site.data.commands | sort: "name" -%}
 
@@ -20,47 +16,37 @@ permalink: /commands
 {%- endif -%}
 {%- endfor -%}
 
-{%- if showCommands > 0 -%}
+{%- if site.data.commands -%}
 <input type="text" class="search" id="commandsInput" onkeyup="filterTable('commands')"
     placeholder="{{- site.data.language.str_commands_search -}}">
 
 <table style="display: table" class="sortable" id="commands">
     <tr>
         <th style="width: 35%">Command</th>
-        {%- if site.commands.userlevel -%}
         <th style="width: 18%">User Level</th>
-        {%- endif -%}
         <th>Description</th>
     </tr>
 
     {%- for command in commands_sorted -%}
     <tr>
-        <td id="{{- command.name | slugify -}}">
-            <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
-
-            {%- if site.commands.usage -%}
-            <span class="metadata">
-                <br />
-                {{- site.data.language.str_usage -}}:&nbsp;{{- command.usage | prepend: " " | replace: "(", "&lt;" |
-                replace: ")", "&gt;" -}}
-            </span>
-            {%- endif -%}
+        <td>
+            {{- command.name -}}
+            <br />
+            <span style="font-style:italic; color: #5a5454; font-size: 17px;">{{- site.data.language.str_usage -}}:
+                {{- command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}</span>
         </td>
-        {%- if site.commands.userlevel -%}
         <td>{{- command.userLevel -}}</td>
-        {%- endif -%}
         <td>
             {{- command.description -}}
 
-            {%- if site.commands.shortcut and command.shortcut -%}
+            {%- if command.shortcut -%}
             <br />
-            <span class="metadata">
+            <span style="font-style:italic; color: #5a5454; font-size: 17px;">
                 {{- site.data.language.str_shortcut -}} {{- buy -}}
                 {%- capture prefix -%}
                 {{- command.usage | slice: 0 -}}
                 {%- endcapture -%}
-                {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;"
-                -}}
+                {{- command.usage | remove_first: prefix | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" -}}
             </span>
             {%- endif -%}
         </td>
@@ -75,25 +61,14 @@ permalink: /commands
 
 <script>
     function filterTable(category) {
-        var input, filter, table, tr, td, i, textValue, column;
+        var input, filter, table, tr, td, i, textValue;
         input = document.getElementById(category + "Input")
         filter = input.value.toUpperCase();
         table = document.getElementById(category);
         tr = table.getElementsByTagName("tr");
-        column = 0;
-
-        if (filter.startsWith("LEVEL:")) {
-            filter = filter.substring("LEVEL".length + 1).trimLeft();
-            column = 1;
-        }
-
-        if (filter.startsWith("NAME:")) {
-            filter = filter.substring("NAME".length + 1).trimLeft();
-            column = 0;
-        }
 
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[column];
+            td = tr[i].getElementsByTagName("td")[0];
 
             if (td) {
                 txtValue = td.textContent || td.innerText;
@@ -109,3 +84,17 @@ permalink: /commands
 </script>
 
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<style>
+    .search {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #dddddd;
+        margin-bottom: 12px;
+    }
+
+    table.sortable tr:nth-child(even) {
+      background: #CCC
+    }
+</style>
