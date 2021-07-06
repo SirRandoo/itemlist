@@ -49,12 +49,14 @@ permalink: /commands
                             <a href="#{{- command.name | slugify -}}">{{- command.name -}}</a>
 
                             {%- if site.commands.mod -%}
+                                <br/>
                                 <span class="metadata">
                                     {{- site.data.language.from | replace: '%s', command.data.mod -}}
                                 </span>
                             {%- endif -%}
 
                             {%- if site.commands.usage -%}
+                                <br/>
                                 <span class="metadata">
                                     {% capture usage %}
                                         {{ command.usage | prepend: " " | replace: "(", "&lt;" | replace: ")", "&gt;" }}
@@ -73,6 +75,7 @@ permalink: /commands
                             {{- command.description -}}
 
                             {%- if site.commands.shortcut and command.shortcut -%}
+                                <br/>
                                 <span class="metadata">
                                     {% capture shortcut %}
                                         {{ buy }} {{ command.usage | slice: 1, command.usage.size | replace: "(" , "&lt;" | replace: ")", "&gt;" }}

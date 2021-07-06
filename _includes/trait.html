@@ -3,6 +3,7 @@
         {{- include.trait.name -}}
 
         {%- if site.store.traits.mod -%}
+            <br/>
             <span class="metadata">
                 {% capture mod %}
                     {{ site.data.language.from | replace: '%s', include.trait.data.mod }}
@@ -13,6 +14,7 @@
         {%- endif -%}
 
         {%- if site.store.traits.limit and trait.data.canBypassLimit -%}
+            <br/>
             <span class="metadata">
                 {{- site.data.language.bypasses_limit -}}
             </span>
@@ -20,6 +22,7 @@
         
         {%- if site.store.traits.usage -%}
             {%- for event in include.traitEvents -%}
+                <br/>
                 <span class="metadata">
                     {% capture usage %}
                         {{ include.buyName }} {{ event }} {{ include.trait.name }}
@@ -37,6 +40,7 @@
         {%- endif -%}
 
         {%- if site.store.traits.stats and include.trait.data.stats.size > 0 -%}
+            <br/>
             <span class="metadata">
                 {{- site.data.language.stats -}}
 
@@ -49,6 +53,7 @@
         {%- endif -%}
 
         {%- if site.store.traits.conflicts and include.trait.data.conflicts.size > 0 -%}
+            <br/>
             <span class="metadata">
                 {{- site.data.language.conflicts_with -}}
 
@@ -66,6 +71,7 @@
             {{ include.trait.addPrice }}
 
             {% if site.store.traits.karma and include.trait.data.karmaTypeForAdding != nil %}
+                <br/>
                 <span class="metadata">
                     {{ site.data.language.karma }}: {{ include.trait.data.karmaTypeForAdding }}
                 </span>
@@ -78,6 +84,7 @@
             {{ include.trait.removePrice }}
 
             {% if site.store.traits.karma and include.trait.data.karmaTypeForRemoving != nil %}
+                <br/>
                 <span class="metadata">
                     {{ site.data.language.karma }}: {{ include.trait.data.karmaTypeForRemoving }}
                 </span>

@@ -11,6 +11,7 @@
         {{- name -}}
 
         {%- if site.store.animals.mod -%}
+            <br/>
             <span class="metadata">
                 {% capture mod %}
                     {{ site.data.language.from | replace: '%s', include.itemdata.Mod }}
@@ -21,6 +22,7 @@
         {%- endif -%}
 
         {%- if site.store.animals.usage -%}
+            <br/>
             <span class="metadata">
                 {% capture usage %}
                     {{ include.buyName }} {{ name }} 1
@@ -35,6 +37,7 @@
         {{- item.price -}}
 
         {%- if site.store.animals.weight and include.itemdata.Weight != 1 -%}
+            <br/>
             <span class="metadata">
                 {% capture weight %}
                     {{ site.data.language.weight }}: {{ include.itemdata.Weight }}
@@ -45,6 +48,7 @@
         {%- endif -%}
 
         {%- if site.store.animals.quantity and include.itemdata.HasQuantityLimit == true -%}
+            <br/>
             <span class="metadata">
                 {% capture quantity %}
                     {{ site.data.language.limit }}: {{ include.itemdata.QuantityLimit }}
@@ -55,6 +59,7 @@
         {%- endif -%}
 
         {%- if site.store.animals.karma and include.itemdata.KarmaType != nil -%}
+            <br/>
             <span class="metadata">
                 {% capture karmaType %}
                     {{ site.data.language.karma }}: {{ include.itemdata.KarmaType }}

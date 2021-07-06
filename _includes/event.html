@@ -3,6 +3,7 @@
         {{- include.event.abr -}}
 
         {%- if site.store.events.mod -%}
+            <br/>
             <span class="metadata">
                 {% capture mod %}
                     {{ site.data.language.from | replace: '%s', include.eventdata.Mod }}
@@ -13,6 +14,7 @@
         {%- endif -%}
 
         {%- if site.store.events.usage -%}
+            <br/>
             <span class="metadata">
                 {% capture usage %}
                     {{ include.buyName}} {{ include.event.abr }}

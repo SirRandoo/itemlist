@@ -12,6 +12,7 @@
 
 
         {%- if site.store.items.mod -%}
+            <br/>
             <span class="metadata">
                 {{- site.data.language.from | | replace: '%s', include.itemdata.Mod -}}
             </span>
@@ -19,6 +20,7 @@
 
 
         {%- if site.store.items.usage -%}
+            <br/>
             <span class="metadata">
                 {% capture usage %}
                     {{ include.buyName }} {{ name }} 1
@@ -34,6 +36,7 @@
         {{- include.item.price -}}
 
         {%- if site.store.items.weight and include.itemdata.Weight != 1 -%}
+            <br/>
             <span class="metadata">
                 {% capture weight %}
                     {{ site.data.language.weight }}: {{ include.itemdata.Weight }}
@@ -44,6 +47,7 @@
         {%- endif -%}
 
         {%- if site.store.items.quantity and include.itemdata.HasQuantityLimit == true -%}
+            <br/>
             <span class="metadata">
                 {% capture quantityLimit %}
                     {{ site.data.language.limit }}: {{ include.itemdata.QuantityLimit }}
@@ -54,6 +58,7 @@
         {%- endif -%}
 
         {%- if site.store.items.karma and include.itemdata.KarmaType != nil -%}
+            <br/>
             <span class="metadata">
                 {% capture karmaType %}
                     {{ site.data.language.karma }}: {{ include.itemdata.KarmaType }}

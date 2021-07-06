@@ -3,6 +3,7 @@
         {{- include.kind.name -}}
 
         {%- if site.store.kinds.mod -%}
+            <br/>
             <span class="metadata">
                 {{- site.data.language.from | replace: '%s', include.kind.data.mod -}}
             </span>
@@ -10,6 +11,7 @@
 
         {%- if site.store.kinds.usage -%}
             {%- for pawn in include.pawnEvents -%}
+                <br/>
                 <span class="metadata">
                     {% capture usage %}
                         {{ include.buyName }} {{ pawn }} {{ include.kind.name }}
@@ -25,6 +27,7 @@
         {{- include.kind.price -}}
 
         {%- if site.store.kinds.karma and include.kind.data.karmaType != nil -%}
+            <br/>
             <span class="metadata">
                 {{ site.data.language.karma }}: {{ include.kind.data.karmaType }}
             </span>
