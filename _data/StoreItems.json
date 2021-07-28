@@ -27,7 +27,7 @@
 	{
 		"abr": "alpaca",
 		"price": 583,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Alpaca"
 	},
 	{
@@ -39,13 +39,13 @@
 	{
 		"abr": "alpacawool",
 		"price": 4,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "WoolAlpaca"
 	},
 	{
 		"abr": "alphabeaver",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Alphabeaver"
 	},
 	{
@@ -63,7 +63,7 @@
 	{
 		"abr": "americanshorthair",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_A_Shorthair"
 	},
 	{
@@ -105,13 +105,13 @@
 	{
 		"abr": "arcticfox",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Fox_Arctic"
 	},
 	{
 		"abr": "arcticwolf",
 		"price": 583,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Wolf_Arctic"
 	},
 	{
@@ -243,7 +243,7 @@
 	{
 		"abr": "blackcat",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_kuroneko"
 	},
 	{
@@ -261,7 +261,7 @@
 	{
 		"abr": "boomalope",
 		"price": 583,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Boomalope"
 	},
 	{
@@ -273,7 +273,7 @@
 	{
 		"abr": "boomrat",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Boomrat"
 	},
 	{
@@ -297,7 +297,7 @@
 	{
 		"abr": "browntabby",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_kijitora"
 	},
 	{
@@ -351,7 +351,7 @@
 	{
 		"abr": "capybara",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Capybara"
 	},
 	{
@@ -363,7 +363,7 @@
 	{
 		"abr": "caribou",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Caribou"
 	},
 	{
@@ -375,7 +375,7 @@
 	{
 		"abr": "cassowary",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Cassowary"
 	},
 	{
@@ -387,7 +387,7 @@
 	{
 		"abr": "cat",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Cat"
 	},
 	{
@@ -429,7 +429,7 @@
 	{
 		"abr": "chicken",
 		"price": 83,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Chicken"
 	},
 	{
@@ -453,7 +453,7 @@
 	{
 		"abr": "chinchilla",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Chinchilla"
 	},
 	{
@@ -519,7 +519,7 @@
 	{
 		"abr": "cobra",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Cobra"
 	},
 	{
@@ -555,7 +555,7 @@
 	{
 		"abr": "cougar",
 		"price": 667,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Cougar"
 	},
 	{
@@ -567,7 +567,7 @@
 	{
 		"abr": "cow",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Cow"
 	},
 	{
@@ -615,7 +615,7 @@
 	{
 		"abr": "deer",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Deer"
 	},
 	{
@@ -663,7 +663,7 @@
 	{
 		"abr": "dromedary",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Dromedary"
 	},
 	{
@@ -711,7 +711,7 @@
 	{
 		"abr": "elephant",
 		"price": 1000,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Elephant"
 	},
 	{
@@ -735,7 +735,7 @@
 	{
 		"abr": "elk",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Elk"
 	},
 	{
@@ -759,7 +759,7 @@
 	{
 		"abr": "emu",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Emu"
 	},
 	{
@@ -807,7 +807,7 @@
 	{
 		"abr": "fennecfox",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Fox_Fennec"
 	},
 	{
@@ -903,7 +903,7 @@
 	{
 		"abr": "gazelle",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Gazelle"
 	},
 	{
@@ -963,7 +963,7 @@
 	{
 		"abr": "grizzlybear",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Bear_Grizzly"
 	},
 	{
@@ -975,7 +975,7 @@
 	{
 		"abr": "hare",
 		"price": 83,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Hare"
 	},
 	{
@@ -1101,7 +1101,7 @@
 	{
 		"abr": "husky",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Husky"
 	},
 	{
@@ -1119,7 +1119,7 @@
 	{
 		"abr": "ibex",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Ibex"
 	},
 	{
@@ -1161,7 +1161,7 @@
 	{
 		"abr": "iguana",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Iguana"
 	},
 	{
@@ -1227,7 +1227,7 @@
 	{
 		"abr": "japanesebobtail",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_J_Bobtail"
 	},
 	{
@@ -1287,7 +1287,7 @@
 	{
 		"abr": "labradorretriever",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "LabradorRetriever"
 	},
 	{
@@ -1359,7 +1359,7 @@
 	{
 		"abr": "lynx",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Lynx"
 	},
 	{
@@ -1389,7 +1389,7 @@
 	{
 		"abr": "mainecoon",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_Maine_Coon"
 	},
 	{
@@ -1419,7 +1419,7 @@
 	{
 		"abr": "megascarab",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Megascarab"
 	},
 	{
@@ -1431,7 +1431,7 @@
 	{
 		"abr": "megasloth",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Megasloth"
 	},
 	{
@@ -1443,13 +1443,13 @@
 	{
 		"abr": "megaslothwool",
 		"price": 4,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "WoolMegasloth"
 	},
 	{
 		"abr": "megaspider",
 		"price": 833,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Megaspider"
 	},
 	{
@@ -1479,7 +1479,7 @@
 	{
 		"abr": "monkey",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Monkey"
 	},
 	{
@@ -1497,7 +1497,7 @@
 	{
 		"abr": "muffalo",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Muffalo"
 	},
 	{
@@ -1509,7 +1509,7 @@
 	{
 		"abr": "muffalowool",
 		"price": 4,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "WoolMuffalo"
 	},
 	{
@@ -1527,7 +1527,7 @@
 	{
 		"abr": "norwegianforestcat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_N_Forest_Cat"
 	},
 	{
@@ -1563,7 +1563,7 @@
 	{
 		"abr": "ostrich",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Ostrich"
 	},
 	{
@@ -1587,7 +1587,7 @@
 	{
 		"abr": "panther",
 		"price": 667,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Panther"
 	},
 	{
@@ -1635,13 +1635,13 @@
 	{
 		"abr": "persian",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_Persian"
 	},
 	{
 		"abr": "pig",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Pig"
 	},
 	{
@@ -1689,7 +1689,7 @@
 	{
 		"abr": "polarbear",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Bear_Polar"
 	},
 	{
@@ -1773,7 +1773,7 @@
 	{
 		"abr": "raccoon",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Raccoon"
 	},
 	{
@@ -1785,7 +1785,7 @@
 	{
 		"abr": "rat",
 		"price": 58,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Rat"
 	},
 	{
@@ -1809,7 +1809,7 @@
 	{
 		"abr": "redfox",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Fox_Red"
 	},
 	{
@@ -1827,7 +1827,7 @@
 	{
 		"abr": "rhinoceros",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Rhinoceros"
 	},
 	{
@@ -1899,7 +1899,7 @@
 	{
 		"abr": "russianblue",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_Russian_Blue"
 	},
 	{
@@ -1911,13 +1911,13 @@
 	{
 		"abr": "scottishfold",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_Scottish_Fold"
 	},
 	{
 		"abr": "scottishfoldlonghair",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_Scottish_Fold_Long"
 	},
 	{
@@ -1947,7 +1947,7 @@
 	{
 		"abr": "siamese",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_Siamese"
 	},
 	{
@@ -2013,7 +2013,7 @@
 	{
 		"abr": "snowhare",
 		"price": 83,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Snowhare"
 	},
 	{
@@ -2025,7 +2025,7 @@
 	{
 		"abr": "spelopede",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Spelopede"
 	},
 	{
@@ -2037,7 +2037,7 @@
 	{
 		"abr": "squirrel",
 		"price": 58,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Squirrel"
 	},
 	{
@@ -2139,7 +2139,7 @@
 	{
 		"abr": "thrumbo",
 		"price": 6667,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Thrumbo"
 	},
 	{
@@ -2163,7 +2163,7 @@
 	{
 		"abr": "timberwolf",
 		"price": 583,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Wolf_Timber"
 	},
 	{
@@ -2181,7 +2181,7 @@
 	{
 		"abr": "tortoise",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Tortoise"
 	},
 	{
@@ -2235,7 +2235,7 @@
 	{
 		"abr": "turkey",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Turkey"
 	},
 	{
@@ -2295,7 +2295,7 @@
 	{
 		"abr": "warg",
 		"price": 750,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Warg"
 	},
 	{
@@ -2307,13 +2307,13 @@
 	{
 		"abr": "whitecat",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "akaNEKO_shironeko"
 	},
 	{
 		"abr": "wildboar",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "WildBoar"
 	},
 	{
@@ -2349,7 +2349,7 @@
 	{
 		"abr": "yorkshireterrier",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "YorkshireTerrier"
 	},
 	{
@@ -2361,7 +2361,7 @@
 	{
 		"abr": "bison",
 		"price": 583,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Bison"
 	},
 	{
@@ -2373,7 +2373,7 @@
 	{
 		"abr": "bisonwool",
 		"price": 4,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "WoolBison"
 	},
 	{
@@ -2385,7 +2385,7 @@
 	{
 		"abr": "donkey",
 		"price": 533,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Donkey"
 	},
 	{
@@ -2397,7 +2397,7 @@
 	{
 		"abr": "duck",
 		"price": 100,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Duck"
 	},
 	{
@@ -2427,7 +2427,7 @@
 	{
 		"abr": "goat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Goat"
 	},
 	{
@@ -2439,7 +2439,7 @@
 	{
 		"abr": "goose",
 		"price": 150,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Goose"
 	},
 	{
@@ -2457,7 +2457,7 @@
 	{
 		"abr": "guineapig",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "GuineaPig"
 	},
 	{
@@ -2475,7 +2475,7 @@
 	{
 		"abr": "horse",
 		"price": 917,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Horse"
 	},
 	{
@@ -2577,7 +2577,7 @@
 	{
 		"abr": "sheep",
 		"price": 350,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Sheep"
 	},
 	{
@@ -2589,7 +2589,7 @@
 	{
 		"abr": "sheepwool",
 		"price": 4,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "WoolSheep"
 	},
 	{
@@ -2607,7 +2607,7 @@
 	{
 		"abr": "yak",
 		"price": 533,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "Yak"
 	},
 	{
@@ -3199,28 +3199,10 @@
 		"defname": "Apparel_Gunlink"
 	},
 	{
-		"abr": "40mmcannon",
-		"price": 1333,
-		"category": "Ranged weapons",
-		"defname": "Mech40MMCannon"
-	},
-	{
 		"abr": "adrenalineribreplacement",
 		"price": 917,
 		"category": "Bionic",
 		"defname": "AdrenalineRib"
-	},
-	{
-		"abr": "advandroidassemblykit",
-		"price": 3667,
-		"category": "Manufactured",
-		"defname": "AndroidT2Kit"
-	},
-	{
-		"abr": "advancedbatterypack",
-		"price": 2833,
-		"category": "Android",
-		"defname": "NanowireBattery"
 	},
 	{
 		"abr": "advancedbionicarm",
@@ -3271,54 +3253,6 @@
 		"defname": "AdvancedBionicSpine"
 	},
 	{
-		"abr": "advancedbio-reactor",
-		"price": 2833,
-		"category": "Android",
-		"defname": "HighPowerTransformer"
-	},
-	{
-		"abr": "advancedcoolantpump",
-		"price": 2500,
-		"category": "Android",
-		"defname": "AdvancedCoolantInjector"
-	},
-	{
-		"abr": "advancedcounterweight",
-		"price": 2500,
-		"category": "Android",
-		"defname": "AdvRearCounterweight"
-	},
-	{
-		"abr": "advancedhearingsensor",
-		"price": 2000,
-		"category": "Android",
-		"defname": "AdvHearingS"
-	},
-	{
-		"abr": "advancedheatsink",
-		"price": 2500,
-		"category": "Android",
-		"defname": "MultiLayerHeatsink"
-	},
-	{
-		"abr": "advancedlightsensor",
-		"price": 3000,
-		"category": "Android",
-		"defname": "MultiSpectrumEye"
-	},
-	{
-		"abr": "advancedmechanitestorage",
-		"price": 2500,
-		"category": "Android",
-		"defname": "NaniteStorageDevice"
-	},
-	{
-		"abr": "advancednanokit",
-		"price": 125,
-		"category": "Medicine",
-		"defname": "ATPP_AndroidNanokitAdvanced"
-	},
-	{
 		"abr": "advancedpowerarm",
 		"price": 5225,
 		"category": "Ultratech",
@@ -3331,148 +3265,16 @@
 		"defname": "AdvancedPowerClaw"
 	},
 	{
-		"abr": "advancedpowerconverter",
-		"price": 2833,
-		"category": "Android",
-		"defname": "HighPowerConverter"
-	},
-	{
-		"abr": "advancedsmellingsensor",
-		"price": 1333,
-		"category": "Android",
-		"defname": "SmellingAdvS"
-	},
-	{
-		"abr": "agriculturalimplant",
-		"price": 3333,
-		"category": "Android",
-		"defname": "FarmingMindImplant"
-	},
-	{
 		"abr": "aichip",
 		"price": 2133,
 		"category": "Bionic",
 		"defname": "AIChip"
 	},
 	{
-		"abr": "androidassemblykit",
-		"price": 2250,
-		"category": "Items",
-		"defname": "AndroidT1Kit"
-	},
-	{
-		"abr": "androidchargingstation",
-		"price": 1375,
-		"category": "Misc",
-		"defname": "ATPP_ReloadStation"
-	},
-	{
-		"abr": "androidimplantsworkbench",
-		"price": 675,
-		"category": "Production",
-		"defname": "AndroidOtherStuffTable"
-	},
-	{
-		"abr": "androidpartsworkbench",
-		"price": 417,
-		"category": "Production",
-		"defname": "AndroidPartsTable"
-	},
-	{
-		"abr": "androidpod",
-		"price": 282,
-		"category": "Furniture",
-		"defname": "ATPP_AndroidPod"
-	},
-	{
-		"abr": "androidupgradestation",
-		"price": 1142,
-		"category": "Furniture",
-		"defname": "AndroidOperationBed"
-	},
-	{
-		"abr": "anti-mechrifle",
-		"price": 1500,
-		"category": "Ranged weapons",
-		"defname": "AntiMechRifle"
-	},
-	{
-		"abr": "archotecharchotechbio-reactor",
-		"price": 6667,
-		"category": "Android",
-		"defname": "MolecularDecomposer"
-	},
-	{
-		"abr": "archotechbatterypack",
-		"price": 5333,
-		"category": "Android",
-		"defname": "SecretBatteryPack"
-	},
-	{
-		"abr": "archotechcoolantpump",
-		"price": 6667,
-		"category": "Android",
-		"defname": "SecretCoolantPump"
-	},
-	{
-		"abr": "archotechhearingsensor",
-		"price": 3667,
-		"category": "Android",
-		"defname": "ArchHearingS"
-	},
-	{
-		"abr": "archotechheatsink",
-		"price": 7500,
-		"category": "Android",
-		"defname": "SecretHeatsink"
-	},
-	{
-		"abr": "archotechlightsensor",
-		"price": 7500,
-		"category": "Android",
-		"defname": "MDEye"
-	},
-	{
-		"abr": "archotechmechanitestorage",
-		"price": 7500,
-		"category": "Android",
-		"defname": "ArchotechNanites"
-	},
-	{
-		"abr": "archotechpowerconverter",
-		"price": 5833,
-		"category": "Android",
-		"defname": "QuantumConverter"
-	},
-	{
 		"abr": "arm",
 		"price": 2167,
 		"category": "Natural",
 		"defname": "Arm"
-	},
-	{
-		"abr": "artificialbraint1",
-		"price": 250,
-		"category": "Android",
-		"defname": "ATPP_T1ArtificialBrain"
-	},
-	{
-		"abr": "artificialbraint2",
-		"price": 417,
-		"category": "Android",
-		"defname": "ATPP_T2ArtificialBrain"
-	},
-	{
-		"abr": "artificialbraint3",
-		"price": 833,
-		"category": "Android",
-		"defname": "ATPP_T3ArtificialBrain"
-	},
-	{
-		"abr": "artificialbraint4",
-		"price": 1667,
-		"category": "Android",
-		"defname": "ATPP_T4ArtificialBrain"
 	},
 	{
 		"abr": "artificialclavicle",
@@ -3523,36 +3325,6 @@
 		"defname": "MinerCore"
 	},
 	{
-		"abr": "basiccounterweight",
-		"price": 1167,
-		"category": "Android",
-		"defname": "BasicRearCounterweight"
-	},
-	{
-		"abr": "basiclaborchip",
-		"price": 2000,
-		"category": "Android",
-		"defname": "BasicLaborMindImplant"
-	},
-	{
-		"abr": "basicnanokit",
-		"price": 17,
-		"category": "Medicine",
-		"defname": "ATPP_AndroidNanokitBasic"
-	},
-	{
-		"abr": "basicreplacementarm",
-		"price": 833,
-		"category": "Android",
-		"defname": "BasicReplacementArm"
-	},
-	{
-		"abr": "basicreplacementleg",
-		"price": 833,
-		"category": "Android",
-		"defname": "BasicReplacementLeg"
-	},
-	{
 		"abr": "bionicfoot",
 		"price": 983,
 		"category": "Bionic",
@@ -3571,130 +3343,10 @@
 		"defname": "BionicJaw"
 	},
 	{
-		"abr": "blueblade",
-		"price": 133,
-		"category": "Animal",
-		"defname": "Blueblade"
-	},
-	{
-		"abr": "bluebladefilet",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_Blueblade"
-	},
-	{
-		"abr": "blueprintsimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "BuilderMindImplant"
-	},
-	{
 		"abr": "brainstimulator",
 		"price": 1333,
 		"category": "Prosthetic",
 		"defname": "BrainStimulator"
-	},
-	{
-		"abr": "charismaimplant",
-		"price": 1667,
-		"category": "Android",
-		"defname": "CharismaMindImplant"
-	},
-	{
-		"abr": "chemicalcapsule",
-		"price": 17,
-		"category": "Manufactured",
-		"defname": "ChemicalEgg"
-	},
-	{
-		"abr": "chemicalprocessingunit",
-		"price": 1333,
-		"category": "Animal",
-		"defname": "AndroidChicken"
-	},
-	{
-		"abr": "compositeframeplating",
-		"price": 1667,
-		"category": "Android",
-		"defname": "CompositePlating"
-	},
-	{
-		"abr": "crudebatterypack",
-		"price": 667,
-		"category": "Android",
-		"defname": "SmallBatteryPack"
-	},
-	{
-		"abr": "crudebio-reactor",
-		"price": 667,
-		"category": "Android",
-		"defname": "LowPowerTransformer"
-	},
-	{
-		"abr": "crudecoolantpump",
-		"price": 667,
-		"category": "Android",
-		"defname": "FlimsyCoolantPump"
-	},
-	{
-		"abr": "crudehearingsensor",
-		"price": 500,
-		"category": "Android",
-		"defname": "CrudeHearingS"
-	},
-	{
-		"abr": "crudeheatsink",
-		"price": 500,
-		"category": "Android",
-		"defname": "CrudeHeatsink"
-	},
-	{
-		"abr": "crudejaw",
-		"price": 1167,
-		"category": "Android",
-		"defname": "CrudeJawAndroid"
-	},
-	{
-		"abr": "crudelightsensor",
-		"price": 333,
-		"category": "Android",
-		"defname": "LightReceivingDiode"
-	},
-	{
-		"abr": "crudemechanitestorage",
-		"price": 667,
-		"category": "Android",
-		"defname": "TubeSealantTank"
-	},
-	{
-		"abr": "crudepowerconverter",
-		"price": 500,
-		"category": "Android",
-		"defname": "BasicDCConverter"
-	},
-	{
-		"abr": "cuisineimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "CookingMindImplant"
-	},
-	{
-		"abr": "cyberneticarm",
-		"price": 10000,
-		"category": "Android",
-		"defname": "CyberReplacementArm"
-	},
-	{
-		"abr": "cyberneticjaw",
-		"price": 3333,
-		"category": "Android",
-		"defname": "AdvJawAndroid"
-	},
-	{
-		"abr": "cyberneticleg",
-		"price": 9167,
-		"category": "Android",
-		"defname": "CyberReplacementLeg"
 	},
 	{
 		"abr": "denture",
@@ -3721,18 +3373,6 @@
 		"defname": "EarBandage"
 	},
 	{
-		"abr": "engineeringimplant",
-		"price": 3333,
-		"category": "Android",
-		"defname": "MechanicMindImplant"
-	},
-	{
-		"abr": "evolvingaiupgrade",
-		"price": 5833,
-		"category": "Android",
-		"defname": "EvolvingImplant"
-	},
-	{
 		"abr": "exoskeletonsuit",
 		"price": 3708,
 		"category": "Ultratech",
@@ -3751,40 +3391,10 @@
 		"defname": "Eye"
 	},
 	{
-		"abr": "fractalenhancement",
-		"price": 1333,
-		"category": "Drugs",
-		"defname": "FractalPill"
-	},
-	{
-		"abr": "geologicalimplant",
-		"price": 3333,
-		"category": "Android",
-		"defname": "GeoMindImplant"
-	},
-	{
 		"abr": "goldeneye",
 		"price": 47,
 		"category": "Prosthetic",
 		"defname": "GoldenEye"
-	},
-	{
-		"abr": "handcannon",
-		"price": 1333,
-		"category": "Ranged weapons",
-		"defname": "MechHandCannon"
-	},
-	{
-		"abr": "highpowerarm",
-		"price": 2500,
-		"category": "Android",
-		"defname": "AdvancedReplacementArm"
-	},
-	{
-		"abr": "highpowerleg",
-		"price": 3000,
-		"category": "Android",
-		"defname": "AdvancedReplacementLeg"
 	},
 	{
 		"abr": "hood",
@@ -3799,94 +3409,16 @@
 		"defname": "HookHand"
 	},
 	{
-		"abr": "hydraulicarm",
-		"price": 1167,
-		"category": "Android",
-		"defname": "HydraulicArm"
-	},
-	{
-		"abr": "hydraulicframe",
-		"price": 1667,
-		"category": "Android",
-		"defname": "HydraulicFrame"
-	},
-	{
 		"abr": "hydraulicjaw",
 		"price": 279,
 		"category": "Prosthetic",
 		"defname": "HydraulicJaw"
 	},
 	{
-		"abr": "hydraulicleg",
-		"price": 1167,
-		"category": "Android",
-		"defname": "HydraulicLeg"
-	},
-	{
-		"abr": "i-100(hacking)",
-		"price": 1383,
-		"category": "Misc",
-		"defname": "ATPP_I100Hacking"
-	},
-	{
-		"abr": "i-100(security)",
-		"price": 1017,
-		"category": "Misc",
-		"defname": "ATPP_I100Security"
-	},
-	{
-		"abr": "i-100(skill)",
-		"price": 1383,
-		"category": "Misc",
-		"defname": "ATPP_I100Skill"
-	},
-	{
-		"abr": "i-300(hacking)",
-		"price": 2892,
-		"category": "Misc",
-		"defname": "ATPP_I300Hacking"
-	},
-	{
-		"abr": "i-300(security)",
-		"price": 2175,
-		"category": "Misc",
-		"defname": "ATPP_I300Security"
-	},
-	{
-		"abr": "i-300(skill)",
-		"price": 2892,
-		"category": "Misc",
-		"defname": "ATPP_I300Skill"
-	},
-	{
-		"abr": "i-500(hacking)",
-		"price": 5575,
-		"category": "Misc",
-		"defname": "ATPP_I500Hacking"
-	},
-	{
-		"abr": "i-500(security)",
-		"price": 4117,
-		"category": "Misc",
-		"defname": "ATPP_I500Security"
-	},
-	{
-		"abr": "i-500(skill)",
-		"price": 5575,
-		"category": "Misc",
-		"defname": "ATPP_I500Skill"
-	},
-	{
 		"abr": "iedsmoketrap",
 		"price": 192,
 		"category": "Security",
 		"defname": "TrapIED_Smoke"
-	},
-	{
-		"abr": "intermediatenanokit",
-		"price": 30,
-		"category": "Medicine",
-		"defname": "ATPP_AndroidNanokitIntermediate"
 	},
 	{
 		"abr": "jaw",
@@ -3899,12 +3431,6 @@
 		"price": 1075,
 		"category": "Utility",
 		"defname": "Apparel_PackJump"
-	},
-	{
-		"abr": "k-9cyberneticunit",
-		"price": 14167,
-		"category": "Animal",
-		"defname": "AndroidDog"
 	},
 	{
 		"abr": "largenatureshrine",
@@ -3937,64 +3463,10 @@
 		"defname": "Apparel_PackBroadshield"
 	},
 	{
-		"abr": "m.u.f.funit",
-		"price": 2000,
-		"category": "Animal",
-		"defname": "AndroidMuff"
-	},
-	{
-		"abr": "m7mechanisedinfantry",
-		"price": -10,
-		"category": "Animal",
-		"defname": "M7Mech"
-	},
-	{
-		"abr": "m7pod",
-		"price": 1483,
-		"category": "Furniture",
-		"defname": "ATPP_AndroidPodMech"
-	},
-	{
-		"abr": "mashgon",
-		"price": 83,
-		"category": "Animal",
-		"defname": "Mashgon"
-	},
-	{
-		"abr": "mastiffshotgun",
-		"price": 1333,
-		"category": "Ranged weapons",
-		"defname": "MechMastiffGun"
-	},
-	{
-		"abr": "mechaniteswarm",
-		"price": 33,
-		"category": "Drugs",
-		"defname": "MechSwarm"
-	},
-	{
 		"abr": "medicalribreplacement",
 		"price": 650,
 		"category": "Bionic",
 		"defname": "MedicalRib"
-	},
-	{
-		"abr": "metallicwool",
-		"price": 8,
-		"category": "Textiles",
-		"defname": "SteelWool"
-	},
-	{
-		"abr": "microscyther",
-		"price": 67,
-		"category": "Animal",
-		"defname": "MicroScyther"
-	},
-	{
-		"abr": "mono-salvepill",
-		"price": 133,
-		"category": "Drugs",
-		"defname": "RegenPillAt"
 	},
 	{
 		"abr": "musclestimulator",
@@ -4003,88 +3475,16 @@
 		"defname": "MuscleStimulator"
 	},
 	{
-		"abr": "n.solutionunit",
-		"price": 2667,
-		"category": "Animal",
-		"defname": "RoboticCow"
-	},
-	{
-		"abr": "n.solutionunitmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_RoboticCow"
-	},
-	{
-		"abr": "nanitesbank(cooling)",
-		"price": 583,
-		"category": "Items",
-		"defname": "ATPP_NanitesCoolingSerum"
-	},
-	{
-		"abr": "nanitesbank(cpu)",
-		"price": 583,
-		"category": "Items",
-		"defname": "ATPP_NanitesCPUSerum"
-	},
-	{
-		"abr": "nanitesbank(framework)",
-		"price": 583,
-		"category": "Items",
-		"defname": "ATPP_NanitesFrameSerum"
-	},
-	{
-		"abr": "nanitesbank(hydraulic)",
-		"price": 583,
-		"category": "Items",
-		"defname": "ATPP_NanitesHydraulicSerum"
-	},
-	{
-		"abr": "negotiatorimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "NegotiationMindImplant"
-	},
-	{
-		"abr": "neuralhighways",
-		"price": 2667,
-		"category": "Android",
-		"defname": "SpeedMindImplant"
-	},
-	{
 		"abr": "nose",
 		"price": 833,
 		"category": "Natural",
 		"defname": "Nose"
 	},
 	{
-		"abr": "nutrientsolution",
-		"price": 13,
-		"category": "Animal products",
-		"defname": "NSolution"
-	},
-	{
-		"abr": "orbitalmech-falltargeter",
-		"price": 4000,
-		"category": "Ranged weapons",
-		"defname": "OrbitalTargeterMechFall"
-	},
-	{
-		"abr": "oyster",
-		"price": 7,
-		"category": "Foods",
-		"defname": "Oyster"
-	},
-	{
 		"abr": "painkillerribreplacement",
 		"price": 833,
 		"category": "Bionic",
 		"defname": "PainkillerRib"
-	},
-	{
-		"abr": "pearl",
-		"price": 417,
-		"category": "Items",
-		"defname": "Pearl"
 	},
 	{
 		"abr": "pegleg",
@@ -4097,30 +3497,6 @@
 		"price": 5800,
 		"category": "Armor",
 		"defname": "Apparel_ArmorCataphractPhoenix"
-	},
-	{
-		"abr": "phytominingunit",
-		"price": 2667,
-		"category": "Animal",
-		"defname": "RoboticSheep"
-	},
-	{
-		"abr": "plasteelframecoverings",
-		"price": 1333,
-		"category": "Android",
-		"defname": "PlasteelPlating"
-	},
-	{
-		"abr": "polymerantifreeze",
-		"price": 17,
-		"category": "Drugs",
-		"defname": "Antifreeze"
-	},
-	{
-		"abr": "positronicrewiring",
-		"price": 2667,
-		"category": "Android",
-		"defname": "PositronMindImplant"
 	},
 	{
 		"abr": "powerarm",
@@ -4261,48 +3637,6 @@
 		"defname": "Psytrainer_WordOfTrust"
 	},
 	{
-		"abr": "roboticsproductioncasket",
-		"price": 900,
-		"category": "Production",
-		"defname": "AndroidProductionVat"
-	},
-	{
-		"abr": "rxneuralchip",
-		"price": 250,
-		"category": "Android",
-		"defname": "ATPP_RXChip"
-	},
-	{
-		"abr": "sduiggles",
-		"price": 167,
-		"category": "Animal",
-		"defname": "Sduiggles"
-	},
-	{
-		"abr": "sduigglestentacles",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_Sduiggles"
-	},
-	{
-		"abr": "seasnake",
-		"price": 133,
-		"category": "Animal",
-		"defname": "Seasnake"
-	},
-	{
-		"abr": "seasnakefilet",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_Seasnake"
-	},
-	{
-		"abr": "shelledmashgon",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_Mashgon"
-	},
-	{
 		"abr": "shieldcore",
 		"price": 583,
 		"category": "Items",
@@ -4327,24 +3661,6 @@
 		"defname": "SimpleProstheticHand"
 	},
 	{
-		"abr": "skymindrelaytower",
-		"price": 1292,
-		"category": "Misc",
-		"defname": "ATPP_SkyMindRelayTower"
-	},
-	{
-		"abr": "skymindv1antenna",
-		"price": 1400,
-		"category": "Misc",
-		"defname": "ATPP_SkyMindLAN"
-	},
-	{
-		"abr": "skymindv2antenna",
-		"price": 4967,
-		"category": "Misc",
-		"defname": "ATPP_SkyMindWAN"
-	},
-	{
 		"abr": "smallnatureshrine",
 		"price": 592,
 		"category": "Misc",
@@ -4357,40 +3673,10 @@
 		"defname": "Shell_Smoke"
 	},
 	{
-		"abr": "soldierimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "SoldierMindImplant"
-	},
-	{
-		"abr": "archotechsmellingsensor",
-		"price": 3000,
-		"category": "Android",
-		"defname": "ArchSmellingS"
-	},
-	{
-		"abr": "crudesmellingsensor",
-		"price": 333,
-		"category": "Android",
-		"defname": "CrudeSmellingS"
-	},
-	{
-		"abr": "miningarm",
-		"price": 1667,
-		"category": "Android",
-		"defname": "MiningArm_AT"
-	},
-	{
 		"abr": "steelarm",
 		"price": 173,
 		"category": "Simple parts",
 		"defname": "SteelArm"
-	},
-	{
-		"abr": "steelframing",
-		"price": 833,
-		"category": "Android",
-		"defname": "SteelPlating"
 	},
 	{
 		"abr": "stelliccrown",
@@ -4403,12 +3689,6 @@
 		"price": 1667,
 		"category": "Natural",
 		"defname": "Stomach"
-	},
-	{
-		"abr": "structuregel",
-		"price": 58,
-		"category": "Drugs",
-		"defname": "StructureGel"
 	},
 	{
 		"abr": "surrogatekidney",
@@ -4435,12 +3715,6 @@
 		"defname": "SurrogateStomach"
 	},
 	{
-		"abr": "swarmshell",
-		"price": 292,
-		"category": "Mortar shells",
-		"defname": "Nanoswarm_shell"
-	},
-	{
 		"abr": "synthetickidney",
 		"price": 1183,
 		"category": "Bionic",
@@ -4457,30 +3731,6 @@
 		"price": 1183,
 		"category": "Bionic",
 		"defname": "SyntheticLung"
-	},
-	{
-		"abr": "t1android",
-		"price": -10,
-		"category": "Animal",
-		"defname": "Android1Tier"
-	},
-	{
-		"abr": "t2android",
-		"price": -10,
-		"category": "Animal",
-		"defname": "Android2Tier"
-	},
-	{
-		"abr": "t3android",
-		"price": -10,
-		"category": "Animal",
-		"defname": "Android3Tier"
-	},
-	{
-		"abr": "t4android",
-		"price": -10,
-		"category": "Animal",
-		"defname": "Android4Tier"
 	},
 	{
 		"abr": "advancedarchotecharm",
@@ -4597,40 +3847,10 @@
 		"defname": "Picomachinery"
 	},
 	{
-		"abr": "t5android",
-		"price": -10,
-		"category": "Animal",
-		"defname": "Android5Tier"
-	},
-	{
 		"abr": "tacticalcorneaimplant",
 		"price": 4167,
 		"category": "Archotech",
 		"defname": "TacticalCorneaImplant"
-	},
-	{
-		"abr": "tailteeth",
-		"price": 833,
-		"category": "Animal",
-		"defname": "Tailteeth"
-	},
-	{
-		"abr": "tailteethleather",
-		"price": 6,
-		"category": "Leathers",
-		"defname": "Leather_Tailteeth"
-	},
-	{
-		"abr": "tailteethsteak",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_Tailteeth"
-	},
-	{
-		"abr": "taintedskin",
-		"price": 13,
-		"category": "Leathers",
-		"defname": "Tainted_Skin"
 	},
 	{
 		"abr": "techprint(jumppacks)",
@@ -4643,48 +3863,6 @@
 		"price": 3900,
 		"category": "Production",
 		"defname": "TableOrgans"
-	},
-	{
-		"abr": "tricorderimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "SurgeonMindImplant"
-	},
-	{
-		"abr": "upgradecabinet",
-		"price": 717,
-		"category": "Furniture",
-		"defname": "AndroidOperationKit"
-	},
-	{
-		"abr": "upgradekit",
-		"price": 50,
-		"category": "Manufactured",
-		"defname": "RepairKitAT"
-	},
-	{
-		"abr": "vx0neuralchip",
-		"price": 417,
-		"category": "Android",
-		"defname": "ATPP_VX0Chip"
-	},
-	{
-		"abr": "vx1neuralchip",
-		"price": 1333,
-		"category": "Android",
-		"defname": "ATPP_VX1Chip"
-	},
-	{
-		"abr": "vx2neuralchip",
-		"price": 3333,
-		"category": "Android",
-		"defname": "ATPP_VX2Chip"
-	},
-	{
-		"abr": "vx3neuralchip",
-		"price": 6667,
-		"category": "Android",
-		"defname": "ATPP_VX3Chip"
 	},
 	{
 		"abr": "walllight",
@@ -4777,21 +3955,9 @@
 		"defname": "WoodenFoot"
 	},
 	{
-		"abr": "youthserum",
-		"price": 2333,
-		"category": "Items",
-		"defname": "MechSerumYouth"
-	},
-	{
-		"abr": "zoologyimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "AnimalMindImplant"
-	},
-	{
 		"abr": "abyssiniancat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatAbyssinian"
 	},
 	{
@@ -4803,7 +3969,7 @@
 	{
 		"abr": "alligator",
 		"price": 1250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Alligator"
 	},
 	{
@@ -4821,7 +3987,7 @@
 	{
 		"abr": "anaconda",
 		"price": 1292,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Anaconda"
 	},
 	{
@@ -4863,14 +4029,8 @@
 	{
 		"abr": "arcticcoyote",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_ArcticCoyote"
-	},
-	{
-		"abr": "arcticcoyotemeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_ArcticCoyote"
 	},
 	{
 		"abr": "balaclava",
@@ -4905,14 +4065,8 @@
 	{
 		"abr": "beagle",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Beagle"
-	},
-	{
-		"abr": "beef",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Yak"
 	},
 	{
 		"abr": "bench",
@@ -4923,50 +4077,20 @@
 	{
 		"abr": "bengalcat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatBengal"
-	},
-	{
-		"abr": "birdmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Goose"
-	},
-	{
-		"abr": "bison",
-		"price": 583,
-		"category": "Animal",
-		"defname": "AEXP_Bison"
-	},
-	{
-		"abr": "bisonmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Bison"
-	},
-	{
-		"abr": "bisonwool",
-		"price": 7,
-		"category": "Textiles",
-		"defname": "AEXP_WoolBison"
 	},
 	{
 		"abr": "blackbear",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_BlackBear"
 	},
 	{
 		"abr": "britishshorthaircat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatBritishShorthair"
-	},
-	{
-		"abr": "brownfur",
-		"price": 6,
-		"category": "Leathers",
-		"defname": "AEXP_Leather_Brownfur"
 	},
 	{
 		"abr": "bulletproofvest",
@@ -4977,19 +4101,13 @@
 	{
 		"abr": "camel",
 		"price": 533,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Camel"
-	},
-	{
-		"abr": "camelmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Camel"
 	},
 	{
 		"abr": "camelwool",
 		"price": 4,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "WoolCamel"
 	},
 	{
@@ -5055,7 +4173,7 @@
 	{
 		"abr": "cheetah",
 		"price": 667,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Cheetah"
 	},
 	{
@@ -5073,7 +4191,7 @@
 	{
 		"abr": "chihuahua",
 		"price": 550,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Chihuahua"
 	},
 	{
@@ -5115,7 +4233,7 @@
 	{
 		"abr": "corgi",
 		"price": 1083,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Corgi"
 	},
 	{
@@ -5127,19 +4245,13 @@
 	{
 		"abr": "coyote",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Coyote"
-	},
-	{
-		"abr": "coyotemeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Coyote"
 	},
 	{
 		"abr": "crocodile",
 		"price": 1333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Crocodile"
 	},
 	{
@@ -5181,7 +4293,7 @@
 	{
 		"abr": "deserttortoise",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_DesertTortoise"
 	},
 	{
@@ -5201,36 +4313,6 @@
 		"price": 3,
 		"category": "Meat",
 		"defname": "Meat_AEXP_Beagle"
-	},
-	{
-		"abr": "donkey",
-		"price": 667,
-		"category": "Animal",
-		"defname": "AEXP_Donkey"
-	},
-	{
-		"abr": "duck",
-		"price": 100,
-		"category": "Animal",
-		"defname": "AEXP_Duck"
-	},
-	{
-		"abr": "duckegg(fert.)",
-		"price": 12,
-		"category": "Eggs (fert.)",
-		"defname": "AEXP_EggDuckFertilized"
-	},
-	{
-		"abr": "duckegg(unfert.)",
-		"price": 12,
-		"category": "Eggs (unfert.)",
-		"defname": "AEXP_EggDuckUnfertilized"
-	},
-	{
-		"abr": "duckmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Duck"
 	},
 	{
 		"abr": "eel",
@@ -5295,7 +4377,7 @@
 	{
 		"abr": "frenchbulldog",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_FrenchBulldog"
 	},
 	{
@@ -5307,7 +4389,7 @@
 	{
 		"abr": "germanshepherd",
 		"price": 750,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_GermanShepherd"
 	},
 	{
@@ -5325,7 +4407,7 @@
 	{
 		"abr": "gilamonster",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_GilaMonster"
 	},
 	{
@@ -5341,15 +4423,9 @@
 		"defname": "AEXP_EggGilaMonsterUnfertilized"
 	},
 	{
-		"abr": "gilamonstermeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_GilaMonster"
-	},
-	{
 		"abr": "giraffe",
 		"price": 1083,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Giraffe"
 	},
 	{
@@ -5359,51 +4435,21 @@
 		"defname": "Meat_AEXP_Giraffe"
 	},
 	{
-		"abr": "goat",
-		"price": 333,
-		"category": "Animal",
-		"defname": "AEXP_Goat"
-	},
-	{
-		"abr": "goatmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Goat"
-	},
-	{
 		"abr": "goldfish",
 		"price": 3,
 		"category": "Raw fish",
 		"defname": "VCEF_RawGoldfish"
 	},
 	{
-		"abr": "goose",
-		"price": 150,
-		"category": "Animal",
-		"defname": "AEXP_Goose"
-	},
-	{
-		"abr": "gooseegg(fert.)",
-		"price": 18,
-		"category": "Eggs (fert.)",
-		"defname": "AEXP_EggGooseFertilized"
-	},
-	{
-		"abr": "gooseegg(unfert.)",
-		"price": 15,
-		"category": "Eggs (unfert.)",
-		"defname": "AEXP_EggGooseUnfertilized"
-	},
-	{
 		"abr": "gorilla",
 		"price": 917,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Gorilla"
 	},
 	{
 		"abr": "greatdane",
 		"price": 1083,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_GreatDane"
 	},
 	{
@@ -5411,24 +4457,6 @@
 		"price": 508,
 		"category": "Ranged weapons",
 		"defname": "VWE_Gun_GrenadeLauncher"
-	},
-	{
-		"abr": "guineapig",
-		"price": 250,
-		"category": "Animal",
-		"defname": "AEXP_GuineaPig"
-	},
-	{
-		"abr": "guineapigfur",
-		"price": 12,
-		"category": "Leathers",
-		"defname": "AEXP_Leather_GuineaPig"
-	},
-	{
-		"abr": "guineapigmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_GuineaPig"
 	},
 	{
 		"abr": "guppy",
@@ -5493,7 +4521,7 @@
 	{
 		"abr": "hippopotamus",
 		"price": 1333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Hippopotamus"
 	},
 	{
@@ -5515,27 +4543,9 @@
 		"defname": "VWE_Gun_HMG"
 	},
 	{
-		"abr": "horse",
-		"price": 917,
-		"category": "Animal",
-		"defname": "AEXP_Horse"
-	},
-	{
-		"abr": "horsemeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Horse"
-	},
-	{
-		"abr": "horsemeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Donkey"
-	},
-	{
 		"abr": "hyena",
 		"price": 308,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Hyena"
 	},
 	{
@@ -5547,14 +4557,8 @@
 	{
 		"abr": "indianelephant",
 		"price": 1000,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_IndianElephant"
-	},
-	{
-		"abr": "indianelephantmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_IndianElephant"
 	},
 	{
 		"abr": "industrialradio",
@@ -5571,7 +4575,7 @@
 	{
 		"abr": "jaguar",
 		"price": 667,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Jaguar"
 	},
 	{
@@ -5601,7 +4605,7 @@
 	{
 		"abr": "lemur",
 		"price": 250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Lemur"
 	},
 	{
@@ -5625,7 +4629,7 @@
 	{
 		"abr": "lion",
 		"price": 2000,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Lion"
 	},
 	{
@@ -5667,13 +4671,13 @@
 	{
 		"abr": "mainecoon",
 		"price": 1250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatMaineCoon"
 	},
 	{
 		"abr": "mandrill",
 		"price": 458,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Mandrill"
 	},
 	{
@@ -5697,13 +4701,13 @@
 	{
 		"abr": "megascorpion",
 		"price": 167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Megascorpion"
 	},
 	{
 		"abr": "megawolverine",
 		"price": 1417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_MegaWolverine"
 	},
 	{
@@ -5733,7 +4737,7 @@
 	{
 		"abr": "moose",
 		"price": 750,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Moose"
 	},
 	{
@@ -5745,13 +4749,13 @@
 	{
 		"abr": "munchkincat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatMunchkin"
 	},
 	{
 		"abr": "muskox",
 		"price": 475,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Muskox"
 	},
 	{
@@ -5763,7 +4767,7 @@
 	{
 		"abr": "muskoxwool",
 		"price": 12,
-		"category": "Textiles",
+		"category": "Wools",
 		"defname": "AEXP_MuskOxWool"
 	},
 	{
@@ -5775,7 +4779,7 @@
 	{
 		"abr": "norwegianforestcat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatNorwegianForest"
 	},
 	{
@@ -5799,7 +4803,7 @@
 	{
 		"abr": "otter",
 		"price": 283,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Otter"
 	},
 	{
@@ -5817,7 +4821,7 @@
 	{
 		"abr": "penguin",
 		"price": 200,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Penguin"
 	},
 	{
@@ -5835,7 +4839,7 @@
 	{
 		"abr": "persiancat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatPersian"
 	},
 	{
@@ -5889,13 +4893,13 @@
 	{
 		"abr": "poodle",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Poodle"
 	},
 	{
 		"abr": "porcupine",
 		"price": 200,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Porcupine"
 	},
 	{
@@ -5943,7 +4947,7 @@
 	{
 		"abr": "pug",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Pug"
 	},
 	{
@@ -5961,7 +4965,7 @@
 	{
 		"abr": "rattlesnake",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Rattlesnake"
 	},
 	{
@@ -5991,7 +4995,7 @@
 	{
 		"abr": "rottweiler",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Rottweiler"
 	},
 	{
@@ -6765,7 +5769,7 @@
 	{
 		"abr": "seal",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Seal"
 	},
 	{
@@ -6781,24 +5785,6 @@
 		"defname": "VWE_Gun_ServiceRifle"
 	},
 	{
-		"abr": "sheep",
-		"price": 583,
-		"category": "Animal",
-		"defname": "AEXP_Sheep"
-	},
-	{
-		"abr": "sheepmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Sheep"
-	},
-	{
-		"abr": "sheepwool",
-		"price": 4,
-		"category": "Textiles",
-		"defname": "AEXP_WoolSheep"
-	},
-	{
 		"abr": "shelf(1x1)",
 		"price": 52,
 		"category": "Furniture",
@@ -6807,7 +5793,7 @@
 	{
 		"abr": "shih-tzu",
 		"price": 500,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Shih-Tzu"
 	},
 	{
@@ -6819,7 +5805,7 @@
 	{
 		"abr": "siamesecat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatSiamese"
 	},
 	{
@@ -6993,7 +5979,7 @@
 	{
 		"abr": "badger",
 		"price": 458,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Badger"
 	},
 	{
@@ -7005,13 +5991,13 @@
 	{
 		"abr": "beaver",
 		"price": 200,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Beaver"
 	},
 	{
 		"abr": "hedgehog",
 		"price": 42,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Hedgehog"
 	},
 	{
@@ -7023,7 +6009,7 @@
 	{
 		"abr": "redpanda",
 		"price": 417,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_RedPanda"
 	},
 	{
@@ -7053,19 +6039,19 @@
 	{
 		"abr": "africanwilddog",
 		"price": 1250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_AfricanWildDog"
 	},
 	{
 		"abr": "blackrhinoceros",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_BlackRhino"
 	},
 	{
 		"abr": "black-footedferret",
 		"price": 292,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_BlackFootedFerret"
 	},
 	{
@@ -7077,19 +6063,19 @@
 	{
 		"abr": "bonobo",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Bonobo"
 	},
 	{
 		"abr": "giantpanda",
 		"price": 1167,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Panda"
 	},
 	{
 		"abr": "giantpangolin",
 		"price": 1250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Pangolin"
 	},
 	{
@@ -7101,7 +6087,7 @@
 	{
 		"abr": "moa",
 		"price": 750,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Moa"
 	},
 	{
@@ -7113,13 +6099,13 @@
 	{
 		"abr": "quagga",
 		"price": 1250,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_Quagga"
 	},
 	{
 		"abr": "rockhopperpenguin",
 		"price": 200,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_RockhopperPenguin"
 	},
 	{
@@ -7393,12 +6379,6 @@
 		"defname": "Gun_CrystalCraftedPsionicRifle"
 	},
 	{
-		"abr": "psionicanimacultivator",
-		"price": 708,
-		"category": "Items",
-		"defname": "CrystalloidCultivationKit"
-	},
-	{
 		"abr": "psi-shieldbelt",
 		"price": 858,
 		"category": "Armor",
@@ -7491,9 +6471,33 @@
 	{
 		"abr": "somalicat",
 		"price": 333,
-		"category": "Animal",
+		"category": "Animals",
 		"defname": "AEXP_CatSomali"
 	},
+	{
+		"abr": "soysauce",
+		"price": 25,
+		"category": "Condiments",
+		"defname": "VCE_SoySauce"
+	},
+	{
+		"abr": "soysaucefermenter",
+		"price": 119,
+		"category": "Production",
+		"defname": "VCE_SoyFermenter"
+	},
+	{
+		"abr": "soybeans",
+		"price": 2,
+		"category": "Vegetarian",
+		"defname": "VCE_RawSoybean"
+	},
+	{
+		"abr": "sphynxcat",
+		"price": 333,
+		"category": "Animals",
+		"defname": "AEXP_CatSphynx"
+	},
 	],
-	"total": 1324
+	"total": 1256
 }
