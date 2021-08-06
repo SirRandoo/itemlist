@@ -307,6 +307,23 @@
   },
   {
     "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "Set favorite color",
+    "usage": "!setfavoritecolor",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
       "isShortcut": true,
       "isBuy": false,
       "isBalance": false,
