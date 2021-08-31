@@ -121,11 +121,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "transportpodcrash",
-		"price": 600,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "tradercaravan",
 		"price": 275,
 		"karmatype": "Good"
@@ -142,8 +137,8 @@
 	},
 	{
 		"abr": "maninblack",
-		"price": 350,
-		"karmatype": "Good"
+		"price": 2000,
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "madanimal",
@@ -446,5 +441,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 89
+	"total": 88
 }
