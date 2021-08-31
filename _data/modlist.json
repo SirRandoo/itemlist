@@ -36,10 +36,58 @@
     "version": null
   },
   {
+    "author": "Mehni",
+    "name": "Numbers",
+    "steamId": "1414302321",
+    "version": "1.1.0.0"
+  },
+  {
+    "author": "Revolus",
+    "name": "Animals are fun",
+    "steamId": "2108362126",
+    "version": "2020.5.30.0"
+  },
+  {
+    "author": "Derek Bickley",
+    "name": "Worthless Junk",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki and  Kikohi",
+    "name": "Vanilla Expanded - Ideology Patches",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  Aquiles",
+    "name": "Vanilla Animals Expanded — Caves",
+    "steamId": "2576512001",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Georodin",
+    "name": "[SYR] Set Up Camp - 1.3",
+    "steamId": "2554129670",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Shadowrabbit",
+    "name": "[SR]Raid Extension",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Oskar Potocki",
     "name": "Vanilla Animals Expanded — Extreme Desert",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "MarvinKosh",
+    "name": "Sometimes Raids Go Wrong",
+    "steamId": "1551336515",
+    "version": "1.0.7895.35757"
   },
   {
     "author": "Oskar Potocki and  Sarg Bjornson",
@@ -123,13 +171,19 @@
     "author": "Oskar Potocki,  Taranchuk and  Chowder",
     "name": "Vanilla Traits Expanded",
     "steamId": "2296404655",
-    "version": "1.0.0.0"
+    "version": "1.0.0.1"
   },
   {
     "author": "targhetti",
     "name": "Show Draftees Weapon",
     "steamId": "1690978457",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
+    "name": "Vanilla Cooking Expanded",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
@@ -140,12 +194,6 @@
   {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
     "name": "Vanilla Brewing Expanded",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
-    "name": "Vanilla Cooking Expanded",
     "steamId": null,
     "version": null
   },
@@ -171,7 +219,7 @@
     "author": "Oskar Potocki and  Taranchuk",
     "name": "Vanilla Social Interactions Expanded",
     "steamId": "2439736083",
-    "version": "1.0.0.0"
+    "version": "1.0.0.1"
   },
   {
     "author": "Oskar Potocki and  Sarg Bjornson",
@@ -272,8 +320,8 @@
   {
     "author": "Shadowrabbit",
     "name": "[SR]Factional War",
-    "steamId": null,
-    "version": null
+    "steamId": "2534328163",
+    "version": "1.0.0.0"
   },
   {
     "author": "Oskar Potocki,  xrushha and  SmashPhil",
@@ -285,7 +333,7 @@
     "author": "Qarsoon Meel",
     "name": "Dreamer's Dreams",
     "steamId": "2514986353",
-    "version": "1.6"
+    "version": "2.2.0"
   },
   {
     "author": "Oskar Potocki and  Sarg Bjornson",
@@ -342,10 +390,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "PorqueNoLosDos (Updated By CrashM)",
+    "author": "CrashM",
     "name": "CM Color Coded Mood Bar [1.1+]",
     "steamId": "2006605356",
-    "version": "1.3.3074.1"
+    "version": "1.3.3102.1"
   },
   {
     "author": "krafs",
@@ -423,7 +471,7 @@
     "author": "SirRandoo",
     "name": "ToolkitUtils",
     "steamId": "2009500580",
-    "version": "6.1.3.0"
+    "version": "6.1.4.3"
   },
   {
     "author": "SirRandoo",
@@ -441,7 +489,13 @@
     "author": "Jecrell and contributors",
     "name": "Rim of Madness - Vampires",
     "steamId": "1187010034",
-    "version": "1.23.0.1"
+    "version": "1.23.1.0"
+  },
+  {
+    "author": "Falconne",
+    "name": "Better Workbench Management",
+    "steamId": "935982361",
+    "version": "0.5.0.0"
   },
   {
     "author": "Roolo",
