@@ -1,15 +1,117 @@
 [
   {
+    "author": "arof and Syrchalis",
+    "name": "[SYR] Harvest Yield (1.3)",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Xavior",
+    "name": "Glitter Tech",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "AobaKuma",
+    "name": "Fortifications - Industrial",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "ChJees and Rock5 - updated by Valcrafto",
+    "name": "RimSearch",
+    "steamId": "1550628303",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "KiameV (supporting) & Why_is_that (original)",
+    "name": "Expanded Roofing",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Neceros",
+    "name": "Bulk Smelting",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "FrozenSnowFox",
+    "name": "[FSF] Better Camp Loot",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "1trickPonyta",
+    "name": "Bed Rest For Food Poisoning",
+    "steamId": "2567901366",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Chicken Plucker",
+    "name": "[RH2] Rimmu-Nation² - Clothing",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Chicken Plucker and  Taranchuk",
+    "name": "[RH2] BCD: First Aid",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "1trickPonyta",
+    "name": "Animal Filth? Don't Care",
+    "steamId": "2573432875",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Chicken Plucker",
+    "name": "[RH2] Rimmu-Nation² - Weapons",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Andreas Pardeike",
     "name": "Harmony",
     "steamId": "2009463077",
     "version": "1.1.1.0"
   },
   {
+    "author": "Fluffy",
+    "name": "Mod Manager",
+    "steamId": "1507748539",
+    "version": "3.8.1038"
+  },
+  {
+    "author": "nercury",
+    "name": "Assign Animal Food",
+    "steamId": "2520066544",
+    "version": "1.3.2"
+  },
+  {
+    "author": "Turnovus",
+    "name": "Packs Are Not Belts",
+    "steamId": "2509511179",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "FrozenSnowFox",
+    "name": "[FSF] Better Ancient Complex Loot",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "UnlimitedHugs",
     "name": "HugsLib",
     "steamId": "818773962",
     "version": "9.0.0"
+  },
+  {
+    "author": "Falconne and  TedDraws",
+    "name": "Labels on Floor (Forked)",
+    "steamId": "2558166327",
+    "version": "0.5.0.0"
   },
   {
     "author": "jecrell and contributors",
@@ -21,7 +123,7 @@
     "author": "Torann",
     "name": "A RimWorld of Magic",
     "steamId": "1201382956",
-    "version": "2.6.0.3"
+    "version": "2.6.1.0"
   },
   {
     "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson and  Erdelf",
@@ -138,6 +240,24 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "ChJees",
+    "name": "Androids",
+    "steamId": "1541064015",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "juanlopez2008",
+    "name": "LightsOut",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Peptide",
+    "name": "Androids Expanded",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Spanky_H",
     "name": "Bun Race",
     "steamId": null,
@@ -216,12 +336,6 @@
     "version": "1.3.60.5"
   },
   {
-    "author": "FrozenSnowFox",
-    "name": "[FSF] Efficient Utilities",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Oskar Potocki and  Kikohi",
     "name": "Vanilla Expanded - Royalty Patches",
     "steamId": null,
@@ -237,13 +351,73 @@
     "author": "Andreas Pardeike",
     "name": "Achtung!",
     "steamId": "730936602",
-    "version": "3.2.3.0"
+    "version": "3.3.4.0"
+  },
+  {
+    "author": "Owlchemist",
+    "name": "Simple Utilities: Wall",
+    "steamId": "2565545335",
+    "version": "0.0.0.0"
+  },
+  {
+    "author": "Nephlite and  Maxim",
+    "name": "Utility Columns",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "FrozenSnowFox",
+    "name": "[FSF] Efficient Utilities",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki,  xrushha and  SmashPhil",
+    "name": "Vanilla Apparel Expanded — Accessories",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "jeonggihun",
+    "name": "Utility Columns Royalty Patch",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Neceros",
+    "name": "SRTS Expanded",
+    "steamId": "1845423808",
+    "version": "1.4.6"
   },
   {
     "author": "Dubwise",
     "name": "Dubs Mint Menus",
     "steamId": "1446523594",
     "version": "1.3.916"
+  },
+  {
+    "author": "Oskar Potocki",
+    "name": "Rimworld: Spartan Foundry (Continued)",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "avilmask",
+    "name": "Research Whatever",
+    "steamId": "2552092060",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Djgamer2k",
+    "name": "Share The Load",
+    "steamId": "2576277142",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": ".json",
+    "name": "Retractable Defenses",
+    "steamId": "2214068164",
+    "version": "1.0.0.0"
   },
   {
     "author": "Kayedon",
@@ -267,7 +441,7 @@
     "author": "Oskar Potocki,  Taranchuk and  Chowder",
     "name": "Vanilla Traits Expanded",
     "steamId": "2296404655",
-    "version": "1.0.0.0"
+    "version": "1.0.0.1"
   },
   {
     "author": "Oskar Potocki and  Alestria",
@@ -333,7 +507,7 @@
     "author": "CE Team",
     "name": "Combat Extended",
     "steamId": "1631756268",
-    "version": "1.3.4.1"
+    "version": "1.3.4.2"
   },
   {
     "author": "FrozenSnowFox",
@@ -373,9 +547,9 @@
   },
   {
     "author": "CodeOptimist",
-    "name": "Jobs of Opportunity (While You're Up)",
+    "name": "While You're Up / PUAH+",
     "steamId": "2034960453",
-    "version": "2.1.4.8512"
+    "version": "3.1.2.7519"
   },
   {
     "author": "Uuugggg",
@@ -432,12 +606,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Argón",
-    "name": "Salted Meat",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "YAYO",
     "name": "Real Faction Guest",
     "steamId": "2263021260",
@@ -460,6 +628,18 @@
     "name": "Camera+",
     "steamId": "867467808",
     "version": "2.2.0.0"
+  },
+  {
+    "author": "busted_bunny",
+    "name": "Recycle This",
+    "steamId": "2567877605",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "RebelRabbit and  Taranchuk",
+    "name": "Quality Bionics",
+    "steamId": "2527206368",
+    "version": "1.0.0.0"
   },
   {
     "author": "ILuvSilicon",
@@ -537,7 +717,7 @@
     "author": "swemoney",
     "name": "Toolkit - Channel Points",
     "steamId": "1916651243",
-    "version": "1.2.0"
+    "version": "1.3.1"
   },
   {
     "author": "SirRandoo",
@@ -549,7 +729,13 @@
     "author": "SirRandoo",
     "name": "ToolkitUtils",
     "steamId": "2009500580",
-    "version": "6.1.3.4"
+    "version": "6.1.5.1"
+  },
+  {
+    "author": "Andreas Pardeike and  BleuSquid",
+    "name": "Puppeteer",
+    "steamId": "2594873651",
+    "version": "1.6.0.0"
   },
   {
     "author": "EdB",
@@ -570,27 +756,27 @@
     "version": "1.1.0.0"
   },
   {
-    "author": "AobaKuma",
-    "name": "Fortifications - Medieval",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Krkr",
     "name": "RocketMan - Performance Mod",
     "steamId": "2479389928",
     "version": "0.6.3.2195"
   },
   {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Maynard Medieval",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Jecrell and lbmaian",
     "name": "Doors Expanded (Dev)",
     "steamId": "2195733555",
     "version": "1.4.0.0"
+  },
+  {
+    "author": "Kure",
+    "name": "Kure's Rimworld of Magic Class Expansion Pack",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Roolo and Updated by Ogliss",
+    "name": "RunAndGun",
+    "steamId": null,
+    "version": null
   }
 ]
