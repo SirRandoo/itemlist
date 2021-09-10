@@ -1,19 +1,43 @@
 [
   {
-    "author": "arof and Syrchalis",
-    "name": "[SYR] Harvest Yield (1.3)",
+    "author": "Chicken Plucker",
+    "name": "[RH2] Rimmu-Nation² - Weapons",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Razor 2.3",
+    "name": "Auto-Cut Blight",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Chicken Plucker",
+    "name": "[RH2] Rimmu-Nation² - Clothing",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Rimatomics",
+    "steamId": "1127530465",
+    "version": "1.7.2442"
+  },
+  {
+    "author": "Djgamer2k",
+    "name": "Share The Load",
+    "steamId": "2576277142",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "arof and Syrchalis",
+    "name": "[SYR] Harvest Yield (1.3)",
+    "steamId": "2561160220",
+    "version": "1.0.0.0"
   },
   {
     "author": "Xavior",
     "name": "Glitter Tech",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "AobaKuma",
-    "name": "Fortifications - Industrial",
     "steamId": null,
     "version": null
   },
@@ -24,10 +48,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "KiameV (supporting) & Why_is_that (original)",
-    "name": "Expanded Roofing",
-    "steamId": null,
-    "version": null
+    "author": "Dubwise",
+    "name": "Rimefeller",
+    "steamId": "1321849735",
+    "version": "1.2.1128"
   },
   {
     "author": "Neceros",
@@ -48,12 +72,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Chicken Plucker",
-    "name": "[RH2] Rimmu-Nation² - Clothing",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Chicken Plucker and  Taranchuk",
     "name": "[RH2] BCD: First Aid",
     "steamId": null,
@@ -64,12 +82,6 @@
     "name": "Animal Filth? Don't Care",
     "steamId": "2573432875",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "Chicken Plucker",
-    "name": "[RH2] Rimmu-Nation² - Weapons",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "Andreas Pardeike",
@@ -106,6 +118,12 @@
     "name": "HugsLib",
     "steamId": "818773962",
     "version": "9.0.0"
+  },
+  {
+    "author": "ColdToad",
+    "name": "Centralized Climate Control (Continued)",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Falconne and  TedDraws",
@@ -324,6 +342,12 @@
     "version": null
   },
   {
+    "author": "Andreas Pardeike",
+    "name": "Achtung!",
+    "steamId": "730936602",
+    "version": "3.3.5.0"
+  },
+  {
     "author": "Oskar Potocki and  Trunken",
     "name": "Vanilla Apparel Expanded",
     "steamId": null,
@@ -346,12 +370,6 @@
     "name": "Beautiful Outdoors",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Andreas Pardeike",
-    "name": "Achtung!",
-    "steamId": "730936602",
-    "version": "3.3.4.0"
   },
   {
     "author": "Owlchemist",
@@ -405,12 +423,6 @@
     "author": "avilmask",
     "name": "Research Whatever",
     "steamId": "2552092060",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Djgamer2k",
-    "name": "Share The Load",
-    "steamId": "2576277142",
     "version": "1.0.0.0"
   },
   {
@@ -570,6 +582,12 @@
     "version": "1.0.7862.37403"
   },
   {
+    "author": "Fluffy",
+    "name": "Colony Manager",
+    "steamId": "715565262",
+    "version": "4.33.649"
+  },
+  {
     "author": "GloomyLynx NukaFrog",
     "name": "GloomyFurniture",
     "steamId": "1558635181",
@@ -702,6 +720,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "SirRandoo",
+    "name": "ToolkitResearch",
+    "steamId": "2312827542",
+    "version": "1.0.2.6"
+  },
+  {
     "author": "hodlhodl",
     "name": "Twitch Toolkit",
     "steamId": "1718525787",
@@ -760,12 +784,6 @@
     "name": "RocketMan - Performance Mod",
     "steamId": "2479389928",
     "version": "0.6.3.2195"
-  },
-  {
-    "author": "Jecrell and lbmaian",
-    "name": "Doors Expanded (Dev)",
-    "steamId": "2195733555",
-    "version": "1.4.0.0"
   },
   {
     "author": "Kure",
