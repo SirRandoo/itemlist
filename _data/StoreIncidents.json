@@ -2,13 +2,13 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 800,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 2600,
-		"karmatype": "Bad"
+		"price": 10000,
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "clearweather",
@@ -27,12 +27,12 @@
 	},
 	{
 		"abr": "rainythunderstorm",
-		"price": 250,
+		"price": 1000,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "drythunderstorm",
-		"price": 450,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -52,17 +52,17 @@
 	},
 	{
 		"abr": "heatwave",
-		"price": 750,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "flashstorm",
-		"price": 400,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "coldsnap",
-		"price": 800,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
@@ -82,7 +82,7 @@
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3200,
+		"price": 7500,
 		"karmatype": "Doom"
 	},
 	{
@@ -122,7 +122,7 @@
 	},
 	{
 		"abr": "madanimal",
-		"price": 200,
+		"price": 250,
 		"karmatype": "Bad"
 	},
 	{
@@ -202,7 +202,7 @@
 	},
 	{
 		"abr": "militaryaid",
-		"price": 700,
+		"price": 1500,
 		"karmatype": "Good"
 	},
 	{
@@ -292,7 +292,7 @@
 	},
 	{
 		"abr": "hodlbotvote",
-		"price": 600,
+		"price": 500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -327,7 +327,7 @@
 	},
 	{
 		"abr": "passionshuffle",
-		"price": 2000,
+		"price": 1000,
 		"karmatype": "Neutral"
 	},
 	{
@@ -347,12 +347,12 @@
 	},
 	{
 		"abr": "passion",
-		"price": 7000,
+		"price": 2500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "removepassion",
-		"price": 5000,
+		"price": 1000,
 		"karmatype": "Neutral"
 	},
 	{
