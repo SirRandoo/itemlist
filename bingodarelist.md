@@ -32,7 +32,7 @@ Bingo Number | Dare
 21 | Ice Cube Down Pants 
 22 | Viewer Name Written On Me 
 23 | Viewer Name Written On Me 
-24 | Star Sticker On Face 
+24 | Attempt To Juggle 
 25 | Star Sticker On Face
 26 | Drop Current Weapon (Or Not Use For 5 Minutes) 
 27 | Drop Current Weapon (Or Not Use For 5 Minutes) 
@@ -40,7 +40,7 @@ Bingo Number | Dare
 29 | Bean Boozled 
 30 | Pink Wig (5 Minutes) 
 31 | Pink Wig (5 Minutes) 
-32 | 10 Push Ups 
+32 | Commit Murder?  
 33 | 10 Push Ups 
 34 | 10 Push Ups 
 35 | Invert Controls (5 Minutes) 
@@ -55,7 +55,7 @@ Bingo Number | Dare
 44 | Add 1 Minute To Timed Stuff 
 45 | Random Face Filter (5 Minutes) 
 46 | Random Face Filter (5 Minutes) 
-47 | Give Titus A Treat 
+47 | Hot Sauce 
 48 | Give Titus A Treat 
 49 | Give Titus A Treat 
 50 | Only Basic Attacks (5 Minutes) 
@@ -79,10 +79,10 @@ Bingo Number | Dare
 68 | Read Tongue Twister While Holding My Tongue 
 69 | Repeat Last Dare 
 70 | Tell Bad Joke 
-71 | Tell Bad Joke 
-72 | Dab 
+71 | Mess Up Hair  
+72 | Mess Up Hair 
 73 | Dab 
-74 | Play With Titus 
+74 | Condiment Taste Test  
 75 | Play With Titus 
 76 | Read A Riddle 
 77 | Read A Riddle 
