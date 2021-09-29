@@ -116,6 +116,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "orbitaltraderarrival",
+		"price": 350,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "meteor",
 		"price": 150,
 		"karmatype": "Neutral"
@@ -202,13 +207,18 @@
 	},
 	{
 		"abr": "militaryaid",
-		"price": 1500,
+		"price": 1750,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "raid",
 		"price": 1500,
 		"karmatype": "Bad"
+	},
+	{
+		"abr": "dropraid",
+		"price": 5000,
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "sapperraid",
@@ -219,6 +229,16 @@
 		"abr": "siegeraid",
 		"price": 2500,
 		"karmatype": "Bad"
+	},
+	{
+		"abr": "mechanoidraid",
+		"price": 5000,
+		"karmatype": "Doom"
+	},
+	{
+		"abr": "infestation",
+		"price": 5000,
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "manhunterpack",
@@ -242,7 +262,7 @@
 	},
 	{
 		"abr": "reviveanypawn",
-		"price": 1200,
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
@@ -271,11 +291,6 @@
 		"karmatype": "Neutral"
 	},
 	{
-		"abr": "prisoner",
-		"price": 800,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "visitcolony",
 		"price": 300,
 		"karmatype": "Good"
@@ -297,27 +312,27 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22664,
+		"price": 15000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 2833,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "healall",
-		"price": 17336,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "healanypawn",
 		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
+		"abr": "healall",
+		"price": 10000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "healanypawn",
+		"price": 500,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "healme",
-		"price": 2167,
+		"price": 1500,
 		"karmatype": "Good"
 	},
 	{
@@ -342,12 +357,12 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2167,
+		"price": 1500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "passion",
-		"price": 2500,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
@@ -387,12 +402,12 @@
 	},
 	{
 		"abr": "randomchildhood",
-		"price": 3000,
+		"price": 1500,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "randomadulthood",
-		"price": 3000,
+		"price": 1500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -406,5 +421,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 81
+	"total": 84
 }
