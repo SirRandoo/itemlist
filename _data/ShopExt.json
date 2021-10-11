@@ -4024,10 +4024,10 @@
       },
       "defName": "LC_Immortal",
       "name": "immortal",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 1,
       "degree": 0
     },
     {
@@ -5981,6 +5981,132 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0
+    },
+    {
+      "description": "Timmy has dominant human blood which supresses more savage Dragon blood.",
+      "stats": [
+        "+2 shooting",
+        "-2 melee",
+        "+2 intellectual",
+        "+2 social",
+        "+4.0 weapon handling",
+        "-0.1 Armor - Blunt",
+        "-0.45 Armor - Sharp",
+        "-20.0% Armor - Heat"
+      ],
+      "conflicts": [
+        "brawler",
+        "brawler",
+        "bloodlust",
+        "bloodlust",
+        "cannibal",
+        "psychopath"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Half dragons",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "brawler",
+          "brawler",
+          "bloodlust",
+          "bloodlust",
+          "cannibal",
+          "psychopath"
+        ],
+        "stats": [
+          "+2 shooting",
+          "-2 melee",
+          "+2 intellectual",
+          "+2 social",
+          "+4.0 weapon handling",
+          "-0.1 Armor - Blunt",
+          "-0.45 Armor - Sharp",
+          "-20.0% Armor - Heat"
+        ]
+      },
+      "defName": "HD_HumanBlooded",
+      "name": "humanblooded",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
+      "stats": [
+        "Morbid meditation focus type allowed."
+      ],
+      "conflicts": [
+        "bloodlust"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Half dragons",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "bloodlust"
+        ],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ]
+      },
+      "defName": "HD_Bloodlust",
+      "name": "bloodlust",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
+      "stats": [
+        "Shoot frenzy inspiration disabled.",
+        "+4 melee",
+        "-4 shooting",
+        "+4.0 melee hit chance"
+      ],
+      "conflicts": [
+        "brawler",
+        "carefulshooter",
+        "trigger-happy",
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Half dragons",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "brawler",
+          "carefulshooter",
+          "trigger-happy",
+          "wimp"
+        ],
+        "stats": [
+          "Shoot frenzy inspiration disabled.",
+          "+4 melee",
+          "-4 shooting",
+          "+4.0 melee hit chance"
+        ]
+      },
+      "defName": "HD_Brawler",
+      "name": "brawler",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
     }
   ],
   "races": [
@@ -6451,7 +6577,7 @@
       "defName": "Rabbie",
       "enabled": true,
       "name": "Rabbie",
-      "price": 3333
+      "price": 1500
     },
     {
       "data": {
@@ -6481,7 +6607,7 @@
       "defName": "Alien_BunTribe",
       "enabled": true,
       "name": "Bun",
-      "price": 2917
+      "price": 1500
     },
     {
       "data": {
@@ -6520,7 +6646,7 @@
       "defName": "Ratkin",
       "enabled": true,
       "name": "Ratkin",
-      "price": 3333
+      "price": 1500
     },
     {
       "data": {
@@ -6560,7 +6686,7 @@
       "defName": "Ratkin_Su",
       "enabled": true,
       "name": "Ratkin subject",
-      "price": 3333
+      "price": 1500
     },
     {
       "data": {
@@ -6593,7 +6719,54 @@
       "defName": "Quartz_Race",
       "enabled": true,
       "name": "Quartzian",
-      "price": 5833
+      "price": 1500
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+0% Flammability",
+          "+125% Melee dodge chance",
+          "+0% Melee critical chance",
+          "+0% Melee parry chance",
+          "+6.50 Move speed",
+          "+0.1 Armor - Blunt",
+          "+0.85 Armor - Sharp",
+          "+200.0% Armor - Heat",
+          "+120% Immunity gain speed",
+          "+150% Injury healing factor",
+          "+200% Eating speed",
+          "+35.00% Food poison chance",
+          "+300.00% Bond chance factor",
+          "+120% Butchery efficiency",
+          "+1.4 Melee hit chance",
+          "+0.20 Melee armor penetration",
+          "+100 Carrying capacity",
+          "+120% Hunger rate multiplier",
+          "+50% Mental break threshold",
+          "+70% Research speed",
+          "+150% Construction speed",
+          "+75% Drug synthesis speed",
+          "+85% Mechanoid shredding efficiency",
+          "+$3000 Market value",
+          "+5.0C Minimum comfortable temperature",
+          "+80.0C Maximum comfortable temperature",
+          "+75 Meat amount",
+          "+50 Leather amount",
+          "+6 Honor value",
+          "+85% Incoming damage multiplier",
+          "+100% Aiming time",
+          "+110% Psychic sensitivity"
+        ],
+        "mod": "Half dragons",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Half-Dragons have been a space faring race for quite a long time, contrary to popular belief these noble yet somewhat savage folk are not genetically engineered. They are easily spotted by their physical differences with humans thanks to their colorful scales, draconic eyes, horns and even tails! Thanks to their physical differences and strong scales people of this race proved themselves to be excellent melee combatants. It was easy to find them serving various empires outside of their own as front line fighters.\n\n      Sadly due to their hardy nature and exotic looks many Half-Dragons end up captured and forced into gladiatorial combat. There are other reasons they are highly sought after; unique biological traits that are wholly unique to them. One of which allows to combine a specialized ore with their blood that activates various powerful abilities.\n\n      A point of debate of many scholars is how such a openly savage race had made it to spaceflight, much less a force that roams about the galaxy. This is in large part thanks to a rare sub group of Half-Dragons that lead their kind in political, cultural and scientific endeavors. These \"albino's\" are almost the polar opposites of their more common brutish brethren. Despite a strong imperial nation and a sense of loyalty to their own, those that find themselves able to escape their gladiatorial slavery often form up as pirates. These pirates tend to be ruthless and a general nuisance in the galaxy.",
+      "defName": "HalfDragon",
+      "enabled": true,
+      "name": "Half-Dragon",
+      "price": 1500
     }
   ]
 }

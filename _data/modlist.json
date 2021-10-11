@@ -132,10 +132,22 @@
     "version": "2.17.133"
   },
   {
+    "author": "Neceros",
+    "name": "Bulk Smelting",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Spanky_H",
     "name": "Bun Race",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "CrashM",
+    "name": "CM Color Coded Mood Bar [1.1+]",
+    "steamId": "2006605356",
+    "version": "1.3.3136.1"
   },
   {
     "author": "Andreas Pardeike",
@@ -148,6 +160,12 @@
     "name": "Caravan Adventures",
     "steamId": "2558957509",
     "version": "1.3.2.0"
+  },
+  {
+    "author": "Owlchemist",
+    "name": "Clean Pathfinding",
+    "steamId": "2603765747",
+    "version": "0.0.0.0"
   },
   {
     "author": "Hatti",
@@ -170,6 +188,18 @@
   {
     "author": "LadyCookie",
     "name": "Cookie Traits",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Spdskatr and  CaesarV6",
+    "name": "Damage Indicators [1.3]",
+    "steamId": "2016331497",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Alias",
+    "name": "De-generalize Work",
     "steamId": null,
     "version": null
   },
@@ -213,13 +243,19 @@
     "author": "Dubwise",
     "name": "Dubs Mint Menus",
     "steamId": "1446523594",
-    "version": "1.3.916"
+    "version": "1.0.0"
   },
   {
     "author": "Dubwise",
     "name": "Dubs Mint Minimap",
     "steamId": "1662119905",
     "version": "1.2.7365"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Performance Analyzer",
+    "steamId": "2038874626",
+    "version": "1.0.0"
   },
   {
     "author": "iwishforducks",
@@ -288,6 +324,12 @@
     "version": "1.0.4"
   },
   {
+    "author": "Monti and  Caulaflower",
+    "name": "Half dragons",
+    "steamId": "2556121262",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Orion",
     "name": "Hospitality",
     "steamId": null,
@@ -298,6 +340,12 @@
     "name": "Hunt for Me",
     "steamId": "1593245720",
     "version": "3.5.4.0"
+  },
+  {
+    "author": "notfood",
+    "name": "Infused",
+    "steamId": "731287727",
+    "version": "1.1.1.0"
   },
   {
     "author": "dhultgren",
@@ -354,6 +402,18 @@
     "version": null
   },
   {
+    "author": "Fluffy",
+    "name": "Medical Tab",
+    "steamId": "715565817",
+    "version": "3.4.91"
+  },
+  {
+    "author": "StatistNo1, Rebel_Rabbit and Cain",
+    "name": "Mines 2.0",
+    "steamId": "2503894706",
+    "version": "0.0.0.0"
+  },
+  {
     "author": "Haplo",
     "name": "Misc. Robots",
     "steamId": null,
@@ -398,6 +458,12 @@
   {
     "author": "Doug",
     "name": "No Job Authors",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Peppsen",
+    "name": "P-Music",
     "steamId": null,
     "version": null
   },
@@ -558,6 +624,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "VinaLx",
+    "name": "ResearchPal - Forked",
+    "steamId": "2351393394",
+    "version": "1.3.0.1"
+  },
+  {
     "author": "ruPal",
     "name": "RimPy Mod Manager Database",
     "steamId": null,
@@ -646,6 +718,18 @@
     "name": "Stackable Chunks [1.3+]",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "民火",
+    "name": "Statue of Colonist",
+    "steamId": "1539031321",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Scherub",
+    "name": "Stonecutting Extended",
+    "steamId": "2571676542",
+    "version": "1.1.0.0"
   },
   {
     "author": "Uuugggg",
@@ -844,6 +928,12 @@
     "name": "[FSF] Filth Vanishes With Rain And Time",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Fuu Chan",
+    "name": "[Fuu] Auto Strip on Haul",
+    "steamId": "2560725133",
+    "version": "1.0.0.0"
   },
   {
     "author": "erdelf (original) & Kiame (support)",
