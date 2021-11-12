@@ -5897,6 +5897,36 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0
+    },
+    {
+      "description": "Driod do not understand emotions on a logical level.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "SimpleAI",
+      "name": "simpleai",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
     }
   ],
   "races": [
@@ -5948,7 +5978,7 @@
       "defName": "StarWarsRaces_Wookiee",
       "enabled": true,
       "name": "Wookiee",
-      "price": 4583
+      "price": 1500
     },
     {
       "data": {
@@ -5970,7 +6000,7 @@
       "defName": "StarWarsRaces_Togruta",
       "enabled": true,
       "name": "Togruta",
-      "price": 2917
+      "price": 1500
     },
     {
       "data": {
@@ -5992,7 +6022,7 @@
       "defName": "StarWarsRaces_Rodian",
       "enabled": true,
       "name": "Rodian",
-      "price": 2917
+      "price": 1500
     },
     {
       "data": {
@@ -6014,7 +6044,7 @@
       "defName": "StarWarsRaces_Ewok",
       "enabled": true,
       "name": "Ewok",
-      "price": 2917
+      "price": 1500
     },
     {
       "data": {
@@ -6036,7 +6066,7 @@
       "defName": "StarWarsRaces_Twilek",
       "enabled": true,
       "name": "Twi'lek",
-      "price": 2917
+      "price": 1500
     },
     {
       "data": {
@@ -6065,7 +6095,7 @@
       "defName": "SW_4LOM_DroidPawn",
       "enabled": true,
       "name": "LOM-series Droid",
-      "price": 2933
+      "price": 1500
     },
     {
       "data": {
@@ -6092,7 +6122,7 @@
       "defName": "SW_Gand_Pawn",
       "enabled": true,
       "name": "Gand Species",
-      "price": 2500
+      "price": 1500
     },
     {
       "data": {
@@ -6119,7 +6149,7 @@
       "defName": "SW_Hutts_Pawn",
       "enabled": true,
       "name": "Hutts Species",
-      "price": 7500
+      "price": 1500
     },
     {
       "data": {
@@ -6148,7 +6178,7 @@
       "defName": "SW_IG88_DroidPawn",
       "enabled": true,
       "name": "IG-88 Assassin Droid",
-      "price": 5000
+      "price": 1500
     },
     {
       "data": {
@@ -6175,7 +6205,480 @@
       "defName": "Pawn_StarWars_Trandosha",
       "enabled": true,
       "name": "Trandosha",
+      "price": 1500
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$1500 Market value",
+          "+4.20 Move speed",
+          "+0% Flammability",
+          "+1000% Immunity gain speed",
+          "+50.0% Armor - Sharp",
+          "+50.0% Armor - Blunt",
+          "+10.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+99% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+20 Carrying capacity",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "B-1 Battle Droids, were the most widely used battle droids manufactured by Baktoid Combat Automata and Baktoid Armor Workshop.It was flimsily designed and easy to destroy, and was only truly successful in large numbers.",
+      "defName": "Battle_Droid",
+      "enabled": true,
+      "name": "B-1 Battle Droid",
       "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$1500 Market value",
+          "+4.20 Move speed",
+          "+0% Flammability",
+          "+1000% Immunity gain speed",
+          "+50.0% Armor - Sharp",
+          "+50.0% Armor - Blunt",
+          "+10.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+99% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+20 Carrying capacity",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "B-1 Commander Droids, were the most widely used Commander droids. Manufactured by Baktoid Combat Automata and Baktoid Armor Workshop.It was flimsily designed and easy to destroy, and was only truly successful in large numbers.",
+      "defName": "B-1_Commander_Droid",
+      "enabled": true,
+      "name": "B-1_Commander_Droid",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$1500 Market value",
+          "+4.20 Move speed",
+          "+0% Flammability",
+          "+1000% Immunity gain speed",
+          "+50.0% Armor - Sharp",
+          "+50.0% Armor - Blunt",
+          "+10.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+99% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+20 Carrying capacity",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "B-1 Droid Specialist, were the most widely used sniper droids manufactured by Baktoid Combat Automata and Baktoid Armor Workshop.It was flimsily designed and easy to destroy",
+      "defName": "B-1_Droid_Specialist",
+      "enabled": true,
+      "name": "B-1 Droid Specialist",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$1500 Market value",
+          "+2.20 Move speed",
+          "+0% Flammability",
+          "+1000% Immunity gain speed",
+          "+99.0% Armor - Sharp",
+          "+99.0% Armor - Blunt",
+          "+10.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+99% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+20 Carrying capacity",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Super battle droids were much stronger than their predecessors, and like the updated B1s used by the Confederacy, they did not require a command system to operate.",
+      "defName": "Super_Battle_Droid",
+      "enabled": true,
+      "name": "B-2 Super Battle Droid",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$4000 Market value",
+          "+5.20 Move speed",
+          "+0% Flammability",
+          "+1000% Immunity gain speed",
+          "+200.0% Armor - Sharp",
+          "+200.0% Armor - Blunt",
+          "+10.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+99% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+20 Carrying capacity",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "BX-series commando droids were advanced, sturdier versions of B1 battle droids. They were programmed with improved combat tactics and battlefield awareness.",
+      "defName": "BX_Droid_Commando",
+      "enabled": true,
+      "name": "BX Droid Commando",
+      "price": 6667
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$4000 Market value",
+          "+2.20 Move speed",
+          "+0% Flammability",
+          "+10000% Immunity gain speed",
+          "+399.0% Armor - Sharp",
+          "+599.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+100000% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Droidekas were dangerous and deadly, designed to exterminate their adversaries with extreme prejudice",
+      "defName": "Droidekas",
+      "enabled": true,
+      "name": "Droidekas",
+      "price": 6667
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$4000 Market value",
+          "+4.70 Move speed",
+          "+0% Flammability",
+          "+10000% Immunity gain speed",
+          "+399.0% Armor - Sharp",
+          "+599.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+100000% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "IG-100 MagnaGuards were equipped with electrostaffs that could be used against Jedi lightsabers and were capable of continuing a fight even with the loss of one or multiple limbs or even their heads",
+      "defName": "IG-100_Magnaguard",
+      "enabled": true,
+      "name": "IG-100 Magnaguard",
+      "price": 6667
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$4000 Market value",
+          "+2.20 Move speed",
+          "+0% Flammability",
+          "+10000% Immunity gain speed",
+          "+399.0% Armor - Sharp",
+          "+599.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+100000% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Super Tactical Droid were utilized by the Confederacy of Independent Systems to coordinate their military, acting as advisors and often generals for their superior officers",
+      "defName": "Super_Tactical_Droid",
+      "enabled": true,
+      "name": "Super Tactical Droid",
+      "price": 6667
+    },
+    {
+      "data": {
+        "stats": [
+          "+30.00 Mass",
+          "+0% Toxic sensitivity",
+          "+$4000 Market value",
+          "+2.20 Move speed",
+          "+0% Flammability",
+          "+10000% Immunity gain speed",
+          "+399.0% Armor - Sharp",
+          "+599.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+100000% Pain shock threshold",
+          "+0% Hunger rate multiplier",
+          "+0% Eating speed",
+          "+0% Global work speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+0% Research speed",
+          "+0% Plant work speed",
+          "+0% Global learning factor",
+          "+0.00% Negotiation ability",
+          "+0.00% Trade price improvement",
+          "+0.00% Social impact",
+          "+0% Hunting stealth",
+          "+0.0 Cooking speed",
+          "+0% Butchery speed",
+          "+0% Butchery efficiency",
+          "+0% Drug cooking speed",
+          "+0% Smelting speed",
+          "+0% Medical tend quality",
+          "+0% Medical surgery success chance",
+          "+0% Psychic sensitivity",
+          "+0.00% Train animal chance",
+          "+0.00% Tame animal chance",
+          "+0% Smoothing speed",
+          "+0% Animal gather speed",
+          "+0% Mining speed",
+          "+0.9 Melee dodge chance"
+        ],
+        "mod": "[JDS] Star Wars The Separatist Droid Army",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Tactical Droid were utilized by the Confederacy of Independent Systems to coordinate their military, acting as advisors and often generals for their superior officers",
+      "defName": "T-Series_Tactical_Droid",
+      "enabled": true,
+      "name": "T-Series Tactical Droid",
+      "price": 6667
     }
   ]
 }

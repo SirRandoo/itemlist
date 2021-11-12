@@ -150,6 +150,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "JangoD'soul",
+    "name": "Darth Vader Suit Set",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Alias",
     "name": "De-generalize Work",
     "steamId": null,
@@ -492,6 +498,12 @@
     "version": "0.1.0.0"
   },
   {
+    "author": "explodoboy",
+    "name": "Science Never Stops: Ambition of the Cosmic",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Roolo",
     "name": "Search and Destroy",
     "steamId": null,
@@ -631,6 +643,12 @@
   },
   {
     "author": "JangoD'soul",
+    "name": "StarWars - Dengar Armor Set",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "JangoD'soul",
     "name": "StarWars - Gand Species",
     "steamId": null,
     "version": null
@@ -750,6 +768,18 @@
     "version": "1.0.7468.14677"
   },
   {
+    "author": "Imranfish",
+    "name": "XML Extensions",
+    "steamId": "2574315206",
+    "version": "1.6.3"
+  },
+  {
+    "author": "Grimm",
+    "name": "Un-Limited",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Nephlite and  Maxim",
     "name": "Utility Columns",
     "steamId": null,
@@ -841,13 +871,13 @@
   },
   {
     "author": "JangoD'soul",
-    "name": "[JDS] Star Wars BlasTech Industries",
+    "name": "[JDS] The Forge - Anvil",
     "steamId": null,
     "version": null
   },
   {
     "author": "JangoD'soul",
-    "name": "[JDS] The Forge - Anvil",
+    "name": "[JDS] Havoc Squad Trooper",
     "steamId": null,
     "version": null
   },
@@ -884,6 +914,18 @@
   {
     "author": "JangoD'soul",
     "name": "[JDS] Star Wars The Mando and Paz Vizla Armor Set",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "JangoD'soul",
+    "name": "[JDS] Star Wars BlasTech Industries",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "JangoD'soul",
+    "name": "[JDS] Star Wars The Separatist Droid Army",
     "steamId": null,
     "version": null
   },
