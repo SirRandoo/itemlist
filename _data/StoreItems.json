@@ -5282,7 +5282,7 @@
 	},
 	{
 		"abr": "kraytdragonpearl(black)",
-		"price": 8333,
+		"price": -10,
 		"category": "Saber crystals",
 		"defname": "PJ_BlackPearl"
 	},
@@ -6716,7 +6716,7 @@
 	},
 	{
 		"abr": "pontitecrystal(iceblue)",
-		"price": 5000,
+		"price": -10,
 		"category": "Saber crystals",
 		"defname": "PJ_PontiteCrystal"
 	},
@@ -7406,7 +7406,7 @@
 	},
 	{
 		"abr": "ultimapearl(pale)",
-		"price": 8333,
+		"price": -10,
 		"category": "Saber crystals",
 		"defname": "PJ_UltimaPearl"
 	},

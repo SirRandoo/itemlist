@@ -6256,7 +6256,7 @@
       },
       "description": "B-1 Battle Droids, were the most widely used battle droids manufactured by Baktoid Combat Automata and Baktoid Armor Workshop.It was flimsily designed and easy to destroy, and was only truly successful in large numbers.",
       "defName": "Battle_Droid",
-      "enabled": true,
+      "enabled": false,
       "name": "B-1 Battle Droid",
       "price": 1500
     },
@@ -6309,7 +6309,7 @@
       },
       "description": "B-1 Commander Droids, were the most widely used Commander droids. Manufactured by Baktoid Combat Automata and Baktoid Armor Workshop.It was flimsily designed and easy to destroy, and was only truly successful in large numbers.",
       "defName": "B-1_Commander_Droid",
-      "enabled": true,
+      "enabled": false,
       "name": "B-1_Commander_Droid",
       "price": 1500
     },
@@ -6362,7 +6362,7 @@
       },
       "description": "B-1 Droid Specialist, were the most widely used sniper droids manufactured by Baktoid Combat Automata and Baktoid Armor Workshop.It was flimsily designed and easy to destroy",
       "defName": "B-1_Droid_Specialist",
-      "enabled": true,
+      "enabled": false,
       "name": "B-1 Droid Specialist",
       "price": 1500
     },
@@ -6415,7 +6415,7 @@
       },
       "description": "Super battle droids were much stronger than their predecessors, and like the updated B1s used by the Confederacy, they did not require a command system to operate.",
       "defName": "Super_Battle_Droid",
-      "enabled": true,
+      "enabled": false,
       "name": "B-2 Super Battle Droid",
       "price": 1500
     },
@@ -6468,7 +6468,7 @@
       },
       "description": "BX-series commando droids were advanced, sturdier versions of B1 battle droids. They were programmed with improved combat tactics and battlefield awareness.",
       "defName": "BX_Droid_Commando",
-      "enabled": true,
+      "enabled": false,
       "name": "BX Droid Commando",
       "price": 1500
     },
@@ -6520,7 +6520,7 @@
       },
       "description": "Droidekas were dangerous and deadly, designed to exterminate their adversaries with extreme prejudice",
       "defName": "Droidekas",
-      "enabled": true,
+      "enabled": false,
       "name": "Droidekas",
       "price": 1500
     },
@@ -6572,7 +6572,7 @@
       },
       "description": "IG-100 MagnaGuards were equipped with electrostaffs that could be used against Jedi lightsabers and were capable of continuing a fight even with the loss of one or multiple limbs or even their heads",
       "defName": "IG-100_Magnaguard",
-      "enabled": true,
+      "enabled": false,
       "name": "IG-100 Magnaguard",
       "price": 1500
     },
@@ -6624,7 +6624,7 @@
       },
       "description": "Super Tactical Droid were utilized by the Confederacy of Independent Systems to coordinate their military, acting as advisors and often generals for their superior officers",
       "defName": "Super_Tactical_Droid",
-      "enabled": true,
+      "enabled": false,
       "name": "Super Tactical Droid",
       "price": 1500
     },
@@ -6676,7 +6676,7 @@
       },
       "description": "Tactical Droid were utilized by the Confederacy of Independent Systems to coordinate their military, acting as advisors and often generals for their superior officers",
       "defName": "T-Series_Tactical_Droid",
-      "enabled": true,
+      "enabled": false,
       "name": "T-Series Tactical Droid",
       "price": 1500
     }
