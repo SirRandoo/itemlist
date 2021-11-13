@@ -5228,8 +5228,8 @@
       "name": "forcesensitive",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
+      "addPrice": 1,
+      "removePrice": 1,
       "degree": 1
     },
     {
@@ -5258,8 +5258,8 @@
       "name": "forceapprentice",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
+      "addPrice": 1,
+      "removePrice": 1,
       "degree": 2
     },
     {
@@ -6258,7 +6258,7 @@
       "defName": "Battle_Droid",
       "enabled": true,
       "name": "B-1 Battle Droid",
-      "price": 2500
+      "price": 1500
     },
     {
       "data": {
@@ -6311,7 +6311,7 @@
       "defName": "B-1_Commander_Droid",
       "enabled": true,
       "name": "B-1_Commander_Droid",
-      "price": 2500
+      "price": 1500
     },
     {
       "data": {
@@ -6364,7 +6364,7 @@
       "defName": "B-1_Droid_Specialist",
       "enabled": true,
       "name": "B-1 Droid Specialist",
-      "price": 2500
+      "price": 1500
     },
     {
       "data": {
@@ -6417,7 +6417,7 @@
       "defName": "Super_Battle_Droid",
       "enabled": true,
       "name": "B-2 Super Battle Droid",
-      "price": 2500
+      "price": 1500
     },
     {
       "data": {
@@ -6470,7 +6470,7 @@
       "defName": "BX_Droid_Commando",
       "enabled": true,
       "name": "BX Droid Commando",
-      "price": 6667
+      "price": 1500
     },
     {
       "data": {
@@ -6522,7 +6522,7 @@
       "defName": "Droidekas",
       "enabled": true,
       "name": "Droidekas",
-      "price": 6667
+      "price": 1500
     },
     {
       "data": {
@@ -6574,7 +6574,7 @@
       "defName": "IG-100_Magnaguard",
       "enabled": true,
       "name": "IG-100 Magnaguard",
-      "price": 6667
+      "price": 1500
     },
     {
       "data": {
@@ -6626,7 +6626,7 @@
       "defName": "Super_Tactical_Droid",
       "enabled": true,
       "name": "Super Tactical Droid",
-      "price": 6667
+      "price": 1500
     },
     {
       "data": {
@@ -6678,7 +6678,7 @@
       "defName": "T-Series_Tactical_Droid",
       "enabled": true,
       "name": "T-Series Tactical Droid",
-      "price": 6667
+      "price": 1500
     }
   ]
 }
