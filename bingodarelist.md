@@ -36,7 +36,7 @@ Bingo Number | Dare
 25 | Star Sticker On Face
 26 | Drop Current Weapon (Or Not Use For 5 Minutes) 
 27 | Drop Current Weapon (Or Not Use For 5 Minutes) 
-28 | Bean Boozled 
+28 | Spin charity spinner
 29 | Bean Boozled 
 30 | Pink Wig (5 Minutes) 
 31 | Pink Wig (5 Minutes) 
