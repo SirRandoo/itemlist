@@ -56,8 +56,8 @@ Bingo Number | Dare
 45 | Random Face Filter (5 Minutes) 
 46 | Random Face Filter (5 Minutes) 
 47 | Hot Sauce 
-48 | Give Titus A Treat 
-49 | Give Titus A Treat 
+48 | Give Cats A Treat 
+49 | Give Cats A Treat 
 50 | Only Basic Attacks (5 Minutes) 
 51 | Only Basic Attacks (5 Minutes) 
 52 | 2 Balls Next Time 
@@ -83,7 +83,7 @@ Bingo Number | Dare
 72 | Mess Up Hair 
 73 | Dab 
 74 | Condiment Taste Test  
-75 | Play With Titus 
+75 | Play With Cats 
 76 | Read A Riddle 
 77 | Read A Riddle 
 78 | Clothes Inside Out 
