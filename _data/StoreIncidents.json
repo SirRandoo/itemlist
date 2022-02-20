@@ -2,12 +2,12 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 800,
+		"price": 1200,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 2600,
+		"price": 3600,
 		"karmatype": "Bad"
 	},
 	{
@@ -72,7 +72,7 @@
 	},
 	{
 		"abr": "solarflare",
-		"price": 500,
+		"price": 700,
 		"karmatype": "Bad"
 	},
 	{
@@ -82,7 +82,7 @@
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 6500,
+		"price": 7500,
 		"karmatype": "Doom"
 	},
 	{
@@ -102,17 +102,12 @@
 	},
 	{
 		"abr": "blight",
-		"price": 700,
+		"price": 800,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "animaltame",
 		"price": 150,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "wandererjoins",
-		"price": 50,
 		"karmatype": "Good"
 	},
 	{
@@ -441,5 +436,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 88
+	"total": 87
 }
