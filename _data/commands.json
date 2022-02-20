@@ -180,6 +180,23 @@
       "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
+    "description": "Gives a viewer some of your coins.",
+    "name": "Gift coins",
+    "usage": "!giftcoins <viewer> <amount>",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "Twitch Toolkit"
+    },
     "description": null,
     "name": "Join queue",
     "usage": "!joinqueue",
@@ -316,9 +333,9 @@
       "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": null,
+    "description": "Sets the user's pawn's favorite color to the color specified. The color can be a name or a hexcode.",
     "name": "Set favorite color",
-    "usage": "!setfavoritecolor",
+    "usage": "!setfavoritecolor <color>",
     "userLevel": "Anyone",
     "shortcut": false
   },
@@ -333,9 +350,9 @@
       "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": null,
+    "description": "Sets the user's pawn's favourite colour to the colour specified. The colour can be a name or a hex code.",
     "name": "Set favourite colour",
-    "usage": "!setfavouritecolour",
+    "usage": "!setfavouritecolour <color>",
     "userLevel": "Anyone",
     "shortcut": false
   },
@@ -656,60 +673,9 @@
       "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows an overview of your pawn's health. If a capacity is specified, it'll show what's affecting it.",
-    "name": "Viewer health",
-    "usage": "!mypawnhealth [capacity]",
-    "userLevel": "Anyone",
-    "shortcut": false
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitUtils"
-    },
     "description": null,
     "name": "Viewer needs",
     "usage": "!mypawnneeds",
-    "userLevel": "Anyone",
-    "shortcut": false
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitUtils"
-    },
-    "description": "Shows an overview of your pawn's gear.",
-    "name": "Viewer gear",
-    "usage": "!mypawngear",
-    "userLevel": "Anyone",
-    "shortcut": false
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitUtils"
-    },
-    "description": null,
-    "name": "Viewer body",
-    "usage": "!mypawnbody",
     "userLevel": "Anyone",
     "shortcut": false
   },
@@ -1016,6 +982,57 @@
     "description": null,
     "name": "Unstick me",
     "usage": "!imstuck",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "TwitchToolkit - More !mypawn Commands"
+    },
+    "description": null,
+    "name": "My pawn gear",
+    "usage": "!mypawngear",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "TwitchToolkit - More !mypawn Commands"
+    },
+    "description": null,
+    "name": "My pawn health",
+    "usage": "!mypawnhealth",
+    "userLevel": "Anyone",
+    "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "TwitchToolkit - More !mypawn Commands"
+    },
+    "description": null,
+    "name": "My pawn body",
+    "usage": "!mypawnbody",
     "userLevel": "Anyone",
     "shortcut": false
   },
