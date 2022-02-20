@@ -3,7 +3,145 @@
     "author": "Andreas Pardeike",
     "name": "Harmony",
     "steamId": "2009463077",
+    "version": "1.2.0.0"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "ToolkitCore",
+    "steamId": "2018368654",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "Twitch Toolkit",
+    "steamId": "1718525787",
+    "version": "2.0.10.0"
+  },
+  {
+    "author": "erdelf",
+    "name": "Humanoid Alien Races",
+    "steamId": "839005762",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Albion",
+    "name": "Xenohumans - Gen-spliced Xenos on the Rim",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "SirRandoo",
+    "name": "ToolkitUtils",
+    "steamId": "2009500580",
+    "version": "6.1.6.0"
+  },
+  {
+    "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson and  Erdelf",
+    "name": "Vanilla Expanded Framework",
+    "steamId": "2023507013",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki,  Trunken and  XeoNovaDan",
+    "name": "Vanilla Furniture Expanded - Security",
+    "steamId": "1845154007",
     "version": "1.1.1.0"
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
+    "name": "Vanilla Brewing Expanded",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sarg Bjornson,  Chowder and  Trahspanda",
+    "name": "Vanilla Brewing Expanded - Coffees and Teas",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "UnlimitedHugs",
+    "name": "HugsLib",
+    "steamId": "818773962",
+    "version": "9.0.1"
+  },
+  {
+    "author": "Falconne",
+    "name": "Heat Map",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Fluffy",
+    "name": "Pharmacist",
+    "steamId": "1365242717",
+    "version": "2.9.140"
+  },
+  {
+    "author": "Xavior",
+    "name": "Glitter Tech",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Andreas Pardeike and  BleuSquid",
+    "name": "Puppeteer",
+    "steamId": "2594873651",
+    "version": "1.6.1.0"
+  },
+  {
+    "author": "Syrchalis",
+    "name": "[SYR] Harvest Yield",
+    "steamId": "1461790308",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Kikohi",
+    "name": "Forsakens",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Eagle0600",
+    "name": "Dress Patients",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
+    "name": "Vanilla Cooking Expanded",
+    "steamId": "2134308519",
+    "version": "1.3.7862.41411"
+  },
+  {
+    "author": "Dylan",
+    "name": "Animal Gear",
+    "steamId": "1541438907",
+    "version": "1.3.1.3"
+  },
+  {
+    "author": "Jaxxa",
+    "name": "ED-Embrasures",
+    "steamId": "722085442",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki and  Sarg Bjornson",
+    "name": "Vanilla Fishing Expanded",
+    "steamId": "1914064942",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "NotFood",
+    "name": "MendAndRecycle",
+    "steamId": "735241897",
+    "version": "1.0.1.0"
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
+    "name": "Vanilla Ideology Expanded - Memes and Structures",
+    "steamId": "2636329500",
+    "version": "1.0.0.0"
   },
   {
     "author": "Weilbyte",
@@ -16,12 +154,6 @@
     "name": "Door Mat",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson and  Erdelf",
-    "name": "Vanilla Expanded Framework",
-    "steamId": "2023507013",
-    "version": "1.0.0.0"
   },
   {
     "author": "Oskar Potocki and  Sarg Bjornson",
@@ -63,12 +195,6 @@
     "author": "Oskar Potocki,  Sarg Bjornson and  Aquiles",
     "name": "Vanilla Animals Expanded — Caves",
     "steamId": "2576512001",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Georodin",
-    "name": "[SYR] Set Up Camp - 1.3",
-    "steamId": "2554129670",
     "version": "1.0.0.0"
   },
   {
@@ -126,12 +252,6 @@
     "version": null
   },
   {
-    "author": "Oskar Potocki and  Sarg Bjornson",
-    "name": "Vanilla Fishing Expanded",
-    "steamId": "1914064942",
-    "version": "1.3.7862.41411"
-  },
-  {
     "author": "OskarPotocki,  Atlas and  Kikohi",
     "name": "Vanilla Furniture Expanded - Medical Module",
     "steamId": null,
@@ -181,19 +301,7 @@
   },
   {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
-    "name": "Vanilla Cooking Expanded",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
     "name": "Vanilla Cooking Expanded - Stews",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
-    "name": "Vanilla Brewing Expanded",
     "steamId": null,
     "version": null
   },
@@ -249,7 +357,7 @@
     "author": "Uuugggg",
     "name": "Replace Stuff",
     "steamId": "1372003680",
-    "version": "1.0.0.0"
+    "version": "1.1.0.0"
   },
   {
     "author": "Rainbeau Flambe (original) & Kiame Vivacity",
@@ -262,12 +370,6 @@
     "name": "Vanilla Events Expanded",
     "steamId": "1938420742",
     "version": "1.1.0"
-  },
-  {
-    "author": "UnlimitedHugs",
-    "name": "HugsLib",
-    "steamId": "818773962",
-    "version": "9.0.0"
   },
   {
     "author": "UnlimitedHugs",
@@ -312,12 +414,6 @@
     "version": null
   },
   {
-    "author": "erdelf",
-    "name": "Humanoid Alien Races",
-    "steamId": "839005762",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Shadowrabbit",
     "name": "[SR]Factional War",
     "steamId": "2534328163",
@@ -333,7 +429,7 @@
     "author": "Qarsoon Meel",
     "name": "Dreamer's Dreams",
     "steamId": "2514986353",
-    "version": "2.2.0"
+    "version": "2.3.2"
   },
   {
     "author": "Oskar Potocki and  Sarg Bjornson",
@@ -345,7 +441,7 @@
     "author": "Andreas Pardeike",
     "name": "Camera+",
     "steamId": "867467808",
-    "version": "2.2.0.0"
+    "version": "2.2.1.0"
   },
   {
     "author": "Sarg Bjornson and  Oskar Potocki",
@@ -393,7 +489,7 @@
     "author": "CrashM",
     "name": "CM Color Coded Mood Bar [1.1+]",
     "steamId": "2006605356",
-    "version": "1.3.3102.1"
+    "version": "1.3.3136.1"
   },
   {
     "author": "krafs",
@@ -414,10 +510,16 @@
     "version": null
   },
   {
+    "author": "Imranfish",
+    "name": "XML Extensions",
+    "steamId": "2574315206",
+    "version": "1.6.3"
+  },
+  {
     "author": "Grimm",
     "name": "Un-Limited",
-    "steamId": null,
-    "version": null
+    "steamId": "1668141382",
+    "version": "1.0.0.0"
   },
   {
     "author": "Alaestor",
@@ -438,22 +540,10 @@
     "version": "1.8.0.0"
   },
   {
-    "author": "hodlhodl",
-    "name": "ToolkitCore",
-    "steamId": "2018368654",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "hodlhodl",
-    "name": "Twitch Toolkit",
-    "steamId": "1718525787",
-    "version": "2.0.10.0"
-  },
-  {
     "author": "swemoney",
     "name": "Toolkit - Channel Points",
     "steamId": "1916651243",
-    "version": "1.2.0"
+    "version": "1.3.1"
   },
   {
     "author": "Heremeus",
@@ -466,12 +556,6 @@
     "name": "TwitchToolkit - Lootboxes",
     "steamId": "1720021578",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "SirRandoo",
-    "name": "ToolkitUtils",
-    "steamId": "2009500580",
-    "version": "6.1.4.3"
   },
   {
     "author": "SirRandoo",
@@ -522,12 +606,6 @@
     "version": "1.0.6.0"
   },
   {
-    "author": "Fluffy",
-    "name": "Blueprints",
-    "steamId": "708455313",
-    "version": "2.17.133"
-  },
-  {
     "author": "Oskar Potocki,  Sarg Bjornson and  legodude17",
     "name": "Vanilla Ideology Expanded - Relics and Artifacts",
     "steamId": null,
@@ -543,6 +621,6 @@
     "author": "Dubwise",
     "name": "Dubs Mint Menus",
     "steamId": "1446523594",
-    "version": "1.3.916"
+    "version": "1.0.0"
   }
 ]
