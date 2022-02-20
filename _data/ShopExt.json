@@ -3929,6 +3929,36 @@
       "addPrice": 3500,
       "removePrice": 0,
       "degree": 3
+    },
+    {
+      "description": "Either the body or mind of Timmy is one of insight and experience. While some find them old fashioned, others will respect their guidance.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Ideology Expanded - Memes and Structures",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VME_Elder",
+      "name": "elder",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
     }
   ],
   "races": [
@@ -3959,23 +3989,23 @@
         "stats": [
           "+65.00 Mass",
           "+100% Flammability",
-          "+$2000 Market value",
-          "+4 Honor value",
+          "+$3000 Market value",
+          "+5 Honor value",
           "+75 Carrying capacity",
           "+100% Global learning factor",
           "+80% Psychic sensitivity",
           "+80% Rest rate multiplier",
-          "+80% Global work speed",
+          "+70% Global work speed",
           "+0 Foraged food amount",
-          "+100.00% Negotiation ability",
-          "+100.00% Social impact",
-          "+100.00% Trade price improvement",
+          "+120.00% Negotiation ability",
+          "+120.00% Social impact",
+          "+120.00% Trade price improvement",
           "+40 Leather amount",
-          "+78% Pain shock threshold",
+          "+82% Pain shock threshold",
           "+30% Mental break threshold",
-          "+32.4F Minimum comfortable temperature",
-          "+54.0F Maximum comfortable temperature",
-          "+5.00 Move speed",
+          "+39.6F Minimum comfortable temperature",
+          "+72.0F Maximum comfortable temperature",
+          "+5.20 Move speed",
           "+95% Aiming time",
           "+10.0 Melee dodge chance",
           "+1.2 Melee hit chance"
@@ -4044,6 +4074,122 @@
       "enabled": true,
       "name": "valkyrie",
       "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+120% Psychic sensitivity",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+28.8F Minimum comfortable temperature",
+          "+46.8F Maximum comfortable temperature",
+          "+50 Leather amount"
+        ],
+        "mod": "Xenohumans - Gen-spliced Xenos on the Rim",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Designer mates are genetically engineered on glitterworlds to be the perfect mate. This is a decendant of one of them that still inherits most of the traits.",
+      "defName": "DesignerMatesXH",
+      "enabled": true,
+      "name": "designer mate",
+      "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+150% Toxic sensitivity",
+          "+$1750 Market value",
+          "+4.20 Move speed",
+          "+54.0F Minimum comfortable temperature",
+          "+82.8F Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+6.0% Armor - Blunt",
+          "+12.0% Armor - Sharp"
+        ],
+        "mod": "Xenohumans - Gen-spliced Xenos on the Rim",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A genetically modified human. Either through gene therapy or environmental pressure this kind of human has developed a think leathery skin. Scalemen are slightly slower and tire quicker than normal humans but they are highly adapted to hot biomes, need less food and have some natural armor.",
+      "defName": "ScaleManXH",
+      "enabled": true,
+      "name": "Scaleman",
+      "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+28.8F Minimum comfortable temperature",
+          "+46.8F Maximum comfortable temperature",
+          "+50 Leather amount"
+        ],
+        "mod": "Xenohumans - Gen-spliced Xenos on the Rim",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A genetically altered human usually breed for combat. Soldiermorphs feel less pain, are tougher and need less food. However they have a very low life expectancy and learn new things slower than an average human.",
+      "defName": "SoldiermorphXH",
+      "enabled": true,
+      "name": "soldiermorph",
+      "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "-25.2F Minimum comfortable temperature",
+          "+39.6F Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+8.0% Armor - Blunt",
+          "+6.0% Armor - Sharp"
+        ],
+        "mod": "Xenohumans - Gen-spliced Xenos on the Rim",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A genetically altered version of the baseline human. This wolflike human has altered hands with retractable claws capable of inflicting serious damage. Animallike instincts are more present in this person and wolfmen often have a short fuse and are easy to anger.",
+      "defName": "WolfManXH",
+      "enabled": true,
+      "name": "wolfman",
+      "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+55.00 Mass",
+          "+70% Flammability",
+          "+$1900 Market value",
+          "+5.60 Move speed",
+          "+130% Research speed",
+          "+110% Global work speed",
+          "+110% Global learning factor",
+          "+1.2 Melee dodge chance",
+          "+50 Leather amount",
+          "+28.8F Minimum comfortable temperature",
+          "+46.8F Maximum comfortable temperature",
+          "+4 Honor value"
+        ],
+        "mod": "Forsakens",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The legacy of a fallen empire, with a distant link to the humanoid races of earth and beyond. Other than the fact that they began to awaken over the past century, no one knows much else about what they are, where they are from or fundamentals behind their technology, which seems to bridge the gap between science and magic.",
+      "defName": "Alien_Forsaken",
+      "enabled": true,
+      "name": "forsaken",
+      "price": 3167
     }
   ]
 }
