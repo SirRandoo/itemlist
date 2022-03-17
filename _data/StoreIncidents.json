@@ -2,12 +2,12 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 800,
+		"price": 1500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 2600,
+		"price": 3200,
 		"karmatype": "Bad"
 	},
 	{
@@ -88,7 +88,7 @@
 	{
 		"abr": "volcanicwinter",
 		"price": 3200,
-		"karmatype": "Doom"
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "eclipse",
@@ -113,11 +113,6 @@
 	{
 		"abr": "resourcepodcrash",
 		"price": 300,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "transportpodcrash",
-		"price": 600,
 		"karmatype": "Good"
 	},
 	{
@@ -357,7 +352,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 500,
+		"price": 1,
 		"karmatype": "Neutral"
 	},
 	{
@@ -401,6 +396,11 @@
 		"karmatype": "Neutral"
 	},
 	{
+		"abr": "cleartraits",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "use",
 		"price": 1,
 		"karmatype": "Neutral"
@@ -432,7 +432,7 @@
 	},
 	{
 		"abr": "sanctuary",
-		"price": 100000,
+		"price": 10000,
 		"karmatype": "Good"
 	}
 	],
