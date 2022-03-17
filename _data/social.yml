@@ -1,6 +1,6 @@
 # Icons on the footer
 rss: false
-email_address:
+email_address: rosie.teet@gmail.com
 behance:
 bitbucket:
 dribbble:
@@ -18,7 +18,7 @@ stack_overflow:
 stack_exchange:
 steam:
 tumblr:
-twitter:
+twitter:https://twitter.com/RosieTeet
 vimeo:
 wordpress:
 youtube: # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
