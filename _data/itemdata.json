@@ -24637,7 +24637,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_DunealiskEggUnfertilized": {
     "CustomName": null,
@@ -24677,7 +24677,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_DunealiskSuperEggFertilized": {
     "CustomName": null,
@@ -24697,7 +24697,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_BlizzariskEggUnfertilized": {
     "CustomName": null,
@@ -24797,7 +24797,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_CinderliskEggUnfertilized": {
     "CustomName": null,
@@ -24826,7 +24826,7 @@
     "IsRanged": false,
     "IsStuffAllowed": true,
     "IsWeapon": false,
-    "QuantityLimit": -1,
+    "QuantityLimit": 1,
     "Weight": 1,
     "ResearchOverrides": null,
     "IsUsable": true,
@@ -24837,7 +24837,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_EggNightlingFertilized": {
     "CustomName": null,
@@ -26341,13 +26341,13 @@
   },
   "AA_BlizzariskClutchMother": {
     "CustomName": null,
-    "HasQuantityLimit": false,
+    "HasQuantityLimit": true,
     "IsMelee": false,
     "IsRanged": false,
     "IsStuffAllowed": true,
     "IsWeapon": false,
-    "QuantityLimit": -1,
-    "Weight": 1,
+    "QuantityLimit": 1,
+    "Weight": 30,
     "ResearchOverrides": null,
     "IsUsable": true,
     "IsEquippable": true,
@@ -26357,7 +26357,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_BloodShrimp": {
     "CustomName": null,
@@ -26761,13 +26761,13 @@
   },
   "AA_Dunealisk": {
     "CustomName": null,
-    "HasQuantityLimit": false,
+    "HasQuantityLimit": true,
     "IsMelee": false,
     "IsRanged": false,
     "IsStuffAllowed": true,
     "IsWeapon": false,
-    "QuantityLimit": -1,
-    "Weight": 1,
+    "QuantityLimit": 1,
+    "Weight": 30,
     "ResearchOverrides": null,
     "IsUsable": true,
     "IsEquippable": true,
@@ -26777,17 +26777,17 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_DunealiskClutchMother": {
     "CustomName": null,
-    "HasQuantityLimit": false,
+    "HasQuantityLimit": true,
     "IsMelee": false,
     "IsRanged": false,
     "IsStuffAllowed": true,
     "IsWeapon": false,
-    "QuantityLimit": -1,
-    "Weight": 1,
+    "QuantityLimit": 1,
+    "Weight": 30,
     "ResearchOverrides": null,
     "IsUsable": true,
     "IsEquippable": true,
@@ -26797,7 +26797,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_DuskRat": {
     "CustomName": null,
@@ -26941,13 +26941,13 @@
   },
   "AA_FeraliskClutchMother": {
     "CustomName": null,
-    "HasQuantityLimit": false,
+    "HasQuantityLimit": true,
     "IsMelee": false,
     "IsRanged": false,
     "IsStuffAllowed": true,
     "IsWeapon": false,
-    "QuantityLimit": -1,
-    "Weight": 1,
+    "QuantityLimit": 1,
+    "Weight": 30,
     "ResearchOverrides": null,
     "IsUsable": true,
     "IsEquippable": true,
@@ -26957,7 +26957,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_FireWasp": {
     "CustomName": null,
@@ -27421,13 +27421,13 @@
   },
   "AA_Junglelisk": {
     "CustomName": null,
-    "HasQuantityLimit": false,
+    "HasQuantityLimit": true,
     "IsMelee": false,
     "IsRanged": false,
     "IsStuffAllowed": true,
     "IsWeapon": false,
-    "QuantityLimit": -1,
-    "Weight": 1,
+    "QuantityLimit": 1,
+    "Weight": 30,
     "ResearchOverrides": null,
     "IsUsable": true,
     "IsEquippable": true,
@@ -27437,7 +27437,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "Alpha Animals",
-    "KarmaType": null
+    "KarmaType": "Bad"
   },
   "AA_Lockjaw": {
     "CustomName": null,

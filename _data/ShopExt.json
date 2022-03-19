@@ -11701,7 +11701,7 @@
       "defName": "M7Mech",
       "enabled": true,
       "name": "M7 Mechanised infantry",
-      "price": 30000
+      "price": 300000000
     },
     {
       "data": {
@@ -11733,7 +11733,7 @@
       "defName": "M8Mech",
       "enabled": true,
       "name": "M8 Mechanised infantry",
-      "price": 30000
+      "price": 300000000
     },
     {
       "data": {
@@ -11765,7 +11765,7 @@
       },
       "description": "A lost android, shunned from their transcendant community. The tech used to make them is beyond human comprehension, boasting near unlimited power and requiring little sustinence to operate. They deem all races other than themselves to be somewhat below them and believe that living on a rimworld is a fate worse than death.",
       "defName": "Android5Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T5 Android",
       "price": 13333
     },
@@ -11799,7 +11799,7 @@
       },
       "description": "The most advanced form of android conceivable; this tier is able to efficiently hold the consciousness of any AI uploaded onto it, with advanced locomotive abilities and manipulation; this android vastly suprasses most humans.",
       "defName": "Android4Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T4 Android",
       "price": 10000
     },
@@ -11832,7 +11832,7 @@
       },
       "description": "A Prototype android exclusive to this rimworld; developed by a secret R/D Laboratory, away from the eye of the rest of the planet and cosmos. This android features highly advanced locomotive and motor abilities, perfectly mimicing that of an average human. Although clunky and somewhat slow - this android features a modular component design, allowing for upgrades to be made to current parts at any point.",
       "defName": "Android3Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T3 Android",
       "price": 8000
     },
@@ -11868,7 +11868,7 @@
       },
       "description": "As simple as sentient robotics can get. This design is the bare skeletal amount of components needed to create full autonomous functionality. Obviously not the best but it works well when needed.",
       "defName": "Android1Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T1 Android",
       "price": 2333
     },
@@ -11904,7 +11904,7 @@
       },
       "description": "A somewhat advanced android, capable of almost perfectly storing an AI consciousness and with reasonable levels of motor skills. A good all round android that is uses extensively on glitterworlds for basic maintenance and cleaning.",
       "defName": "Android2Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T2 Android",
       "price": 4167
     },
@@ -11929,9 +11929,9 @@
       },
       "description": "Whether due to scientific experimentation, occult interference, or comic fluke, these are poor souls for whom death has been abjured.",
       "defName": "ReanimatedCorpse",
-      "enabled": true,
+      "enabled": false,
       "name": "reanimated corpse",
-      "price": 1
+      "price": 99999
     },
     {
       "data": {
