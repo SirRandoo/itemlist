@@ -107,7 +107,7 @@
 	},
 	{
 		"abr": "animaltame",
-		"price": 150,
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
@@ -327,17 +327,17 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22664,
+		"price": 25000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 2833,
+		"price": 3000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 17336,
+		"price": 17500,
 		"karmatype": "Good"
 	},
 	{
@@ -347,7 +347,7 @@
 	},
 	{
 		"abr": "healme",
-		"price": 2167,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
@@ -372,12 +372,12 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2167,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "passion",
-		"price": 7000,
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
