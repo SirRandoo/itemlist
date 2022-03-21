@@ -24,6 +24,11 @@ title: Store
         {%- assign weaponsForDisplay = weaponsForDisplay | push: item | sort: "abr" -%}
         {%- continue -%}
     {%- endif -%}
+                         
+    {%- if item.category == "Animals" -%}
+        {%- assign animalsForDisplay = animalsForDisplay | push: item | sort: "abr" -%}
+        {%- continue -%}
+    {%- endif -%}
 
     {%- if item.category != "Animal" -%}
         {%- assign itemsForDisplay = itemsForDisplay | push: item | sort: "abr" -%}
