@@ -6,11 +6,6 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "tornados",
-		"price": 3000,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -327,17 +322,17 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 25000,
+		"price": 22664,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 3000,
+		"price": 2833,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 17500,
+		"price": 17336,
 		"karmatype": "Good"
 	},
 	{
@@ -347,7 +342,7 @@
 	},
 	{
 		"abr": "healme",
-		"price": 2000,
+		"price": 2167,
 		"karmatype": "Good"
 	},
 	{
@@ -372,7 +367,7 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2000,
+		"price": 2167,
 		"karmatype": "Good"
 	},
 	{
@@ -436,5 +431,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 87
+	"total": 86
 }
