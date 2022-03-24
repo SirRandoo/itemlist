@@ -2,12 +2,12 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 1500,
+		"price": 3500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 3200,
+		"price": 7200,
 		"karmatype": "Bad"
 	},
 	{
@@ -107,7 +107,7 @@
 	},
 	{
 		"abr": "animaltame",
-		"price": 150,
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
@@ -192,7 +192,7 @@
 	},
 	{
 		"abr": "skillincrease",
-		"price": 200,
+		"price": 600,
 		"karmatype": "Good"
 	},
 	{
@@ -297,7 +297,7 @@
 	},
 	{
 		"abr": "genderswap",
-		"price": 600,
+		"price": 100,
 		"karmatype": "Neutral"
 	},
 	{
@@ -432,7 +432,7 @@
 	},
 	{
 		"abr": "sanctuary",
-		"price": 10000,
+		"price": 20000,
 		"karmatype": "Good"
 	}
 	],
