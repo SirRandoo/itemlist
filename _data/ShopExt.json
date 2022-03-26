@@ -624,9 +624,9 @@
       "data": {
         "canBypassLimit": false,
         "customName": false,
-        "karmaTypeForRemoving": null,
+        "karmaTypeForRemoving": "Neutral",
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
+        "karmaTypeForAdding": "Neutral",
         "conflicts": [
           "brawler",
           "masochist"
@@ -12974,7 +12974,7 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": true,
+      "enabled": false,
       "name": "human",
       "price": 3333
     },
@@ -13009,7 +13009,7 @@
       },
       "description": "A vat-grown underling created by the Folia to act as guards and raiders.\nVery combat proficient, these fungal organisms' toxic touch lets them defeat even strong foes in hand-to-hand combat.\nTheir skill in any other labor, however, leave much to be desired.\n+ Shooting Accuracy and Speed \n+Dodge Change\n+ No food debuffs\n+ Fast injury recovery\n- very slow worker",
       "defName": "Deathkap_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Deathkap",
       "price": 3333
     },
@@ -13036,7 +13036,7 @@
       },
       "description": "One of the regal and imposing Folia. Their plant-infused DNA lets them thrive in harsh temperatures and suppliment their diet with sunlight.\nThese xenohumans deign to involve themselves in hard labour, preferring to delegate tasks to their vat-grown underlings.\n+ Great at trade deals\n+ Low food needs\n+ Access to tech to grow worker units\n~ Huge social imapact\n- often unwilling to do many work types",
       "defName": "Folia_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Folia",
       "price": 3333
     },
@@ -13065,7 +13065,7 @@
       },
       "description": "A vat-grown underling created by the Folia to perform menial tasks.\nSlow learning, yet hard working and hardy, these plant-based grunts are effective workers.\n+ Bonus work speed\n+ low break threshold\n- Slow learning\n- Dumb",
       "defName": "Potatoid_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Potatoid",
       "price": 3333
     },
@@ -13097,7 +13097,7 @@
       },
       "description": "A small friendly gelatinous being.\nMoonjellies are quick and nimble, and exceptionally skilled with medicine.\nBut be warned, their delicate bodies make them poor combatants and very vulnerable to danger.",
       "defName": "Moonjelly_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Moonjelly",
       "price": 3333
     },
@@ -13364,7 +13364,7 @@
       },
       "description": "A race of parasitic living crystals growning on human bodies.",
       "defName": "Quartz_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Quartzian",
       "price": 3333
     },
@@ -13390,7 +13390,7 @@
       },
       "description": "The legacy of a fallen empire, with a distant link to the humanoid races of earth and beyond. Other than the fact that they began to awaken over the past century, no one knows much else about what they are, where they are from or fundamentals behind their technology, which seems to bridge the gap between science and magic.",
       "defName": "Alien_Forsaken",
-      "enabled": true,
+      "enabled": false,
       "name": "forsaken",
       "price": 3333
     },
@@ -13418,7 +13418,7 @@
       },
       "description": "Sharing biological features similar to fungus, amphibians, and plantlike organisms, the five-sided barrel-shaped entities referred to simply as the Elder Things are hardy creatures that can survive in most temperatures, enter trance-like sleep nearly indefinitely, survive deep space flight, and aside from suffering violent trauma, are effectively immortal.\n\nFurther information: Elder Things are genderless creatures that reproduce asexually through spores that are raised by families of likeminded individuals rather than blood-relations. Their society is focused on large open spaces adorned by artwork and cylindrical furniture in pentagonal and other strange geometric structures. Due to advanced genetic engineering technology, they are responsible for the creation of the sentient slave protoplasmic race known as the Shoggoths, which turned against the Elder Things in centuries past and nearly destroyed their civilization. Even so, the Elder Things still rely on slave labor to maintain their decadent lifestyles and refuse to do labor that is beneath them.",
       "defName": "Alien_ElderThing_Race_Standard",
-      "enabled": true,
+      "enabled": false,
       "name": "Elder Thing",
       "price": 3333
     },
@@ -13442,7 +13442,7 @@
       },
       "description": "A hardy human-cactus hybrid species able to live in harse conditions.",
       "defName": "Alien_Cactoid",
-      "enabled": true,
+      "enabled": false,
       "name": "cactoid",
       "price": 3333
     }
