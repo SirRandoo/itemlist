@@ -1408,31 +1408,31 @@
       "abr": "sandstoneblocks",
       "category": "Stone blocks",
       "defname": "BlocksSandstone",
-      "price": 2
+      "price": 1
     },
     {
       "abr": "graniteblocks",
       "category": "Stone blocks",
       "defname": "BlocksGranite",
-      "price": 2
+      "price": 1
     },
     {
       "abr": "limestoneblocks",
       "category": "Stone blocks",
       "defname": "BlocksLimestone",
-      "price": 2
+      "price": 1
     },
     {
       "abr": "slateblocks",
       "category": "Stone blocks",
       "defname": "BlocksSlate",
-      "price": 2
+      "price": 1
     },
     {
       "abr": "marbleblocks",
       "category": "Stone blocks",
       "defname": "BlocksMarble",
-      "price": 2
+      "price": 1
     },
     {
       "abr": "breachaxe",
@@ -1666,7 +1666,7 @@
       "abr": "ostrich",
       "category": "Animals",
       "defname": "Ostrich",
-      "price": 420
+      "price": 400
     },
     {
       "abr": "emu",
@@ -1696,7 +1696,7 @@
       "abr": "lynx",
       "category": "Animals",
       "defname": "Lynx",
-      "price": 420
+      "price": 400
     },
     {
       "abr": "cat",
@@ -1720,7 +1720,7 @@
       "abr": "labradorretriever",
       "category": "Animals",
       "defname": "LabradorRetriever",
-      "price": 420
+      "price": 425
     },
     {
       "abr": "husky",
@@ -1738,7 +1738,7 @@
       "abr": "chicken",
       "category": "Animals",
       "defname": "Chicken",
-      "price": 80
+      "price": 75
     },
     {
       "abr": "duck",
@@ -1846,7 +1846,7 @@
       "abr": "snowhare",
       "category": "Animals",
       "defname": "Snowhare",
-      "price": 80
+      "price": 75
     },
     {
       "abr": "megascarab",
@@ -1888,7 +1888,7 @@
       "abr": "alphabeaver",
       "category": "Animals",
       "defname": "Alphabeaver",
-      "price": 415
+      "price": 400
     },
     {
       "abr": "pig",
@@ -1954,19 +1954,19 @@
       "abr": "squirrel",
       "category": "Animals",
       "defname": "Squirrel",
-      "price": 60
+      "price": 75
     },
     {
       "abr": "rat",
       "category": "Animals",
       "defname": "Rat",
-      "price": 60
+      "price": 75
     },
     {
       "abr": "boomrat",
       "category": "Animals",
       "defname": "Boomrat",
-      "price": 165
+      "price": 125
     },
     {
       "abr": "raccoon",
@@ -3545,7 +3545,19 @@
       "category": "Headgear",
       "defname": "xmasantlers",
       "price": 1000
+    },
+    {
+      "abr": "zombrella",
+      "category": "Misc",
+      "defname": "Zombrella",
+      "price": 3333
+    },
+    {
+      "abr": "zombgrella",
+      "category": "Misc",
+      "defname": "Zombgrella",
+      "price": 642
     }
   ],
-  "total": 591
+  "total": 593
 }
