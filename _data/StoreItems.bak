@@ -3896,7 +3896,7 @@
 	},
 	{
 		"abr": "anchovy",
-		"price": -10,
+		"price": 0,
 		"category": "Raw fish",
 		"defname": "VCEF_RawAnchovy"
 	},
@@ -4652,7 +4652,7 @@
 	},
 	{
 		"abr": "biosolids",
-		"price": -10,
+		"price": 0,
 		"category": "Waste",
 		"defname": "Biosolids"
 	},
@@ -4736,7 +4736,7 @@
 	},
 	{
 		"abr": "bloodleech",
-		"price": -10,
+		"price": 0,
 		"category": "Alien raw fish",
 		"defname": "VCEF_BloodLeech"
 	},
@@ -4856,7 +4856,7 @@
 	},
 	{
 		"abr": "borealsardine",
-		"price": -10,
+		"price": 0,
 		"category": "Alien raw fish",
 		"defname": "VCEF_BorealSardine"
 	},
@@ -4988,7 +4988,7 @@
 	},
 	{
 		"abr": "cactoid",
-		"price": -10,
+		"price": 2500,
 		"category": "Animal",
 		"defname": "Alien_Cactoid"
 	},
@@ -5906,7 +5906,7 @@
 	},
 	{
 		"abr": "deathkap",
-		"price": -10,
+		"price": 3333,
 		"category": "Animal",
 		"defname": "Deathkap_Race"
 	},
@@ -5918,7 +5918,7 @@
 	},
 	{
 		"abr": "deathkapvessel",
-		"price": 3333,
+		"price": 12,
 		"category": "Manufactured",
 		"defname": "DeathkapVessel"
 	},
@@ -6260,7 +6260,7 @@
 	},
 	{
 		"abr": "duskysprat",
-		"price": -10,
+		"price": 0,
 		"category": "Alien raw fish",
 		"defname": "VCEF_DuskySprat"
 	},
@@ -6290,7 +6290,7 @@
 	},
 	{
 		"abr": "elderthing",
-		"price": -10,
+		"price": 3333,
 		"category": "Animal",
 		"defname": "Alien_ElderThing_Race_Standard"
 	},
@@ -6884,7 +6884,7 @@
 	},
 	{
 		"abr": "folia",
-		"price": -10,
+		"price": 3333,
 		"category": "Animal",
 		"defname": "Folia_Race"
 	},
@@ -6902,7 +6902,7 @@
 	},
 	{
 		"abr": "forsaken",
-		"price": -10,
+		"price": 3167,
 		"category": "Animal",
 		"defname": "Alien_Forsaken"
 	},
@@ -7028,7 +7028,7 @@
 	},
 	{
 		"abr": "frostleaf",
-		"price": -10,
+		"price": 0,
 		"category": "Raw resources",
 		"defname": "AB_RawFrostLeaf"
 	},
@@ -7532,7 +7532,7 @@
 	},
 	{
 		"abr": "guppy",
-		"price": -10,
+		"price": 0,
 		"category": "Raw fish",
 		"defname": "VCEF_RawGuppy"
 	},
@@ -8588,7 +8588,7 @@
 	},
 	{
 		"abr": "m7mechanisedinfantry",
-		"price": -10,
+		"price": 30000,
 		"category": "Animal",
 		"defname": "M7Mech"
 	},
@@ -8600,7 +8600,7 @@
 	},
 	{
 		"abr": "m8mechanisedinfantry",
-		"price": -10,
+		"price": 30000,
 		"category": "Animal",
 		"defname": "M8Mech"
 	},
@@ -8894,7 +8894,7 @@
 	},
 	{
 		"abr": "mashedpomana",
-		"price": -10,
+		"price": 0,
 		"category": "Vegetarian",
 		"defname": "TM_RawPomanaMash"
 	},
@@ -9200,7 +9200,7 @@
 	},
 	{
 		"abr": "minnow",
-		"price": -10,
+		"price": 0,
 		"category": "Raw fish",
 		"defname": "VCEF_RawMinnow"
 	},
@@ -9320,7 +9320,7 @@
 	},
 	{
 		"abr": "moonjelly",
-		"price": -10,
+		"price": 3333,
 		"category": "Animal",
 		"defname": "Moonjelly_Race"
 	},
@@ -10130,7 +10130,7 @@
 	},
 	{
 		"abr": "potatoid",
-		"price": -10,
+		"price": 3333,
 		"category": "Animal",
 		"defname": "Potatoid_Race"
 	},
@@ -10190,7 +10190,7 @@
 	},
 	{
 		"abr": "propanebag",
-		"price": -10,
+		"price": 0,
 		"category": "Alien raw fish",
 		"defname": "VCEF_PropaneBag"
 	},
@@ -10298,7 +10298,7 @@
 	},
 	{
 		"abr": "quartzian",
-		"price": -10,
+		"price": 5833,
 		"category": "Animal",
 		"defname": "Quartz_Race"
 	},
@@ -11432,7 +11432,7 @@
 	},
 	{
 		"abr": "sprat",
-		"price": -10,
+		"price": 0,
 		"category": "Raw fish",
 		"defname": "VCEF_RawSprat"
 	},
@@ -11648,31 +11648,31 @@
 	},
 	{
 		"abr": "t1android",
-		"price": -10,
+		"price": 2333,
 		"category": "Animal",
 		"defname": "Android1Tier"
 	},
 	{
 		"abr": "t2android",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "Android2Tier"
 	},
 	{
 		"abr": "t3android",
-		"price": -10,
+		"price": 8000,
 		"category": "Animal",
 		"defname": "Android3Tier"
 	},
 	{
 		"abr": "t4android",
-		"price": -10,
+		"price": 10000,
 		"category": "Animal",
 		"defname": "Android4Tier"
 	},
 	{
 		"abr": "t5android",
-		"price": -10,
+		"price": 13333,
 		"category": "Animal",
 		"defname": "Android5Tier"
 	},
@@ -12098,25 +12098,25 @@
 	},
 	{
 		"abr": "skrix",
-		"price": -10,
+		"price": 3000,
 		"category": "Animal",
 		"defname": "Skrix_Noble"
 	},
 	{
 		"abr": "skrix",
-		"price": -10,
+		"price": 3333,
 		"category": "Animal",
 		"defname": "Skrix"
 	},
 	{
 		"abr": "skrix",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "Skrix_Royal"
 	},
 	{
 		"abr": "skrix",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "Skrix_Soldier"
 	},
@@ -12182,7 +12182,7 @@
 	},
 	{
 		"abr": "tentacularfruit",
-		"price": -10,
+		"price": 0,
 		"category": "Vegetarian",
 		"defname": "AB_RawTentacularFruit"
 	},
@@ -12389,804 +12389,6 @@
 		"price": 5625,
 		"category": "Apparel",
 		"defname": "FF_ForsakenA"
-	},
-	{
-		"abr": "thermadon",
-		"price": 1083,
-		"category": "Animals",
-		"defname": "AA_Thermadon"
-	},
-	{
-		"abr": "thermostat",
-		"price": 86,
-		"category": "Hygiene",
-		"defname": "Thermostat"
-	},
-	{
-		"abr": "throwabletorchbelt",
-		"price": 43,
-		"category": "Utility",
-		"defname": "VFEV_Apparel_TorchBelt"
-	},
-	{
-		"abr": "throwingaxe",
-		"price": 260,
-		"category": "Ranged weapons",
-		"defname": "VFE_ThrowingAxe"
-	},
-	{
-		"abr": "thrumbow",
-		"price": 7467,
-		"category": "Ranged",
-		"defname": "TM_ThrumBow"
-	},
-	{
-		"abr": "thrumboaxe",
-		"price": 7750,
-		"category": "Melee",
-		"defname": "TM_ThrumboAxe"
-	},
-	{
-		"abr": "thrumbosaber",
-		"price": 5833,
-		"category": "Melee",
-		"defname": "TM_ThrumboSaber"
-	},
-	{
-		"abr": "thunderbeast",
-		"price": 1250,
-		"category": "Animals",
-		"defname": "AA_Thunderbeast"
-	},
-	{
-		"abr": "tiger",
-		"price": 1083,
-		"category": "Animals",
-		"defname": "AEXP_Tiger"
-	},
-	{
-		"abr": "tigerleather",
-		"price": 12,
-		"category": "Leathers",
-		"defname": "AEXP_Leather_Tiger"
-	},
-	{
-		"abr": "tigermeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_AEXP_Tiger"
-	},
-	{
-		"abr": "tlilcoatl",
-		"price": 750,
-		"category": "Animals",
-		"defname": "MM_Tlilcoatl"
-	},
-	{
-		"abr": "tobaccoleaves",
-		"price": 2,
-		"category": "Plant matter",
-		"defname": "VBE_RawTobacco"
-	},
-	{
-		"abr": "toilet",
-		"price": 72,
-		"category": "Hygiene",
-		"defname": "ToiletStuff"
-	},
-	{
-		"abr": "tomatoes",
-		"price": 2,
-		"category": "Vegetarian",
-		"defname": "VCE_RawTomatoes"
-	},
-	{
-		"abr": "toolbelt",
-		"price": 166,
-		"category": "Utility",
-		"defname": "VAEA_Apparel_ToolBelt"
-	},
-	{
-		"abr": "toolbox",
-		"price": 4092,
-		"category": "Furniture",
-		"defname": "JDSTool_Box"
-	},
-	{
-		"abr": "topaz",
-		"price": 83,
-		"category": "Gems",
-		"defname": "Topaz"
-	},
-	{
-		"abr": "tornscript:bard",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfBard"
-	},
-	{
-		"abr": "tornscript:brightmage",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfTheSun"
-	},
-	{
-		"abr": "tornscript:chaos",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfChaos"
-	},
-	{
-		"abr": "tornscript:chronomancy",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfChronomancer"
-	},
-	{
-		"abr": "tornscript:demonology",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfDemons"
-	},
-	{
-		"abr": "tornscript:enchanter",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfEnchanter"
-	},
-	{
-		"abr": "tornscript:fire",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfInnerFire"
-	},
-	{
-		"abr": "tornscript:geomancy",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfEarth"
-	},
-	{
-		"abr": "tornscript:golemancer",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfGolemancy"
-	},
-	{
-		"abr": "tornscript:hemomancy",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfHemomancy"
-	},
-	{
-		"abr": "tornscript:ice",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfHeartOfFrost"
-	},
-	{
-		"abr": "tornscript:lightning",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfStormBorn"
-	},
-	{
-		"abr": "tornscript:nature",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfNature"
-	},
-	{
-		"abr": "tornscript:necromancy",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfUndead"
-	},
-	{
-		"abr": "tornscript:paladin",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfValiant"
-	},
-	{
-		"abr": "tornscript:power",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfArcanist"
-	},
-	{
-		"abr": "tornscript:priest",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfPriest"
-	},
-	{
-		"abr": "tornscript:shaman",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfShamanism"
-	},
-	{
-		"abr": "tornscript:summoning",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfSummoner"
-	},
-	{
-		"abr": "tornscript:technomancy",
-		"price": 2917,
-		"category": "Skill books",
-		"defname": "Torn_BookOfMagitech"
-	},
-	{
-		"abr": "towelrail",
-		"price": 85,
-		"category": "Hygiene",
-		"defname": "RadiatorTowelRail"
-	},
-	{
-		"abr": "trainingdummy",
-		"price": 80,
-		"category": "Recreation",
-		"defname": "VFEV_TrainingDummy"
-	},
-	{
-		"abr": "tricorderimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "SurgeonMindImplant"
-	},
-	{
-		"abr": "trout",
-		"price": 2,
-		"category": "Raw fish",
-		"defname": "VCEF_RawTrout"
-	},
-	{
-		"abr": "tuna",
-		"price": 4,
-		"category": "Raw fish",
-		"defname": "VCEF_RawTuna"
-	},
-	{
-		"abr": "turquoise",
-		"price": 8,
-		"category": "Gems",
-		"defname": "Turquoise"
-	},
-	{
-		"abr": "typewritertable",
-		"price": 342,
-		"category": "Production",
-		"defname": "VBE_TypewritersTable"
-	},
-	{
-		"abr": "ultimafabric",
-		"price": 3,
-		"category": "Textiles",
-		"defname": "Ultima"
-	},
-	{
-		"abr": "ultrascreentelevision",
-		"price": 4100,
-		"category": "Recreation",
-		"defname": "UltrascreenTV"
-	},
-	{
-		"abr": "ultraviolett",
-		"price": 2,
-		"category": "Vegetarian",
-		"defname": "FF_UltraviolettFruit"
-	},
-	{
-		"abr": "unblinkingeye",
-		"price": 2000,
-		"category": "Animals",
-		"defname": "AA_UnblinkingEye"
-	},
-	{
-		"abr": "uncookedfinesoup",
-		"price": 227,
-		"category": "Uncooked soups",
-		"defname": "VCE_UncookedSoupFine"
-	},
-	{
-		"abr": "uncookedfinestew",
-		"price": 256,
-		"category": "Uncooked stew",
-		"defname": "VCE_UncookedStewFine"
-	},
-	{
-		"abr": "uncookedgourmetsoup",
-		"price": 742,
-		"category": "Uncooked soups",
-		"defname": "VCE_UncookedSoupGourmet"
-	},
-	{
-		"abr": "uncookedinsectfinesoup",
-		"price": 227,
-		"category": "Uncooked soups",
-		"defname": "Insect_UncookedSoupFine"
-	},
-	{
-		"abr": "uncookedinsectgourmetsoup",
-		"price": 742,
-		"category": "Uncooked soups",
-		"defname": "Insect_UncookedSoupGourmet"
-	},
-	{
-		"abr": "uncookedinsectlavishsoup",
-		"price": 458,
-		"category": "Uncooked soups",
-		"defname": "Insect_UncookedSoupLavish"
-	},
-	{
-		"abr": "uncookedinsectsimplesoup",
-		"price": 161,
-		"category": "Uncooked soups",
-		"defname": "Insect_UncookedSoupSimple"
-	},
-	{
-		"abr": "uncookedlavishsoup",
-		"price": 458,
-		"category": "Uncooked soups",
-		"defname": "VCE_UncookedSoupLavish"
-	},
-	{
-		"abr": "uncookedlavishstew",
-		"price": 508,
-		"category": "Uncooked stew",
-		"defname": "VCE_UncookedStewLavish"
-	},
-	{
-		"abr": "uncookedsimplesoup",
-		"price": 161,
-		"category": "Uncooked soups",
-		"defname": "VCE_UncookedSoupSimple"
-	},
-	{
-		"abr": "uncookedsimplestew",
-		"price": 182,
-		"category": "Uncooked stew",
-		"defname": "VCE_UncookedStewSimple"
-	},
-	{
-		"abr": "unfermentedcider",
-		"price": 4,
-		"category": "Musts and syrups",
-		"defname": "VBE_UnfermentedCider"
-	},
-	{
-		"abr": "unfinishedarcanebook",
-		"price": 4392,
-		"category": "Skill books",
-		"defname": "UnfinishedAdvArcane"
-	},
-	{
-		"abr": "unfinishedmartialbook",
-		"price": 3425,
-		"category": "Skill books",
-		"defname": "UnfinishedMartial"
-	},
-	{
-		"abr": "unfinishedtornscript",
-		"price": 2333,
-		"category": "Skill books",
-		"defname": "UnfinishedArcane"
-	},
-	{
-		"abr": "unicorn",
-		"price": 917,
-		"category": "Animals",
-		"defname": "MM_Unicorn"
-	},
-	{
-		"abr": "unrefinedmagicyte",
-		"price": 8,
-		"category": "Refined magicyte",
-		"defname": "RawMagicyte"
-	},
-	{
-		"abr": "unrefineduraniumcrystals",
-		"price": 108,
-		"category": "Raw resources",
-		"defname": "AA_UraniumCrystals"
-	},
-	{
-		"abr": "untouchablemeat",
-		"price": 2,
-		"category": "Raw strange meat",
-		"defname": "ROM_RawCHFood_Meat"
-	},
-	{
-		"abr": "upgradecabinet",
-		"price": 717,
-		"category": "Furniture",
-		"defname": "AndroidOperationKit"
-	},
-	{
-		"abr": "upgradekit",
-		"price": 50,
-		"category": "Manufactured",
-		"defname": "RepairKitAT"
-	},
-	{
-		"abr": "uprightpiano",
-		"price": 908,
-		"category": "Recreation",
-		"defname": "Joy_Piano"
-	},
-	{
-		"abr": "uramaki(fine)",
-		"price": 33,
-		"category": "Meals",
-		"defname": "VCE_Uramaki"
-	},
-	{
-		"abr": "vendingmachinea",
-		"price": 270,
-		"category": "Furniture",
-		"defname": "JDSVending_Machine"
-	},
-	{
-		"abr": "vendingmachineb",
-		"price": 170,
-		"category": "Furniture",
-		"defname": "JDSVending_Machine_two"
-	},
-	{
-		"abr": "vitalscentre",
-		"price": 1125,
-		"category": "Misc",
-		"defname": "Facility_VitalsCentre"
-	},
-	{
-		"abr": "vitaminf",
-		"price": 37,
-		"category": "Drugs",
-		"defname": "FF_Vitaminf"
-	},
-	{
-		"abr": "vodka",
-		"price": 13,
-		"category": "Drugs",
-		"defname": "VBE_Vodka"
-	},
-	{
-		"abr": "vodkadrum",
-		"price": 82,
-		"category": "Production",
-		"defname": "VBE_VodkaDrum"
-	},
-	{
-		"abr": "vodkamash",
-		"price": 4,
-		"category": "Musts and syrups",
-		"defname": "VBE_VodkaMash"
-	},
-	{
-		"abr": "vx0neuralchip",
-		"price": 417,
-		"category": "Android",
-		"defname": "ATPP_VX0Chip"
-	},
-	{
-		"abr": "vx1neuralchip",
-		"price": 1333,
-		"category": "Android",
-		"defname": "ATPP_VX1Chip"
-	},
-	{
-		"abr": "vx2neuralchip",
-		"price": 3333,
-		"category": "Android",
-		"defname": "ATPP_VX2Chip"
-	},
-	{
-		"abr": "vx3neuralchip",
-		"price": 6667,
-		"category": "Android",
-		"defname": "ATPP_VX3Chip"
-	},
-	{
-		"abr": "wake-uppowder",
-		"price": 100,
-		"category": "Condiments",
-		"defname": "VBE_WakeUpPowder"
-	},
-	{
-		"abr": "walk-infreezerunit",
-		"price": 153,
-		"category": "Hygiene",
-		"defname": "FreezerUnit"
-	},
-	{
-		"abr": "walldualrefrigerator",
-		"price": 186,
-		"category": "Furniture",
-		"defname": "RimFridge_WallRefrigerator"
-	},
-	{
-		"abr": "wallsinglerefrigerator",
-		"price": 121,
-		"category": "Furniture",
-		"defname": "RimFridge_SingleWallRefrigerator"
-	},
-	{
-		"abr": "walrus",
-		"price": 917,
-		"category": "Animals",
-		"defname": "AEXP_Walrus"
-	},
-	{
-		"abr": "walrustusk",
-		"price": 133,
-		"category": "Items",
-		"defname": "AEXP_WalrusTusk"
-	},
-	{
-		"abr": "wandoffire",
-		"price": 800,
-		"category": "Magic foci",
-		"defname": "TM_FireWand"
-	},
-	{
-		"abr": "wandofice",
-		"price": 800,
-		"category": "Magic foci",
-		"defname": "TM_IceWand"
-	},
-	{
-		"abr": "wandoflightning",
-		"price": 800,
-		"category": "Magic foci",
-		"defname": "TM_LightningWand"
-	},
-	{
-		"abr": "wanderer'scloak",
-		"price": 1375,
-		"category": "Magic apparel",
-		"defname": "TM_MaestersCloak"
-	},
-	{
-		"abr": "wardrobe",
-		"price": 285,
-		"category": "Furniture",
-		"defname": "Table_Wardrobe"
-	},
-	{
-		"abr": "warlockspell:psychicshock",
-		"price": 3000,
-		"category": "Scrolls",
-		"defname": "SpellOf_PsychicShock"
-	},
-	{
-		"abr": "wasabi",
-		"price": 2,
-		"category": "Vegetarian",
-		"defname": "VCE_RawWasabi"
-	},
-	{
-		"abr": "wasabipaste",
-		"price": 5,
-		"category": "Condiments",
-		"defname": "VCE_WasabiPaste"
-	},
-	{
-		"abr": "washingmachine",
-		"price": 433,
-		"category": "Hygiene",
-		"defname": "WashingMachine"
-	},
-	{
-		"abr": "watertub",
-		"price": 52,
-		"category": "Hygiene",
-		"defname": "WashBucket"
-	},
-	{
-		"abr": "waywardmobileassembler",
-		"price": 1083,
-		"category": "Animal",
-		"defname": "AA_WaywardMobileAssembler"
-	},
-	{
-		"abr": "weaponrack",
-		"price": 137,
-		"category": "Furniture",
-		"defname": "Shelf_WeaponRack"
-	},
-	{
-		"abr": "weaponscabinet",
-		"price": 254,
-		"category": "Furniture",
-		"defname": "LWM_WeaponsCabinet"
-	},
-	{
-		"abr": "weaponslocker",
-		"price": 237,
-		"category": "Furniture",
-		"defname": "LWM_WeaponsLocker"
-	},
-	{
-		"abr": "welshterrier",
-		"price": 417,
-		"category": "Animals",
-		"defname": "AEXP_WelshTerrier"
-	},
-	{
-		"abr": "wheelbarrow",
-		"price": 54,
-		"category": "Furniture",
-		"defname": "JDSwheelbarrow"
-	},
-	{
-		"abr": "wheelchair",
-		"price": 342,
-		"category": "Utility",
-		"defname": "Wheelchair"
-	},
-	{
-		"abr": "whiskey",
-		"price": 50,
-		"category": "Drugs",
-		"defname": "VBE_Whiskey"
-	},
-	{
-		"abr": "whiskeycask",
-		"price": 725,
-		"category": "Production",
-		"defname": "VBE_WhiskeyCask"
-	},
-	{
-		"abr": "whiskeymash",
-		"price": 4,
-		"category": "Musts and syrups",
-		"defname": "VBE_WhiskeyMash"
-	},
-	{
-		"abr": "wildgoose",
-		"price": 125,
-		"category": "Animals",
-		"defname": "AEXP_WildGoose"
-	},
-	{
-		"abr": "wildgooseegg(fert.)",
-		"price": 18,
-		"category": "Eggs (fert.)",
-		"defname": "AEXP_EggWildGooseFertilized"
-	},
-	{
-		"abr": "wildgooseegg(unfert.)",
-		"price": 15,
-		"category": "Eggs (unfert.)",
-		"defname": "AEXP_EggWildGooseUnfertilized"
-	},
-	{
-		"abr": "wildminotaur",
-		"price": 583,
-		"category": "Animals",
-		"defname": "MM_WildMinotaur"
-	},
-	{
-		"abr": "wildebeest",
-		"price": 567,
-		"category": "Animals",
-		"defname": "AEXP_Wildebeest"
-	},
-	{
-		"abr": "wildebeestpelt",
-		"price": 5,
-		"category": "Leathers",
-		"defname": "AEXP_Leather_Wildebeest"
-	},
-	{
-		"abr": "wildpawn",
-		"price": 333,
-		"category": "Animals",
-		"defname": "AA_Wildpawn"
-	},
-	{
-		"abr": "wildpawnsporeclump(fert.)",
-		"price": 15,
-		"category": "Eggs (fert.)",
-		"defname": "AA_WildpawnSpores"
-	},
-	{
-		"abr": "wildpod",
-		"price": 667,
-		"category": "Animals",
-		"defname": "AA_Wildpod"
-	},
-	{
-		"abr": "wildpodsporeclump(fert.)",
-		"price": 15,
-		"category": "Eggs (fert.)",
-		"defname": "AA_WildpodSpores"
-	},
-	{
-		"abr": "will-o'-wisp",
-		"price": 250,
-		"category": "Animals",
-		"defname": "MM_WillOWisp"
-	},
-	{
-		"abr": "windbeast",
-		"price": 1250,
-		"category": "Animals",
-		"defname": "AA_WindBeast"
-	},
-	{
-		"abr": "wizardhat",
-		"price": 392,
-		"category": "Magic apparel",
-		"defname": "TM_WizardHat"
-	},
-	{
-		"abr": "wodentable",
-		"price": 172,
-		"category": "Furniture",
-		"defname": "WODENTable"
-	},
-	{
-		"abr": "wolfhound",
-		"price": 583,
-		"category": "Animals",
-		"defname": "VFEV_Wolfhound"
-	},
-	{
-		"abr": "wolfhoundmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_VFEV_Wolfhound"
-	},
-	{
-		"abr": "wolfmeat",
-		"price": 3,
-		"category": "Meat",
-		"defname": "Meat_TM_Dire_WolfR"
-	},
-	{
-		"abr": "woolycow",
-		"price": 767,
-		"category": "Animals",
-		"defname": "VFEV_WoolyCow"
-	},
-	{
-		"abr": "writerstable",
-		"price": 252,
-		"category": "Production",
-		"defname": "VBE_WritersTable"
-	},
-	{
-		"abr": "xiezhi",
-		"price": 833,
-		"category": "Animals",
-		"defname": "MM_Xiezhi"
-	},
-	{
-		"abr": "xylemtubes",
-		"price": 1167,
-		"category": "Natural",
-		"defname": "ET_Item_Xylem"
-	},
-	{
-		"abr": "yuenyeung",
-		"price": 13,
-		"category": "Drugs",
-		"defname": "VBE_Yuenyeung"
-	},
-	{
-		"abr": "zebra",
-		"price": 1000,
-		"category": "Animals",
-		"defname": "AEXP_Zebra"
-	},
-	{
-		"abr": "zoologyimplant",
-		"price": 2667,
-		"category": "Android",
-		"defname": "AnimalMindImplant"
 	},
 	],
 	"total": 2198

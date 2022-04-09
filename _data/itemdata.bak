@@ -18699,7 +18699,7 @@
     "Mod": "RIMkea",
     "KarmaType": null
   },
-  "plumbingValve": {
+  "aFLIKFUTRug": {
     "CustomName": null,
     "HasQuantityLimit": false,
     "IsMelee": false,
@@ -18716,7 +18716,7 @@
     "KarmaTypeForWearing": null,
     "KarmaTypeForEquipping": null,
     "version": 2,
-    "Mod": "Dubs Bad Hygiene",
+    "Mod": "RIMkea",
     "KarmaType": null
   },
   "MATIPESSIRug": {
@@ -33719,7 +33719,7 @@
     "Mod": "Dubs Bad Hygiene",
     "KarmaType": null
   },
-  "aFLIKFUTRug": {
+  "plumbingValve": {
     "CustomName": null,
     "HasQuantityLimit": false,
     "IsMelee": false,
@@ -33736,7 +33736,7 @@
     "KarmaTypeForWearing": null,
     "KarmaTypeForEquipping": null,
     "version": 2,
-    "Mod": "RIMkea",
+    "Mod": "Dubs Bad Hygiene",
     "KarmaType": null
   },
   "PitLatrine": {
