@@ -455,7 +455,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 100,
-      "removePrice": 3500,
+      "removePrice": 100,
       "degree": 0
     },
     {
@@ -484,8 +484,8 @@
       "name": "bisexual",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3500,
+      "addPrice": 100,
+      "removePrice": 100,
       "degree": 0
     },
     {
@@ -515,7 +515,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 100,
-      "removePrice": 3500,
+      "removePrice": 100,
       "degree": 0
     },
     {
@@ -2047,7 +2047,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2077,7 +2077,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -2107,7 +2107,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": -1
     },
     {
@@ -2137,7 +2137,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2149,9 +2149,9 @@
         "boundless",
         "manawell"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -2168,8 +2168,8 @@
       "name": "arcaneconduit",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2200,8 +2200,8 @@
       "name": "manawell",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2213,9 +2213,9 @@
         "arcaneconduit",
         "manawell"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -2232,8 +2232,8 @@
       "name": "boundless",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2262,8 +2262,8 @@
       "name": "faeblood",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2292,8 +2292,8 @@
       "name": "giantsblood",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2322,8 +2322,8 @@
       "name": "enlightened",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2352,8 +2352,8 @@
       "name": "cursed",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2383,7 +2383,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2448,9 +2448,9 @@
         "shaman",
         "golemancer"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -2518,10 +2518,10 @@
       },
       "defName": "Undead",
       "name": "undead",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2585,9 +2585,9 @@
         "shaman",
         "golemancer"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -2656,8 +2656,8 @@
       "name": "magicallygifted",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2785,9 +2785,9 @@
         "golemancer",
         "apothecary"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -2918,10 +2918,10 @@
       },
       "defName": "TM_Empath",
       "name": "empath",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2993,9 +2993,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3072,8 +3072,8 @@
       "name": "wanderer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3146,9 +3146,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3224,10 +3224,10 @@
       },
       "defName": "InnerFire",
       "name": "firemage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3299,9 +3299,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3376,10 +3376,10 @@
       },
       "defName": "HeartOfFrost",
       "name": "icemage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3449,9 +3449,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3524,10 +3524,10 @@
       },
       "defName": "StormBorn",
       "name": "lightningmage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3601,9 +3601,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3680,10 +3680,10 @@
       },
       "defName": "Arcanist",
       "name": "arcanemage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3756,9 +3756,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3834,10 +3834,10 @@
       },
       "defName": "Druid",
       "name": "druid",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3908,9 +3908,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -3984,10 +3984,10 @@
       },
       "defName": "Paladin",
       "name": "paladin",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4057,9 +4057,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -4132,10 +4132,10 @@
       },
       "defName": "Summoner",
       "name": "summoner",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4208,9 +4208,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -4286,10 +4286,10 @@
       },
       "defName": "Necromancer",
       "name": "necromancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4374,9 +4374,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -4464,10 +4464,10 @@
       },
       "defName": "Lich",
       "name": "lich",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 12000,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4542,9 +4542,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -4622,10 +4622,10 @@
       },
       "defName": "Priest",
       "name": "priest",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4693,9 +4693,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -4766,10 +4766,10 @@
       },
       "defName": "TM_Bard",
       "name": "entertainer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4837,9 +4837,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -4910,10 +4910,10 @@
       },
       "defName": "TM_Bard",
       "name": "performer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -4981,9 +4981,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -5054,10 +5054,10 @@
       },
       "defName": "TM_Bard",
       "name": "minstrel",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 35007500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -5125,9 +5125,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -5198,10 +5198,10 @@
       },
       "defName": "TM_Bard",
       "name": "bard",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -5279,9 +5279,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -5362,10 +5362,10 @@
       },
       "defName": "Succubus",
       "name": "succubus",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5443,9 +5443,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -5526,10 +5526,10 @@
       },
       "defName": "Warlock",
       "name": "warlock",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5605,9 +5605,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -5686,10 +5686,10 @@
       },
       "defName": "Geomancer",
       "name": "geomancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5767,9 +5767,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -5850,10 +5850,10 @@
       },
       "defName": "Technomancer",
       "name": "technomancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5926,9 +5926,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -6004,10 +6004,10 @@
       },
       "defName": "BloodMage",
       "name": "bloodmage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6081,9 +6081,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -6160,10 +6160,10 @@
       },
       "defName": "Enchanter",
       "name": "enchanter",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6233,9 +6233,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -6308,10 +6308,10 @@
       },
       "defName": "Chronomancer",
       "name": "chronomancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6381,9 +6381,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -6456,10 +6456,10 @@
       },
       "defName": "ChaosMage",
       "name": "chaosmage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6590,9 +6590,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -6726,10 +6726,10 @@
       },
       "defName": "TM_TheShadow",
       "name": "shadow",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6859,9 +6859,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -6994,10 +6994,10 @@
       },
       "defName": "TM_Brightmage",
       "name": "brightmage",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7126,9 +7126,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -7260,10 +7260,10 @@
       },
       "defName": "TM_Shaman",
       "name": "shaman",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7390,9 +7390,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -7522,10 +7522,10 @@
       },
       "defName": "TM_Golemancer",
       "name": "golemancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7589,9 +7589,9 @@
         "empath",
         "apothecary"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -7658,10 +7658,10 @@
       },
       "defName": "PhysicalProdigy",
       "name": "physicallyadept",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7733,9 +7733,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -7810,10 +7810,10 @@
       },
       "defName": "TM_Wayfarer",
       "name": "wayfarer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7944,9 +7944,9 @@
         "golemancer",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -8080,10 +8080,10 @@
       },
       "defName": "TM_Apothecary",
       "name": "apothecary",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8161,9 +8161,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -8244,10 +8244,10 @@
       },
       "defName": "Gladiator",
       "name": "gladiator",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8320,9 +8320,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -8398,10 +8398,10 @@
       },
       "defName": "Ranger",
       "name": "woodsman",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8552,10 +8552,10 @@
       },
       "defName": "Ranger",
       "name": "hunter",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -8628,9 +8628,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -8706,10 +8706,10 @@
       },
       "defName": "Ranger",
       "name": "scout",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -8782,9 +8782,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -8860,10 +8860,10 @@
       },
       "defName": "Ranger",
       "name": "ranger",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -8932,9 +8932,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9006,10 +9006,10 @@
       },
       "defName": "TM_Sniper",
       "name": "sharpshooter",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -9078,9 +9078,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9152,10 +9152,10 @@
       },
       "defName": "TM_Sniper",
       "name": "sniper",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -9224,9 +9224,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9298,10 +9298,10 @@
       },
       "defName": "TM_Sniper",
       "name": "mastersniper",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -9370,9 +9370,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9444,10 +9444,10 @@
       },
       "defName": "TM_Sniper",
       "name": "legendarysniper",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -9515,9 +9515,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9588,10 +9588,10 @@
       },
       "defName": "Bladedancer",
       "name": "bladesman",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -9659,9 +9659,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9732,10 +9732,10 @@
       },
       "defName": "Bladedancer",
       "name": "blademaster",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 1,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -9804,9 +9804,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -9878,10 +9878,10 @@
       },
       "defName": "Bladedancer",
       "name": "bladedancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -9950,9 +9950,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -10024,10 +10024,10 @@
       },
       "defName": "Bladedancer",
       "name": "legendarybladedancer",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -10102,9 +10102,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -10182,10 +10182,10 @@
       },
       "defName": "Faceless",
       "name": "faceless",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10258,9 +10258,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -10336,10 +10336,10 @@
       },
       "defName": "TM_Psionic",
       "name": "psionic",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10484,10 +10484,10 @@
       },
       "defName": "DeathKnight",
       "name": "deathknight",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10560,9 +10560,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -10638,10 +10638,10 @@
       },
       "defName": "TM_Monk",
       "name": "monk",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10711,9 +10711,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -10786,10 +10786,10 @@
       },
       "defName": "TM_Commander",
       "name": "commander",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10863,9 +10863,9 @@
         "apothecary",
         "empath"
       ],
-      "bypassLimit": true,
+      "bypassLimit": false,
       "data": {
-        "canBypassLimit": true,
+        "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
@@ -10942,10 +10942,10 @@
       },
       "defName": "TM_SuperSoldier",
       "name": "supersoldier",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 7500,
-      "removePrice": 3500,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10988,7 +10988,7 @@
       },
       "defName": "SimpleMindedAndroid",
       "name": "simpleminded",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -11018,7 +11018,7 @@
       },
       "defName": "MechAtlas",
       "name": "mech",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -11060,7 +11060,7 @@
       "name": "intolerance",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5500,
+      "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0
     },
@@ -11120,7 +11120,7 @@
       "name": "hateshumanity",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5500,
+      "addPrice": 3500,
       "removePrice": 5500,
       "degree": 2
     },
@@ -12953,6 +12953,36 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0
+    },
+    {
+      "description": "Timmy ate bugs as a regular part of his diet and learned to love them. he forages for bugs while moving, slowing walking speed but reducing hunger and providing a single variety of food. he can eat insect meat without a mood penalty.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "gourmand"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Entomophagy",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "gourmand"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Entomophagous",
+      "name": "entomophagous",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
     }
   ],
   "races": [
@@ -12968,7 +12998,7 @@
           "+75 Leather amount",
           "+3 Honor value"
         ],
-        "mod": "RimWorld",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
@@ -13003,13 +13033,13 @@
           "+20.0 Melee dodge chance",
           "+3.0 Melee hit chance"
         ],
-        "mod": "Folia Race",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A vat-grown underling created by the Folia to act as guards and raiders.\nVery combat proficient, these fungal organisms' toxic touch lets them defeat even strong foes in hand-to-hand combat.\nTheir skill in any other labor, however, leave much to be desired.\n+ Shooting Accuracy and Speed \n+Dodge Change\n+ No food debuffs\n+ Fast injury recovery\n- very slow worker",
       "defName": "Deathkap_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Deathkap",
       "price": 3333
     },
@@ -13030,13 +13060,13 @@
           "+300.00% Negotiation ability",
           "+300.00% Trade price improvement"
         ],
-        "mod": "Folia Race",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "One of the regal and imposing Folia. Their plant-infused DNA lets them thrive in harsh temperatures and suppliment their diet with sunlight.\nThese xenohumans deign to involve themselves in hard labour, preferring to delegate tasks to their vat-grown underlings.\n+ Great at trade deals\n+ Low food needs\n+ Access to tech to grow worker units\n~ Huge social imapact\n- often unwilling to do many work types",
       "defName": "Folia_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Folia",
       "price": 3333
     },
@@ -13059,13 +13089,13 @@
           "+500% Global work speed",
           "+30% Research speed"
         ],
-        "mod": "Folia Race",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A vat-grown underling created by the Folia to perform menial tasks.\nSlow learning, yet hard working and hardy, these plant-based grunts are effective workers.\n+ Bonus work speed\n+ low break threshold\n- Slow learning\n- Dumb",
       "defName": "Potatoid_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Potatoid",
       "price": 3333
     },
@@ -13091,13 +13121,13 @@
           "+200% Medical operation speed",
           "+300% Medical surgery success chance"
         ],
-        "mod": "Moonjelly Race",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A small friendly gelatinous being.\nMoonjellies are quick and nimble, and exceptionally skilled with medicine.\nBut be warned, their delicate bodies make them poor combatants and very vulnerable to danger.",
       "defName": "Moonjelly_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Moonjelly",
       "price": 3333
     },
@@ -13123,15 +13153,15 @@
           "+65.0% Armor - Blunt",
           "+80.0% Armor - Sharp"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A form of mechanized infantry, produced during an ancient time on this rimworld. These units are very strong, powerful war machines but are subsequently slow and have limited battery to them.",
       "defName": "M7Mech",
-      "enabled": false,
+      "enabled": true,
       "name": "M7 Mechanised infantry",
-      "price": 300000000
+      "price": 30000
     },
     {
       "data": {
@@ -13155,15 +13185,15 @@
           "+65.0% Armor - Blunt",
           "+80.0% Armor - Sharp"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A prototype M7 mechanized infantry, equipped with a limited SkyCore unit and SkyMind radio. These units are very strong, powerful war machines and allow digital consciousness to move on battlefields but are subsequently slow and have limited internal storage capacity to them.",
       "defName": "M8Mech",
-      "enabled": false,
+      "enabled": true,
       "name": "M8 Mechanised infantry",
-      "price": 300000000
+      "price": 30000
     },
     {
       "data": {
@@ -13189,13 +13219,13 @@
           "+80% Butchery efficiency",
           "+120% Medical surgery success chance"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A lost android, shunned from their transcendant community. The tech used to make them is beyond human comprehension, boasting near unlimited power and requiring little sustinence to operate. They deem all races other than themselves to be somewhat below them and believe that living on a rimworld is a fate worse than death.",
       "defName": "Android5Tier",
-      "enabled": false,
+      "enabled": true,
       "name": "T5 Android",
       "price": 13333
     },
@@ -13223,13 +13253,13 @@
           "+80% Butchery efficiency",
           "+120% Medical surgery success chance"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "The most advanced form of android conceivable; this tier is able to efficiently hold the consciousness of any AI uploaded onto it, with advanced locomotive abilities and manipulation; this android vastly suprasses most humans.",
       "defName": "Android4Tier",
-      "enabled": false,
+      "enabled": true,
       "name": "T4 Android",
       "price": 10000
     },
@@ -13256,13 +13286,13 @@
           "+40.0% Armor - Sharp",
           "+100% Medical surgery success chance"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A Prototype android exclusive to this rimworld; developed by a secret R/D Laboratory, away from the eye of the rest of the planet and cosmos. This android features highly advanced locomotive and motor abilities, perfectly mimicing that of an average human. Although clunky and somewhat slow - this android features a modular component design, allowing for upgrades to be made to current parts at any point.",
       "defName": "Android3Tier",
-      "enabled": false,
+      "enabled": true,
       "name": "T3 Android",
       "price": 8000
     },
@@ -13292,13 +13322,13 @@
           "+40% Medical tend quality",
           "+60% Medical surgery success chance"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "As simple as sentient robotics can get. This design is the bare skeletal amount of components needed to create full autonomous functionality. Obviously not the best but it works well when needed.",
       "defName": "Android1Tier",
-      "enabled": false,
+      "enabled": true,
       "name": "T1 Android",
       "price": 2333
     },
@@ -13328,13 +13358,13 @@
           "+60% Medical tend quality",
           "+80% Medical surgery success chance"
         ],
-        "mod": "Android tiers",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A somewhat advanced android, capable of almost perfectly storing an AI consciousness and with reasonable levels of motor skills. A good all round android that is uses extensively on glitterworlds for basic maintenance and cleaning.",
       "defName": "Android2Tier",
-      "enabled": false,
+      "enabled": true,
       "name": "T2 Android",
       "price": 4167
     },
@@ -13358,15 +13388,15 @@
           "+50% Hunger rate multiplier",
           "+70% Rest rate multiplier"
         ],
-        "mod": "Quartzian Race",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A race of parasitic living crystals growning on human bodies.",
       "defName": "Quartz_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Quartzian",
-      "price": 3333
+      "price": 5833
     },
     {
       "data": {
@@ -13384,15 +13414,15 @@
           "+26.0C Maximum comfortable temperature",
           "+4 Honor value"
         ],
-        "mod": "Forsakens",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "The legacy of a fallen empire, with a distant link to the humanoid races of earth and beyond. Other than the fact that they began to awaken over the past century, no one knows much else about what they are, where they are from or fundamentals behind their technology, which seems to bridge the gap between science and magic.",
       "defName": "Alien_Forsaken",
-      "enabled": false,
+      "enabled": true,
       "name": "forsaken",
-      "price": 3333
+      "price": 3167
     },
     {
       "data": {
@@ -13412,13 +13442,13 @@
           "+50 Leather amount",
           "+100 Meat amount"
         ],
-        "mod": "Call of Cthulhu - Elder Things (Continued)",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "Sharing biological features similar to fungus, amphibians, and plantlike organisms, the five-sided barrel-shaped entities referred to simply as the Elder Things are hardy creatures that can survive in most temperatures, enter trance-like sleep nearly indefinitely, survive deep space flight, and aside from suffering violent trauma, are effectively immortal.\n\nFurther information: Elder Things are genderless creatures that reproduce asexually through spores that are raised by families of likeminded individuals rather than blood-relations. Their society is focused on large open spaces adorned by artwork and cylindrical furniture in pentagonal and other strange geometric structures. Due to advanced genetic engineering technology, they are responsible for the creation of the sentient slave protoplasmic race known as the Shoggoths, which turned against the Elder Things in centuries past and nearly destroyed their civilization. Even so, the Elder Things still rely on slave labor to maintain their decadent lifestyles and refuse to do labor that is beneath them.",
       "defName": "Alien_ElderThing_Race_Standard",
-      "enabled": false,
+      "enabled": true,
       "name": "Elder Thing",
       "price": 3333
     },
@@ -13436,15 +13466,179 @@
           "+125% Plant work speed",
           "+80% Research speed"
         ],
-        "mod": "Cactaceae (Continued)",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
       "description": "A hardy human-cactus hybrid species able to live in harse conditions.",
       "defName": "Alien_Cactoid",
-      "enabled": false,
+      "enabled": true,
       "name": "cactoid",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+70.00 Mass",
+          "+60% Flammability",
+          "+$2000 Market value",
+          "+4.60 Move speed",
+          "+150% Mining speed",
+          "+150% General labor speed",
+          "+150% Smoothing speed",
+          "+150% Animal gather speed",
+          "+150% Construction speed",
+          "+150% Medical tend speed",
+          "+150% Plant work speed",
+          "+0.0C Minimum comfortable temperature",
+          "+40.0C Maximum comfortable temperature",
+          "+100% Immunity gain speed",
+          "+120 Carrying capacity",
+          "+3 Honor value",
+          "+10.0% Armor - Sharp",
+          "+5.0% Armor - Blunt",
+          "+10.0% Armor - Heat",
+          "+50% Toxic sensitivity",
+          "+200% Eating speed",
+          "+72 Meat amount",
+          "+40 Leather amount",
+          "+0.8 Melee dodge chance",
+          "+125% Aiming time",
+          "+80.00% Negotiation ability",
+          "+90.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
+      "defName": "Skrix",
+      "enabled": true,
+      "name": "Skrix",
       "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+70.00 Mass",
+          "+60% Flammability",
+          "+$1800 Market value",
+          "+5.60 Move speed",
+          "+125% Mining speed",
+          "+125% General labor speed",
+          "+125% Smoothing speed",
+          "+125% Animal gather speed",
+          "+125% Construction speed",
+          "+125% Medical tend speed",
+          "+125% Plant work speed",
+          "+0.0C Minimum comfortable temperature",
+          "+40.0C Maximum comfortable temperature",
+          "+110% Immunity gain speed",
+          "+50 Carrying capacity",
+          "+5 Honor value",
+          "+15.0% Armor - Sharp",
+          "+10.0% Armor - Blunt",
+          "+15.0% Armor - Heat",
+          "+50% Toxic sensitivity",
+          "+200% Eating speed",
+          "+60 Meat amount",
+          "+33 Leather amount",
+          "+1.0 Melee dodge chance",
+          "+90% Aiming time",
+          "+125.00% Negotiation ability",
+          "+125.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
+      "defName": "Skrix_Noble",
+      "enabled": true,
+      "name": "Skrix",
+      "price": 3000
+    },
+    {
+      "data": {
+        "stats": [
+          "+100.00 Mass",
+          "+50% Flammability",
+          "+$2500 Market value",
+          "+4.60 Move speed",
+          "+125% Mining speed",
+          "+125% General labor speed",
+          "+125% Smoothing speed",
+          "+125% Animal gather speed",
+          "+125% Construction speed",
+          "+125% Medical tend speed",
+          "+125% Plant work speed",
+          "+0.0C Minimum comfortable temperature",
+          "+40.0C Maximum comfortable temperature",
+          "+110% Immunity gain speed",
+          "+75 Carrying capacity",
+          "+4 Honor value",
+          "+40.0% Armor - Sharp",
+          "+35.0% Armor - Blunt",
+          "+50.0% Armor - Heat",
+          "+25% Toxic sensitivity",
+          "+200% Eating speed",
+          "+65 Meat amount",
+          "+35 Leather amount",
+          "+5.0 Melee dodge chance",
+          "+100% Aiming time",
+          "+80.00% Negotiation ability",
+          "+90.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
+      "defName": "Skrix_Soldier",
+      "enabled": true,
+      "name": "Skrix",
+      "price": 4167
+    },
+    {
+      "data": {
+        "stats": [
+          "+90.00 Mass",
+          "+50% Flammability",
+          "+$2500 Market value",
+          "+5.60 Move speed",
+          "+150% Mining speed",
+          "+150% General labor speed",
+          "+150% Smoothing speed",
+          "+150% Animal gather speed",
+          "+150% Construction speed",
+          "+150% Medical tend speed",
+          "+150% Plant work speed",
+          "+0.0C Minimum comfortable temperature",
+          "+40.0C Maximum comfortable temperature",
+          "+110% Immunity gain speed",
+          "+75 Carrying capacity",
+          "+7 Honor value",
+          "+40.0% Armor - Sharp",
+          "+35.0% Armor - Blunt",
+          "+50.0% Armor - Heat",
+          "+25% Toxic sensitivity",
+          "+200% Eating speed",
+          "+45 Meat amount",
+          "+25 Leather amount",
+          "+5.0 Melee dodge chance",
+          "+90% Aiming time",
+          "+150.00% Negotiation ability",
+          "+150.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
+      "defName": "Skrix_Royal",
+      "enabled": true,
+      "name": "Skrix",
+      "price": 4167
     }
   ]
 }
