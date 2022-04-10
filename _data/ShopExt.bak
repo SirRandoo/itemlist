@@ -1,4 +1,4 @@
-﻿{
+{
   "traits": [
     {
       "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
@@ -13039,7 +13039,7 @@
       },
       "description": "A vat-grown underling created by the Folia to act as guards and raiders.\nVery combat proficient, these fungal organisms' toxic touch lets them defeat even strong foes in hand-to-hand combat.\nTheir skill in any other labor, however, leave much to be desired.\n+ Shooting Accuracy and Speed \n+Dodge Change\n+ No food debuffs\n+ Fast injury recovery\n- very slow worker",
       "defName": "Deathkap_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Deathkap",
       "price": 3333
     },
@@ -13066,7 +13066,7 @@
       },
       "description": "One of the regal and imposing Folia. Their plant-infused DNA lets them thrive in harsh temperatures and suppliment their diet with sunlight.\nThese xenohumans deign to involve themselves in hard labour, preferring to delegate tasks to their vat-grown underlings.\n+ Great at trade deals\n+ Low food needs\n+ Access to tech to grow worker units\n~ Huge social imapact\n- often unwilling to do many work types",
       "defName": "Folia_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Folia",
       "price": 3333
     },
@@ -13095,7 +13095,7 @@
       },
       "description": "A vat-grown underling created by the Folia to perform menial tasks.\nSlow learning, yet hard working and hardy, these plant-based grunts are effective workers.\n+ Bonus work speed\n+ low break threshold\n- Slow learning\n- Dumb",
       "defName": "Potatoid_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Potatoid",
       "price": 3333
     },
@@ -13127,7 +13127,7 @@
       },
       "description": "A small friendly gelatinous being.\nMoonjellies are quick and nimble, and exceptionally skilled with medicine.\nBut be warned, their delicate bodies make them poor combatants and very vulnerable to danger.",
       "defName": "Moonjelly_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Moonjelly",
       "price": 3333
     },
@@ -13159,7 +13159,7 @@
       },
       "description": "A form of mechanized infantry, produced during an ancient time on this rimworld. These units are very strong, powerful war machines but are subsequently slow and have limited battery to them.",
       "defName": "M7Mech",
-      "enabled": true,
+      "enabled": false,
       "name": "M7 Mechanised infantry",
       "price": 30000
     },
@@ -13191,7 +13191,7 @@
       },
       "description": "A prototype M7 mechanized infantry, equipped with a limited SkyCore unit and SkyMind radio. These units are very strong, powerful war machines and allow digital consciousness to move on battlefields but are subsequently slow and have limited internal storage capacity to them.",
       "defName": "M8Mech",
-      "enabled": true,
+      "enabled": false,
       "name": "M8 Mechanised infantry",
       "price": 30000
     },
@@ -13225,7 +13225,7 @@
       },
       "description": "A lost android, shunned from their transcendant community. The tech used to make them is beyond human comprehension, boasting near unlimited power and requiring little sustinence to operate. They deem all races other than themselves to be somewhat below them and believe that living on a rimworld is a fate worse than death.",
       "defName": "Android5Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T5 Android",
       "price": 13333
     },
@@ -13259,7 +13259,7 @@
       },
       "description": "The most advanced form of android conceivable; this tier is able to efficiently hold the consciousness of any AI uploaded onto it, with advanced locomotive abilities and manipulation; this android vastly suprasses most humans.",
       "defName": "Android4Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T4 Android",
       "price": 10000
     },
@@ -13292,7 +13292,7 @@
       },
       "description": "A Prototype android exclusive to this rimworld; developed by a secret R/D Laboratory, away from the eye of the rest of the planet and cosmos. This android features highly advanced locomotive and motor abilities, perfectly mimicing that of an average human. Although clunky and somewhat slow - this android features a modular component design, allowing for upgrades to be made to current parts at any point.",
       "defName": "Android3Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T3 Android",
       "price": 8000
     },
@@ -13328,7 +13328,7 @@
       },
       "description": "As simple as sentient robotics can get. This design is the bare skeletal amount of components needed to create full autonomous functionality. Obviously not the best but it works well when needed.",
       "defName": "Android1Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T1 Android",
       "price": 2333
     },
@@ -13364,7 +13364,7 @@
       },
       "description": "A somewhat advanced android, capable of almost perfectly storing an AI consciousness and with reasonable levels of motor skills. A good all round android that is uses extensively on glitterworlds for basic maintenance and cleaning.",
       "defName": "Android2Tier",
-      "enabled": true,
+      "enabled": false,
       "name": "T2 Android",
       "price": 4167
     },
@@ -13394,7 +13394,7 @@
       },
       "description": "A race of parasitic living crystals growning on human bodies.",
       "defName": "Quartz_Race",
-      "enabled": true,
+      "enabled": false,
       "name": "Quartzian",
       "price": 5833
     },
@@ -13420,7 +13420,7 @@
       },
       "description": "The legacy of a fallen empire, with a distant link to the humanoid races of earth and beyond. Other than the fact that they began to awaken over the past century, no one knows much else about what they are, where they are from or fundamentals behind their technology, which seems to bridge the gap between science and magic.",
       "defName": "Alien_Forsaken",
-      "enabled": true,
+      "enabled": false,
       "name": "forsaken",
       "price": 3167
     },
@@ -13448,7 +13448,7 @@
       },
       "description": "Sharing biological features similar to fungus, amphibians, and plantlike organisms, the five-sided barrel-shaped entities referred to simply as the Elder Things are hardy creatures that can survive in most temperatures, enter trance-like sleep nearly indefinitely, survive deep space flight, and aside from suffering violent trauma, are effectively immortal.\n\nFurther information: Elder Things are genderless creatures that reproduce asexually through spores that are raised by families of likeminded individuals rather than blood-relations. Their society is focused on large open spaces adorned by artwork and cylindrical furniture in pentagonal and other strange geometric structures. Due to advanced genetic engineering technology, they are responsible for the creation of the sentient slave protoplasmic race known as the Shoggoths, which turned against the Elder Things in centuries past and nearly destroyed their civilization. Even so, the Elder Things still rely on slave labor to maintain their decadent lifestyles and refuse to do labor that is beneath them.",
       "defName": "Alien_ElderThing_Race_Standard",
-      "enabled": true,
+      "enabled": false,
       "name": "Elder Thing",
       "price": 3333
     },
@@ -13472,7 +13472,7 @@
       },
       "description": "A hardy human-cactus hybrid species able to live in harse conditions.",
       "defName": "Alien_Cactoid",
-      "enabled": true,
+      "enabled": false,
       "name": "cactoid",
       "price": 2500
     },
@@ -13513,7 +13513,7 @@
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix",
-      "enabled": true,
+      "enabled": false,
       "name": "Skrix",
       "price": 3333
     },
@@ -13554,7 +13554,7 @@
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix_Noble",
-      "enabled": true,
+      "enabled": false,
       "name": "Skrix",
       "price": 3000
     },
@@ -13595,7 +13595,7 @@
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix_Soldier",
-      "enabled": true,
+      "enabled": false,
       "name": "Skrix",
       "price": 4167
     },
@@ -13636,7 +13636,7 @@
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix_Royal",
-      "enabled": true,
+      "enabled": false,
       "name": "Skrix",
       "price": 4167
     }
