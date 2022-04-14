@@ -710,5 +710,117 @@
     "GlobalCooldown": 0,
     "LocalCooldown": 0,
     "Mod": "ToolkitUtils"
+  },
+  "alphaasteroid": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "aeorofleetmigration": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "stalkingarcticlion": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "stalkingsnowclutchmother": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "stalkingduneclutchmother": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "stalkingclutchmother": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "animaliskwanderin": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "SummitCrabRaid": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "cactipinedroppod": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "gallatrosswanderin": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "bumbledroneswanderin": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "raidblackhive": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "raidmechanoidsappers": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
+  },
+  "fungalhuskwandersin": {
+    "EventType": "Default",
+    "HasGlobalCooldown": false,
+    "HasLocalCooldown": false,
+    "GlobalCooldown": 0,
+    "LocalCooldown": 0,
+    "Mod": "Unknown"
   }
 }

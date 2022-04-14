@@ -371,6 +371,24 @@
       "mod": "ToolkitUtils"
     },
     "description": null,
+    "name": "Revive me",
+    "usage": "!reviveme",
+    "userLevel": "Anyone",
+    "shortcut": true,
+    "defName": "ReviveMeShortcut"
+  },
+  {
+    "data": {
+      "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
     "name": "Heal me",
     "usage": "!healme",
     "userLevel": "Anyone",
@@ -1096,6 +1114,24 @@
     "userLevel": "Anyone",
     "shortcut": false,
     "defName": "UnstickMe"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitAddon - More Stuff"
+    },
+    "description": null,
+    "name": "Clean the Map",
+    "usage": "!cleanup",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "cleanup"
   },
   {
     "data": {

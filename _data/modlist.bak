@@ -576,12 +576,6 @@
     "version": "1.0.0.1"
   },
   {
-    "author": "Mlie",
-    "name": "Gems (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
     "name": "Vanilla Plants Expanded",
     "steamId": null,
@@ -648,12 +642,6 @@
     "version": null
   },
   {
-    "author": "HIGGS",
-    "name": "Clown Mod",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "HIGGS and  Cozarkian",
     "name": "Entomophagy",
     "steamId": "2407672870",
@@ -670,5 +658,161 @@
     "name": "ToolkitUtils",
     "steamId": "2009500580",
     "version": "6.2.0.3"
+  },
+  {
+    "author": "Mlie",
+    "name": "Flags and Banners (Continued)",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Taveron",
+    "name": "Increased Stack",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Mlie",
+    "name": "[sd] Bridges (Continued)",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Dalrae and Updated by Ogliss",
+    "name": "Blood Pack",
+    "steamId": "2192662471",
+    "version": "1.0.0"
+  },
+  {
+    "author": "O Negative",
+    "name": "Communicable Diseases [1.3]",
+    "steamId": "2016577520",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Orion",
+    "name": "Hospitality",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki and  Taranchuk",
+    "name": "Vanilla Trading Expanded",
+    "steamId": "2785616901",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "AobaKuma OttersHoldHands iforgotmysocks",
+    "name": "Camping Tent",
+    "steamId": "2407128339",
+    "version": "2.1.3.0"
+  },
+  {
+    "author": "saschahi",
+    "name": "ToolkitAddon - More Stuff",
+    "steamId": "2594931182",
+    "version": "1.1.9"
+  },
+  {
+    "author": "Razor 2.3",
+    "name": "Auto-Cut Blight",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "tikubonn",
+    "name": "DontBlockDoor",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "m00nl1ght-dev",
+    "name": "Geological Landforms",
+    "steamId": "2773943594",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Pharmacist",
+    "steamId": "1365242717",
+    "version": "2.9.140"
+  },
+  {
+    "author": "Mehni",
+    "name": "Pick Up And Haul",
+    "steamId": "1279012058",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Murmur",
+    "name": "Wall Light",
+    "steamId": "1423699208",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Uuugggg",
+    "name": "Replace Stuff",
+    "steamId": "1372003680",
+    "version": "1.1.0.0"
+  },
+  {
+    "author": "Smash Phil",
+    "name": "Trade Ships Drop Spot",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "AUTOMATIC",
+    "name": "Startup impact",
+    "steamId": "1684944322",
+    "version": "1.1.7867.20184"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Animal Tab",
+    "steamId": "712141500",
+    "version": "4.7.272"
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Gemstones",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Arcane Defences",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy Addon - Heroic Weapons",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Arcane Weapons",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Arcane Batons",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Crystallic Lighting",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Temperature Regulation",
+    "steamId": null,
+    "version": null
   }
 ]
