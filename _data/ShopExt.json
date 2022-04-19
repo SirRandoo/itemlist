@@ -13202,7 +13202,7 @@
       },
       "description": "A humanoid race living in cities under the sea. Having traits similar to sea creatures, their blood contains substances that can be used for various medical uses.\n\nDescendants of glitterworld explorers who settled in the deep sea, generations of body modifications has led to their current form. Spreading far and wide into the rim, they built many cities and prospered. Until now.",
       "defName": "Alien_Moyo",
-      "enabled": true,
+      "enabled": false,
       "name": "Moyo",
       "price": 5333
     }
