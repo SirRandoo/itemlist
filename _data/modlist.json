@@ -48,12 +48,6 @@
     "version": "0.1.0.0"
   },
   {
-    "author": "Major Hoff",
-    "name": "RimThreaded",
-    "steamId": "2222907981",
-    "version": "2.6.4"
-  },
-  {
     "author": "erdelf",
     "name": "Humanoid Alien Races",
     "steamId": "839005762",
@@ -142,6 +136,12 @@
     "name": "Alpha Biomes",
     "steamId": "1841354677",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Krkr",
+    "name": "RocketMan - Performance Mod",
+    "steamId": "2479389928",
+    "version": "0.6.3.2196"
   },
   {
     "author": "m00nl1ght-dev",
