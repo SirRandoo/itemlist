@@ -226,11 +226,6 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "sapperraid",
-		"price": 1500,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "siegeraid",
 		"price": 2500,
 		"karmatype": "Bad"
@@ -322,17 +317,17 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22664,
+		"price": 22500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 2833,
+		"price": 3000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 17336,
+		"price": 17500,
 		"karmatype": "Good"
 	},
 	{
@@ -342,7 +337,7 @@
 	},
 	{
 		"abr": "healme",
-		"price": 2167,
+		"price": 2175,
 		"karmatype": "Good"
 	},
 	{
@@ -367,7 +362,7 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2167,
+		"price": 2175,
 		"karmatype": "Good"
 	},
 	{
@@ -431,5 +426,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 86
+	"total": 85
 }
