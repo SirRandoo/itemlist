@@ -162,6 +162,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "Owlchemist and  jptrrs",
+    "name": "Windows",
+    "steamId": "2571189146",
+    "version": "1.3"
+  },
+  {
     "author": "NewsofPE",
     "name": "No Research 1.3",
     "steamId": null,
@@ -176,12 +182,6 @@
   {
     "author": "eatKenny and leafzxg，DWs（temporary）",
     "name": "Turret Collection (Unofficial)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Anon",
-    "name": "Vanilla Embrasures",
     "steamId": null,
     "version": null
   },
