@@ -1,11 +1,6 @@
 {
 	"incitems" : [
 	{
-		"abr": "tornado",
-		"price": 1250,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -211,17 +206,17 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "militaryaid",
-		"price": 700,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "raid",
 		"price": 1500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "dropraid",
+		"price": 1500,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "sapperraid",
 		"price": 1500,
 		"karmatype": "Bad"
 	},
@@ -317,17 +312,17 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22500,
+		"price": 22664,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 3000,
+		"price": 2833,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 17500,
+		"price": 17336,
 		"karmatype": "Good"
 	},
 	{
@@ -337,7 +332,7 @@
 	},
 	{
 		"abr": "healme",
-		"price": 2175,
+		"price": 2167,
 		"karmatype": "Good"
 	},
 	{
@@ -362,7 +357,7 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2175,
+		"price": 2167,
 		"karmatype": "Good"
 	},
 	{
@@ -426,5 +421,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 85
+	"total": 84
 }
