@@ -2290,7 +2290,7 @@
       },
       "defName": "TM_GiantsBloodTD",
       "name": "giantsblood",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,

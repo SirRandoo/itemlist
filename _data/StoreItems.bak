@@ -3716,7 +3716,7 @@
 	},
 	{
 		"abr": "angelmothegg(fert.)",
-		"price": 1,
+		"price": 15,
 		"category": "Eggs (fert.)",
 		"defname": "AA_AngelMothEggFertilized"
 	},
@@ -4010,7 +4010,7 @@
 	},
 	{
 		"abr": "atispecegg(fert.)",
-		"price": 1,
+		"price": 35,
 		"category": "Eggs (fert.)",
 		"defname": "AA_AtispecEggFertilized"
 	},
@@ -5048,7 +5048,7 @@
 	},
 	{
 		"abr": "draineregg(fert.)",
-		"price": 1,
+		"price": 15,
 		"category": "Eggs (fert.)",
 		"defname": "AA_DrainerEggFertilized"
 	},
@@ -5270,7 +5270,7 @@
 	},
 	{
 		"abr": "empressbutterflyegg(fert.)",
-		"price": 1,
+		"price": 15,
 		"category": "Eggs (fert.)",
 		"defname": "AA_EmpressButterflyEggFertilized"
 	},
@@ -5678,7 +5678,7 @@
 	},
 	{
 		"abr": "fungalhusk",
-		"price": 250,
+		"price": 350,
 		"category": "Animals",
 		"defname": "AA_FungalHusk"
 	},
@@ -9368,55 +9368,55 @@
 	},
 	{
 		"abr": "cryptoarmor",
-		"price": 3333,
+		"price": -10,
 		"category": "Armor",
 		"defname": "VFEV_CryptoArmor"
 	},
 	{
 		"abr": "cryptocrossbow",
-		"price": 1433,
+		"price": -10,
 		"category": "Crypto weapons",
 		"defname": "VFEV_CryptoLightCrossbow"
 	},
 	{
 		"abr": "cryptohatchet",
-		"price": 2133,
+		"price": -10,
 		"category": "Crypto weapons",
 		"defname": "VFEV_CryptoLightAxe"
 	},
 	{
 		"abr": "cryptoheavyarmor",
-		"price": 4000,
+		"price": -10,
 		"category": "Armor",
 		"defname": "VFEV_CryptoHeavyArmor"
 	},
 	{
 		"abr": "cryptoheavycrossbow",
-		"price": 2367,
+		"price": -10,
 		"category": "Crypto weapons",
 		"defname": "VFEV_CryptoHeavyCrossbow"
 	},
 	{
 		"abr": "cryptohelmet",
-		"price": 2467,
+		"price": -10,
 		"category": "Headgear",
 		"defname": "VFEV_Apparel_CryptoLightHelmet"
 	},
 	{
 		"abr": "cryptopistol",
-		"price": 1450,
+		"price": -10,
 		"category": "Crypto weapons",
 		"defname": "VFEV_CryptoPistol"
 	},
 	{
 		"abr": "cryptorifle",
-		"price": 2100,
+		"price": -10,
 		"category": "Crypto weapons",
 		"defname": "VFEV_CryptoRifle"
 	},
 	{
 		"abr": "cryptoshield",
-		"price": 2167,
+		"price": -10,
 		"category": "Shields",
 		"defname": "VFEV_Shield_Crypto"
 	},
@@ -9775,12 +9775,6 @@
 		"defname": "RF_EmeraldWarHammer"
 	},
 	{
-		"abr": "emplauncher",
-		"price": 842,
-		"category": "Ranged weapons",
-		"defname": "Gun_EmpLauncher"
-	},
-	{
 		"abr": "ergonomicbed",
 		"price": 450,
 		"category": "Furniture",
@@ -9899,12 +9893,6 @@
 		"price": 178,
 		"category": "Furniture",
 		"defname": "SadjuukHighBannerCF"
-	},
-	{
-		"abr": "foundationmaterial",
-		"price": 3,
-		"category": "Raw resources",
-		"defname": "sd_bridges_foundationmaterial"
 	},
 	{
 		"abr": "frenchbulldog",
@@ -10142,13 +10130,13 @@
 	},
 	{
 		"abr": "heavycryptoaxe",
-		"price": 2417,
+		"price": -10,
 		"category": "Crypto weapons",
 		"defname": "VFEV_CryptoHeavyAxe"
 	},
 	{
 		"abr": "heavycryptohelmet",
-		"price": 3133,
+		"price": -10,
 		"category": "Headgear",
 		"defname": "VFEV_Apparel_CryptoHeavyHelmet"
 	},
@@ -11227,12 +11215,6 @@
 		"defname": "VFE_Plinth"
 	},
 	{
-		"abr": "pontoonbridgepart",
-		"price": 3,
-		"category": "Manufactured",
-		"defname": "sd_bridges_pontoonbridgepart"
-	},
-	{
 		"abr": "poodle",
 		"price": 417,
 		"category": "Animals",
@@ -12049,12 +12031,6 @@
 		"defname": "SMOERTIGE"
 	},
 	{
-		"abr": "smokelauncher",
-		"price": 633,
-		"category": "Ranged weapons",
-		"defname": "Gun_SmokeLauncher"
-	},
-	{
 		"abr": "snakebanner",
 		"price": 215,
 		"category": "Furniture",
@@ -12245,12 +12221,6 @@
 		"price": 458,
 		"category": "Animals",
 		"defname": "AEXP_Tapir"
-	},
-	{
-		"abr": "tarshell",
-		"price": 92,
-		"category": "Mortar shells",
-		"defname": "AB_Shell_Tar"
 	},
 	{
 		"abr": "technomancerspell:sabotage",
@@ -13788,6 +13758,36 @@
 		"category": "Production",
 		"defname": "VFEM_WineBarrel"
 	},
+	{
+		"abr": "emplauncher",
+		"price": 842,
+		"category": "Ranged weapons",
+		"defname": "Gun_EmpLauncher"
+	},
+	{
+		"abr": "foundationmaterial",
+		"price": 3,
+		"category": "Raw resources",
+		"defname": "sd_bridges_foundationmaterial"
+	},
+	{
+		"abr": "pontoonbridgepart",
+		"price": 3,
+		"category": "Manufactured",
+		"defname": "sd_bridges_pontoonbridgepart"
+	},
+	{
+		"abr": "smokelauncher",
+		"price": 633,
+		"category": "Ranged weapons",
+		"defname": "Gun_SmokeLauncher"
+	},
+	{
+		"abr": "tarshell",
+		"price": 92,
+		"category": "Mortar shells",
+		"defname": "AB_Shell_Tar"
+	},
 	],
-	"total": 2299
+	"total": 2310
 }

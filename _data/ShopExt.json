@@ -2290,7 +2290,7 @@
       },
       "defName": "TM_GiantsBloodTD",
       "name": "giantsblood",
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -12828,9 +12828,9 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": false,
+      "enabled": true,
       "name": "human",
-      "price": 3333
+      "price": 1000000000
     },
     {
       "data": {
@@ -12863,9 +12863,9 @@
       },
       "description": "A vat-grown underling created by the Folia to act as guards and raiders.\nVery combat proficient, these fungal organisms' toxic touch lets them defeat even strong foes in hand-to-hand combat.\nTheir skill in any other labor, however, leave much to be desired.\n+ Shooting Accuracy and Speed \n+Dodge Change\n+ No food debuffs\n+ Fast injury recovery\n- very slow worker",
       "defName": "Deathkap_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Deathkap",
-      "price": 3333
+      "price": 1000000000
     },
     {
       "data": {
@@ -12890,9 +12890,9 @@
       },
       "description": "One of the regal and imposing Folia. Their plant-infused DNA lets them thrive in harsh temperatures and suppliment their diet with sunlight.\nThese xenohumans deign to involve themselves in hard labour, preferring to delegate tasks to their vat-grown underlings.\n+ Great at trade deals\n+ Low food needs\n+ Access to tech to grow worker units\n~ Huge social imapact\n- often unwilling to do many work types",
       "defName": "Folia_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Folia",
-      "price": 3333
+      "price": 1000000000
     },
     {
       "data": {
@@ -12919,9 +12919,9 @@
       },
       "description": "A vat-grown underling created by the Folia to perform menial tasks.\nSlow learning, yet hard working and hardy, these plant-based grunts are effective workers.\n+ Bonus work speed\n+ low break threshold\n- Slow learning\n- Dumb",
       "defName": "Potatoid_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Potatoid",
-      "price": 3333
+      "price": 1000000000
     },
     {
       "data": {
@@ -12951,9 +12951,9 @@
       },
       "description": "A small friendly gelatinous being.\nMoonjellies are quick and nimble, and exceptionally skilled with medicine.\nBut be warned, their delicate bodies make them poor combatants and very vulnerable to danger.",
       "defName": "Moonjelly_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Moonjelly",
-      "price": 3333
+      "price": 1000000000
     },
     {
       "data": {
@@ -12981,9 +12981,9 @@
       },
       "description": "A race of parasitic living crystals growning on human bodies.",
       "defName": "Quartz_Race",
-      "enabled": false,
+      "enabled": true,
       "name": "Quartzian",
-      "price": 5833
+      "price": 1000000000
     },
     {
       "data": {
@@ -13005,9 +13005,9 @@
       },
       "description": "A hardy human-cactus hybrid species able to live in harse conditions.",
       "defName": "Alien_Cactoid",
-      "enabled": false,
+      "enabled": true,
       "name": "cactoid",
-      "price": 2500
+      "price": 1000000000
     },
     {
       "data": {
@@ -13042,13 +13042,13 @@
         ],
         "mod": "Unknown",
         "karmaType": null,
-        "customName": false
+        "customName": true
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix",
-      "enabled": false,
-      "name": "Skrix",
-      "price": 3333
+      "enabled": true,
+      "name": "skrix1",
+      "price": 1000000000
     },
     {
       "data": {
@@ -13083,13 +13083,13 @@
         ],
         "mod": "Unknown",
         "karmaType": null,
-        "customName": false
+        "customName": true
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix_Noble",
-      "enabled": false,
-      "name": "Skrix",
-      "price": 3000
+      "enabled": true,
+      "name": "skrix2",
+      "price": 1000000000
     },
     {
       "data": {
@@ -13124,13 +13124,13 @@
         ],
         "mod": "Unknown",
         "karmaType": null,
-        "customName": false
+        "customName": true
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix_Soldier",
-      "enabled": false,
-      "name": "Skrix",
-      "price": 4167
+      "enabled": true,
+      "name": "skrix3",
+      "price": 1000000000
     },
     {
       "data": {
@@ -13165,13 +13165,13 @@
         ],
         "mod": "Unknown",
         "karmaType": null,
-        "customName": false
+        "customName": true
       },
       "description": "A race of sentient humanoid insects. Although primitive, a surprising number of colonies have been found on planets across the Rim. This has lead researchers to believe the species was intentionally seeded by an unknown power, though some fringe groups claim to have found evidence that the Skrix were once a spacefaring race themselves.",
       "defName": "Skrix_Royal",
-      "enabled": false,
-      "name": "Skrix",
-      "price": 4167
+      "enabled": true,
+      "name": "skrix4",
+      "price": 1000000000
     },
     {
       "data": {
@@ -13202,9 +13202,9 @@
       },
       "description": "A humanoid race living in cities under the sea. Having traits similar to sea creatures, their blood contains substances that can be used for various medical uses.\n\nDescendants of glitterworld explorers who settled in the deep sea, generations of body modifications has led to their current form. Spreading far and wide into the rim, they built many cities and prospered. Until now.",
       "defName": "Alien_Moyo",
-      "enabled": false,
+      "enabled": true,
       "name": "Moyo",
-      "price": 5333
+      "price": 1000000000
     }
   ]
 }
