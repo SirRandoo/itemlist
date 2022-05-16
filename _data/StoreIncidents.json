@@ -1,6 +1,16 @@
 {
 	"incitems" : [
 	{
+		"abr": "tornado",
+		"price": 800,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "tornados",
+		"price": 2600,
+		"karmatype": "Bad"
+	},
+	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -97,7 +107,7 @@
 	},
 	{
 		"abr": "animaltame",
-		"price": 1000,
+		"price": 150,
 		"karmatype": "Good"
 	},
 	{
@@ -119,11 +129,6 @@
 		"abr": "meteor",
 		"price": 150,
 		"karmatype": "Neutral"
-	},
-	{
-		"abr": "maninblack",
-		"price": 1000,
-		"karmatype": "Good"
 	},
 	{
 		"abr": "madanimal",
@@ -204,6 +209,11 @@
 		"abr": "shippartpsychic",
 		"price": 2400,
 		"karmatype": "Bad"
+	},
+	{
+		"abr": "militaryaid",
+		"price": 700,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "raid",
@@ -352,7 +362,7 @@
 	},
 	{
 		"abr": "rescueme",
-		"price": 800,
+		"price": 1200,
 		"karmatype": "Neutral"
 	},
 	{
@@ -362,7 +372,7 @@
 	},
 	{
 		"abr": "passion",
-		"price": 1000,
+		"price": 7000,
 		"karmatype": "Good"
 	},
 	{
@@ -421,5 +431,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 84
+	"total": 86
 }
