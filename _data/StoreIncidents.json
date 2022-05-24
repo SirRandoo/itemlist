@@ -2,12 +2,12 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 1200,
+		"price": 2200,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 3600,
+		"price": 4400,
 		"karmatype": "Bad"
 	},
 	{
@@ -22,7 +22,7 @@
 	},
 	{
 		"abr": "vomitrain",
-		"price": 650,
+		"price": 750,
 		"karmatype": "Neutral"
 	},
 	{
@@ -67,12 +67,12 @@
 	},
 	{
 		"abr": "coldsnap",
-		"price": 800,
+		"price": 900,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "solarflare",
-		"price": 700,
+		"price": 900,
 		"karmatype": "Bad"
 	},
 	{
@@ -82,12 +82,12 @@
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 7500,
+		"price": 8500,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3200,
+		"price": 4200,
 		"karmatype": "Doom"
 	},
 	{
@@ -102,13 +102,18 @@
 	},
 	{
 		"abr": "blight",
-		"price": 800,
+		"price": 900,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "animaltame",
 		"price": 150,
 		"karmatype": "Good"
+	},
+	{
+		"abr": "wandererjoins",
+		"price": 2917,
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "resourcepodcrash",
@@ -127,12 +132,12 @@
 	},
 	{
 		"abr": "meteor",
-		"price": 150,
+		"price": 250,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "maninblack",
-		"price": 2000,
+		"price": 2917,
 		"karmatype": "Neutral"
 	},
 	{
@@ -288,7 +293,7 @@
 	{
 		"abr": "trait",
 		"price": 1,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "removetrait",
@@ -367,7 +372,7 @@
 	},
 	{
 		"abr": "rescueme",
-		"price": 800,
+		"price": 1200,
 		"karmatype": "Neutral"
 	},
 	{
@@ -427,7 +432,7 @@
 	},
 	{
 		"abr": "smite",
-		"price": 2500,
+		"price": 3500,
 		"karmatype": "Doom"
 	},
 	{
@@ -436,5 +441,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 87
+	"total": 88
 }
