@@ -2,12 +2,12 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 2200,
+		"price": 1200,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 4400,
+		"price": 3600,
 		"karmatype": "Bad"
 	},
 	{
@@ -22,7 +22,7 @@
 	},
 	{
 		"abr": "vomitrain",
-		"price": 750,
+		"price": 650,
 		"karmatype": "Neutral"
 	},
 	{
@@ -67,12 +67,12 @@
 	},
 	{
 		"abr": "coldsnap",
-		"price": 900,
+		"price": 800,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "solarflare",
-		"price": 900,
+		"price": 700,
 		"karmatype": "Bad"
 	},
 	{
@@ -82,12 +82,12 @@
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 8500,
+		"price": 7500,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 4200,
+		"price": 3200,
 		"karmatype": "Doom"
 	},
 	{
@@ -102,7 +102,7 @@
 	},
 	{
 		"abr": "blight",
-		"price": 900,
+		"price": 800,
 		"karmatype": "Bad"
 	},
 	{
@@ -132,7 +132,7 @@
 	},
 	{
 		"abr": "meteor",
-		"price": 250,
+		"price": 150,
 		"karmatype": "Neutral"
 	},
 	{
@@ -432,7 +432,7 @@
 	},
 	{
 		"abr": "smite",
-		"price": 3500,
+		"price": 2500,
 		"karmatype": "Doom"
 	},
 	{
