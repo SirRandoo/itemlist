@@ -4280,7 +4280,7 @@
       "defName": "Zombie",
       "enabled": true,
       "name": "Zombie",
-      "price": 1
+      "price": 900
     },
     {
       "data": {
@@ -4344,7 +4344,7 @@
       "defName": "Alien_Mantodean",
       "enabled": true,
       "name": "Mantodean",
-      "price": 833
+      "price": 1833
     }
   ]
 }
