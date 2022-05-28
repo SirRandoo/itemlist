@@ -16254,7 +16254,7 @@
       },
       "defName": "TM_Sniper",
       "name": "sharpshooter",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -16514,7 +16514,7 @@
       },
       "defName": "TM_Sniper",
       "name": "sniper",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -16774,7 +16774,7 @@
       },
       "defName": "TM_Sniper",
       "name": "mastersniper",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -17034,7 +17034,7 @@
       },
       "defName": "TM_Sniper",
       "name": "legendarysniper",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -19672,7 +19672,7 @@
       },
       "defName": "TM_SuperSoldier",
       "name": "supersoldier",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -21258,7 +21258,7 @@
       },
       "defName": "TM_ElementalGunner",
       "name": "elementalgunner",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -21778,7 +21778,7 @@
       },
       "defName": "TM_Bombardier",
       "name": "bombardier",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -23368,7 +23368,7 @@
       },
       "defName": "TM_Gadgeteer",
       "name": "gadgeteer",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -33992,7 +33992,7 @@
       },
       "defName": "TM_SupportSpecialist",
       "name": "supportspecialist",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -37696,7 +37696,7 @@
       },
       "defName": "TM_Deadeye",
       "name": "deadeye",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -40350,7 +40350,7 @@
       },
       "defName": "TM_Gunbreaker",
       "name": "gunbreaker",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -40872,7 +40872,7 @@
       },
       "defName": "TM_Gunner",
       "name": "gunner",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -42988,7 +42988,7 @@
       },
       "defName": "TM_Holosmith",
       "name": "holosmith",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -48252,7 +48252,7 @@
       },
       "defName": "TM_Gunslinger",
       "name": "gunslinger",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
@@ -50029,7 +50029,7 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
-      "price": 1500
+      "price": 500
     },
     {
       "data": {
@@ -50059,7 +50059,7 @@
       "defName": "Alien_BunTribe",
       "enabled": true,
       "name": "Bun",
-      "price": 2917
+      "price": 500
     },
     {
       "data": {
@@ -50098,7 +50098,7 @@
       "defName": "Ratkin",
       "enabled": true,
       "name": "Ratkin",
-      "price": 3333
+      "price": 500
     },
     {
       "data": {
@@ -50138,7 +50138,7 @@
       "defName": "Ratkin_Su",
       "enabled": true,
       "name": "Ratkin subject",
-      "price": 3333
+      "price": 500
     },
     {
       "data": {
@@ -50173,7 +50173,7 @@
       "defName": "Quartz_Race",
       "enabled": true,
       "name": "Quartzian",
-      "price": 5833
+      "price": 500
     },
     {
       "data": {
@@ -50210,7 +50210,7 @@
       "defName": "DwarfRace",
       "enabled": true,
       "name": "dwarf",
-      "price": 4667
+      "price": 500
     },
     {
       "data": {
@@ -50251,7 +50251,7 @@
       "defName": "ElfRace",
       "enabled": true,
       "name": "elf",
-      "price": 5833
+      "price": 500
     },
     {
       "data": {
@@ -50285,7 +50285,7 @@
       "defName": "OrcRace",
       "enabled": true,
       "name": "orc",
-      "price": 2917
+      "price": 500
     },
     {
       "data": {
@@ -50325,7 +50325,7 @@
       "defName": "TrollRace",
       "enabled": true,
       "name": "troll",
-      "price": 8000
+      "price": 500
     },
     {
       "data": {
@@ -50353,7 +50353,7 @@
       "defName": "ATK_Avianmorph",
       "enabled": true,
       "name": "avianmorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50381,7 +50381,7 @@
       "defName": "ATK_Bovinemorph",
       "enabled": true,
       "name": "bovinemorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50409,7 +50409,7 @@
       "defName": "ATK_Caninemorph",
       "enabled": true,
       "name": "caninemorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50437,7 +50437,7 @@
       "defName": "ATK_Cervinemorph",
       "enabled": true,
       "name": "cervinemorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50465,7 +50465,7 @@
       "defName": "ATK_Dragomorph",
       "enabled": true,
       "name": "dragomorph",
-      "price": 3250
+      "price": 500
     },
     {
       "data": {
@@ -50493,7 +50493,7 @@
       "defName": "ATK_Felinemorph",
       "enabled": true,
       "name": "felinemorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50521,7 +50521,7 @@
       "defName": "ATK_Gnollmorph",
       "enabled": true,
       "name": "gnollmorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50549,7 +50549,7 @@
       "defName": "ATK_Lagomorph",
       "enabled": true,
       "name": "lagomorph",
-      "price": 3000
+      "price": 500
     },
     {
       "data": {
@@ -50577,7 +50577,7 @@
       "defName": "ATK_Vulpinemorph",
       "enabled": true,
       "name": "Vulpinemorph",
-      "price": 3000
+      "price": 500
     }
   ]
 }
