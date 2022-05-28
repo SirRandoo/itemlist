@@ -3,19 +3,13 @@
     "author": "Andreas Pardeike",
     "name": "Harmony",
     "steamId": "2009463077",
-    "version": "1.1.1.0"
+    "version": "1.3.0.0"
   },
   {
     "author": "Samboy063",
     "name": "BetterLoading",
     "steamId": "1999454301",
-    "version": "3.2.0.1"
-  },
-  {
-    "author": "Neceros",
-    "name": "SRTS Expanded",
-    "steamId": "1845423808",
-    "version": "1.4.6"
+    "version": "3.3.0.0"
   },
   {
     "author": "UnlimitedHugs",
@@ -24,34 +18,10 @@
     "version": "9.0.1"
   },
   {
-    "author": "Nitrodev",
-    "name": "Absolutely No Roof",
+    "author": "UnlimitedHugs",
+    "name": "Allow Tool",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "latta",
-    "name": "FSharp.Core",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Andreas Pardeike",
-    "name": "Achtung!",
-    "steamId": "730936602",
-    "version": "3.3.9.0"
-  },
-  {
-    "author": "1trickPonyta",
-    "name": "Animal Filth? Don't Care",
-    "steamId": "2573432875",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Fluffy",
-    "name": "Animal Tab",
-    "steamId": "712141500",
-    "version": "4.7.272"
   },
   {
     "author": "Supes",
@@ -72,20 +42,8 @@
     "version": null
   },
   {
-    "author": "1trickPonyta",
-    "name": "Bed Rest For Food Poisoning",
-    "steamId": "2567901366",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Dyrewulfe",
     "name": "Better Message Placement (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Argaros",
-    "name": "Better Star Wars Music",
     "steamId": null,
     "version": null
   },
@@ -96,16 +54,22 @@
     "version": "0.5.0.0"
   },
   {
+    "author": "AUTOMATIC",
+    "name": "Bionic icons",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Fluffy",
     "name": "Blueprints",
     "steamId": "708455313",
     "version": "2.17.133"
   },
   {
-    "author": "Neceros",
-    "name": "Bulk Smelting",
-    "steamId": null,
-    "version": null
+    "author": "targhetti",
+    "name": "Show Draftees Weapon",
+    "steamId": "1690978457",
+    "version": "1.0.0.0"
   },
   {
     "author": "CrashM",
@@ -117,13 +81,7 @@
     "author": "Andreas Pardeike",
     "name": "Camera+",
     "steamId": "867467808",
-    "version": "2.2.1.0"
-  },
-  {
-    "author": "void",
-    "name": "Character Editor",
-    "steamId": "1874644848",
-    "version": "1.3.842.0"
+    "version": "2.3.2.0"
   },
   {
     "author": "Hatti",
@@ -132,34 +90,10 @@
     "version": null
   },
   {
-    "author": "MarvinKosh",
-    "name": "Clear The Stockpiles (Continued)",
-    "steamId": "2314332319",
-    "version": "1.0.1.0"
-  },
-  {
-    "author": "LadyCookie",
-    "name": "Cookie Traits",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Spdskatr and  CaesarV6",
-    "name": "Damage Indicators [1.3]",
-    "steamId": "2016331497",
+    "author": "miyamiya",
+    "name": "Compressed Raid",
+    "steamId": "2377478084",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "Darth Vader Suit Set",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Alias",
-    "name": "De-generalize Work",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "void",
@@ -186,36 +120,6 @@
     "version": "1.4.0.2"
   },
   {
-    "author": "telardo",
-    "name": "DragSelect",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "avilmask",
-    "name": "Common Sense",
-    "steamId": "1561769193",
-    "version": "1.1.32"
-  },
-  {
-    "author": "Dubwise",
-    "name": "Dubs Break Mod",
-    "steamId": "1722398508",
-    "version": "1.0.0"
-  },
-  {
-    "author": "UnlimitedHugs",
-    "name": "Allow Tool",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Dubwise",
-    "name": "Dubs Mint Menus",
-    "steamId": "1446523594",
-    "version": "1.0.0"
-  },
-  {
     "author": "Dubwise",
     "name": "Dubs Mint Minimap",
     "steamId": "1662119905",
@@ -228,40 +132,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "jecrell and contributors",
-    "name": "JecsTools",
-    "steamId": "932008009",
-    "version": "1.3.0.4"
-  },
-  {
-    "author": "EdB",
-    "name": "EdB Prepare Carefully",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Zylle",
-    "name": "Gemstones",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Daniledman",
-    "name": "Hardworking Animals (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "aRandomKiwi",
-    "name": "Hunt for Me",
-    "steamId": "1593245720",
-    "version": "3.5.4.0"
-  },
-  {
-    "author": "latta",
-    "name": "Infusion 2",
-    "steamId": null,
-    "version": null
+    "author": "notfood",
+    "name": "Infused",
+    "steamId": "731287727",
+    "version": "1.1.1.0"
   },
   {
     "author": "dhultgren",
@@ -270,38 +144,20 @@
     "version": null
   },
   {
-    "author": "Kiame Vivacity",
-    "name": "[KV] RimFridge",
-    "steamId": "1180721235",
-    "version": "1.2.1.0"
+    "author": "jecrell and contributors",
+    "name": "JecsTools",
+    "steamId": "932008009",
+    "version": "1.3.0.4"
   },
   {
-    "author": "Little White Mouse",
-    "name": "LWM's Deep Storage",
-    "steamId": "1617282896",
-    "version": "1.3.0.1"
+    "author": "Torann",
+    "name": "A RimWorld of Magic",
+    "steamId": "1201382956",
+    "version": "2.5.7.3"
   },
   {
-    "author": "Falconne and  TedDraws",
-    "name": "Labels on Floor (Forked)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Mlie",
-    "name": "Less Stupid Romance Attempt (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "juanlopez2008",
-    "name": "LightsOut",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Smash Phil",
-    "name": "Loading In Progress",
+    "author": "Kure",
+    "name": "Kure's Rimworld of Magic Class Expansion Pack",
     "steamId": null,
     "version": null
   },
@@ -312,34 +168,106 @@
     "version": "2.5.0.0"
   },
   {
+    "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson and  Erdelf",
+    "name": "Vanilla Expanded Framework",
+    "steamId": "2023507013",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki and  XeoNovaDan",
+    "name": "Vanilla Factions Expanded - Medieval",
+    "steamId": "2023513450",
+    "version": "1.0.5.0"
+  },
+  {
+    "author": "erdelf",
+    "name": "Humanoid Alien Races",
+    "steamId": "839005762",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "AveryTheKitty,  Erin and Ravenholme",
+    "name": "Xenohumans - Anthromorphs",
+    "steamId": "2349467636",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "CE Team",
+    "name": "Combat Extended",
+    "steamId": "1631756268",
+    "version": "1.3.4.6"
+  },
+  {
+    "author": "Sarg",
+    "name": "Magical Menagerie",
+    "steamId": "1821617793",
+    "version": "1.3.7862.41411"
+  },
+  {
     "author": "Fluffy",
     "name": "Medical Tab",
     "steamId": "715565817",
     "version": "3.4.91"
   },
   {
-    "author": "WexMan",
-    "name": "Mines",
+    "author": "Shenanigans",
+    "name": "Medieval Backstories",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Haplo",
-    "name": "Misc. Robots",
+    "author": "Spanky_H",
+    "name": "Bun Race",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Alaestor",
-    "name": "Misc. Robots++",
+    "author": "Spanky_H",
+    "name": "Medieval Buns",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Fluffy",
-    "name": "Music Manager",
-    "steamId": "2229205672",
-    "version": "1.2.196"
+    "author": "Nunahur Al-Shamikh",
+    "name": "Medieval Lighting and Heat",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Nunahur Al-Shamikh",
+    "name": "Medieval Medicines",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sugar Show",
+    "name": "Medieval Music",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "SirMashedPotato",
+    "name": "Medieval drug lab",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Domi",
+    "name": "More Medieval Helms and Armor",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Kiame Vivacity",
+    "name": "[KV] Show Hair With Hats or Hide All Hats",
+    "steamId": "1180826364",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Gloomylynx Nukafrog",
+    "name": "NewRatkinPlus",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Doug",
@@ -354,34 +282,16 @@
     "version": null
   },
   {
-    "author": "Ogre",
-    "name": "OgreStack",
-    "steamId": "1447140290",
-    "version": "1.0.0.0"
+    "author": "Peppsen",
+    "name": "P-Music",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Turnovus",
     "name": "Packs Are Not Belts",
     "steamId": "2509511179",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "Murmur",
-    "name": "Pawn Name Variety",
-    "steamId": "2159633754",
-    "version": "0.0.0.0"
-  },
-  {
-    "author": "fed1sPlay",
-    "name": "PawnTargetFix",
-    "steamId": "2014789938",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Fluffy",
-    "name": "Pharmacist",
-    "steamId": "1365242717",
-    "version": "2.9.140"
   },
   {
     "author": "hodlhodl",
@@ -399,13 +309,13 @@
     "author": "SirRandoo",
     "name": "ToolkitUtils",
     "steamId": "2009500580",
-    "version": "6.1.6.0"
+    "version": "6.2.0.5"
   },
   {
     "author": "Andreas Pardeike and  BleuSquid",
     "name": "Puppeteer",
     "steamId": "2594873651",
-    "version": "1.6.1.0"
+    "version": "1.6.2.1"
   },
   {
     "author": "legodude17",
@@ -420,22 +330,16 @@
     "version": "1.0.15"
   },
   {
+    "author": "Benji // Steam: Cute Twink",
+    "name": "Quartzian Race",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Sandy",
     "name": "RPG Style Inventory Revamped",
     "steamId": "2478833213",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "YAYO",
-    "name": "Real Faction Guest",
-    "steamId": "2263021260",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Lucifer",
-    "name": "Realistic Rooms Rewritten",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "busted_bunny",
@@ -450,34 +354,10 @@
     "version": "2.0.1.0"
   },
   {
-    "author": "MRGames",
-    "name": "Removes Skill Decay",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "SteveZero",
-    "name": "Repairable Gear",
-    "steamId": "2482478785",
-    "version": "0.0.0.0"
-  },
-  {
-    "author": "Uuugggg",
-    "name": "Replace Stuff",
-    "steamId": "1372003680",
+    "author": ".json",
+    "name": "Retractable Defenses",
+    "steamId": "2214068164",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "avilmask",
-    "name": "Research Whatever",
-    "steamId": "2552092060",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "VinaLx",
-    "name": "ResearchPal - Forked",
-    "steamId": "2351393394",
-    "version": "1.3.0.2"
   },
   {
     "author": "Jaxe",
@@ -486,40 +366,16 @@
     "version": null
   },
   {
-    "author": "ruPal",
-    "name": "RimPy Mod Manager Database",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Roolo and Updated by Ogliss",
-    "name": "RunAndGun",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Trinity",
-    "name": "RuntimeGC [1.3]",
-    "steamId": "2559582557",
-    "version": "0.1.0.0"
-  },
-  {
-    "author": "explodoboy",
-    "name": "Science Never Stops: Ambition of the Cosmic",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Roolo",
-    "name": "Search and Destroy",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "avilmask",
-    "name": "Self Dyeing",
-    "steamId": "2562859859",
+    "author": "Ogam;Taranchuk;ILuvSilicon",
+    "name": "Rimedieval",
+    "steamId": "2516523040",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "ILuvSilicon",
+    "name": "ShadowRimRaces",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Djgamer2k",
@@ -528,22 +384,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "targhetti",
-    "name": "Show Draftees Weapon",
-    "steamId": "1690978457",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "PeteTimesSix",
     "name": "Simple sidearms",
     "steamId": "927155256",
-    "version": "1.4.5.0"
-  },
-  {
-    "author": "Sarg",
-    "name": "Smart Speed",
-    "steamId": null,
-    "version": null
+    "version": "1.4.6.0"
   },
   {
     "author": "legodude17",
@@ -558,172 +402,10 @@
     "version": "1.0.7895.35757"
   },
   {
-    "author": "zhrock11",
-    "name": "Stackable Chunks [1.3+]",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Leongotto",
-    "name": "Star Wars - First Order Faction",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Xen and Jecrell",
-    "name": "Star Wars - The Force (Continued)",
-    "steamId": "2263227169",
-    "version": "1.0.4.0"
-  },
-  {
-    "author": "Lady Elizabeth and JangoD'soul",
-    "name": "Star Wars Clone Force 99",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars Phase I Clone Armor",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Lady Elizabeth and JangoD'soul",
-    "name": "Star Wars Delta Squad",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Xen and Jecrell",
-    "name": "Star Wars - Factions (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Xen and Jecrell",
-    "name": "Star Wars - Fully Functional Lightsabers (Continued)",
-    "steamId": "2263225380",
-    "version": "1.0.5.0"
-  },
-  {
-    "author": "ShadowDragon8685",
-    "name": "Star Wars Factions Weapon Patch",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Lumi",
-    "name": "Star Wars Lights",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "erdelf",
-    "name": "Humanoid Alien Races",
-    "steamId": "839005762",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Foggy Morning",
-    "name": "Star Wars Races",
-    "steamId": "1662194938",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Lady Elizabeth and JangoD'soul",
-    "name": "Star Wars Senate Guard",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Lumi",
-    "name": "Star Wars Slave Bikini Outfit",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoDsoul",
-    "name": "StarWars - 4-LOM Droid",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - Dengar Armor Set",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - Gand Species",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - Hutts Species",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - IG-88 Droid",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - Purge Trooper",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - Storm Commando",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars - Trandosha Species",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Beasstmann",
-    "name": "StarWars Animal Collection",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars Fordo-Neyo-Assassin",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Lumi",
-    "name": "StarWars WallsN'Floors",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "StarWars-Keller-Airborne-Standard",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "民火",
     "name": "Statue of Colonist",
     "steamId": "1539031321",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "Scherub",
-    "name": "Stonecutting Extended",
-    "steamId": "2571676542",
-    "version": "1.1.0.0"
   },
   {
     "author": "Uuugggg",
@@ -732,8 +414,8 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Sam",
-    "name": "Tilled Soil",
+    "author": "leafzxg",
+    "name": "Thrumbo Extension",
     "steamId": null,
     "version": null
   },
@@ -745,21 +427,15 @@
   },
   {
     "author": "SirRandoo",
+    "name": "ToolkitRaids",
+    "steamId": "2091359241",
+    "version": "1.0.5.0"
+  },
+  {
+    "author": "SirRandoo",
     "name": "ToolkitResearch",
     "steamId": "2312827542",
-    "version": "1.0.3.0"
-  },
-  {
-    "author": "AUTOMATIC",
-    "name": "Trader ships",
-    "steamId": "2046222331",
-    "version": "1.0.350.0854"
-  },
-  {
-    "author": "Carny Senpai",
-    "name": "Trait Rarity Colors",
-    "steamId": "1751884355",
-    "version": "1.3.0.0"
+    "version": "1.0.3.2"
   },
   {
     "author": "hodlhodl",
@@ -774,40 +450,16 @@
     "version": "1.0.7468.14677"
   },
   {
-    "author": "Imranfish",
-    "name": "XML Extensions",
-    "steamId": "2574315206",
-    "version": "1.6.3"
+    "author": "Oskar Potocki,  Kikohi and  Helixien",
+    "name": "Vanilla Events Expanded",
+    "steamId": "1938420742",
+    "version": "1.1.0"
   },
   {
-    "author": "Grimm",
-    "name": "Un-Limited",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Nephlite and  Maxim",
-    "name": "Utility Columns",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "jeonggihun",
-    "name": "Utility Columns Royalty Patch",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki,  Taranchuk and  Chowder",
-    "name": "Vanilla Traits Expanded",
-    "steamId": "2296404655",
-    "version": "1.0.0.1"
-  },
-  {
-    "author": "Mlie",
-    "name": "Various Space Ship Chunk (Continued)",
-    "steamId": "2014616487",
-    "version": "1.0.6.0"
+    "author": "Vanilla Expanded team",
+    "name": "Vanilla Factions Expanded - Vikings",
+    "steamId": "2231295285",
+    "version": "1.0.0.0"
   },
   {
     "author": "Toasteh and  Updated by Ogliss",
@@ -828,10 +480,16 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "SirRandoo",
+    "name": "Where's My Bed?",
+    "steamId": "1919873778",
+    "version": "1.2.3.0"
+  },
+  {
     "author": "CodeOptimist",
     "name": "While You're Up / PUAH+",
     "steamId": "2034960453",
-    "version": "3.1.4.3561"
+    "version": "3.1.4.2343"
   },
   {
     "author": "Odeum",
@@ -846,106 +504,22 @@
     "version": null
   },
   {
-    "author": "FrozenSnowFox",
-    "name": "[FSF] Better Ancient Complex Loot",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "FrozenSnowFox",
-    "name": "[FSF] Better Camp Loot",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "FrozenSnowFox",
-    "name": "[FSF] Filth Vanishes With Rain And Time",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Fuu Chan",
-    "name": "[Fuu] Auto Strip on Haul",
-    "steamId": "2560725133",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Exiled Dawn",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] The Forge - Anvil",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Havoc Squad Trooper",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars Darth Revan",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars Jango and Boba Fett",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars Mandalorian Custom Armor Set",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars Old Sith Trooper Armor Set",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars Phase II Clone Armor",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars The Mando and Paz Vizla Armor Set",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars BlasTech Industries",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Star Wars The Separatist Droid Army",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "erdelf (original) & Kiame (support)",
     "name": "[KV] Don't stop the music",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Kiame Vivacity",
-    "name": "[KV] Show Hair With Hats or Hide All Hats",
-    "steamId": "1180826364",
-    "version": "1.0.0.0"
+    "author": "Oskar Potocki,  Taranchuk and  Chowder",
+    "name": "Vanilla Traits Expanded",
+    "steamId": "2296404655",
+    "version": "1.0.0.1"
+  },
+  {
+    "author": "Rainbeau Flambe (original) & Kiame Vivacity",
+    "name": "[KV] More Trait Slots",
+    "steamId": "1508292711",
+    "version": "1.0.7862.37403"
   },
   {
     "author": "Kiame Vivacity",
@@ -964,17 +538,5 @@
     "name": "[RH2] BCD: First Aid",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "FantasyFan and  Lumi",
-    "name": "[RW] Star Wars - Biomes Replace",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "arof and Syrchalis",
-    "name": "[SYR] Harvest Yield (1.3)",
-    "steamId": "2561160220",
-    "version": "1.0.0.0"
   }
 ]
