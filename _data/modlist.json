@@ -6,12 +6,6 @@
     "version": "1.3.0.0"
   },
   {
-    "author": "Fluffy",
-    "name": "Mod Manager",
-    "steamId": "1507748539",
-    "version": "3.8.1038"
-  },
-  {
     "author": "Samboy063",
     "name": "BetterLoading",
     "steamId": "1999454301",
@@ -22,6 +16,12 @@
     "name": "HugsLib",
     "steamId": "818773962",
     "version": "9.0.1"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Mod Manager",
+    "steamId": "1507748539",
+    "version": "3.8.1038"
   },
   {
     "author": "jecrell and contributors",
@@ -42,9 +42,21 @@
     "version": "1.1.3"
   },
   {
+    "author": "brucethemoose",
+    "name": "Hybrid Storytellers",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson and  Erdelf",
     "name": "Vanilla Expanded Framework",
     "steamId": "2023507013",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki and  Taranchuk",
+    "name": "Vanilla Trading Expanded",
+    "steamId": "2785616901",
     "version": "1.0.0.0"
   },
   {
@@ -120,6 +132,12 @@
     "version": "1.0.7862.37403"
   },
   {
+    "author": "Scotty and  Taranchuk",
+    "name": "Sexuality Traits",
+    "steamId": "2589673154",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "EdB",
     "name": "EdB Prepare Carefully",
     "steamId": null,
@@ -144,28 +162,22 @@
     "version": "1.8.0.0"
   },
   {
-    "author": "Zylle",
-    "name": "More Vanilla Biomes",
-    "steamId": "1931453053",
-    "version": "0.1.5.01"
-  },
-  {
     "author": "Sarg Bjornson and  AFriend",
     "name": "Alpha Animals",
     "steamId": "1541721856",
     "version": "1.3.7862.41411"
   },
   {
-    "author": "Ekksu / Xen / Cucumpear / Thirite / Whizzard / Lindseyrie / Walking Problem",
-    "name": "Animal Collab Project Vanilla-Style",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Sarg",
     "name": "Alpha Biomes",
     "steamId": "1841354677",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Ekksu / Xen / Cucumpear / Thirite / Whizzard / Lindseyrie / Walking Problem",
+    "name": "Animal Collab Project Vanilla-Style",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Krkr",
@@ -180,10 +192,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Syrchalis",
-    "name": "[SYR] Set Up Camp",
-    "steamId": "1470065926",
-    "version": "1.0.0.0"
+    "author": "neitsa",
+    "name": "Prepare Landing",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
@@ -192,10 +204,22 @@
     "version": null
   },
   {
+    "author": "Oskar Potocki and  Sarg Bjornson",
+    "name": "Vanilla Fishing Expanded",
+    "steamId": "1914064942",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Owlchemist and  jptrrs",
     "name": "Windows",
     "steamId": "2571189146",
     "version": "1.3"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Skylights",
+    "steamId": "833899765",
+    "version": "1.0.0.0"
   },
   {
     "author": "VinaLx",
@@ -294,10 +318,28 @@
     "version": null
   },
   {
+    "author": "Uuugggg",
+    "name": "Replace Stuff",
+    "steamId": "1372003680",
+    "version": "1.1.0.0"
+  },
+  {
+    "author": "Garethp",
+    "name": "Replace Stuff Mod Compatibility",
+    "steamId": "2642161586",
+    "version": "0.0.0.0"
+  },
+  {
     "author": "avilmask",
     "name": "Common Sense",
     "steamId": "1561769193",
     "version": "1.1.46"
+  },
+  {
+    "author": "miyamiya",
+    "name": "Compressed Raid",
+    "steamId": "2377478084",
+    "version": "1.0.0.0"
   },
   {
     "author": "Dave-EEs",
@@ -312,10 +354,16 @@
     "version": null
   },
   {
+    "author": "ISOREX",
+    "name": "Advanced Moisture Pump",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Torann",
     "name": "A RimWorld of Magic",
     "steamId": "1201382956",
-    "version": "2.5.7.4"
+    "version": "2.5.7.5"
   },
   {
     "author": "hodlhodl",
@@ -346,6 +394,18 @@
     "name": "TwitchToolkit - Lootboxes",
     "steamId": "1720021578",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "SomewhereOutInSpace",
+    "name": "Rimsential - Spaceports",
+    "steamId": "2663999215",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Orion",
+    "name": "Hospitality",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "FrozenSnowFox",

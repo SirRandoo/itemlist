@@ -1,4 +1,4 @@
-﻿{
+{
   "traits": [
     {
       "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
@@ -454,8 +454,8 @@
       "name": "gay",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3000,
+      "addPrice": 50,
+      "removePrice": 50,
       "degree": 0
     },
     {
@@ -484,8 +484,8 @@
       "name": "bisexual",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3000,
+      "addPrice": 50,
+      "removePrice": 50,
       "degree": 0
     },
     {
@@ -514,8 +514,8 @@
       "name": "asexual",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3000,
+      "addPrice": 50,
+      "removePrice": 50,
       "degree": 0
     },
     {
@@ -2081,6 +2081,36 @@
       "degree": -1
     },
     {
+      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Fishing Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VCEF_Fisherman",
+      "name": "fisherman",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
       "description": "Timmy's faith is firm. It allows him to move under any circumstances.",
       "stats": [
         "+10% pain shock threshold",
@@ -2113,11 +2143,11 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
-      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
+      "description": "Timmy is romantically attracted to people of his opposite gender.",
       "stats": [
 
       ],
@@ -2129,7 +2159,7 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Vanilla Fishing Expanded",
+        "mod": "Sexuality Traits",
         "karmaTypeForAdding": null,
         "conflicts": [
 
@@ -2138,12 +2168,12 @@
 
         ]
       },
-      "defName": "VCEF_Fisherman",
-      "name": "fisherman",
+      "defName": "ST_Straight",
+      "name": "straight",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2175,7 +2205,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2207,7 +2237,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2239,7 +2269,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2269,7 +2299,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2299,7 +2329,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2329,7 +2359,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2359,7 +2389,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2389,7 +2419,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2527,7 +2557,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2663,7 +2693,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -2926,8 +2956,8 @@
       "name": "empath",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3078,8 +3108,8 @@
       "name": "wanderer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3232,8 +3262,8 @@
       "name": "firemage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3384,8 +3414,8 @@
       "name": "icemage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3532,8 +3562,8 @@
       "name": "lightningmage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3688,8 +3718,8 @@
       "name": "arcanemage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3842,8 +3872,8 @@
       "name": "druid",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -3992,8 +4022,8 @@
       "name": "paladin",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4140,8 +4170,8 @@
       "name": "summoner",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4294,8 +4324,8 @@
       "name": "necromancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4472,8 +4502,8 @@
       "name": "lich",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4630,8 +4660,8 @@
       "name": "priest",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4774,8 +4804,8 @@
       "name": "entertainer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -4918,8 +4948,8 @@
       "name": "performer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -5062,8 +5092,8 @@
       "name": "minstrel",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -5206,8 +5236,8 @@
       "name": "bard",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -5370,8 +5400,8 @@
       "name": "succubus",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5534,8 +5564,8 @@
       "name": "warlock",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5694,8 +5724,8 @@
       "name": "geomancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -5858,8 +5888,8 @@
       "name": "technomancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6012,8 +6042,8 @@
       "name": "bloodmage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6168,8 +6198,8 @@
       "name": "enchanter",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6316,8 +6346,8 @@
       "name": "chronomancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6464,8 +6494,8 @@
       "name": "chaosmage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6734,8 +6764,8 @@
       "name": "shadow",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -6746,7 +6776,7 @@
         "+10.0 melee dodge chance",
         "+10% global work speed",
         "-25% aiming time",
-        "-35.0 shooting accuracy",
+        "-15.0 shooting accuracy",
         "+10.00% social impact",
         "+30% toxic sensitivity",
         "-30 carrying capacity",
@@ -6991,7 +7021,7 @@
           "+10.0 melee dodge chance",
           "+10% global work speed",
           "-25% aiming time",
-          "-35.0 shooting accuracy",
+          "-15.0 shooting accuracy",
           "+10.00% social impact",
           "+30% toxic sensitivity",
           "-30 carrying capacity",
@@ -7002,8 +7032,8 @@
       "name": "brightmage",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7268,8 +7298,8 @@
       "name": "shaman",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7530,8 +7560,8 @@
       "name": "golemancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7667,7 +7697,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3000,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -7818,8 +7848,8 @@
       "name": "wayfarer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8088,8 +8118,8 @@
       "name": "apothecary",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8252,8 +8282,8 @@
       "name": "gladiator",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8269,7 +8299,8 @@
         "-10% smelting speed",
         "-10% construction speed",
         "+10.00% tame animal chance",
-        "+10.00% train animal chance"
+        "+10.00% train animal chance",
+        "+2.0 shooting accuracy"
       ],
       "conflicts": [
         "physicallyadept",
@@ -8399,15 +8430,16 @@
           "-10% smelting speed",
           "-10% construction speed",
           "+10.00% tame animal chance",
-          "+10.00% train animal chance"
+          "+10.00% train animal chance",
+          "+2.0 shooting accuracy"
         ]
       },
       "defName": "Ranger",
       "name": "woodsman",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -8423,7 +8455,8 @@
         "-15% smelting speed",
         "-15% construction speed",
         "+12.00% tame animal chance",
-        "+12.00% train animal chance"
+        "+12.00% train animal chance",
+        "+3.0 shooting accuracy"
       ],
       "conflicts": [
         "physicallyadept",
@@ -8553,15 +8586,16 @@
           "-15% smelting speed",
           "-15% construction speed",
           "+12.00% tame animal chance",
-          "+12.00% train animal chance"
+          "+12.00% train animal chance",
+          "+3.0 shooting accuracy"
         ]
       },
       "defName": "Ranger",
       "name": "hunter",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -8577,7 +8611,8 @@
         "-18% smelting speed",
         "-18% construction speed",
         "+14.00% tame animal chance",
-        "+14.00% train animal chance"
+        "+14.00% train animal chance",
+        "+4.0 shooting accuracy"
       ],
       "conflicts": [
         "physicallyadept",
@@ -8707,15 +8742,16 @@
           "-18% smelting speed",
           "-18% construction speed",
           "+14.00% tame animal chance",
-          "+14.00% train animal chance"
+          "+14.00% train animal chance",
+          "+4.0 shooting accuracy"
         ]
       },
       "defName": "Ranger",
       "name": "scout",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -8731,7 +8767,8 @@
         "-20% smelting speed",
         "-20% construction speed",
         "+15.00% tame animal chance",
-        "+15.00% train animal chance"
+        "+15.00% train animal chance",
+        "+5.0 shooting accuracy"
       ],
       "conflicts": [
         "physicallyadept",
@@ -8861,15 +8898,16 @@
           "-20% smelting speed",
           "-20% construction speed",
           "+15.00% tame animal chance",
-          "+15.00% train animal chance"
+          "+15.00% train animal chance",
+          "+5.0 shooting accuracy"
         ]
       },
       "defName": "Ranger",
       "name": "ranger",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -8877,7 +8915,7 @@
       "stats": [
         "+0.10 move speed",
         "-10% aiming time",
-        "+2.0 shooting accuracy",
+        "+3.0 shooting accuracy",
         "-10% research speed",
         "-10% global work speed",
         "-10.00% tame animal chance",
@@ -9003,7 +9041,7 @@
         "stats": [
           "+0.10 move speed",
           "-10% aiming time",
-          "+2.0 shooting accuracy",
+          "+3.0 shooting accuracy",
           "-10% research speed",
           "-10% global work speed",
           "-10.00% tame animal chance",
@@ -9014,8 +9052,8 @@
       "name": "sharpshooter",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -9023,7 +9061,7 @@
       "stats": [
         "+0.15 move speed",
         "-15% aiming time",
-        "+4.0 shooting accuracy",
+        "+6.0 shooting accuracy",
         "-13% research speed",
         "-13% global work speed",
         "-13.00% tame animal chance",
@@ -9149,7 +9187,7 @@
         "stats": [
           "+0.15 move speed",
           "-15% aiming time",
-          "+4.0 shooting accuracy",
+          "+6.0 shooting accuracy",
           "-13% research speed",
           "-13% global work speed",
           "-13.00% tame animal chance",
@@ -9160,8 +9198,8 @@
       "name": "sniper",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -9169,7 +9207,7 @@
       "stats": [
         "+0.20 move speed",
         "-22% aiming time",
-        "+6.0 shooting accuracy",
+        "+8.0 shooting accuracy",
         "-15% research speed",
         "-15% global work speed",
         "-15.00% tame animal chance",
@@ -9295,7 +9333,7 @@
         "stats": [
           "+0.20 move speed",
           "-22% aiming time",
-          "+6.0 shooting accuracy",
+          "+8.0 shooting accuracy",
           "-15% research speed",
           "-15% global work speed",
           "-15.00% tame animal chance",
@@ -9306,8 +9344,8 @@
       "name": "mastersniper",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -9315,7 +9353,7 @@
       "stats": [
         "+0.25 move speed",
         "-30% aiming time",
-        "+8.0 shooting accuracy",
+        "+10.0 shooting accuracy",
         "-16% research speed",
         "-16% global work speed",
         "-16.00% tame animal chance",
@@ -9441,7 +9479,7 @@
         "stats": [
           "+0.25 move speed",
           "-30% aiming time",
-          "+8.0 shooting accuracy",
+          "+10.0 shooting accuracy",
           "-16% research speed",
           "-16% global work speed",
           "-16.00% tame animal chance",
@@ -9452,8 +9490,8 @@
       "name": "legendarysniper",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -9596,8 +9634,8 @@
       "name": "bladesman",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -9740,8 +9778,8 @@
       "name": "blademaster",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 1
     },
     {
@@ -9886,8 +9924,8 @@
       "name": "bladedancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 2
     },
     {
@@ -10032,8 +10070,8 @@
       "name": "legendarybladedancer",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 3
     },
     {
@@ -10190,8 +10228,8 @@
       "name": "faceless",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10344,8 +10382,8 @@
       "name": "psionic",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10492,8 +10530,8 @@
       "name": "deathknight",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10646,8 +10684,8 @@
       "name": "monk",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10794,8 +10832,8 @@
       "name": "commander",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     },
     {
@@ -10950,8 +10988,8 @@
       "name": "supersoldier",
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 7000,
-      "removePrice": 3000,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0
     }
   ],
@@ -10976,7 +11014,43 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
-      "price": 1000
+      "price": 3000
+    },
+    {
+      "data": {
+        "stats": [
+          "+65.00 Mass",
+          "+100% Flammability",
+          "+$3000 Market value",
+          "+5 Honor value",
+          "+75 Carrying capacity",
+          "+100% Global learning factor",
+          "+80% Psychic sensitivity",
+          "+80% Rest rate multiplier",
+          "+70% Global work speed",
+          "+0 Foraged food amount",
+          "+120.00% Negotiation ability",
+          "+120.00% Social impact",
+          "+120.00% Trade price improvement",
+          "+40 Leather amount",
+          "+82% Pain shock threshold",
+          "+30% Mental break threshold",
+          "+22.0C Minimum comfortable temperature",
+          "+40.0C Maximum comfortable temperature",
+          "+5.20 Move speed",
+          "+95% Aiming time",
+          "+10.0 Melee dodge chance",
+          "+1.2 Melee hit chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "the Marvelous gift of glitterworld bionics. Humanoid with cat ears and tail.",
+      "defName": "Alien_Nyaron",
+      "enabled": true,
+      "name": "Nyaron",
+      "price": 3000
     },
     {
       "data": {
@@ -11013,7 +11087,7 @@
       "defName": "Ratkin",
       "enabled": true,
       "name": "Ratkin",
-      "price": 1500
+      "price": 3333
     },
     {
       "data": {
@@ -11049,45 +11123,9 @@
       },
       "description": "It is a human like a rodent gene. Although the origin is unknown, it is a monarchy society based on agricultural society. There are more female objects than males, and it is difficult to distinguish the gender of the object when viewed from the outside.",
       "defName": "Ratkin_Su",
-      "enabled": false,
-      "name": "Ratkin subject",
-      "price": 1500
-    },
-    {
-      "data": {
-        "stats": [
-          "+65.00 Mass",
-          "+100% Flammability",
-          "+$3000 Market value",
-          "+5 Honor value",
-          "+75 Carrying capacity",
-          "+100% Global learning factor",
-          "+80% Psychic sensitivity",
-          "+80% Rest rate multiplier",
-          "+70% Global work speed",
-          "+0 Foraged food amount",
-          "+120.00% Negotiation ability",
-          "+120.00% Social impact",
-          "+120.00% Trade price improvement",
-          "+40 Leather amount",
-          "+82% Pain shock threshold",
-          "+30% Mental break threshold",
-          "+22.0C Minimum comfortable temperature",
-          "+40.0C Maximum comfortable temperature",
-          "+5.20 Move speed",
-          "+95% Aiming time",
-          "+10.0 Melee dodge chance",
-          "+1.2 Melee hit chance"
-        ],
-        "mod": "Unknown",
-        "karmaType": null,
-        "customName": false
-      },
-      "description": "the Marvelous gift of glitterworld bionics. Humanoid with cat ears and tail.",
-      "defName": "Alien_Nyaron",
       "enabled": true,
-      "name": "Nyaron",
-      "price": 1500
+      "name": "Ratkin subject",
+      "price": 3333
     }
   ]
 }

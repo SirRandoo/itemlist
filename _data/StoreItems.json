@@ -3565,12 +3565,6 @@
       "price": 375
     },
     {
-      "abr": "advancedmoisturepump",
-      "category": "Misc",
-      "defname": "AMP_AdvancedMoisturePump",
-      "price": 1867
-    },
-    {
       "abr": "aerofleet",
       "category": "Animals",
       "defname": "AA_Aerofleet",
@@ -3619,12 +3613,6 @@
       "price": 15
     },
     {
-      "abr": "anchovy",
-      "category": "Raw fish",
-      "defname": "VCEF_RawAnchovy",
-      "price": 1
-    },
-    {
       "abr": "angelmoth",
       "category": "Animals",
       "defname": "AA_AngelMoth",
@@ -3641,18 +3629,6 @@
       "category": "Animals",
       "defname": "AA_AngelMothLarva",
       "price": 38
-    },
-    {
-      "abr": "angelfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawAngelfish",
-      "price": 2
-    },
-    {
-      "abr": "anglerfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawAnglerfish",
-      "price": 2
     },
     {
       "abr": "animacolossus",
@@ -3733,30 +3709,6 @@
       "price": 626
     },
     {
-      "abr": "ballista",
-      "category": "Security",
-      "defname": "RK_Ballista_Strait_Body",
-      "price": 1117
-    },
-    {
-      "abr": "ballistabolt(ap)",
-      "category": "Ballista bolt",
-      "defname": "BallistaBolt_AP",
-      "price": 92
-    },
-    {
-      "abr": "ballistabolt(he)",
-      "category": "Ballista bolt",
-      "defname": "BallistaBolt_Heavy",
-      "price": 92
-    },
-    {
-      "abr": "ballistabolt(normal)",
-      "category": "Ballista bolt",
-      "defname": "BallistaBolt_Normal",
-      "price": 92
-    },
-    {
       "abr": "bananas",
       "category": "Raw fruits",
       "defname": "VCE_RawBanana",
@@ -3767,12 +3719,6 @@
       "category": "Animals",
       "defname": "AA_Barbslinger",
       "price": 1250
-    },
-    {
-      "abr": "bass",
-      "category": "Raw fish",
-      "defname": "VCEF_RawBass",
-      "price": 2
     },
     {
       "abr": "bearberries",
@@ -3805,21 +3751,9 @@
       "price": 2
     },
     {
-      "abr": "bfr3000",
-      "category": "Ranged weapons",
-      "defname": "RK_BFR",
-      "price": 3133
-    },
-    {
       "abr": "bioniccattail",
       "category": "Bionic",
       "defname": "Nr_BioCatTail",
-      "price": 1717
-    },
-    {
-      "abr": "bionictail",
-      "category": "Bionic",
-      "defname": "RK_BionicTail",
       "price": 1717
     },
     {
@@ -3955,12 +3889,6 @@
       "price": 92
     },
     {
-      "abr": "catfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawCatfish",
-      "price": 4
-    },
-    {
       "abr": "cathoodie",
       "category": "Nyaron Apparels",
       "defname": "Nr_CatHoodie",
@@ -4069,18 +3997,6 @@
       "price": 170
     },
     {
-      "abr": "clownfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawClownfish",
-      "price": 1
-    },
-    {
-      "abr": "cod",
-      "category": "Raw fish",
-      "defname": "VCEF_RawCod",
-      "price": 3
-    },
-    {
       "abr": "colossalaerofleet",
       "category": "Animals",
       "defname": "AA_ColossalAerofleet",
@@ -4127,12 +4043,6 @@
       "category": "Nyaron ranged weapons",
       "defname": "Nr_CriPistol",
       "price": 367
-    },
-    {
-      "abr": "crossback",
-      "category": "Ratkin apparel",
-      "defname": "RK_CrossBack",
-      "price": 187
     },
     {
       "abr": "crystallinecaracal",
@@ -4249,22 +4159,10 @@
       "price": 87
     },
     {
-      "abr": "eel",
-      "category": "Raw fish",
-      "defname": "VCEF_RawEel",
-      "price": 2
-    },
-    {
       "abr": "eggplants",
       "category": "Vegetarian",
       "defname": "VCE_RawEggplant",
       "price": 2
-    },
-    {
-      "abr": "empbomb",
-      "category": "Special",
-      "defname": "RK_EmpBomb",
-      "price": 858
     },
     {
       "abr": "empressbutterfly",
@@ -4301,18 +4199,6 @@
       "category": "Animals",
       "defname": "AA_Eyeling",
       "price": 251
-    },
-    {
-      "abr": "fakeear",
-      "category": "Prosthetic",
-      "defname": "RK_FakeEar",
-      "price": 152
-    },
-    {
-      "abr": "faketail",
-      "category": "Prosthetic",
-      "defname": "RK_FakeTail",
-      "price": 240
     },
     {
       "abr": "feralisk",
@@ -4507,12 +4393,6 @@
       "price": 3
     },
     {
-      "abr": "goldfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawGoldfish",
-      "price": 3
-    },
-    {
       "abr": "gowmilk",
       "category": "Animal products",
       "defname": "AA_GowMilk",
@@ -4567,24 +4447,6 @@
       "price": 3
     },
     {
-      "abr": "guppy",
-      "category": "Raw fish",
-      "defname": "VCEF_RawGuppy",
-      "price": 1
-    },
-    {
-      "abr": "haddock",
-      "category": "Raw fish",
-      "defname": "VCEF_RawHaddock",
-      "price": 2
-    },
-    {
-      "abr": "halibut",
-      "category": "Raw fish",
-      "defname": "VCEF_RawHalibut",
-      "price": 3
-    },
-    {
       "abr": "hampers",
       "category": "Furniture",
       "defname": "LWM_FabricHamper",
@@ -4607,12 +4469,6 @@
       "category": "Animals",
       "defname": "AA_Helixien",
       "price": 1875
-    },
-    {
-      "abr": "herring",
-      "category": "Raw fish",
-      "defname": "VCEF_RawHerring",
-      "price": 1
     },
     {
       "abr": "hexagel",
@@ -4735,36 +4591,6 @@
       "price": 98
     },
     {
-      "abr": "kinghamster",
-      "category": "Animals",
-      "defname": "RK_KingHamster",
-      "price": 1125
-    },
-    {
-      "abr": "kinghamsterfur",
-      "category": "Leathers",
-      "defname": "RK_Leather_KingHamster",
-      "price": 4
-    },
-    {
-      "abr": "kinghamstermeat",
-      "category": "Meat",
-      "defname": "Meat_RK_KingHamster",
-      "price": 3
-    },
-    {
-      "abr": "kinghamsterwool",
-      "category": "Wools",
-      "defname": "RK_Wool_KingHamster",
-      "price": 4
-    },
-    {
-      "abr": "koi",
-      "category": "Raw fish",
-      "defname": "VCEF_RawKoi",
-      "price": 4
-    },
-    {
       "abr": "larvalatispec",
       "category": "Animals",
       "defname": "AA_LarvalAtispec",
@@ -4789,12 +4615,6 @@
       "price": 3
     },
     {
-      "abr": "lobster",
-      "category": "Raw fish",
-      "defname": "VCEF_RawLobster",
-      "price": 9
-    },
-    {
       "abr": "lockjaw",
       "category": "Animals",
       "defname": "AA_Lockjaw",
@@ -4811,12 +4631,6 @@
       "category": "Nyaron ranged weapons",
       "defname": "Nr_FlakCaster",
       "price": 3333
-    },
-    {
-      "abr": "mackerel",
-      "category": "Raw fish",
-      "defname": "VCEF_RawMackerel",
-      "price": 2
     },
     {
       "abr": "mammothworm",
@@ -4933,12 +4747,6 @@
       "price": 1667
     },
     {
-      "abr": "minnow",
-      "category": "Raw fish",
-      "defname": "VCEF_RawMinnow",
-      "price": 1
-    },
-    {
       "abr": "moribundgallatross",
       "category": "Animals",
       "defname": "AA_GallatrossMoribund",
@@ -4952,19 +4760,19 @@
     },
     {
       "abr": "mutantarm",
-      "category": "Natural",
+      "category": "Teratogenic parts",
       "defname": "AA_MutantArm",
       "price": 167
     },
     {
       "abr": "mutanteye",
-      "category": "Natural",
+      "category": "Teratogenic parts",
       "defname": "AA_MutantEye",
       "price": 167
     },
     {
       "abr": "mutantleg",
-      "category": "Natural",
+      "category": "Teratogenic parts",
       "defname": "AA_MutantLeg",
       "price": 167
     },
@@ -5209,22 +5017,10 @@
       "price": 2
     },
     {
-      "abr": "perch",
-      "category": "Raw fish",
-      "defname": "VCEF_RawPerch",
-      "price": 2
-    },
-    {
       "abr": "phoenixowlcat",
       "category": "Animals",
       "defname": "AA_PhoenixOwlcat",
       "price": 626
-    },
-    {
-      "abr": "piranha",
-      "category": "Raw fish",
-      "defname": "VCEF_RawPiranha",
-      "price": 2
     },
     {
       "abr": "plantmeat",
@@ -5269,18 +5065,6 @@
       "price": 2
     },
     {
-      "abr": "pufferfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawPufferfish",
-      "price": 2
-    },
-    {
-      "abr": "pulpit",
-      "category": "Furniture",
-      "defname": "RK_Pulpit",
-      "price": 202
-    },
-    {
       "abr": "pumpkins",
       "category": "Vegetarian",
       "defname": "VCE_RawPumpkin",
@@ -5303,444 +5087,6 @@
       "category": "Meat",
       "defname": "Meat_AA_RaptorShrimp",
       "price": 3
-    },
-    {
-      "abr": "ratkin",
-      "category": "Animal",
-      "defname": "Ratkin",
-      "price": -10
-    },
-    {
-      "abr": "ratkinapronskirt",
-      "category": "Ratkin apparel",
-      "defname": "RK_ApronSkirt",
-      "price": 248
-    },
-    {
-      "abr": "ratkinautocrossbow",
-      "category": "Ranged weapons",
-      "defname": "RK_AutoCrossBow",
-      "price": 550
-    },
-    {
-      "abr": "ratkinaxe",
-      "category": "Melee weapons",
-      "defname": "RK_Axe",
-      "price": 283
-    },
-    {
-      "abr": "ratkinbackpack",
-      "category": "Ratkin apparel",
-      "defname": "RK_Backpack",
-      "price": 215
-    },
-    {
-      "abr": "ratkinbattlesuit",
-      "category": "Ratkin apparel",
-      "defname": "RK_BattleSuit",
-      "price": 1767
-    },
-    {
-      "abr": "ratkinbigheavyshield",
-      "category": "Ratkin apparel",
-      "defname": "RK_HeavyShield_Big",
-      "price": 1008
-    },
-    {
-      "abr": "ratkincannon",
-      "category": "Security",
-      "defname": "RK_Cannon_Strait_Body",
-      "price": 1058
-    },
-    {
-      "abr": "ratkincannonshell",
-      "category": "Ratkin Cannon Shell",
-      "defname": "Big_mouse",
-      "price": 92
-    },
-    {
-      "abr": "ratkincardigan",
-      "category": "Ratkin apparel",
-      "defname": "RK_Cardigan",
-      "price": 283
-    },
-    {
-      "abr": "ratkinchefhat",
-      "category": "Ratkin apparel",
-      "defname": "RK_ChefHat",
-      "price": 162
-    },
-    {
-      "abr": "ratkinchefsuit",
-      "category": "Ratkin apparel",
-      "defname": "RK_ChefSuit",
-      "price": 375
-    },
-    {
-      "abr": "ratkincleaver",
-      "category": "Melee weapons",
-      "defname": "RK_Cleaver",
-      "price": 247
-    },
-    {
-      "abr": "ratkincoif",
-      "category": "Ratkin apparel",
-      "defname": "RK_Coif",
-      "price": 121
-    },
-    {
-      "abr": "ratkincrossbow",
-      "category": "Ranged weapons",
-      "defname": "RK_Crossbow",
-      "price": 158
-    },
-    {
-      "abr": "ratkindagger",
-      "category": "Melee weapons",
-      "defname": "RK_Dagger",
-      "price": 128
-    },
-    {
-      "abr": "ratkinearcostume",
-      "category": "Ratkin apparel",
-      "defname": "RK_EarCostume",
-      "price": 342
-    },
-    {
-      "abr": "ratkinelectricsmithy",
-      "category": "Production",
-      "defname": "RK_ElectricSmithy",
-      "price": 533
-    },
-    {
-      "abr": "ratkinelectrictailorbench",
-      "category": "Production",
-      "defname": "RK_ElectricTailoringBench",
-      "price": 542
-    },
-    {
-      "abr": "ratkinenhancedcrossbow",
-      "category": "Ranged weapons",
-      "defname": "RK_EnhanceCrossBow",
-      "price": 263
-    },
-    {
-      "abr": "ratkinexplorerhat",
-      "category": "Ratkin apparel",
-      "defname": "RK_ExplorerHat",
-      "price": 141
-    },
-    {
-      "abr": "ratkinexplorerwear",
-      "category": "Ratkin apparel",
-      "defname": "RK_ExplorerWear",
-      "price": 358
-    },
-    {
-      "abr": "ratkinflatcolorcoat",
-      "category": "Ratkin apparel",
-      "defname": "RK_FlatColorCoat",
-      "price": 742
-    },
-    {
-      "abr": "ratkinflechetterifle",
-      "category": "Ranged weapons",
-      "defname": "RK_FlechetteRifle",
-      "price": 658
-    },
-    {
-      "abr": "ratkinflechettesniperrifle",
-      "category": "Ranged weapons",
-      "defname": "RK_FlechetteSniperRifle",
-      "price": 775
-    },
-    {
-      "abr": "ratkinfork",
-      "category": "Melee weapons",
-      "defname": "RK_Fork",
-      "price": 283
-    },
-    {
-      "abr": "ratkinfrillonepiece",
-      "category": "Ratkin apparel",
-      "defname": "RK_FrillOnepiece",
-      "price": 742
-    },
-    {
-      "abr": "ratkinfueledsmithy",
-      "category": "Production",
-      "defname": "RK_FueledSmithy",
-      "price": 367
-    },
-    {
-      "abr": "ratkinglasses",
-      "category": "Ratkin apparel",
-      "defname": "RK_ResearchGlasses",
-      "price": 103
-    },
-    {
-      "abr": "ratkinguardeneruniform",
-      "category": "Ratkin apparel",
-      "defname": "RK_GaurdenUniform",
-      "price": 442
-    },
-    {
-      "abr": "ratkingunlance(normal)",
-      "category": "Melee weapons",
-      "defname": "RK_Gunlance_NormalType",
-      "price": 1283
-    },
-    {
-      "abr": "ratkingunlance(spread)",
-      "category": "Melee weapons",
-      "defname": "RK_Gunlance_SpreadType",
-      "price": 1283
-    },
-    {
-      "abr": "ratkinhaircorsage",
-      "category": "Ratkin apparel",
-      "defname": "RK_HairCorsage",
-      "price": 358
-    },
-    {
-      "abr": "ratkinhandtailorbench",
-      "category": "Production",
-      "defname": "RK_HandTailoringBench",
-      "price": 225
-    },
-    {
-      "abr": "ratkinheadband",
-      "category": "Ratkin apparel",
-      "defname": "RK_HeadBand",
-      "price": 383
-    },
-    {
-      "abr": "ratkinheavylance",
-      "category": "Melee weapons",
-      "defname": "RK_HeavyLance",
-      "price": 875
-    },
-    {
-      "abr": "ratkinheavyshield",
-      "category": "Ratkin apparel",
-      "defname": "RK_HeavyShield",
-      "price": 800
-    },
-    {
-      "abr": "ratkinhoe",
-      "category": "Melee weapons",
-      "defname": "RK_Hockey",
-      "price": 283
-    },
-    {
-      "abr": "ratkinlongsword",
-      "category": "Melee weapons",
-      "defname": "RK_LongSword",
-      "price": 592
-    },
-    {
-      "abr": "ratkinmace",
-      "category": "Melee weapons",
-      "defname": "RK_Mace",
-      "price": 425
-    },
-    {
-      "abr": "ratkinmagicwand",
-      "category": "Melee weapons",
-      "defname": "RK_MagicWand",
-      "price": 104
-    },
-    {
-      "abr": "ratkinmaskhelmet",
-      "category": "Ratkin apparel",
-      "defname": "RK_Mask",
-      "price": 1092
-    },
-    {
-      "abr": "ratkinmaskhelmet",
-      "category": "Ratkin apparel",
-      "defname": "RK_MaskB",
-      "price": 1092
-    },
-    {
-      "abr": "ratkinmeat",
-      "category": "Meat",
-      "defname": "Meat_Ratkin",
-      "price": 3
-    },
-    {
-      "abr": "ratkinmilitaryhelmet",
-      "category": "Ratkin apparel",
-      "defname": "RK_BulletProofHelmet",
-      "price": 525
-    },
-    {
-      "abr": "ratkinmuffler",
-      "category": "Ratkin apparel",
-      "defname": "RK_Muffler",
-      "price": 132
-    },
-    {
-      "abr": "ratkinnundress",
-      "category": "Ratkin apparel",
-      "defname": "RK_SistersDerss",
-      "price": 775
-    },
-    {
-      "abr": "ratkinonehandedsword",
-      "category": "Melee weapons",
-      "defname": "RK_OneHanded",
-      "price": 425
-    },
-    {
-      "abr": "ratkinorderuniform",
-      "category": "Ratkin apparel",
-      "defname": "RK_OrderUniform",
-      "price": 1100
-    },
-    {
-      "abr": "ratkinoutdoorbackpack",
-      "category": "Ratkin apparel",
-      "defname": "RK_OutdoorBackpack",
-      "price": 311
-    },
-    {
-      "abr": "ratkinpackage",
-      "category": "Ratkin apparel",
-      "defname": "RK_Sack",
-      "price": 683
-    },
-    {
-      "abr": "ratkinplatearmor",
-      "category": "Ratkin apparel",
-      "defname": "RK_Plate",
-      "price": 733
-    },
-    {
-      "abr": "ratkinplatehelma",
-      "category": "Ratkin apparel",
-      "defname": "RK_PlateHelmA",
-      "price": 320
-    },
-    {
-      "abr": "ratkinplatehelmb",
-      "category": "Ratkin apparel",
-      "defname": "RK_PlateHelmB",
-      "price": 320
-    },
-    {
-      "abr": "ratkinplatehelmc",
-      "category": "Ratkin apparel",
-      "defname": "RK_PlateHelmC",
-      "price": 320
-    },
-    {
-      "abr": "ratkinprototypepulserifle",
-      "category": "Ranged weapons",
-      "defname": "RK_PrototypePulseRifle",
-      "price": 2150
-    },
-    {
-      "abr": "ratkinresearchgown",
-      "category": "Ratkin apparel",
-      "defname": "RK_ResearchGown",
-      "price": 375
-    },
-    {
-      "abr": "ratkinribbonhairband",
-      "category": "Ratkin apparel",
-      "defname": "RK_RibbonHairBand",
-      "price": 358
-    },
-    {
-      "abr": "ratkinrifle",
-      "category": "Ranged weapons",
-      "defname": "RK_Rifle",
-      "price": 467
-    },
-    {
-      "abr": "ratkinroyalcrown",
-      "category": "Ratkin apparel",
-      "defname": "RK_RoyalCrown",
-      "price": 400
-    },
-    {
-      "abr": "ratkinshotgun",
-      "category": "Ranged weapons",
-      "defname": "RK_Rifle_line",
-      "price": 567
-    },
-    {
-      "abr": "ratkinsniperrifle",
-      "category": "Ranged weapons",
-      "defname": "RK_SniperRifle",
-      "price": 592
-    },
-    {
-      "abr": "ratkinstrawhat",
-      "category": "Ratkin apparel",
-      "defname": "RK_StrawHat",
-      "price": 41
-    },
-    {
-      "abr": "ratkinsubject",
-      "category": "Animal",
-      "defname": "Ratkin_Su",
-      "price": -10
-    },
-    {
-      "abr": "ratkinsubjectmeat",
-      "category": "Meat",
-      "defname": "Meat_Ratkin_Su",
-      "price": 3
-    },
-    {
-      "abr": "ratkinsummerdress",
-      "category": "Ratkin apparel",
-      "defname": "RK_SummerDress",
-      "price": 267
-    },
-    {
-      "abr": "ratkintwohandedsword",
-      "category": "Melee weapons",
-      "defname": "RK_TwoHanded",
-      "price": 817
-    },
-    {
-      "abr": "ratkinveil",
-      "category": "Ratkin apparel",
-      "defname": "RK_SistersVeil",
-      "price": 392
-    },
-    {
-      "abr": "ratkinwinterrobe",
-      "category": "Ratkin apparel",
-      "defname": "RK_WinterRobe",
-      "price": 342
-    },
-    {
-      "abr": "ratkinwoodenlance",
-      "category": "Melee weapons",
-      "defname": "RK_LightLance",
-      "price": 400
-    },
-    {
-      "abr": "ratkinwoodenshield",
-      "category": "Ratkin apparel",
-      "defname": "RK_WoodenShield",
-      "price": 392
-    },
-    {
-      "abr": "ratkinwoolenhat",
-      "category": "Ratkin apparel",
-      "defname": "RK_WoolenHat",
-      "price": 98
-    },
-    {
-      "abr": "ratkinworkerwear",
-      "category": "Ratkin apparel",
-      "defname": "RK_WorkerWear",
-      "price": 325
     },
     {
       "abr": "ravager",
@@ -5809,24 +5155,6 @@
       "price": 92
     },
     {
-      "abr": "rotti",
-      "category": "Animals",
-      "defname": "Rotti",
-      "price": 1001
-    },
-    {
-      "abr": "rottihat",
-      "category": "Ratkin apparel",
-      "defname": "RK_RottiHat",
-      "price": 57
-    },
-    {
-      "abr": "rottimeat",
-      "category": "Meat",
-      "defname": "Meat_Rotti",
-      "price": 3
-    },
-    {
       "abr": "rough-platedmonitor",
       "category": "Animals",
       "defname": "AA_RoughPlatedMonitor",
@@ -5851,22 +5179,10 @@
       "price": 225
     },
     {
-      "abr": "royalrobe",
-      "category": "Ratkin apparel",
-      "defname": "RK_RoyalRobe",
-      "price": 458
-    },
-    {
       "abr": "safe",
       "category": "Furniture",
       "defname": "LWM_Safe",
       "price": 1017
-    },
-    {
-      "abr": "salmon",
-      "category": "Raw fish",
-      "defname": "VCEF_RawSalmon",
-      "price": 9
     },
     {
       "abr": "sandlion",
@@ -5891,24 +5207,6 @@
       "category": "Animals",
       "defname": "AA_SandSquid",
       "price": 875
-    },
-    {
-      "abr": "santahat",
-      "category": "Ratkin apparel",
-      "defname": "RK_SantaHat",
-      "price": 98
-    },
-    {
-      "abr": "santapackage",
-      "category": "Ratkin apparel",
-      "defname": "RK_SantaSack",
-      "price": 683
-    },
-    {
-      "abr": "santarobe",
-      "category": "Ratkin apparel",
-      "defname": "RK_SantaRobe",
-      "price": 342
     },
     {
       "abr": "sentientplantskin",
@@ -6415,22 +5713,10 @@
       "price": 4875
     },
     {
-      "abr": "sprat",
-      "category": "Raw fish",
-      "defname": "VCEF_RawSprat",
-      "price": 1
-    },
-    {
       "abr": "squidmeat",
       "category": "Meat",
       "defname": "Meat_AA_SandSquid",
       "price": 3
-    },
-    {
-      "abr": "strawberrybeer",
-      "category": "Drugs",
-      "defname": "RK_StrawberryBeer",
-      "price": 25
     },
     {
       "abr": "summitcrab",
@@ -6443,12 +5729,6 @@
       "category": "Animals",
       "defname": "AA_Swarmling",
       "price": 87
-    },
-    {
-      "abr": "swordfish",
-      "category": "Raw fish",
-      "defname": "VCEF_RawSwordfish",
-      "price": 9
     },
     {
       "abr": "tallshelves",
@@ -6529,18 +5809,6 @@
       "price": 2
     },
     {
-      "abr": "trout",
-      "category": "Raw fish",
-      "defname": "VCEF_RawTrout",
-      "price": 2
-    },
-    {
-      "abr": "tuna",
-      "category": "Raw fish",
-      "defname": "VCEF_RawTuna",
-      "price": 4
-    },
-    {
       "abr": "unblinkingeye",
       "category": "Animals",
       "defname": "AA_UnblinkingEye",
@@ -6589,12 +5857,6 @@
       "price": 237
     },
     {
-      "abr": "whitecoat",
-      "category": "Ratkin apparel",
-      "defname": "RK_WhiteCoat",
-      "price": 2600
-    },
-    {
       "abr": "wildpawn",
       "category": "Animals",
       "defname": "AA_Wildpawn",
@@ -6637,18 +5899,6 @@
       "price": 1625
     },
     {
-      "abr": "wyvernammo(normal)",
-      "category": "Manufactured",
-      "defname": "RK_WyvernAmmo_NormalType",
-      "price": 92
-    },
-    {
-      "abr": "wyvernammo(spread)",
-      "category": "Manufactured",
-      "defname": "RK_WyvernAmmo_SpreadType",
-      "price": 92
-    },
-    {
       "abr": "xenguana",
       "category": "Animals",
       "defname": "ACPXenguana",
@@ -6667,22 +5917,226 @@
       "price": 1667
     },
     {
-      "abr": "zombgrella",
-      "category": "Misc",
-      "defname": "Zombgrella",
-      "price": 642
-    },
-    {
       "abr": "zombrella",
       "category": "Misc",
       "defname": "Zombrella",
       "price": 3333
     },
     {
-      "abr": "glasspane",
-      "category": "Manufactured",
-      "defname": "GlassPane",
-      "price": 22
+      "abr": "abyssaleel",
+      "category": "Alien raw fish",
+      "defname": "VCEF_AbyssalEel",
+      "price": 2
+    },
+    {
+      "abr": "advancedmoisturepump",
+      "category": "Misc",
+      "defname": "AMP_AdvancedMoisturePump",
+      "price": 1867
+    },
+    {
+      "abr": "alcyonitechunk",
+      "category": "Raw resources",
+      "defname": "AB_AlcyoniteChunk",
+      "price": 8
+    },
+    {
+      "abr": "aliencompliancecenter",
+      "category": "Special",
+      "defname": "AB_AlienComplianceCenter",
+      "price": 167
+    },
+    {
+      "abr": "anchovy",
+      "category": "Raw fish",
+      "defname": "VCEF_RawAnchovy",
+      "price": 0
+    },
+    {
+      "abr": "angelfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawAngelfish",
+      "price": 2
+    },
+    {
+      "abr": "anglerfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawAnglerfish",
+      "price": 2
+    },
+    {
+      "abr": "asphaltbucket",
+      "category": "Raw resources",
+      "defname": "AB_AsphaltBucket",
+      "price": 2
+    },
+    {
+      "abr": "ballista",
+      "category": "Security",
+      "defname": "RK_Ballista_Strait_Body",
+      "price": 1117
+    },
+    {
+      "abr": "ballistabolt(ap)",
+      "category": "Ballista bolt",
+      "defname": "BallistaBolt_AP",
+      "price": 92
+    },
+    {
+      "abr": "ballistabolt(he)",
+      "category": "Ballista bolt",
+      "defname": "BallistaBolt_Heavy",
+      "price": 92
+    },
+    {
+      "abr": "ballistabolt(normal)",
+      "category": "Ballista bolt",
+      "defname": "BallistaBolt_Normal",
+      "price": 92
+    },
+    {
+      "abr": "bass",
+      "category": "Raw fish",
+      "defname": "VCEF_RawBass",
+      "price": 2
+    },
+    {
+      "abr": "bfr3000",
+      "category": "Ranged weapons",
+      "defname": "RK_BFR",
+      "price": 3133
+    },
+    {
+      "abr": "bionictail",
+      "category": "Bionic",
+      "defname": "RK_BionicTail",
+      "price": 1717
+    },
+    {
+      "abr": "bloodbouquet",
+      "category": "Meat",
+      "defname": "AB_RawBloodBouquet",
+      "price": 3
+    },
+    {
+      "abr": "bloodleech",
+      "category": "Alien raw fish",
+      "defname": "VCEF_BloodLeech",
+      "price": 0
+    },
+    {
+      "abr": "bluefungus",
+      "category": "Vegetarian",
+      "defname": "AB_BlueRawFungus",
+      "price": 2
+    },
+    {
+      "abr": "borealsardine",
+      "category": "Alien raw fish",
+      "defname": "VCEF_BorealSardine",
+      "price": 0
+    },
+    {
+      "abr": "brownbarrelcactus",
+      "category": "Vegetarian",
+      "defname": "AB_RawBrownBarrelCactus",
+      "price": 1
+    },
+    {
+      "abr": "bumbledronejelly",
+      "category": "Vegetarian",
+      "defname": "AB_BumbledroneFood",
+      "price": 1
+    },
+    {
+      "abr": "catfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawCatfish",
+      "price": 4
+    },
+    {
+      "abr": "clownfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawClownfish",
+      "price": 1
+    },
+    {
+      "abr": "cod",
+      "category": "Raw fish",
+      "defname": "VCEF_RawCod",
+      "price": 3
+    },
+    {
+      "abr": "cordaxresin",
+      "category": "Raw resources",
+      "defname": "AB_CordaxResin",
+      "price": 17
+    },
+    {
+      "abr": "coresampledrill",
+      "category": "Production",
+      "defname": "AB_CoreSampleDrill",
+      "price": 1842
+    },
+    {
+      "abr": "cragstoneblocks",
+      "category": "Stone blocks",
+      "defname": "AB_BlocksCragstone",
+      "price": 2
+    },
+    {
+      "abr": "crossback",
+      "category": "Ratkin apparel",
+      "defname": "RK_CrossBack",
+      "price": 187
+    },
+    {
+      "abr": "crystalhorn",
+      "category": "Vegetarian",
+      "defname": "AB_RawCrystalHorn",
+      "price": 2
+    },
+    {
+      "abr": "crystallinematrix",
+      "category": "Raw resources",
+      "defname": "AB_CrystallineMatrix",
+      "price": 17
+    },
+    {
+      "abr": "crystallinewood",
+      "category": "Raw resources",
+      "defname": "AB_CrystalWood",
+      "price": 1
+    },
+    {
+      "abr": "dribblingcappoisondart",
+      "category": "Grenades",
+      "defname": "AB_WeaponPoisonDart",
+      "price": 7
+    },
+    {
+      "abr": "duskysprat",
+      "category": "Alien raw fish",
+      "defname": "VCEF_DuskySprat",
+      "price": 0
+    },
+    {
+      "abr": "eel",
+      "category": "Raw fish",
+      "defname": "VCEF_RawEel",
+      "price": 2
+    },
+    {
+      "abr": "empbomb",
+      "category": "Special",
+      "defname": "RK_EmpBomb",
+      "price": 858
+    },
+    {
+      "abr": "exoticsmelter",
+      "category": "Production",
+      "defname": "AB_ExoticSmelterOcular",
+      "price": 542
     },
     {
       "abr": "ancientmail",
@@ -7054,7 +6508,7 @@
       "abr": "direwolf",
       "category": "Animals",
       "defname": "TM_Dire_WolfR",
-      "price": 5501
+      "price": 3667
     },
     {
       "abr": "divinetome:paladin",
@@ -7213,6 +6667,18 @@
       "price": 833
     },
     {
+      "abr": "fakeear",
+      "category": "Prosthetic",
+      "defname": "RK_FakeEar",
+      "price": 152
+    },
+    {
+      "abr": "faketail",
+      "category": "Prosthetic",
+      "defname": "RK_FakeTail",
+      "price": 240
+    },
+    {
       "abr": "fighterskill:burningfury",
       "category": "Scrolls",
       "defname": "SkillOf_BurningFury",
@@ -7321,6 +6787,24 @@
       "price": 4500
     },
     {
+      "abr": "forsakenanglerfish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_ForsakenAnglerfish",
+      "price": 2
+    },
+    {
+      "abr": "frigidswimmer",
+      "category": "Alien raw fish",
+      "defname": "VCEF_FrigidSwimmer",
+      "price": 3
+    },
+    {
+      "abr": "frostleaf",
+      "category": "Raw resources",
+      "defname": "AB_RawFrostLeaf",
+      "price": 0
+    },
+    {
       "abr": "gemofarcaneinsight",
       "category": "Magic artifacts",
       "defname": "GemstoneOfInsight_Magic",
@@ -7339,16 +6823,34 @@
       "price": 2750
     },
     {
+      "abr": "giantpolarprawn",
+      "category": "Alien raw fish",
+      "defname": "VCEF_GiantPolarPrawn",
+      "price": 2
+    },
+    {
       "abr": "giantskeletonmeat",
       "category": "Meat",
       "defname": "Meat_TM_GiantSkeletonR",
       "price": 3
     },
     {
+      "abr": "glasspane",
+      "category": "Manufactured",
+      "defname": "GlassPane",
+      "price": 22
+    },
+    {
       "abr": "glorymaul",
       "category": "Melee",
       "defname": "TM_GloryMaul",
       "price": 2825
+    },
+    {
+      "abr": "goldfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawGoldfish",
+      "price": 3
     },
     {
       "abr": "golemancerspell:awarenessbrand",
@@ -7399,10 +6901,40 @@
       "price": 2500
     },
     {
+      "abr": "guppy",
+      "category": "Raw fish",
+      "defname": "VCEF_RawGuppy",
+      "price": 0
+    },
+    {
+      "abr": "habdaklongfin",
+      "category": "Alien raw fish",
+      "defname": "VCEF_HabdakLongfin",
+      "price": 9
+    },
+    {
+      "abr": "haddock",
+      "category": "Raw fish",
+      "defname": "VCEF_RawHaddock",
+      "price": 2
+    },
+    {
+      "abr": "halibut",
+      "category": "Raw fish",
+      "defname": "VCEF_RawHalibut",
+      "price": 3
+    },
+    {
       "abr": "helmofthevaliant",
       "category": "Magic apparel",
       "defname": "RoyalHelm",
       "price": 975
+    },
+    {
+      "abr": "herring",
+      "category": "Raw fish",
+      "defname": "VCEF_RawHerring",
+      "price": 1
     },
     {
       "abr": "hollowgolem",
@@ -7429,6 +6961,12 @@
       "price": 1008
     },
     {
+      "abr": "iashiphusfruit",
+      "category": "Vegetarian",
+      "defname": "AB_RawIashiphus",
+      "price": 1
+    },
+    {
       "abr": "icespell:alterstorm",
       "category": "Scrolls",
       "defname": "SpellOf_AlterStorm",
@@ -7447,6 +6985,48 @@
       "price": 900
     },
     {
+      "abr": "iedtartrap",
+      "category": "Security",
+      "defname": "AB_TrapIED_Tar",
+      "price": 267
+    },
+    {
+      "abr": "jellyfungus",
+      "category": "Alien raw fish",
+      "defname": "VCEF_Jellyfungus",
+      "price": 2
+    },
+    {
+      "abr": "kinghamster",
+      "category": "Animals",
+      "defname": "RK_KingHamster",
+      "price": 750
+    },
+    {
+      "abr": "kinghamsterfur",
+      "category": "Leathers",
+      "defname": "RK_Leather_KingHamster",
+      "price": 4
+    },
+    {
+      "abr": "kinghamstermeat",
+      "category": "Meat",
+      "defname": "Meat_RK_KingHamster",
+      "price": 3
+    },
+    {
+      "abr": "kinghamsterwool",
+      "category": "Wools",
+      "defname": "RK_Wool_KingHamster",
+      "price": 4
+    },
+    {
+      "abr": "koi",
+      "category": "Raw fish",
+      "defname": "VCEF_RawKoi",
+      "price": 4
+    },
+    {
       "abr": "lightningspell:chargebattery",
       "category": "Scrolls",
       "defname": "SpellOf_ChargeBattery",
@@ -7463,6 +7043,18 @@
       "category": "Animal",
       "defname": "TM_LimestoneGolem",
       "price": 2500
+    },
+    {
+      "abr": "lobster",
+      "category": "Raw fish",
+      "defname": "VCEF_RawLobster",
+      "price": 9
+    },
+    {
+      "abr": "mackerel",
+      "category": "Raw fish",
+      "defname": "VCEF_RawMackerel",
+      "price": 2
     },
     {
       "abr": "magerobe",
@@ -7696,7 +7288,7 @@
       "abr": "mashedpomana",
       "category": "Vegetarian",
       "defname": "TM_RawPomanaMash",
-      "price": 1
+      "price": 0
     },
     {
       "abr": "meat",
@@ -7709,6 +7301,12 @@
       "category": "Animal",
       "defname": "TM_MechaGolem",
       "price": 5000
+    },
+    {
+      "abr": "minnow",
+      "category": "Raw fish",
+      "defname": "VCEF_RawMinnow",
+      "price": 0
     },
     {
       "abr": "minorarcanegemofacceleration",
@@ -7759,6 +7357,30 @@
       "price": 1983
     },
     {
+      "abr": "mudsplashercarp",
+      "category": "Alien raw fish",
+      "defname": "VCEF_MudSplasherCarp",
+      "price": 2
+    },
+    {
+      "abr": "mudstoneblocks",
+      "category": "Stone blocks",
+      "defname": "AB_BlocksMudstone",
+      "price": 1
+    },
+    {
+      "abr": "mushroomstalks",
+      "category": "Raw resources",
+      "defname": "AB_MushroomWoodLog",
+      "price": 2
+    },
+    {
+      "abr": "mutantflatfish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_MutantFlatfish",
+      "price": 1
+    },
+    {
       "abr": "mysterymeat",
       "category": "Meat",
       "defname": "Meat_TM_MinionR",
@@ -7781,6 +7403,24 @@
       "category": "Magic artifacts",
       "defname": "TM_Artifact_NecroticOrb",
       "price": 3000
+    },
+    {
+      "abr": "obsidianblocks",
+      "category": "Stone blocks",
+      "defname": "AB_BlocksObsidian",
+      "price": 2
+    },
+    {
+      "abr": "ocularfish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_OcularFish",
+      "price": 3
+    },
+    {
+      "abr": "oculargasspewer",
+      "category": "Misc",
+      "defname": "AB_OcularGasSpewer",
+      "price": 304
     },
     {
       "abr": "orbofconviction",
@@ -7819,6 +7459,30 @@
       "price": 1725
     },
     {
+      "abr": "perch",
+      "category": "Raw fish",
+      "defname": "VCEF_RawPerch",
+      "price": 2
+    },
+    {
+      "abr": "pinkblobfish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_PinkBlobfish",
+      "price": 2
+    },
+    {
+      "abr": "pinkfungus",
+      "category": "Vegetarian",
+      "defname": "AB_PinkRawFungus",
+      "price": 2
+    },
+    {
+      "abr": "piranha",
+      "category": "Raw fish",
+      "defname": "VCEF_RawPiranha",
+      "price": 2
+    },
+    {
       "abr": "pomanafruit",
       "category": "Vegetarian",
       "defname": "TM_RawPomanasyrrium",
@@ -7835,6 +7499,504 @@
       "category": "Scrolls",
       "defname": "SpellOf_Resurrection",
       "price": 6250
+    },
+    {
+      "abr": "processedresin",
+      "category": "Raw resources",
+      "defname": "AB_ProcessedResin",
+      "price": 75
+    },
+    {
+      "abr": "propanebag",
+      "category": "Alien raw fish",
+      "defname": "VCEF_PropaneBag",
+      "price": 0
+    },
+    {
+      "abr": "propanefueltank",
+      "category": "Manufactured",
+      "defname": "AB_Propane",
+      "price": 4
+    },
+    {
+      "abr": "propaneheater",
+      "category": "Temperature",
+      "defname": "AB_PropaneHeater",
+      "price": 188
+    },
+    {
+      "abr": "propanestove",
+      "category": "Production",
+      "defname": "AB_PropaneStove",
+      "price": 252
+    },
+    {
+      "abr": "psychotropicfungus",
+      "category": "Drugs",
+      "defname": "AB_PsychotropicFungus",
+      "price": 3
+    },
+    {
+      "abr": "pufferfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawPufferfish",
+      "price": 2
+    },
+    {
+      "abr": "pulpit",
+      "category": "Furniture",
+      "defname": "RK_Pulpit",
+      "price": 202
+    },
+    {
+      "abr": "purplefungus",
+      "category": "Vegetarian",
+      "defname": "AB_PurpleRawFungus",
+      "price": 2
+    },
+    {
+      "abr": "ratkin",
+      "category": "Animal",
+      "defname": "Ratkin",
+      "price": -10
+    },
+    {
+      "abr": "ratkinapronskirt",
+      "category": "Ratkin apparel",
+      "defname": "RK_ApronSkirt",
+      "price": 248
+    },
+    {
+      "abr": "ratkinautocrossbow",
+      "category": "Ranged weapons",
+      "defname": "RK_AutoCrossBow",
+      "price": 550
+    },
+    {
+      "abr": "ratkinaxe",
+      "category": "Melee weapons",
+      "defname": "RK_Axe",
+      "price": 283
+    },
+    {
+      "abr": "ratkinbackpack",
+      "category": "Ratkin apparel",
+      "defname": "RK_Backpack",
+      "price": 215
+    },
+    {
+      "abr": "ratkinbattlesuit",
+      "category": "Ratkin apparel",
+      "defname": "RK_BattleSuit",
+      "price": 1767
+    },
+    {
+      "abr": "ratkinbigheavyshield",
+      "category": "Ratkin apparel",
+      "defname": "RK_HeavyShield_Big",
+      "price": 1008
+    },
+    {
+      "abr": "ratkincannon",
+      "category": "Security",
+      "defname": "RK_Cannon_Strait_Body",
+      "price": 1058
+    },
+    {
+      "abr": "ratkincannonshell",
+      "category": "Ratkin Cannon Shell",
+      "defname": "Big_mouse",
+      "price": 92
+    },
+    {
+      "abr": "ratkincardigan",
+      "category": "Ratkin apparel",
+      "defname": "RK_Cardigan",
+      "price": 283
+    },
+    {
+      "abr": "ratkinchefhat",
+      "category": "Ratkin apparel",
+      "defname": "RK_ChefHat",
+      "price": 162
+    },
+    {
+      "abr": "ratkinchefsuit",
+      "category": "Ratkin apparel",
+      "defname": "RK_ChefSuit",
+      "price": 375
+    },
+    {
+      "abr": "ratkincleaver",
+      "category": "Melee weapons",
+      "defname": "RK_Cleaver",
+      "price": 247
+    },
+    {
+      "abr": "ratkincoif",
+      "category": "Ratkin apparel",
+      "defname": "RK_Coif",
+      "price": 121
+    },
+    {
+      "abr": "ratkincrossbow",
+      "category": "Ranged weapons",
+      "defname": "RK_Crossbow",
+      "price": 158
+    },
+    {
+      "abr": "ratkindagger",
+      "category": "Melee weapons",
+      "defname": "RK_Dagger",
+      "price": 128
+    },
+    {
+      "abr": "ratkinearcostume",
+      "category": "Ratkin apparel",
+      "defname": "RK_EarCostume",
+      "price": 342
+    },
+    {
+      "abr": "ratkinelectricsmithy",
+      "category": "Production",
+      "defname": "RK_ElectricSmithy",
+      "price": 533
+    },
+    {
+      "abr": "ratkinelectrictailorbench",
+      "category": "Production",
+      "defname": "RK_ElectricTailoringBench",
+      "price": 542
+    },
+    {
+      "abr": "ratkinenhancedcrossbow",
+      "category": "Ranged weapons",
+      "defname": "RK_EnhanceCrossBow",
+      "price": 263
+    },
+    {
+      "abr": "ratkinexplorerhat",
+      "category": "Ratkin apparel",
+      "defname": "RK_ExplorerHat",
+      "price": 141
+    },
+    {
+      "abr": "ratkinexplorerwear",
+      "category": "Ratkin apparel",
+      "defname": "RK_ExplorerWear",
+      "price": 358
+    },
+    {
+      "abr": "ratkinflatcolorcoat",
+      "category": "Ratkin apparel",
+      "defname": "RK_FlatColorCoat",
+      "price": 742
+    },
+    {
+      "abr": "ratkinflechetterifle",
+      "category": "Ranged weapons",
+      "defname": "RK_FlechetteRifle",
+      "price": 658
+    },
+    {
+      "abr": "ratkinflechettesniperrifle",
+      "category": "Ranged weapons",
+      "defname": "RK_FlechetteSniperRifle",
+      "price": 775
+    },
+    {
+      "abr": "ratkinfork",
+      "category": "Melee weapons",
+      "defname": "RK_Fork",
+      "price": 283
+    },
+    {
+      "abr": "ratkinfrillonepiece",
+      "category": "Ratkin apparel",
+      "defname": "RK_FrillOnepiece",
+      "price": 742
+    },
+    {
+      "abr": "ratkinfueledsmithy",
+      "category": "Production",
+      "defname": "RK_FueledSmithy",
+      "price": 367
+    },
+    {
+      "abr": "ratkinglasses",
+      "category": "Ratkin apparel",
+      "defname": "RK_ResearchGlasses",
+      "price": 103
+    },
+    {
+      "abr": "ratkinguardeneruniform",
+      "category": "Ratkin apparel",
+      "defname": "RK_GaurdenUniform",
+      "price": 442
+    },
+    {
+      "abr": "ratkingunlance(normal)",
+      "category": "Melee weapons",
+      "defname": "RK_Gunlance_NormalType",
+      "price": 1283
+    },
+    {
+      "abr": "ratkingunlance(spread)",
+      "category": "Melee weapons",
+      "defname": "RK_Gunlance_SpreadType",
+      "price": 1283
+    },
+    {
+      "abr": "ratkinhaircorsage",
+      "category": "Ratkin apparel",
+      "defname": "RK_HairCorsage",
+      "price": 358
+    },
+    {
+      "abr": "ratkinhandtailorbench",
+      "category": "Production",
+      "defname": "RK_HandTailoringBench",
+      "price": 225
+    },
+    {
+      "abr": "ratkinheadband",
+      "category": "Ratkin apparel",
+      "defname": "RK_HeadBand",
+      "price": 383
+    },
+    {
+      "abr": "ratkinheavylance",
+      "category": "Melee weapons",
+      "defname": "RK_HeavyLance",
+      "price": 875
+    },
+    {
+      "abr": "ratkinheavyshield",
+      "category": "Ratkin apparel",
+      "defname": "RK_HeavyShield",
+      "price": 800
+    },
+    {
+      "abr": "ratkinhoe",
+      "category": "Melee weapons",
+      "defname": "RK_Hockey",
+      "price": 283
+    },
+    {
+      "abr": "ratkinlongsword",
+      "category": "Melee weapons",
+      "defname": "RK_LongSword",
+      "price": 592
+    },
+    {
+      "abr": "ratkinmace",
+      "category": "Melee weapons",
+      "defname": "RK_Mace",
+      "price": 425
+    },
+    {
+      "abr": "ratkinmagicwand",
+      "category": "Melee weapons",
+      "defname": "RK_MagicWand",
+      "price": 104
+    },
+    {
+      "abr": "ratkinmaskhelmet",
+      "category": "Ratkin apparel",
+      "defname": "RK_Mask",
+      "price": 1092
+    },
+    {
+      "abr": "ratkinmaskhelmet",
+      "category": "Ratkin apparel",
+      "defname": "RK_MaskB",
+      "price": 1092
+    },
+    {
+      "abr": "ratkinmeat",
+      "category": "Meat",
+      "defname": "Meat_Ratkin",
+      "price": 3
+    },
+    {
+      "abr": "ratkinmilitaryhelmet",
+      "category": "Ratkin apparel",
+      "defname": "RK_BulletProofHelmet",
+      "price": 525
+    },
+    {
+      "abr": "ratkinmuffler",
+      "category": "Ratkin apparel",
+      "defname": "RK_Muffler",
+      "price": 132
+    },
+    {
+      "abr": "ratkinnundress",
+      "category": "Ratkin apparel",
+      "defname": "RK_SistersDerss",
+      "price": 775
+    },
+    {
+      "abr": "ratkinonehandedsword",
+      "category": "Melee weapons",
+      "defname": "RK_OneHanded",
+      "price": 425
+    },
+    {
+      "abr": "ratkinorderuniform",
+      "category": "Ratkin apparel",
+      "defname": "RK_OrderUniform",
+      "price": 1100
+    },
+    {
+      "abr": "ratkinoutdoorbackpack",
+      "category": "Ratkin apparel",
+      "defname": "RK_OutdoorBackpack",
+      "price": 311
+    },
+    {
+      "abr": "ratkinpackage",
+      "category": "Ratkin apparel",
+      "defname": "RK_Sack",
+      "price": 683
+    },
+    {
+      "abr": "ratkinplatearmor",
+      "category": "Ratkin apparel",
+      "defname": "RK_Plate",
+      "price": 733
+    },
+    {
+      "abr": "ratkinplatehelma",
+      "category": "Ratkin apparel",
+      "defname": "RK_PlateHelmA",
+      "price": 320
+    },
+    {
+      "abr": "ratkinplatehelmb",
+      "category": "Ratkin apparel",
+      "defname": "RK_PlateHelmB",
+      "price": 320
+    },
+    {
+      "abr": "ratkinplatehelmc",
+      "category": "Ratkin apparel",
+      "defname": "RK_PlateHelmC",
+      "price": 320
+    },
+    {
+      "abr": "ratkinprototypepulserifle",
+      "category": "Ranged weapons",
+      "defname": "RK_PrototypePulseRifle",
+      "price": 2150
+    },
+    {
+      "abr": "ratkinresearchgown",
+      "category": "Ratkin apparel",
+      "defname": "RK_ResearchGown",
+      "price": 375
+    },
+    {
+      "abr": "ratkinribbonhairband",
+      "category": "Ratkin apparel",
+      "defname": "RK_RibbonHairBand",
+      "price": 358
+    },
+    {
+      "abr": "ratkinrifle",
+      "category": "Ranged weapons",
+      "defname": "RK_Rifle",
+      "price": 467
+    },
+    {
+      "abr": "ratkinroyalcrown",
+      "category": "Ratkin apparel",
+      "defname": "RK_RoyalCrown",
+      "price": 400
+    },
+    {
+      "abr": "ratkinshotgun",
+      "category": "Ranged weapons",
+      "defname": "RK_Rifle_line",
+      "price": 567
+    },
+    {
+      "abr": "ratkinsniperrifle",
+      "category": "Ranged weapons",
+      "defname": "RK_SniperRifle",
+      "price": 592
+    },
+    {
+      "abr": "ratkinstrawhat",
+      "category": "Ratkin apparel",
+      "defname": "RK_StrawHat",
+      "price": 41
+    },
+    {
+      "abr": "ratkinsubject",
+      "category": "Animal",
+      "defname": "Ratkin_Su",
+      "price": -10
+    },
+    {
+      "abr": "ratkinsubjectmeat",
+      "category": "Meat",
+      "defname": "Meat_Ratkin_Su",
+      "price": 3
+    },
+    {
+      "abr": "ratkinsummerdress",
+      "category": "Ratkin apparel",
+      "defname": "RK_SummerDress",
+      "price": 267
+    },
+    {
+      "abr": "ratkintwohandedsword",
+      "category": "Melee weapons",
+      "defname": "RK_TwoHanded",
+      "price": 817
+    },
+    {
+      "abr": "ratkinveil",
+      "category": "Ratkin apparel",
+      "defname": "RK_SistersVeil",
+      "price": 392
+    },
+    {
+      "abr": "ratkinwinterrobe",
+      "category": "Ratkin apparel",
+      "defname": "RK_WinterRobe",
+      "price": 342
+    },
+    {
+      "abr": "ratkinwoodenlance",
+      "category": "Melee weapons",
+      "defname": "RK_LightLance",
+      "price": 400
+    },
+    {
+      "abr": "ratkinwoodenshield",
+      "category": "Ratkin apparel",
+      "defname": "RK_WoodenShield",
+      "price": 392
+    },
+    {
+      "abr": "ratkinwoolenhat",
+      "category": "Ratkin apparel",
+      "defname": "RK_WoolenHat",
+      "price": 98
+    },
+    {
+      "abr": "ratkinworkerwear",
+      "category": "Ratkin apparel",
+      "defname": "RK_WorkerWear",
+      "price": 325
+    },
+    {
+      "abr": "rawrimenodules",
+      "category": "Drugs",
+      "defname": "AB_RawRimeNodules",
+      "price": 2
     },
     {
       "abr": "ringofblood",
@@ -7867,16 +8029,70 @@
       "price": 5525
     },
     {
+      "abr": "rosequartzblocks",
+      "category": "Stone blocks",
+      "defname": "GU_BlocksRoseQuartz",
+      "price": 2
+    },
+    {
+      "abr": "rotti",
+      "category": "Animals",
+      "defname": "Rotti",
+      "price": 667
+    },
+    {
+      "abr": "rottihat",
+      "category": "Ratkin apparel",
+      "defname": "RK_RottiHat",
+      "price": 57
+    },
+    {
+      "abr": "rottimeat",
+      "category": "Meat",
+      "defname": "Meat_Rotti",
+      "price": 3
+    },
+    {
+      "abr": "royalrobe",
+      "category": "Ratkin apparel",
+      "defname": "RK_RoyalRobe",
+      "price": 458
+    },
+    {
       "abr": "ruunbled",
       "category": "Melee",
       "defname": "TM_Ruunbled",
       "price": 13333
     },
     {
+      "abr": "salmon",
+      "category": "Raw fish",
+      "defname": "VCEF_RawSalmon",
+      "price": 9
+    },
+    {
       "abr": "sandstonegolem",
       "category": "Animal",
       "defname": "TM_SandstoneGolem",
       "price": 2500
+    },
+    {
+      "abr": "santahat",
+      "category": "Ratkin apparel",
+      "defname": "RK_SantaHat",
+      "price": 98
+    },
+    {
+      "abr": "santapackage",
+      "category": "Ratkin apparel",
+      "defname": "RK_SantaSack",
+      "price": 683
+    },
+    {
+      "abr": "santarobe",
+      "category": "Ratkin apparel",
+      "defname": "RK_SantaRobe",
+      "price": 342
     },
     {
       "abr": "scrollofspiritbinding",
@@ -7895,6 +8111,12 @@
       "category": "Skill books",
       "defname": "BookOfSuperSoldier",
       "price": 5500
+    },
+    {
+      "abr": "shadowfry",
+      "category": "Alien raw fish",
+      "defname": "VCEF_ShadowFry",
+      "price": 1
     },
     {
       "abr": "shamanspell:guardianspirit",
@@ -7927,6 +8149,36 @@
       "price": 2500
     },
     {
+      "abr": "slime",
+      "category": "Vegetarian",
+      "defname": "AB_RawSlime",
+      "price": 1
+    },
+    {
+      "abr": "slimemeal",
+      "category": "Meals",
+      "defname": "AB_SlimeMeal",
+      "price": 17
+    },
+    {
+      "abr": "slimefish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_Slimefish",
+      "price": 9
+    },
+    {
+      "abr": "spiderfish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_Spiderfish",
+      "price": 2
+    },
+    {
+      "abr": "spinyfish",
+      "category": "Alien raw fish",
+      "defname": "VCEF_Spinyfish",
+      "price": 2
+    },
+    {
       "abr": "spiritbearmeat",
       "category": "Meat",
       "defname": "Meat_TM_SpiritBearR",
@@ -7943,6 +8195,12 @@
       "category": "Meat",
       "defname": "Meat_TM_SpiritMongooseR",
       "price": 3
+    },
+    {
+      "abr": "sprat",
+      "category": "Raw fish",
+      "defname": "VCEF_RawSprat",
+      "price": 0
     },
     {
       "abr": "staffofblazingpower",
@@ -7981,10 +8239,28 @@
       "price": 2500
     },
     {
+      "abr": "strawberrybeer",
+      "category": "Drugs",
+      "defname": "RK_StrawberryBeer",
+      "price": 25
+    },
+    {
+      "abr": "sturgeon",
+      "category": "Alien raw fish",
+      "defname": "VCEF_Sturgeon",
+      "price": 7
+    },
+    {
       "abr": "succubusspell:scorn",
       "category": "Scrolls",
       "defname": "SpellOf_Scorn",
       "price": 2750
+    },
+    {
+      "abr": "sugarfamewort",
+      "category": "Vegetarian",
+      "defname": "AB_RawSugarFamewort",
+      "price": 2
     },
     {
       "abr": "summonerspell:summonpoppi",
@@ -7993,10 +8269,22 @@
       "price": 3767
     },
     {
+      "abr": "swordfish",
+      "category": "Raw fish",
+      "defname": "VCEF_RawSwordfish",
+      "price": 9
+    },
+    {
       "abr": "syrrium",
       "category": "Drugs",
       "defname": "TM_Syrrium",
       "price": 75
+    },
+    {
+      "abr": "tarshell",
+      "category": "Mortar shells",
+      "defname": "AB_Shell_Tar",
+      "price": 92
     },
     {
       "abr": "technomancerspell:kineticshield",
@@ -8027,6 +8315,12 @@
       "category": "Scrolls",
       "defname": "SpellOf_Sabotage",
       "price": 667
+    },
+    {
+      "abr": "tentacularfruit",
+      "category": "Vegetarian",
+      "defname": "AB_RawTentacularFruit",
+      "price": 0
     },
     {
       "abr": "thrumbow",
@@ -8167,6 +8461,18 @@
       "price": 2917
     },
     {
+      "abr": "trout",
+      "category": "Raw fish",
+      "defname": "VCEF_RawTrout",
+      "price": 2
+    },
+    {
+      "abr": "tuna",
+      "category": "Raw fish",
+      "defname": "VCEF_RawTuna",
+      "price": 4
+    },
+    {
       "abr": "unfinishedarcanebook",
       "category": "Skill books",
       "defname": "UnfinishedAdvArcane",
@@ -8221,6 +8527,18 @@
       "price": 3000
     },
     {
+      "abr": "whitecoat",
+      "category": "Ratkin apparel",
+      "defname": "RK_WhiteCoat",
+      "price": 2600
+    },
+    {
+      "abr": "winter'sreign",
+      "category": "Magic foci",
+      "defname": "TM_WinterStaff",
+      "price": 7500
+    },
+    {
       "abr": "wizardhat",
       "category": "Magic apparel",
       "defname": "TM_WizardHat",
@@ -8231,7 +8549,19 @@
       "category": "Meat",
       "defname": "Meat_TM_Dire_WolfR",
       "price": 3
+    },
+    {
+      "abr": "wyvernammo(normal)",
+      "category": "Manufactured",
+      "defname": "RK_WyvernAmmo_NormalType",
+      "price": 92
+    },
+    {
+      "abr": "wyvernammo(spread)",
+      "category": "Manufactured",
+      "defname": "RK_WyvernAmmo_SpreadType",
+      "price": 92
     }
   ],
-  "total": 1372
+  "total": 1427
 }
