@@ -180,6 +180,12 @@
     "version": null
   },
   {
+    "author": "Vagabond and  Barsimmon",
+    "name": "Fantasy Goblins Updated",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "notfood",
     "name": "Infused",
     "steamId": "731287727",
@@ -195,7 +201,7 @@
     "author": "Torann",
     "name": "A RimWorld of Magic",
     "steamId": "1201382956",
-    "version": "2.5.7.5"
+    "version": "2.5.7.6"
   },
   {
     "author": "Kure",
@@ -204,10 +210,22 @@
     "version": null
   },
   {
+    "author": "Little White Mouse",
+    "name": "LWM's Deep Storage",
+    "steamId": "1617282896",
+    "version": "1.3.0.1"
+  },
+  {
     "author": "Ratys",
     "name": "Mad Skills",
     "steamId": "731111514",
     "version": "2.5.0.0"
+  },
+  {
+    "author": "Fluffy",
+    "name": "Medical Tab",
+    "steamId": "715565817",
+    "version": "3.4.91"
   },
   {
     "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson and  Erdelf",
@@ -220,30 +238,6 @@
     "name": "Vanilla Factions Expanded - Medieval",
     "steamId": "2023513450",
     "version": "1.0.5.0"
-  },
-  {
-    "author": "AveryTheKitty,  Erin and Ravenholme",
-    "name": "Xenohumans - Anthromorphs",
-    "steamId": "2349467636",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "CE Team",
-    "name": "Combat Extended",
-    "steamId": "1631756268",
-    "version": "1.3.4.6"
-  },
-  {
-    "author": "Sarg",
-    "name": "Magical Menagerie",
-    "steamId": "1821617793",
-    "version": "1.3.7862.41411"
-  },
-  {
-    "author": "Fluffy",
-    "name": "Medical Tab",
-    "steamId": "715565817",
-    "version": "3.4.91"
   },
   {
     "author": "Shenanigans",
@@ -286,6 +280,18 @@
     "name": "Medieval drug lab",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "WexMan",
+    "name": "Mines",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "StatistNo1, Rebel_Rabbit and Cain",
+    "name": "Mines 2.0",
+    "steamId": "2503894706",
+    "version": "0.0.0.0"
   },
   {
     "author": "Domi",
@@ -366,10 +372,40 @@
     "version": "1.0.15"
   },
   {
+    "author": "The White Crayon (Updated for 1.1 by Ogliss)",
+    "name": "Quarry",
+    "steamId": "2007576583",
+    "version": "2.0.0"
+  },
+  {
     "author": "Benji // Steam: Cute Twink",
     "name": "Quartzian Race",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Sarg Bjornson and  AFriend",
+    "name": "Alpha Animals",
+    "steamId": "1541721856",
+    "version": "1.3.7862.41411"
+  },
+  {
+    "author": "Sarg",
+    "name": "Magical Menagerie",
+    "steamId": "1821617793",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "AveryTheKitty,  Erin and Ravenholme",
+    "name": "Xenohumans - Anthromorphs",
+    "steamId": "2349467636",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "CE Team",
+    "name": "Combat Extended",
+    "steamId": "1631756268",
+    "version": "1.3.4.7"
   },
   {
     "author": "Sandy",
@@ -390,6 +426,12 @@
     "version": "2.0.1.0"
   },
   {
+    "author": "Uuugggg",
+    "name": "Replace Stuff",
+    "steamId": "1372003680",
+    "version": "1.1.0.0"
+  },
+  {
     "author": ".json",
     "name": "Retractable Defenses",
     "steamId": "2214068164",
@@ -406,6 +448,12 @@
     "name": "Rimedieval",
     "steamId": "2516523040",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Roolo",
+    "name": "Search and Destroy",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "ILuvSilicon",
