@@ -6036,7 +6036,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
         "karmaTypeForAdding": null,
@@ -6169,7 +6169,7 @@
         ]
       },
       "defName": "Priest",
-      "name": "priest",
+      "name": "rompriest",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -10970,7 +10970,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
         "karmaTypeForAdding": null,
@@ -11285,7 +11285,7 @@
         ]
       },
       "defName": "TM_Shaman",
-      "name": "shaman",
+      "name": "romshaman",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -13645,7 +13645,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
         "karmaTypeForAdding": null,
@@ -13777,7 +13777,7 @@
         ]
       },
       "defName": "Ranger",
-      "name": "hunter",
+      "name": "romhunter",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -14185,7 +14185,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
         "karmaTypeForAdding": null,
@@ -14317,7 +14317,7 @@
         ]
       },
       "defName": "Ranger",
-      "name": "ranger",
+      "name": "romranger",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -16802,7 +16802,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "A RimWorld of Magic",
         "karmaTypeForAdding": null,
@@ -16933,7 +16933,7 @@
         ]
       },
       "defName": "TM_Psionic",
-      "name": "psionic",
+      "name": "rompsionic",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -18880,7 +18880,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "Cookie Traits",
         "karmaTypeForAdding": null,
@@ -18909,7 +18909,7 @@
         ]
       },
       "defName": "LC_Tamer",
-      "name": "hunter",
+      "name": "ahunter",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -19902,7 +19902,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "More Practical Traits",
         "karmaTypeForAdding": null,
@@ -19915,7 +19915,7 @@
         ]
       },
       "defName": "PTA02gdzj",
-      "name": "fighter",
+      "name": "t",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -20164,7 +20164,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "More Practical Traits",
         "karmaTypeForAdding": null,
@@ -20177,7 +20177,7 @@
         ]
       },
       "defName": "PTA10zyhl",
-      "name": "nurse",
+      "name": "anurse",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -26695,7 +26695,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "Traits Plus",
         "karmaTypeForAdding": null,
@@ -26729,7 +26729,7 @@
         ]
       },
       "defName": "S1_Fighter",
-      "name": "fighter",
+      "name": "fighters",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
