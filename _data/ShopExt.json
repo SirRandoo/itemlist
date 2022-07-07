@@ -18127,7 +18127,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18157,7 +18157,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18199,7 +18199,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18265,7 +18265,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18297,7 +18297,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18324,10 +18324,10 @@
       },
       "defName": "LC_Immortal",
       "name": "immortal",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18357,7 +18357,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18453,7 +18453,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18519,7 +18519,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18585,7 +18585,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 1
     },
     {
@@ -18651,7 +18651,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 2
     },
     {
@@ -18717,7 +18717,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 3
     },
     {
@@ -18749,7 +18749,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "Cookie Traits",
         "karmaTypeForAdding": null,
@@ -18779,11 +18779,11 @@
         ]
       },
       "defName": "LC_Mason",
-      "name": "mason",
+      "name": "masons",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -18849,7 +18849,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 1
     },
     {
@@ -18913,7 +18913,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 2
     },
     {
@@ -18977,7 +18977,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 1
     },
     {
@@ -19039,7 +19039,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 2
     },
     {
@@ -19103,7 +19103,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 1
     },
     {
@@ -19167,7 +19167,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 2
     },
     {
@@ -19235,7 +19235,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19268,7 +19268,7 @@
       "bypassLimit": false,
       "data": {
         "canBypassLimit": false,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "Cookie Traits",
         "karmaTypeForAdding": null,
@@ -19299,11 +19299,11 @@
         ]
       },
       "defName": "LC_Miner",
-      "name": "miner",
+      "name": "miners",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19371,7 +19371,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19435,7 +19435,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 1
     },
     {
@@ -19497,7 +19497,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 2
     },
     {
@@ -19563,7 +19563,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19627,7 +19627,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19657,7 +19657,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19687,7 +19687,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19725,7 +19725,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 1
     },
     {
@@ -19759,7 +19759,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19789,7 +19789,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19823,7 +19823,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19855,7 +19855,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19887,7 +19887,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19919,7 +19919,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19951,7 +19951,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -19983,7 +19983,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20015,7 +20015,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20047,7 +20047,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20081,7 +20081,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20115,7 +20115,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20149,7 +20149,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20181,7 +20181,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20215,7 +20215,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20247,7 +20247,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20279,7 +20279,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20315,7 +20315,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20347,7 +20347,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20379,7 +20379,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20411,7 +20411,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20445,7 +20445,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20479,7 +20479,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20513,7 +20513,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20543,7 +20543,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20573,7 +20573,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20605,7 +20605,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20637,7 +20637,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20671,7 +20671,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20703,7 +20703,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20735,7 +20735,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20767,7 +20767,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20799,7 +20799,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20831,7 +20831,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20865,7 +20865,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20903,7 +20903,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20957,7 +20957,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -20991,7 +20991,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21025,7 +21025,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21081,7 +21081,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21119,7 +21119,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21155,7 +21155,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21191,7 +21191,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21223,7 +21223,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21257,7 +21257,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21293,7 +21293,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21329,7 +21329,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21365,7 +21365,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21401,7 +21401,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21437,7 +21437,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21473,7 +21473,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21509,7 +21509,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21545,7 +21545,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21591,7 +21591,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21641,7 +21641,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21679,7 +21679,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21717,7 +21717,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21753,7 +21753,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21791,7 +21791,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21829,7 +21829,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21867,7 +21867,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21905,7 +21905,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21943,7 +21943,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -21981,7 +21981,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22021,7 +22021,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22061,7 +22061,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22099,7 +22099,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22137,7 +22137,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22175,7 +22175,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22213,7 +22213,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22249,7 +22249,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22285,7 +22285,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22323,7 +22323,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22363,7 +22363,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22403,7 +22403,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22451,7 +22451,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22489,7 +22489,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22529,7 +22529,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22569,7 +22569,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22603,7 +22603,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22643,7 +22643,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22673,7 +22673,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22707,7 +22707,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22757,7 +22757,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22789,7 +22789,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22821,7 +22821,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22861,7 +22861,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22897,7 +22897,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22927,7 +22927,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -22957,7 +22957,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23035,7 +23035,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23119,7 +23119,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23169,7 +23169,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23229,7 +23229,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23301,7 +23301,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23365,7 +23365,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23399,7 +23399,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23433,7 +23433,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23469,7 +23469,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23503,7 +23503,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23539,7 +23539,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23573,7 +23573,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23607,7 +23607,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23649,7 +23649,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23685,7 +23685,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23727,7 +23727,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23769,7 +23769,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23809,7 +23809,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23847,7 +23847,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23893,7 +23893,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -23937,7 +23937,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24035,7 +24035,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24083,7 +24083,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24127,7 +24127,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24177,7 +24177,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24225,7 +24225,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24258,10 +24258,10 @@
       },
       "defName": "VanyaTA01mhgg",
       "name": "showmoe",
-      "canAdd": true,
+      "canAdd": false,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24295,7 +24295,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24333,7 +24333,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24369,7 +24369,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24401,7 +24401,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24439,7 +24439,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24479,7 +24479,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24517,7 +24517,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24553,7 +24553,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24593,7 +24593,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24629,7 +24629,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24667,7 +24667,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24731,7 +24731,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24881,7 +24881,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24919,7 +24919,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -24977,7 +24977,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25025,7 +25025,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25091,7 +25091,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25127,7 +25127,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25171,7 +25171,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25227,7 +25227,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25281,7 +25281,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25403,7 +25403,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25485,7 +25485,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25573,7 +25573,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25659,7 +25659,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25715,7 +25715,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25761,7 +25761,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25825,7 +25825,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25885,7 +25885,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -25969,7 +25969,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26037,7 +26037,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26087,7 +26087,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26147,7 +26147,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26195,7 +26195,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26257,7 +26257,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26311,7 +26311,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26369,7 +26369,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26473,7 +26473,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26547,7 +26547,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26605,7 +26605,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26659,7 +26659,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26733,7 +26733,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26821,7 +26821,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26893,7 +26893,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -26961,7 +26961,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27053,7 +27053,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27113,7 +27113,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27153,7 +27153,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27187,7 +27187,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27221,7 +27221,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27257,7 +27257,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27291,7 +27291,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27345,7 +27345,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27385,7 +27385,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27423,7 +27423,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27479,7 +27479,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27533,7 +27533,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27637,7 +27637,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27675,7 +27675,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27741,7 +27741,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27813,7 +27813,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27843,7 +27843,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     },
     {
@@ -27873,7 +27873,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
+      "removePrice": 250,
       "degree": 0
     }
   ],
