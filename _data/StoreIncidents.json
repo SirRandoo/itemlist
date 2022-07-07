@@ -1,6 +1,16 @@
 {
 	"incitems" : [
 	{
+		"abr": "tornado",
+		"price": 3000,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "tornados",
+		"price": 15000,
+		"karmatype": "Bad"
+	},
+	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -52,12 +62,12 @@
 	},
 	{
 		"abr": "flashstorm",
-		"price": 400,
+		"price": 750,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "coldsnap",
-		"price": 800,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -92,7 +102,7 @@
 	},
 	{
 		"abr": "blight",
-		"price": 700,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -111,13 +121,18 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "orbitaltraderarrival",
+		"price": 350,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "meteor",
 		"price": 150,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "madanimal",
-		"price": 200,
+		"price": 500,
 		"karmatype": "Bad"
 	},
 	{
@@ -177,17 +192,17 @@
 	},
 	{
 		"abr": "alphabeavers",
-		"price": 600,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "militaryaid",
-		"price": 700,
+		"price": 1500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "raid",
-		"price": 1500,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -272,22 +287,27 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22664,
+		"price": 20000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 2833,
+		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "healall",
+		"price": 7500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healanypawn",
-		"price": 2000,
+		"price": 1500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healme",
-		"price": 2167,
+		"price": 500,
 		"karmatype": "Good"
 	},
 	{
@@ -312,12 +332,12 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2167,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "passion",
-		"price": 3500,
+		"price": 2500,
 		"karmatype": "Good"
 	},
 	{
@@ -376,5 +396,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 75
+	"total": 79
 }
