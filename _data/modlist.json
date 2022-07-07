@@ -180,12 +180,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "LadyCookie",
-    "name": "Cookie Traits",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "br410bury",
     "name": "Cooking Breakup",
     "steamId": null,
@@ -1288,6 +1282,12 @@
     "name": "[KV] Don't stop the music",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Oskar Potocki,  Taranchuk and  Chowder",
+    "name": "Vanilla Traits Expanded",
+    "steamId": "2296404655",
+    "version": "1.0.0.1"
   },
   {
     "author": "Rainbeau Flambe (original) & Kiame Vivacity",
