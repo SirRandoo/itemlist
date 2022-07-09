@@ -19439,7 +19439,7 @@
     "Mod": "VGP Vegetable Garden",
     "KarmaType": null
   },
-  "stirfry": {
+  "FM_ManagerStation": {
     "CustomName": null,
     "HasQuantityLimit": false,
     "IsMelee": false,
@@ -19456,10 +19456,10 @@
     "KarmaTypeForWearing": null,
     "KarmaTypeForEquipping": null,
     "version": 2,
-    "Mod": "VGP Vegetable Garden",
+    "Mod": "Colony Manager",
     "KarmaType": null
   },
-  "bowlstew": {
+  "FM_BasicManagerStation": {
     "CustomName": null,
     "HasQuantityLimit": false,
     "IsMelee": false,
@@ -19476,7 +19476,7 @@
     "KarmaTypeForWearing": null,
     "KarmaTypeForEquipping": null,
     "version": 2,
-    "Mod": "VGP Vegetable Garden",
+    "Mod": "Colony Manager",
     "KarmaType": null
   },
   "Chocomilk": {
@@ -61057,6 +61057,66 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": null,
+    "KarmaType": null
+  },
+  "FM_AIManager": {
+    "CustomName": null,
+    "HasQuantityLimit": false,
+    "IsMelee": false,
+    "IsRanged": false,
+    "IsStuffAllowed": true,
+    "IsWeapon": false,
+    "QuantityLimit": -1,
+    "Weight": 1,
+    "ResearchOverrides": null,
+    "IsUsable": true,
+    "IsEquippable": true,
+    "IsWearable": true,
+    "KarmaTypeForUsing": null,
+    "KarmaTypeForWearing": null,
+    "KarmaTypeForEquipping": null,
+    "version": 2,
+    "Mod": "Colony Manager",
+    "KarmaType": null
+  },
+  "stirfry": {
+    "CustomName": null,
+    "HasQuantityLimit": false,
+    "IsMelee": false,
+    "IsRanged": false,
+    "IsStuffAllowed": true,
+    "IsWeapon": false,
+    "QuantityLimit": -1,
+    "Weight": 1,
+    "ResearchOverrides": null,
+    "IsUsable": true,
+    "IsEquippable": true,
+    "IsWearable": true,
+    "KarmaTypeForUsing": null,
+    "KarmaTypeForWearing": null,
+    "KarmaTypeForEquipping": null,
+    "version": 2,
+    "Mod": "VGP Vegetable Garden",
+    "KarmaType": null
+  },
+  "bowlstew": {
+    "CustomName": null,
+    "HasQuantityLimit": false,
+    "IsMelee": false,
+    "IsRanged": false,
+    "IsStuffAllowed": true,
+    "IsWeapon": false,
+    "QuantityLimit": -1,
+    "Weight": 1,
+    "ResearchOverrides": null,
+    "IsUsable": true,
+    "IsEquippable": true,
+    "IsWearable": true,
+    "KarmaTypeForUsing": null,
+    "KarmaTypeForWearing": null,
+    "KarmaTypeForEquipping": null,
+    "version": 2,
+    "Mod": "VGP Vegetable Garden",
     "KarmaType": null
   }
 }

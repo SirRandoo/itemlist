@@ -174,6 +174,12 @@
     "version": null
   },
   {
+    "author": "Fluffy",
+    "name": "Colony Manager",
+    "steamId": "715565262",
+    "version": "4.33.649"
+  },
+  {
     "author": "miyamiya",
     "name": "Compressed Raid",
     "steamId": "2377478084",
@@ -196,12 +202,6 @@
     "name": "Deep Stack",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "merthsoft",
-    "name": "Designator Shapes",
-    "steamId": "1235181370",
-    "version": "1.0.0.0"
   },
   {
     "author": "tikubonn",
@@ -468,6 +468,12 @@
     "version": null
   },
   {
+    "author": "Fluffy",
+    "name": "Medical Tab",
+    "steamId": "715565817",
+    "version": "3.4.91"
+  },
+  {
     "author": "NotFood",
     "name": "MendAndRecycle",
     "steamId": "735241897",
@@ -594,12 +600,6 @@
     "version": null
   },
   {
-    "author": "Mehni",
-    "name": "Numbers",
-    "steamId": "1414302321",
-    "version": "1.1.0.0"
-  },
-  {
     "author": "Farmradish",
     "name": "Nyaron race",
     "steamId": null,
@@ -694,6 +694,12 @@
     "name": "Quartzian Race",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Malte Schulze",
+    "name": "RIMMSqol",
+    "steamId": "1084452457",
+    "version": "1.0.8218.43109"
   },
   {
     "author": "Sandy",
@@ -880,18 +886,6 @@
     "name": "Toolkit - Channel Points",
     "steamId": "1916651243",
     "version": "1.3.1"
-  },
-  {
-    "author": "hodlhodl",
-    "name": "ToolkitPawnQueue",
-    "steamId": "2073156511",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "hodlhodl",
-    "name": "ToolkitCreator",
-    "steamId": "2099493475",
-    "version": "1.0.0.0"
   },
   {
     "author": "SirRandoo",
@@ -1318,5 +1312,11 @@
     "name": "[SYR] Harvest Yield (1.3)",
     "steamId": "2561160220",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Krkr",
+    "name": "RocketMan - Performance Mod",
+    "steamId": "2479389928",
+    "version": "0.6.3.2196"
   }
 ]

@@ -9176,7 +9176,7 @@
 	},
 	{
 		"abr": "attomachinery",
-		"price": 500,
+		"price": -10,
 		"category": "Textiles",
 		"defname": "Attomachinery"
 	},
@@ -15038,7 +15038,7 @@
 	},
 	{
 		"abr": "nanomachinery",
-		"price": 167,
+		"price": -10,
 		"category": "Textiles",
 		"defname": "Nanomachinery"
 	},
@@ -15524,7 +15524,7 @@
 	},
 	{
 		"abr": "picomachinery",
-		"price": 333,
+		"price": -10,
 		"category": "Textiles",
 		"defname": "Picomachinery"
 	},
@@ -18408,6 +18408,24 @@
 		"category": "Animal",
 		"defname": "MoyoCryoPod_Race"
 	},
+	{
+		"abr": "aimanager",
+		"price": 7833,
+		"category": "Production",
+		"defname": "FM_AIManager"
+	},
+	{
+		"abr": "basicmanagerdesk",
+		"price": 262,
+		"category": "Production",
+		"defname": "FM_BasicManagerStation"
+	},
+	{
+		"abr": "managerdesk",
+		"price": 508,
+		"category": "Production",
+		"defname": "FM_ManagerStation"
+	},
 	],
-	"total": 3072
+	"total": 3073
 }
