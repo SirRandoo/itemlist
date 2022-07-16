@@ -174,12 +174,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "CrashM",
-    "name": "CM Color Coded Mood Bar [1.1+]",
-    "steamId": "2006605356",
-    "version": "1.3.3136.1"
-  },
-  {
     "author": "Andreas Pardeike",
     "name": "Camera+",
     "steamId": "867467808",
@@ -336,6 +330,30 @@
     "version": null
   },
   {
+    "author": "Sarg",
+    "name": "Magical Menagerie",
+    "steamId": "1821617793",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "leafzxg",
+    "name": "Thrumbo Extension",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Roolo",
+    "name": "Giddy-up! Core",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sarg",
+    "name": "Giddy-Up! Add-on: Animal Saddles",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Gloomylynx",
     "name": "Gloomy Hair mk2",
     "steamId": null,
@@ -462,12 +480,6 @@
     "version": null
   },
   {
-    "author": "Sarg",
-    "name": "Magical Menagerie",
-    "steamId": "1821617793",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Supes",
     "name": "Map Wide Orbital Trade Beacon",
     "steamId": "1839069104",
@@ -504,10 +516,10 @@
     "version": "1.0.1.0"
   },
   {
-    "author": "WexMan",
-    "name": "Mines",
-    "steamId": null,
-    "version": null
+    "author": "StatistNo1, Rebel_Rabbit and Cain",
+    "name": "Mines 2.0",
+    "steamId": "2503894706",
+    "version": "0.0.0.0"
   },
   {
     "author": "Haplo",
@@ -678,12 +690,6 @@
     "version": "1.0.15"
   },
   {
-    "author": "The White Crayon (Updated for 1.1 by Ogliss)",
-    "name": "Quarry",
-    "steamId": "2007576583",
-    "version": "2.0.0"
-  },
-  {
     "author": "Benji // Steam: Cute Twink",
     "name": "Quartzian Race",
     "steamId": null,
@@ -754,6 +760,12 @@
     "name": "Research Assistants",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "VinaLx",
+    "name": "ResearchPal - Forked",
+    "steamId": "2351393394",
+    "version": "1.3.0.2"
   },
   {
     "author": ".json",
@@ -850,12 +862,6 @@
     "name": "Thick Armor",
     "steamId": "1321600671",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "leafzxg",
-    "name": "Thrumbo Extension",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "hodlhodl",
