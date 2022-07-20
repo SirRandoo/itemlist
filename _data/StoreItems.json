@@ -7322,7 +7322,7 @@
 	},
 	{
 		"abr": "attomachinery",
-		"price": 500,
+		"price": 2000,
 		"category": "Textiles",
 		"defname": "Attomachinery"
 	},
@@ -13057,18 +13057,6 @@
 		"defname": "AT_Autotamer"
 	},
 	{
-		"abr": "granitechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkGranite"
-	},
-	{
-		"abr": "limestonechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkLimestone"
-	},
-	{
 		"abr": "lunartailoringbench",
 		"price": 517,
 		"category": "Production",
@@ -13181,12 +13169,6 @@
 		"price": 1333,
 		"category": "Books",
 		"defname": "VBE_Map"
-	},
-	{
-		"abr": "marblechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkMarble"
 	},
 	{
 		"abr": "marblelabyrinth(dwarfmake)",
@@ -13988,7 +13970,7 @@
 	},
 	{
 		"abr": "nanomachinery",
-		"price": 167,
+		"price": 1000,
 		"category": "Textiles",
 		"defname": "Nanomachinery"
 	},
@@ -14516,7 +14498,7 @@
 	},
 	{
 		"abr": "picomachinery",
-		"price": 333,
+		"price": 1500,
 		"category": "Textiles",
 		"defname": "Picomachinery"
 	},
@@ -16063,12 +16045,6 @@
 		"defname": "Ancient_SamuraiYoroi"
 	},
 	{
-		"abr": "sandstonechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkSandstone"
-	},
-	{
 		"abr": "santahat",
 		"price": 98,
 		"category": "Ratkin apparel",
@@ -16415,12 +16391,6 @@
 		"price": -10,
 		"category": "Drones and queens",
 		"defname": "RB_Bee_Sky_Queen"
-	},
-	{
-		"abr": "slatechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkSlate"
 	},
 	{
 		"abr": "slime",
@@ -18007,12 +17977,6 @@
 		"defname": "MM_Xiezhi"
 	},
 	{
-		"abr": "youthserum",
-		"price": 2333,
-		"category": "Items",
-		"defname": "MechSerumYouth"
-	},
-	{
 		"abr": "yuenyeung",
 		"price": 13,
 		"category": "Drugs",
@@ -18035,6 +17999,66 @@
 		"price": 1,
 		"category": "Special melee weapons",
 		"defname": "Nr_Lightbringer"
+	},
+	{
+		"abr": "youthserum",
+		"price": 2333,
+		"category": "Items",
+		"defname": "SRGWF_MechSerumYouth"
+	},
+	{
+		"abr": "granitechunk",
+		"price": 4,
+		"category": "Stone chunks",
+		"defname": "ChunkGranite"
+	},
+	{
+		"abr": "grease",
+		"price": 2,
+		"category": "Manufactured",
+		"defname": "LTSGrease"
+	},
+	{
+		"abr": "limestonechunk",
+		"price": 4,
+		"category": "Stone chunks",
+		"defname": "ChunkLimestone"
+	},
+	{
+		"abr": "marblechunk",
+		"price": 4,
+		"category": "Stone chunks",
+		"defname": "ChunkMarble"
+	},
+	{
+		"abr": "repairstoolkit",
+		"price": 78,
+		"category": "Manufactured",
+		"defname": "LTSRepairsToolkit"
+	},
+	{
+		"abr": "sandstonechunk",
+		"price": 4,
+		"category": "Stone chunks",
+		"defname": "ChunkSandstone"
+	},
+	{
+		"abr": "sewingtoolkit",
+		"price": 38,
+		"category": "Manufactured",
+		"defname": "LTSSewingToolkit"
+	},
+	{
+		"abr": "slatechunk",
+		"price": 4,
+		"category": "Stone chunks",
+		"defname": "ChunkSlate"
+	},
+	{
+		"abr": "weaponstoolkit",
+		"price": 37,
+		"category": "Manufactured",
+		"defname": "LTSWeaponsToolkit"
 	},
 	],
 	"total": 3010
