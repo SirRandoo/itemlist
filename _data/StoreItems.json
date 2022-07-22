@@ -7322,7 +7322,7 @@
 	},
 	{
 		"abr": "attomachinery",
-		"price": 2000,
+		"price": -10,
 		"category": "Textiles",
 		"defname": "Attomachinery"
 	},
@@ -13957,20 +13957,8 @@
 		"defname": "Ogre_NanoTech_2x1_Shelf"
 	},
 	{
-		"abr": "nanotechslabbed",
-		"price": 187,
-		"category": "Furniture",
-		"defname": "SlabBed_NanoBed"
-	},
-	{
-		"abr": "nanotechslabdoublebed",
-		"price": 442,
-		"category": "Furniture",
-		"defname": "SlabDoubleBed_NanoBed"
-	},
-	{
 		"abr": "nanomachinery",
-		"price": 1000,
+		"price": -10,
 		"category": "Textiles",
 		"defname": "Nanomachinery"
 	},
@@ -14498,7 +14486,7 @@
 	},
 	{
 		"abr": "picomachinery",
-		"price": 1500,
+		"price": -10,
 		"category": "Textiles",
 		"defname": "Picomachinery"
 	},
@@ -17989,12 +17977,6 @@
 		"defname": "AEXP_Zebra"
 	},
 	{
-		"abr": "zombrella",
-		"price": 3333,
-		"category": "Misc",
-		"defname": "Zombrella"
-	},
-	{
 		"abr": "legendaryweapon",
 		"price": 1,
 		"category": "Special melee weapons",
@@ -18007,28 +17989,10 @@
 		"defname": "SRGWF_MechSerumYouth"
 	},
 	{
-		"abr": "granitechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkGranite"
-	},
-	{
 		"abr": "grease",
 		"price": 2,
 		"category": "Manufactured",
 		"defname": "LTSGrease"
-	},
-	{
-		"abr": "limestonechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkLimestone"
-	},
-	{
-		"abr": "marblechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkMarble"
 	},
 	{
 		"abr": "repairstoolkit",
@@ -18037,29 +18001,11 @@
 		"defname": "LTSRepairsToolkit"
 	},
 	{
-		"abr": "sandstonechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkSandstone"
-	},
-	{
 		"abr": "sewingtoolkit",
 		"price": 38,
 		"category": "Manufactured",
 		"defname": "LTSSewingToolkit"
 	},
-	{
-		"abr": "slatechunk",
-		"price": 4,
-		"category": "Stone chunks",
-		"defname": "ChunkSlate"
-	},
-	{
-		"abr": "weaponstoolkit",
-		"price": 37,
-		"category": "Manufactured",
-		"defname": "LTSWeaponsToolkit"
-	},
 	],
-	"total": 3010
+	"total": 3002
 }
