@@ -2,7 +2,7 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 3000,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
@@ -57,7 +57,7 @@
 	},
 	{
 		"abr": "heatwave",
-		"price": 750,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -67,7 +67,7 @@
 	},
 	{
 		"abr": "coldsnap",
-		"price": 1000,
+		"price": 2000,
 		"karmatype": "Bad"
 	},
 	{
@@ -82,12 +82,12 @@
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 6500,
+		"price": 10000,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3200,
+		"price": 3500,
 		"karmatype": "Doom"
 	},
 	{
@@ -206,6 +206,11 @@
 		"karmatype": "Bad"
 	},
 	{
+		"abr": "dropraid",
+		"price": 2500,
+		"karmatype": "Bad"
+	},
+	{
 		"abr": "sapperraid",
 		"price": 1500,
 		"karmatype": "Bad"
@@ -213,6 +218,16 @@
 	{
 		"abr": "siegeraid",
 		"price": 2500,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "mechanoidraid",
+		"price": 3000,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "infestation",
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
@@ -234,11 +249,6 @@
 		"abr": "disease",
 		"price": 1000,
 		"karmatype": "Bad"
-	},
-	{
-		"abr": "reviveanypawn",
-		"price": 1200,
-		"karmatype": "Good"
 	},
 	{
 		"abr": "pawn",
@@ -286,18 +296,8 @@
 		"karmatype": "Neutral"
 	},
 	{
-		"abr": "reviveall",
-		"price": 20000,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "reviveme",
-		"price": 1000,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "healall",
-		"price": 4000,
+		"price": 2500,
 		"karmatype": "Good"
 	},
 	{
@@ -332,7 +332,7 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 2000,
+		"price": 500,
 		"karmatype": "Good"
 	},
 	{
