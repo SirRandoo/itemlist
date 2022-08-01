@@ -13,7 +13,7 @@ github_username: 'dimidanni'
 store:
   traits:
     # Whether or not the trait list will display conflicts with other traits.
-    conflicts: true
+    conflicts: false
     # Whether or not the trait list will display trait stats.
     stats: true
     # Whether or not the trait list will display karma type overrides.
