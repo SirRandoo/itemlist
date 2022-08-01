@@ -831,7 +831,7 @@
     "author": "Malte Schulze",
     "name": "RIMMSqol",
     "steamId": "1084452457",
-    "version": "1.0.8218.43109"
+    "version": "1.0.8247.19221"
   },
   {
     "author": "Sandy",
@@ -892,6 +892,18 @@
     "name": "Replace Stuff",
     "steamId": "1372003680",
     "version": "1.1.0.0"
+  },
+  {
+    "author": "Dakk Passerida",
+    "name": "Replantable Anima Trees",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Dakk Passerida",
+    "name": "Replantable Gauranlen Trees",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "TheGoofyOne",
@@ -1286,6 +1298,18 @@
   {
     "author": "Orion",
     "name": "Xeva's Rimhair",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "MrKociak",
+    "name": "Yet another prosthetic expansion mod - Core",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "MrKociak",
+    "name": "Yet another prosthetic expansion mod - Animals",
     "steamId": null,
     "version": null
   },
