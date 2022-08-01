@@ -8,7 +8,7 @@
 	{
 		"abr": "tornados",
 		"price": 15000,
-		"karmatype": "Bad"
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "clearweather",
@@ -23,12 +23,12 @@
 	{
 		"abr": "vomitrain",
 		"price": 650,
-		"karmatype": "Neutral"
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "foggyrain",
 		"price": 300,
-		"karmatype": "Neutral"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "rainythunderstorm",
@@ -43,12 +43,12 @@
 	{
 		"abr": "snowgentle",
 		"price": 350,
-		"karmatype": "Neutral"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "snowhard",
 		"price": 450,
-		"karmatype": "Bad"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "fog",
@@ -138,7 +138,7 @@
 	{
 		"abr": "psychicdrone",
 		"price": 400,
-		"karmatype": "Bad"
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "psychicsoothe",
@@ -148,7 +148,7 @@
 	{
 		"abr": "ambrosiasprout",
 		"price": 150,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "herdmigration",
@@ -228,7 +228,7 @@
 	{
 		"abr": "infestation",
 		"price": 5000,
-		"karmatype": "Bad"
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "manhunterpack",
@@ -268,12 +268,12 @@
 	{
 		"abr": "trait",
 		"price": 1,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "removetrait",
 		"price": 1,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "genderswap",
@@ -293,11 +293,6 @@
 	{
 		"abr": "torytalkervote",
 		"price": 750,
-		"karmatype": "Neutral"
-	},
-	{
-		"abr": "hodlbotvote",
-		"price": 600,
 		"karmatype": "Neutral"
 	},
 	{
@@ -323,12 +318,12 @@
 	{
 		"abr": "healme",
 		"price": 500,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "surgery",
 		"price": 1,
-		"karmatype": "Neutral"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "passionshuffle",
@@ -348,7 +343,7 @@
 	{
 		"abr": "fullheal",
 		"price": 500,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "passion",
@@ -399,17 +394,7 @@
 		"abr": "randomadulthood",
 		"price": 500,
 		"karmatype": "Neutral"
-	},
-	{
-		"abr": "smite",
-		"price": 2500,
-		"karmatype": "Doom"
-	},
-	{
-		"abr": "sanctuary",
-		"price": 100000,
-		"karmatype": "Good"
 	}
 	],
-	"total": 82
+	"total": 79
 }
