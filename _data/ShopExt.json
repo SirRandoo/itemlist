@@ -4046,7 +4046,7 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
-      "price": 2917
+      "price": 1833
     },
     {
       "data": {
@@ -4082,7 +4082,7 @@
       "defName": "Alien_Nyaron",
       "enabled": true,
       "name": "Nyaron",
-      "price": 3333
+      "price": 1833
     },
     {
       "data": {
@@ -4110,7 +4110,7 @@
       "defName": "Alien_Crystalloid",
       "enabled": true,
       "name": "crystalloid",
-      "price": 3333
+      "price": 1833
     },
     {
       "data": {
@@ -4137,7 +4137,7 @@
       "defName": "Alien_CrystalValkyrie",
       "enabled": true,
       "name": "valkyrie",
-      "price": 3333
+      "price": 1833
     },
     {
       "data": {
@@ -4159,7 +4159,7 @@
       "defName": "DesignerMatesXH",
       "enabled": true,
       "name": "designer mate",
-      "price": 2917
+      "price": 1833
     },
     {
       "data": {
@@ -4183,7 +4183,7 @@
       "defName": "ScaleManXH",
       "enabled": true,
       "name": "Scaleman",
-      "price": 2917
+      "price": 1833
     },
     {
       "data": {
@@ -4204,7 +4204,7 @@
       "defName": "SoldiermorphXH",
       "enabled": true,
       "name": "soldiermorph",
-      "price": 2917
+      "price": 1833
     },
     {
       "data": {
@@ -4227,7 +4227,7 @@
       "defName": "WolfManXH",
       "enabled": true,
       "name": "wolfman",
-      "price": 2917
+      "price": 1833
     },
     {
       "data": {
@@ -4253,7 +4253,7 @@
       "defName": "Alien_Forsaken",
       "enabled": true,
       "name": "forsaken",
-      "price": 3167
+      "price": 1833
     },
     {
       "data": {
@@ -4280,7 +4280,7 @@
       "defName": "Zombie",
       "enabled": true,
       "name": "Zombie",
-      "price": 900
+      "price": 200
     },
     {
       "data": {
@@ -4321,7 +4321,7 @@
       "defName": "Thrumkin",
       "enabled": true,
       "name": "thrumkin",
-      "price": 4167
+      "price": 1833
     },
     {
       "data": {
