@@ -3,7 +3,7 @@
     "author": "Andreas Pardeike",
     "name": "Harmony",
     "steamId": "2009463077",
-    "version": "1.3.0.0"
+    "version": "1.4.0.0"
   },
   {
     "author": "Fluffy",
@@ -30,64 +30,16 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "Zircaroi",
+    "name": "MendAndRecycle_FasterRecycling",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "spoonshortage",
     "name": "A Dog Said... Animal Prosthetics",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Sarg Bjornson and  AFriend",
-    "name": "Alpha Animals",
-    "steamId": "1541721856",
-    "version": "1.3.7862.41411"
-  },
-  {
-    "author": "Dylan",
-    "name": "Animal Gear",
-    "steamId": "1541438907",
-    "version": "1.3.1.3"
-  },
-  {
-    "author": "Owlchemist",
-    "name": "Animal Equipment",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "erdelf",
-    "name": "Humanoid Alien Races",
-    "steamId": "839005762",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "DimonSever000",
-    "name": "Backstories+",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Mlie",
-    "name": "All Memories Fade",
-    "steamId": "2800155563",
-    "version": "1.3.2"
-  },
-  {
-    "author": "akairo",
-    "name": "Let's Have a Cat!",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Animals Expanded — Desert",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Jaxxa",
-    "name": "ED-Embrasures",
-    "steamId": "722085442",
-    "version": "1.0.0.0"
   },
   {
     "author": "hodlhodl",
@@ -108,15 +60,45 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Andreas Pardeike",
-    "name": "Zombieland",
-    "steamId": "928376710",
-    "version": "3.1.0.0"
+    "author": "Sarg Bjornson and  AFriend",
+    "name": "Alpha Animals",
+    "steamId": "1541721856",
+    "version": "1.3.7862.41411"
   },
   {
-    "author": "MrPurple6411",
-    "name": "ZombieLand - ToolKitCreator Addon",
-    "steamId": "2643945159",
+    "author": "erdelf",
+    "name": "Humanoid Alien Races",
+    "steamId": "839005762",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "DimonSever000",
+    "name": "Backstories+",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Mlie",
+    "name": "All Memories Fade",
+    "steamId": "2800155563",
+    "version": "1.3.3"
+  },
+  {
+    "author": "akairo",
+    "name": "Let's Have a Cat!",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki",
+    "name": "Vanilla Animals Expanded — Desert",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Jaxxa",
+    "name": "ED-Embrasures",
+    "steamId": "722085442",
     "version": "1.0.0.0"
   },
   {
@@ -129,7 +111,7 @@
     "author": "Imranfish",
     "name": "XML Extensions",
     "steamId": "2574315206",
-    "version": "1.6.5"
+    "version": "1.6.6"
   },
   {
     "author": "Albion",
@@ -186,12 +168,6 @@
     "version": "1.0.0.1"
   },
   {
-    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
-    "name": "Vanilla Plants Expanded",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Oskar Potocki and  Sarg Bjornson",
     "name": "Vanilla Ideology Expanded - Icons and Symbols",
     "steamId": null,
@@ -204,12 +180,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Oskar Potocki,  Sarg Bjornson and  legodude17",
-    "name": "Vanilla Ideology Expanded - Relics and Artifacts",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
     "name": "Vanilla Cooking Expanded",
     "steamId": null,
@@ -220,6 +190,12 @@
     "name": "Vanilla Fishing Expanded",
     "steamId": "1914064942",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki and  Taranchuk",
+    "name": "Vanilla Books Expanded",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
@@ -438,10 +414,22 @@
     "version": "1.0.3"
   },
   {
+    "author": "jecrell and contributors",
+    "name": "JecsTools",
+    "steamId": "932008009",
+    "version": "1.3.0.4"
+  },
+  {
+    "author": "Torann",
+    "name": "A RimWorld of Magic",
+    "steamId": "1201382956",
+    "version": "2.5.8.4"
+  },
+  {
     "author": "SirRandoo",
     "name": "ToolkitUtils",
     "steamId": "2009500580",
-    "version": "6.2.0.5"
+    "version": "6.2.1.0"
   },
   {
     "author": "SirRandoo",
@@ -459,7 +447,7 @@
     "author": "SirRandoo",
     "name": "ToolkitPolls",
     "steamId": "2435838514",
-    "version": "1.1.1.6"
+    "version": "1.1.1.7"
   },
   {
     "author": "swemoney",
@@ -504,10 +492,16 @@
     "version": null
   },
   {
+    "author": "sirrandoo",
+    "name": "Remove Death Amnesia",
+    "steamId": "1905421159",
+    "version": "2.0.1.0"
+  },
+  {
     "author": "Jaxe",
     "name": "Interaction Bubbles",
     "steamId": "1516158345",
-    "version": "1.8.0.0"
+    "version": "2.4.0.0"
   },
   {
     "author": "jptrrs",
@@ -519,7 +513,7 @@
     "author": "MarvinKosh",
     "name": "Sometimes Raids Go Wrong",
     "steamId": "1551336515",
-    "version": "1.0.7895.35757"
+    "version": "1.0.8225.33659"
   },
   {
     "author": "Weilbyte",
@@ -562,6 +556,12 @@
     "name": "Replace Stuff",
     "steamId": "1372003680",
     "version": "1.1.0.0"
+  },
+  {
+    "author": "SirRandoo",
+    "name": "Solar Flares Affect Mechanoids",
+    "steamId": "1906174567",
+    "version": "1.0.1.0"
   },
   {
     "author": "Shadowrabbit",
@@ -612,16 +612,28 @@
     "version": null
   },
   {
+    "author": "Neronix17",
+    "name": "Tabula Rasa",
+    "steamId": "1660622094",
+    "version": "2.5.8254.23319"
+  },
+  {
+    "author": "Gouda quiche",
+    "name": "Blood and stains",
+    "steamId": "2075683887",
+    "version": "1.0.7875.29378"
+  },
+  {
+    "author": "moronic",
+    "name": "Arachne Race",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Rainbeau Flambe (original) & Kiame Vivacity",
     "name": "[KV] More Trait Slots",
     "steamId": "1508292711",
     "version": "1.0.7862.37403"
-  },
-  {
-    "author": "Mehni",
-    "name": "More Faction Interaction (Continued)",
-    "steamId": "2379076640",
-    "version": "1.3.1"
   },
   {
     "author": "Orion,  JoeysLucky22 and  Erdelf",
@@ -669,7 +681,7 @@
     "author": "m00nl1ght-dev",
     "name": "Geological Landforms",
     "steamId": "2773943594",
-    "version": "1.0.0.0"
+    "version": "1.4.4.0"
   },
   {
     "author": "Falconne",
@@ -708,12 +720,6 @@
     "version": null
   },
   {
-    "author": "NilchEi",
-    "name": "Dynamic Diplomacy",
-    "steamId": "1875168898",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Dubwise",
     "name": "Dubs Mint Menus",
     "steamId": "1446523594",
@@ -735,7 +741,7 @@
     "author": "Qarsoon Meel",
     "name": "Dreamer's Dreams",
     "steamId": "2514986353",
-    "version": "2.3.2"
+    "version": "2.3.3"
   },
   {
     "author": "dracoix",
@@ -762,6 +768,12 @@
     "version": null
   },
   {
+    "author": "Sarg",
+    "name": "Alpha Biomes",
+    "steamId": "1841354677",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "AtomicRavioli",
     "name": "Crystalloid",
     "steamId": null,
@@ -777,7 +789,37 @@
     "author": "CrashM",
     "name": "CM Color Coded Mood Bar [1.1+]",
     "steamId": "2006605356",
-    "version": "1.3.3136.1"
+    "version": "1.3.3389.1"
+  },
+  {
+    "author": "Sinnamon",
+    "name": "More Ritual Rewards",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "sjaak31367",
+    "name": "Zoological Trader Caravans",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "sjaak31367",
+    "name": "Zoological Orbital Traders",
+    "steamId": "1952216926",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Kikohi and Oskar Potocki",
+    "name": "Vanilla Base Generation Expanded",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "AaronCRobinson",
+    "name": "Seasonal Weather (Continued)",
+    "steamId": "2045114229",
+    "version": "1.3.1"
   },
   {
     "author": "Aelanna",
@@ -804,6 +846,18 @@
     "version": "2020.5.30.0"
   },
   {
+    "author": "Kiame Vivacity",
+    "name": "[KV] Show Hair With Hats or Hide All Hats",
+    "steamId": "1180826364",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Gloomylynx Nukafrog",
+    "name": "NewRatkinPlus",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Teok25",
     "name": "Archotech Expanded",
     "steamId": null,
@@ -822,15 +876,21 @@
     "version": "0.5.0.0"
   },
   {
-    "author": "Gouda quiche",
-    "name": "Blood and stains",
-    "steamId": "2075683887",
-    "version": "1.0.7875.29378"
-  },
-  {
     "author": "民火",
     "name": "Statue of Colonist",
     "steamId": "1539031321",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  Chowder",
+    "name": "Vanilla Plants Expanded",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki,  Sarg Bjornson and  legodude17",
+    "name": "Vanilla Ideology Expanded - Relics and Artifacts",
+    "steamId": null,
+    "version": null
   }
 ]
