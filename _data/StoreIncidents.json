@@ -1,16 +1,6 @@
 {
 	"incitems" : [
 	{
-		"abr": "tornado",
-		"price": 5000,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "tornados",
-		"price": 15000,
-		"karmatype": "Doom"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -21,14 +11,9 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "vomitrain",
-		"price": 650,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "foggyrain",
 		"price": 300,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "rainythunderstorm",
@@ -43,12 +28,12 @@
 	{
 		"abr": "snowgentle",
 		"price": 350,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "snowhard",
 		"price": 450,
-		"karmatype": "Neutral"
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "fog",
@@ -57,12 +42,12 @@
 	},
 	{
 		"abr": "heatwave",
-		"price": 1000,
+		"price": 2000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "flashstorm",
-		"price": 750,
+		"price": 400,
 		"karmatype": "Bad"
 	},
 	{
@@ -82,18 +67,13 @@
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 10000,
+		"price": 15000,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3500,
+		"price": 10000,
 		"karmatype": "Doom"
-	},
-	{
-		"abr": "eclipse",
-		"price": 450,
-		"karmatype": "Bad"
 	},
 	{
 		"abr": "aurora",
@@ -131,14 +111,9 @@
 		"karmatype": "Neutral"
 	},
 	{
-		"abr": "madanimal",
+		"abr": "psychicdrone",
 		"price": 500,
 		"karmatype": "Bad"
-	},
-	{
-		"abr": "psychicdrone",
-		"price": 400,
-		"karmatype": "Doom"
 	},
 	{
 		"abr": "psychicsoothe",
@@ -148,11 +123,6 @@
 	{
 		"abr": "ambrosiasprout",
 		"price": 150,
-		"karmatype": "Neutral"
-	},
-	{
-		"abr": "herdmigration",
-		"price": 200,
 		"karmatype": "Good"
 	},
 	{
@@ -192,62 +162,22 @@
 	},
 	{
 		"abr": "alphabeavers",
-		"price": 1000,
+		"price": 600,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "militaryaid",
-		"price": 1500,
+		"price": 2500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "raid",
-		"price": 1000,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "dropraid",
 		"price": 2500,
 		"karmatype": "Bad"
-	},
-	{
-		"abr": "sapperraid",
-		"price": 1500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "siegeraid",
-		"price": 2500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "mechanoidraid",
-		"price": 3000,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "infestation",
-		"price": 5000,
-		"karmatype": "Doom"
 	},
 	{
 		"abr": "manhunterpack",
 		"price": 1500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "predators",
-		"price": 2500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "randomdisease",
-		"price": 1000,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "disease",
-		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -268,16 +198,16 @@
 	{
 		"abr": "trait",
 		"price": 1,
-		"karmatype": "Neutral"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "removetrait",
 		"price": 1,
-		"karmatype": "Neutral"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "genderswap",
-		"price": 60,
+		"price": 600,
 		"karmatype": "Neutral"
 	},
 	{
@@ -291,11 +221,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "torytalkervote",
-		"price": 750,
-		"karmatype": "Neutral"
-	},
-	{
 		"abr": "reviveall",
 		"price": 22664,
 		"karmatype": "Good"
@@ -307,23 +232,23 @@
 	},
 	{
 		"abr": "healall",
-		"price": 2500,
+		"price": 10000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healanypawn",
-		"price": 1000,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healme",
-		"price": 500,
-		"karmatype": "Neutral"
+		"price": 2167,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "surgery",
 		"price": 1,
-		"karmatype": "Good"
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "passionshuffle",
@@ -342,13 +267,13 @@
 	},
 	{
 		"abr": "fullheal",
-		"price": 500,
-		"karmatype": "Neutral"
+		"price": 2167,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "passion",
-		"price": 2500,
-		"karmatype": "Neutral"
+		"price": 7000,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "removepassion",
@@ -387,14 +312,14 @@
 	},
 	{
 		"abr": "randomchildhood",
-		"price": 500,
+		"price": 3000,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "randomadulthood",
-		"price": 500,
+		"price": 3000,
 		"karmatype": "Neutral"
 	}
 	],
-	"total": 79
+	"total": 64
 }
