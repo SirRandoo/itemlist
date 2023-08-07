@@ -42,6 +42,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "Mr.Rock23",
+    "name": "Antigrain (Continued)",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Supes",
     "name": "Auto Seller",
     "steamId": "1440321094",
@@ -156,6 +162,12 @@
     "version": "4.33.649"
   },
   {
+    "author": "Mlie",
+    "name": "Custom Prisoner Interactions",
+    "steamId": "2841231775",
+    "version": "1.4.3"
+  },
+  {
     "author": "void",
     "name": "Deep Stack",
     "steamId": null,
@@ -237,7 +249,7 @@
     "author": "Jaxe",
     "name": "Interaction Bubbles",
     "steamId": "1516158345",
-    "version": "2.5.0.0"
+    "version": "2.6.0.0"
   },
   {
     "author": "dhultgren",
@@ -430,6 +442,12 @@
     "name": "RimSearch 1.4",
     "steamId": "2553187219",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "PeteTimesSix",
+    "name": "Simple sidearms",
+    "steamId": "927155256",
+    "version": "1.4.6.0"
   },
   {
     "author": "dhultgren",
