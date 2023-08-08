@@ -12,6 +12,54 @@
     "version": "10.0.1"
   },
   {
+    "author": "erdelf",
+    "name": "Humanoid Alien Races",
+    "steamId": "839005762",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Core",
+    "steamId": "2659227786",
+    "version": "0.3.5"
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Au Ra Race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Classes and Jobs",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Hyur Race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Lalafell Race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Miqo'te Race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "A Rim Reborn - Viera Race",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Nitrodev",
     "name": "Absolutely No Roof",
     "steamId": null,
@@ -20,6 +68,12 @@
   {
     "author": "Orange Peel Assassin",
     "name": "All Specialists Can Work",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "UnlimitedHugs",
+    "name": "Allow Tool",
     "steamId": null,
     "version": null
   },
@@ -42,12 +96,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Mr.Rock23",
-    "name": "Antigrain (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Supes",
     "name": "Auto Seller",
     "steamId": "1440321094",
@@ -60,32 +108,14 @@
     "version": null
   },
   {
-    "author": "Ornament",
-    "name": "AutoDye",
-    "steamId": "2563707717",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Nibato",
     "name": "AutoExtractGenes",
     "steamId": "2882834449",
     "version": "1.0.0"
   },
   {
-    "author": "SineSwiper",
-    "name": "Automatic Job Titles",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Ben",
     "name": "Automatic Night Owl",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Meltup",
-    "name": "Beautiful Outdoors",
     "steamId": null,
     "version": null
   },
@@ -96,46 +126,22 @@
     "version": null
   },
   {
+    "author": "SirRandoo",
+    "name": "BetterSliders",
+    "steamId": "2218078784",
+    "version": "1.0.3.5"
+  },
+  {
     "author": "AUTOMATIC",
     "name": "Bionic icons",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Telefonmast",
-    "name": "Graphics Settings+",
-    "steamId": "1678847247",
-    "version": "1.0.0"
-  },
-  {
-    "author": "jecrell and contributors",
-    "name": "JecsTools",
-    "steamId": "932008009",
-    "version": "1.4.1.1"
-  },
-  {
-    "author": "erdelf",
-    "name": "Humanoid Alien Races",
-    "steamId": "839005762",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Spanky_H",
-    "name": "Bun Race",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Andreas Pardeike",
-    "name": "Camera+",
-    "steamId": "867467808",
-    "version": "2.5.2.0"
-  },
-  {
-    "author": "AobaKuma",
-    "name": "Cargo container",
-    "steamId": null,
-    "version": null
+    "author": "CrashM",
+    "name": "CM Color Coded Mood Bar [1.1+]",
+    "steamId": "2006605356",
+    "version": "1.4.3607.2"
   },
   {
     "author": "FluffyKittens",
@@ -168,8 +174,8 @@
     "version": "1.4.3"
   },
   {
-    "author": "void",
-    "name": "Deep Stack",
+    "author": "UnlimitedHugs",
+    "name": "Defensive Positions",
     "steamId": null,
     "version": null
   },
@@ -186,6 +192,12 @@
     "version": null
   },
   {
+    "author": "telardo",
+    "name": "DragSelect",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Dubwise",
     "name": "Dubs Mint Minimap",
     "steamId": "1662119905",
@@ -198,58 +210,34 @@
     "version": "1.7.7368"
   },
   {
-    "author": "Erin",
-    "name": "Erin's Azaphrae",
-    "steamId": "2835600618",
-    "version": "1.0.8373.39460"
-  },
-  {
-    "author": "ssulunge",
-    "name": "FemaleBB BodyType Support",
-    "steamId": "1792668502",
+    "author": "HealerUser",
+    "name": "Go Deathrest on Exhaustion",
+    "steamId": "2890918211",
     "version": "1.0.0.0"
   },
   {
-    "author": "ssulunge",
-    "name": "FemaleBB BodyType for Alien Races ",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Jaxe",
-    "name": "Filter Manager",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "DaLLaN",
-    "name": "Hardworking animals 1.4",
-    "steamId": null,
-    "version": null
+    "author": "Telefonmast",
+    "name": "Graphics Settings+",
+    "steamId": "1678847247",
+    "version": "1.0.0"
   },
   {
     "author": "Aelanna",
     "name": "Heruan Race",
-    "steamId": "2810613161",
-    "version": "1.5.0.0"
+    "steamId": null,
+    "version": null
   },
   {
-    "author": "Vesper",
-    "name": "Holograms And Projectors",
-    "steamId": "2847321165",
-    "version": "1.0.0"
+    "author": "latta",
+    "name": "FSharp.Core",
+    "steamId": null,
+    "version": null
   },
   {
-    "author": "notfood",
-    "name": "Infused",
-    "steamId": "731287727",
-    "version": "1.1.1.0"
-  },
-  {
-    "author": "Jaxe",
-    "name": "Interaction Bubbles",
-    "steamId": "1516158345",
-    "version": "2.6.0.0"
+    "author": "latta",
+    "name": "Infusion 2",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "dhultgren",
@@ -270,58 +258,22 @@
     "version": "1.0.0.3"
   },
   {
-    "author": "Kami Katze",
-    "name": "Material Filter",
+    "author": "Spino and Sarg",
+    "name": "Megafauna",
+    "steamId": "1055485938",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Neceros (Original) and Chris",
+    "name": "Metal Don't Burn (UNOFFICIAL 1.4 PATCH)",
     "steamId": null,
     "version": null
   },
   {
-    "author": "sumghai",
-    "name": "MedPod",
-    "steamId": "2153065191",
-    "version": "1.5.12"
-  },
-  {
-    "author": "Fluffy",
-    "name": "Medical Tab",
-    "steamId": "715565817",
-    "version": "3.4.91"
-  },
-  {
-    "author": "StatistNo1, Scorpio, Rebel_Rabbit and Cain",
-    "name": "Mines 2.0",
-    "steamId": "2503894706",
-    "version": "0.0.0.0"
-  },
-  {
-    "author": "UnlimitedHugs",
-    "name": "Allow Tool",
+    "author": "WexMan",
+    "name": "Mines",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Haplo",
-    "name": "Misc. Robots",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Sixdd",
-    "name": "Misc. Robots - Haul Urgently Patch",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Alaestor, Hultis and VeteranXT",
-    "name": "Misc. Robots++",
-    "steamId": "747645520",
-    "version": "3.3.0.0"
-  },
-  {
-    "author": "sirrandoo",
-    "name": "More Pause Events",
-    "steamId": "1874708724",
-    "version": "1.6.3.0"
   },
   {
     "author": "Bishop",
@@ -336,12 +288,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Mehni",
-    "name": "Numbers",
-    "steamId": "1414302321",
-    "version": "1.0.0"
-  },
-  {
     "author": "Peppsen",
     "name": "P-Music",
     "steamId": null,
@@ -352,18 +298,6 @@
     "name": "Packs Are Not Belts",
     "steamId": "2509511179",
     "version": "2.0.0.0"
-  },
-  {
-    "author": "fed1sPlay",
-    "name": "PawnTargetFix",
-    "steamId": "2014789938",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Mlie",
-    "name": "Prisoners Dont Have Keys",
-    "steamId": "2595360307",
-    "version": "1.4.1"
   },
   {
     "author": "hodlhodl",
@@ -396,12 +330,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Hatti",
-    "name": "QualityBuilder",
-    "steamId": "754637870",
-    "version": "1.0.17"
-  },
-  {
     "author": "Sandy",
     "name": "RPG Style Inventory Revamped",
     "steamId": "2478833213",
@@ -414,10 +342,22 @@
     "version": "1.0.0"
   },
   {
+    "author": "Temmie3754",
+    "name": "ReTend",
+    "steamId": "2996971119",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "sirrandoo",
     "name": "Remove Death Amnesia",
     "steamId": "1905421159",
     "version": "2.0.1.0"
+  },
+  {
+    "author": "MRGames",
+    "name": "Removes Skill Decay",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Acruid",
@@ -432,15 +372,57 @@
     "version": "1.1.0.0"
   },
   {
-    "author": "TheGoofyOne",
-    "name": "Research Assistants",
+    "author": "Sierra",
+    "name": "RimFantasy - Gemstones",
     "steamId": null,
     "version": null
   },
   {
-    "author": "ChJees, Rock5 and Valcrafto",
-    "name": "RimSearch 1.4",
-    "steamId": "2553187219",
+    "author": "Sierra",
+    "name": "RimFantasy - Arcane Batons",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Arcane Defences",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Arcane Weapons",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Crystallic Lighting",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimFantasy - Temperature Regulation",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimTraits - General Traits",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sierra",
+    "name": "RimTraits - Vanilla Trait Colors",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Uuugggg",
+    "name": "Share The Load",
+    "steamId": "1356838246",
     "version": "1.0.0.0"
   },
   {
@@ -448,6 +430,12 @@
     "name": "Simple sidearms",
     "steamId": "927155256",
     "version": "1.4.6.0"
+  },
+  {
+    "author": "denev",
+    "name": "Smart Turret Covering",
+    "steamId": "2636621800",
+    "version": "1.0.0.0"
   },
   {
     "author": "dhultgren",
@@ -466,12 +454,6 @@
     "name": "Sometimes Raids Go Wrong",
     "steamId": "1551336515",
     "version": "1.0.8484.41551"
-  },
-  {
-    "author": "Uuugggg",
-    "name": "Thick Armor",
-    "steamId": "1321600671",
-    "version": "1.0.0.0"
   },
   {
     "author": "leafzxg",
@@ -493,12 +475,6 @@
   },
   {
     "author": "SirRandoo",
-    "name": "ToolkitPolls",
-    "steamId": "2435838514",
-    "version": "1.1.1.7"
-  },
-  {
-    "author": "SirRandoo",
     "name": "ToolkitRaids",
     "steamId": "2091359241",
     "version": "1.0.5.0"
@@ -508,12 +484,6 @@
     "name": "ToolkitResearch",
     "steamId": "2312827542",
     "version": "1.0.3.2"
-  },
-  {
-    "author": "Carny Senpai",
-    "name": "Trait Rarity Colors",
-    "steamId": "1751884355",
-    "version": "1.4.0.0"
   },
   {
     "author": "hodlhodl",
@@ -528,88 +498,10 @@
     "version": "1.0.8325.19264"
   },
   {
-    "author": "Oskar Potocki, Taranchuk and Chowder",
-    "name": "Vanilla Traits Expanded",
-    "steamId": "2296404655",
-    "version": "1.0.0.1"
-  },
-  {
-    "author": "Oskar Potocki, AveryTheKitty and Taranchuk",
-    "name": "Vanilla Weapons Expanded - Coilguns",
+    "author": "Toasteh and Updated by Ogliss",
+    "name": "Veinminer R1.1",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Oskar Potocki, Trunken and Sarg Bjornson",
-    "name": "Vanilla Weapons Expanded",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki and Taranchuk",
-    "name": "Vanilla Weapons Expanded - Heavy Weapons",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Weapons Expanded - Laser",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Weapons Expanded - Quickdraw",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki, Luizi and xrushha",
-    "name": "Vanilla Weapons Expanded - Frontier",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Weapons Expanded - Grenades",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki and SmashPhil",
-    "name": "Vanilla Weapons Expanded - Makeshift",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Weapons Expanded - Non-Lethal",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Weapons Expanded - Tribal",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "1trickPwnyta",
-    "name": "Visible Raid Points",
-    "steamId": "2562730174",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Little White Mouse",
-    "name": "LWM's Deep Storage",
-    "steamId": "1617282896",
-    "version": "1.4.1.1"
-  },
-  {
-    "author": "Aelanna",
-    "name": "Weapon Racks",
-    "steamId": "2788630748",
-    "version": "1.2.2.0"
   },
   {
     "author": "bodlosh",
@@ -618,34 +510,34 @@
     "version": null
   },
   {
+    "author": "Epicguru (James B)",
+    "name": "What's That Mod",
+    "steamId": "2258431182",
+    "version": "1.0.0"
+  },
+  {
     "author": "民火",
     "name": "Where is my weapon?",
     "steamId": "1539028008",
     "version": "1.0.0.0"
   },
   {
-    "author": "SirRandoo",
-    "name": "Where's My Bed?",
-    "steamId": "1919873778",
-    "version": "1.2.3.0"
+    "author": "CodeOptimist",
+    "name": "While You're Up / PUAH+",
+    "steamId": "2034960453",
+    "version": "4.0.3.3352"
+  },
+  {
+    "author": "Little White Mouse",
+    "name": "LWM's Deep Storage",
+    "steamId": "1617282896",
+    "version": "1.4.1.1"
   },
   {
     "author": "JangoD'soul",
     "name": "[JDS] Simple Storage",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Mehni",
-    "name": "Pick Up And Haul",
-    "steamId": "1279012058",
-    "version": "1.0.0"
-  },
-  {
-    "author": "CodeOptimist",
-    "name": "While You're Up / PUAH+",
-    "steamId": "2034960453",
-    "version": "4.0.3.3352"
   },
   {
     "author": "erdelf (original) & Kiame (support)",
