@@ -84,16 +84,16 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Sarg Bjornson and AFriend",
-    "name": "Alpha Animals",
-    "steamId": "1541721856",
-    "version": "1.4.8315.17730"
-  },
-  {
     "author": "Sarg Bjornson",
     "name": "Alpha Mythology",
     "steamId": "1821617793",
-    "version": "1.0.0.0"
+    "version": "1.4.8315.17730"
+  },
+  {
+    "author": "pureMJ",
+    "name": "Animal Resource Label",
+    "steamId": "2805166831",
+    "version": "0.2.0"
   },
   {
     "author": "Supes",
@@ -112,6 +112,12 @@
     "name": "AutoExtractGenes",
     "steamId": "2882834449",
     "version": "1.0.0"
+  },
+  {
+    "author": "LokiVKlokeNaAndoke",
+    "name": "AutoPriorities",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Ben",
@@ -144,6 +150,12 @@
     "version": "1.4.3607.2"
   },
   {
+    "author": "Andreas Pardeike",
+    "name": "Camera+",
+    "steamId": "867467808",
+    "version": "2.5.2.0"
+  },
+  {
     "author": "FluffyKittens",
     "name": "Categorized Bill Dropdown",
     "steamId": null,
@@ -153,7 +165,7 @@
     "author": "void",
     "name": "Character Editor",
     "steamId": "1874644848",
-    "version": "1.4.1240.0"
+    "version": "1.4.1242.0"
   },
   {
     "author": "Hatti",
@@ -210,6 +222,12 @@
     "version": "1.7.7368"
   },
   {
+    "author": "Rainbeau Flambe and Jamaican Castle",
+    "name": "Fertile Fields [1.1]",
+    "steamId": "2012735237",
+    "version": "1.0.8330.31376"
+  },
+  {
     "author": "HealerUser",
     "name": "Go Deathrest on Exhaustion",
     "steamId": "2890918211",
@@ -258,10 +276,10 @@
     "version": "1.0.0.3"
   },
   {
-    "author": "Spino and Sarg",
-    "name": "Megafauna",
-    "steamId": "1055485938",
-    "version": "1.0.0.0"
+    "author": "Fluffy",
+    "name": "Medical Tab",
+    "steamId": "715565817",
+    "version": "3.4.91"
   },
   {
     "author": "Neceros (Original) and Chris",
@@ -298,30 +316,6 @@
     "name": "Packs Are Not Belts",
     "steamId": "2509511179",
     "version": "2.0.0.0"
-  },
-  {
-    "author": "hodlhodl",
-    "name": "ToolkitCore",
-    "steamId": "2018368654",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "hodlhodl",
-    "name": "Twitch Toolkit",
-    "steamId": "1718525787",
-    "version": "2.0.10.0"
-  },
-  {
-    "author": "SirRandoo",
-    "name": "ToolkitUtils",
-    "steamId": "2009500580",
-    "version": "6.3.0.0.biotech.b12"
-  },
-  {
-    "author": "Andreas Pardeike and BleuSquid",
-    "name": "Puppeteer",
-    "steamId": "2594873651",
-    "version": "1.6.3.0"
   },
   {
     "author": "legodude17",
@@ -456,10 +450,28 @@
     "version": "1.0.8484.41551"
   },
   {
+    "author": "Uuugggg",
+    "name": "Thick Armor",
+    "steamId": "1321600671",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "leafzxg",
     "name": "Thrumbo Extension",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "hodlhodl",
+    "name": "ToolkitCore",
+    "steamId": "2018368654",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "Twitch Toolkit",
+    "steamId": "1718525787",
+    "version": "2.0.10.0"
   },
   {
     "author": "swemoney",
@@ -486,6 +498,12 @@
     "version": "1.0.3.2"
   },
   {
+    "author": "SirRandoo",
+    "name": "ToolkitUtils",
+    "steamId": "2009500580",
+    "version": "6.3.0.0.biotech.b12"
+  },
+  {
     "author": "hodlhodl",
     "name": "TwitchToolkit - Lootboxes (Unofficial)",
     "steamId": "1720021578",
@@ -496,6 +514,30 @@
     "name": "Ugh You Got Me",
     "steamId": "1542424705",
     "version": "1.0.8325.19264"
+  },
+  {
+    "author": "Sarg Bjornson and AFriend",
+    "name": "Alpha Animals",
+    "steamId": "1541721856",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Spino and Sarg",
+    "name": "Megafauna",
+    "steamId": "1055485938",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Sarg, erdelf, Oskar Potocki, Luizi and Reann Shepard",
+    "name": "Vanilla Genetics Expanded",
+    "steamId": "2801160906",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Sarg Bjornson",
+    "name": "Vanilla Genetics Expanded - More Lab Stuff",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Toasteh and Updated by Ogliss",
@@ -526,6 +568,12 @@
     "name": "While You're Up / PUAH+",
     "steamId": "2034960453",
     "version": "4.0.3.3352"
+  },
+  {
+    "author": "Grizzlemethis",
+    "name": "[GMT] Trading Spot",
+    "steamId": "2874517333",
+    "version": "1.0.0.0"
   },
   {
     "author": "Little White Mouse",
