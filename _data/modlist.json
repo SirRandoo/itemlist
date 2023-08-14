@@ -114,12 +114,6 @@
     "version": "1.0.0"
   },
   {
-    "author": "LokiVKlokeNaAndoke",
-    "name": "AutoPriorities",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Ben",
     "name": "Automatic Night Owl",
     "steamId": null,
@@ -240,6 +234,12 @@
     "version": "1.0.0"
   },
   {
+    "author": "Уверен?",
+    "name": "Hemogen Extractor",
+    "steamId": "2903919607",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Aelanna",
     "name": "Heruan Race",
     "steamId": null,
@@ -336,6 +336,12 @@
     "version": "1.0.0"
   },
   {
+    "author": "plet",
+    "name": "Ranged Shield Belt Tiers",
+    "steamId": "2665630471",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Temmie3754",
     "name": "ReTend",
     "steamId": "2996971119",
@@ -354,10 +360,10 @@
     "version": null
   },
   {
-    "author": "Acruid",
-    "name": "Repair Workbench",
-    "steamId": "733997423",
-    "version": "1.0.0.0"
+    "author": "SteveZero",
+    "name": "Repairable Gear",
+    "steamId": "2482478785",
+    "version": "0.0.0.0"
   },
   {
     "author": "Uuugggg",
@@ -410,6 +416,12 @@
   {
     "author": "Sierra",
     "name": "RimTraits - Vanilla Trait Colors",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Klldarkness",
+    "name": "Ritual Chance Redux",
     "steamId": null,
     "version": null
   },
@@ -564,18 +576,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "CodeOptimist",
-    "name": "While You're Up / PUAH+",
-    "steamId": "2034960453",
-    "version": "4.0.3.3352"
-  },
-  {
-    "author": "Grizzlemethis",
-    "name": "[GMT] Trading Spot",
-    "steamId": "2874517333",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Little White Mouse",
     "name": "LWM's Deep Storage",
     "steamId": "1617282896",
@@ -586,6 +586,24 @@
     "name": "[JDS] Simple Storage",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Mehni",
+    "name": "Pick Up And Haul",
+    "steamId": "1279012058",
+    "version": "1.0.0"
+  },
+  {
+    "author": "CodeOptimist",
+    "name": "While You're Up / PUAH+",
+    "steamId": "2034960453",
+    "version": "4.0.3.3352"
+  },
+  {
+    "author": "Grizzlemethis",
+    "name": "[GMT] Trading Spot",
+    "steamId": "2874517333",
+    "version": "1.0.0.0"
   },
   {
     "author": "erdelf (original) & Kiame (support)",
