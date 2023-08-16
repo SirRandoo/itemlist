@@ -483,7 +483,7 @@
     "author": "hodlhodl",
     "name": "Twitch Toolkit",
     "steamId": "1718525787",
-    "version": "2.0.10.0"
+    "version": "1.4.1"
   },
   {
     "author": "swemoney",
@@ -510,10 +510,16 @@
     "version": "1.0.3.2"
   },
   {
+    "author": "nry",
+    "name": "Twitch Toolkit",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "SirRandoo",
     "name": "ToolkitUtils",
     "steamId": "2009500580",
-    "version": "6.3.0.0.biotech.b12"
+    "version": "6.3.0.1"
   },
   {
     "author": "hodlhodl",

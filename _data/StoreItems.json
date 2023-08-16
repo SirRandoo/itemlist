@@ -238,13 +238,13 @@
       "abr": "bed",
       "category": "Furniture",
       "defname": "Bed",
-      "price": 155
+      "price": -10
     },
     {
       "abr": "doublebed",
       "category": "Furniture",
       "defname": "DoubleBed",
-      "price": 292
+      "price": -10
     },
     {
       "abr": "royalbed",
@@ -274,7 +274,7 @@
       "abr": "animalsleepingbox",
       "category": "Furniture",
       "defname": "AnimalSleepingBox",
-      "price": 84
+      "price": -10
     },
     {
       "abr": "animalbed",
@@ -292,7 +292,7 @@
       "abr": "diningchair",
       "category": "Furniture",
       "defname": "DiningChair",
-      "price": 198
+      "price": -10
     },
     {
       "abr": "armchair",
@@ -304,7 +304,7 @@
       "abr": "endtable",
       "category": "Furniture",
       "defname": "EndTable",
-      "price": 106
+      "price": -10
     },
     {
       "abr": "table(1x2)",
@@ -478,19 +478,19 @@
       "abr": "battery",
       "category": "Power",
       "defname": "Battery",
-      "price": 333
+      "price": -10
     },
     {
       "abr": "artbench",
       "category": "Production",
       "defname": "TableSculpting",
-      "price": 425
+      "price": -10
     },
     {
       "abr": "butchertable",
       "category": "Production",
       "defname": "TableButcher",
-      "price": 302
+      "price": -10
     },
     {
       "abr": "handtailorbench",
@@ -544,7 +544,7 @@
       "abr": "brewery",
       "category": "Production",
       "defname": "Brewery",
-      "price": 350
+      "price": -10
     },
     {
       "abr": "druglab",
@@ -580,7 +580,7 @@
       "abr": "spiketrap",
       "category": "Security",
       "defname": "TrapSpike",
-      "price": 169
+      "price": -10
     },
     {
       "abr": "iedtrap",
@@ -700,7 +700,7 @@
       "abr": "thrumbohorn",
       "category": "Misc",
       "defname": "ThrumboHorn",
-      "price": 1333
+      "price": -10
     },
     {
       "abr": "elephanttusk",
@@ -784,13 +784,13 @@
       "abr": "milk",
       "category": "Animal products",
       "defname": "Milk",
-      "price": -10
+      "price": 3
     },
     {
       "abr": "insectjelly",
       "category": "Animal products",
       "defname": "InsectJelly",
-      "price": -10
+      "price": 13
     },
     {
       "abr": "chickenegg(unfert.)",
@@ -1222,7 +1222,7 @@
       "abr": "thrumbofur",
       "category": "Leathers",
       "defname": "Leather_Thrumbo",
-      "price": 23
+      "price": -10
     },
     {
       "abr": "patchleather",
@@ -1240,73 +1240,73 @@
       "abr": "cowboyhat",
       "category": "Headgear",
       "defname": "Apparel_CowboyHat",
-      "price": 94
+      "price": -10
     },
     {
       "abr": "bowlerhat",
       "category": "Headgear",
       "defname": "Apparel_BowlerHat",
-      "price": 77
+      "price": -10
     },
     {
       "abr": "tribalheaddress",
       "category": "Headgear",
       "defname": "Apparel_TribalHeaddress",
-      "price": 203
+      "price": -10
     },
     {
       "abr": "tuque",
       "category": "Headgear",
       "defname": "Apparel_Tuque",
-      "price": 74
+      "price": -10
     },
     {
       "abr": "warmask",
       "category": "Headgear",
       "defname": "Apparel_WarMask",
-      "price": 101
+      "price": -10
     },
     {
       "abr": "veil",
       "category": "Headgear",
       "defname": "Apparel_WarVeil",
-      "price": 75
+      "price": -10
     },
     {
       "abr": "simplehelmet",
       "category": "Headgear",
       "defname": "Apparel_SimpleHelmet",
-      "price": 153
+      "price": -10
     },
     {
       "abr": "flakhelmet",
       "category": "Headgear",
       "defname": "Apparel_AdvancedHelmet",
-      "price": 442
+      "price": -10
     },
     {
       "abr": "marinehelmet",
       "category": "Headgear",
       "defname": "Apparel_PowerArmorHelmet",
-      "price": 1058
+      "price": -10
     },
     {
       "abr": "reconhelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetRecon",
-      "price": 875
+      "price": -10
     },
     {
       "abr": "psychicfoilhelmet",
       "category": "Headgear",
       "defname": "Apparel_PsychicFoilHelmet",
-      "price": 417
+      "price": -10
     },
     {
       "abr": "hood",
       "category": "Headgear",
       "defname": "Apparel_HatHood",
-      "price": 203
+      "price": -10
     },
     {
       "abr": "smokepoppack",
@@ -1336,25 +1336,25 @@
       "abr": "tribalwear",
       "category": "Misc",
       "defname": "Apparel_TribalA",
-      "price": 211
+      "price": -10
     },
     {
       "abr": "parka",
       "category": "Misc",
       "defname": "Apparel_Parka",
-      "price": 315
+      "price": -10
     },
     {
       "abr": "pants",
       "category": "Misc",
       "defname": "Apparel_Pants",
-      "price": 143
+      "price": -10
     },
     {
       "abr": "t-shirt",
       "category": "Misc",
       "defname": "Apparel_BasicShirt",
-      "price": 143
+      "price": -10
     },
     {
       "abr": "button-downshirt",
@@ -1366,7 +1366,7 @@
       "abr": "duster",
       "category": "Misc",
       "defname": "Apparel_Duster",
-      "price": 327
+      "price": -10
     },
     {
       "abr": "jacket",
@@ -1378,43 +1378,43 @@
       "abr": "platearmor",
       "category": "Armor",
       "defname": "Apparel_PlateArmor",
-      "price": 792
+      "price": -10
     },
     {
       "abr": "flakvest",
       "category": "Armor",
       "defname": "Apparel_FlakVest",
-      "price": 375
+      "price": -10
     },
     {
       "abr": "flakpants",
       "category": "Armor",
       "defname": "Apparel_FlakPants",
-      "price": 375
+      "price": -10
     },
     {
       "abr": "flakjacket",
       "category": "Armor",
       "defname": "Apparel_FlakJacket",
-      "price": 483
+      "price": -10
     },
     {
       "abr": "marinearmor",
       "category": "Armor",
       "defname": "Apparel_PowerArmor",
-      "price": 3392
+      "price": -10
     },
     {
       "abr": "reconarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorRecon",
-      "price": 2567
+      "price": -10
     },
     {
       "abr": "cape",
       "category": "Noble apparel",
       "defname": "Apparel_Cape",
-      "price": 367
+      "price": -10
     },
     {
       "abr": "sandstoneblocks",
@@ -1450,13 +1450,13 @@
       "abr": "breachaxe",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_BreachAxe",
-      "price": 197
+      "price": -10
     },
     {
       "abr": "mace",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_Mace",
-      "price": 203
+      "price": -10
     },
     {
       "abr": "gladius",
@@ -1468,13 +1468,13 @@
       "abr": "longsword",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_LongSword",
-      "price": 442
+      "price": -10
     },
     {
       "abr": "club",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_Club",
-      "price": 141
+      "price": -10
     },
     {
       "abr": "knife",
@@ -1498,25 +1498,25 @@
       "abr": "revolver",
       "category": "Ranged weapons",
       "defname": "Gun_Revolver",
-      "price": 226
+      "price": -10
     },
     {
       "abr": "autopistol",
       "category": "Ranged weapons",
       "defname": "Gun_Autopistol",
-      "price": 232
+      "price": -10
     },
     {
       "abr": "machinepistol",
       "category": "Ranged weapons",
       "defname": "Gun_MachinePistol",
-      "price": 367
+      "price": -10
     },
     {
       "abr": "incendiarylauncher",
       "category": "Ranged weapons",
       "defname": "Gun_IncendiaryLauncher",
-      "price": 567
+      "price": -10
     },
     {
       "abr": "smokelauncher",
@@ -1528,43 +1528,43 @@
       "abr": "emplauncher",
       "category": "Ranged weapons",
       "defname": "Gun_EmpLauncher",
-      "price": 842
+      "price": -10
     },
     {
       "abr": "bolt-actionrifle",
       "category": "Ranged weapons",
       "defname": "Gun_BoltActionRifle",
-      "price": 425
+      "price": -10
     },
     {
       "abr": "pumpshotgun",
       "category": "Ranged weapons",
       "defname": "Gun_PumpShotgun",
-      "price": 425
+      "price": -10
     },
     {
       "abr": "chainshotgun",
       "category": "Ranged weapons",
       "defname": "Gun_ChainShotgun",
-      "price": 675
+      "price": -10
     },
     {
       "abr": "heavysmg",
       "category": "Ranged weapons",
       "defname": "Gun_HeavySMG",
-      "price": 592
+      "price": -10
     },
     {
       "abr": "lmg",
       "category": "Ranged weapons",
       "defname": "Gun_LMG",
-      "price": 708
+      "price": -10
     },
     {
       "abr": "assaultrifle",
       "category": "Ranged weapons",
       "defname": "Gun_AssaultRifle",
-      "price": 800
+      "price": -10
     },
     {
       "abr": "sniperrifle",
@@ -1576,31 +1576,31 @@
       "abr": "minigun",
       "category": "Ranged weapons",
       "defname": "Gun_Minigun",
-      "price": 1933
+      "price": -10
     },
     {
       "abr": "fraggrenades",
       "category": "Grenades",
       "defname": "Weapon_GrenadeFrag",
-      "price": 442
+      "price": -10
     },
     {
       "abr": "molotovcocktails",
       "category": "Grenades",
       "defname": "Weapon_GrenadeMolotov",
-      "price": 408
+      "price": -10
     },
     {
       "abr": "empgrenades",
       "category": "Grenades",
       "defname": "Weapon_GrenadeEMP",
-      "price": 525
+      "price": -10
     },
     {
       "abr": "shortbow",
       "category": "Ranged weapons",
       "defname": "Bow_Short",
-      "price": 74
+      "price": -10
     },
     {
       "abr": "pila",
@@ -1612,25 +1612,25 @@
       "abr": "recurvebow",
       "category": "Ranged weapons",
       "defname": "Bow_Recurve",
-      "price": 110
+      "price": -10
     },
     {
       "abr": "greatbow",
       "category": "Ranged weapons",
       "defname": "Bow_Great",
-      "price": 174
+      "price": -10
     },
     {
       "abr": "chargerifle",
       "category": "Ranged weapons",
       "defname": "Gun_ChargeRifle",
-      "price": 1683
+      "price": -10
     },
     {
       "abr": "chargelance",
       "category": "Ranged weapons",
       "defname": "Gun_ChargeLance",
-      "price": 2258
+      "price": -10
     },
     {
       "abr": "orbitalbombardmenttargeter",
@@ -2206,7 +2206,7 @@
       "abr": "darklightbrazier",
       "category": "Furniture",
       "defname": "DarklightBrazier",
-      "price": 167
+      "price": -10
     },
     {
       "abr": "meditationthrone",
@@ -2242,19 +2242,19 @@
       "abr": "smallnatureshrine",
       "category": "Misc",
       "defname": "NatureShrine_Small",
-      "price": 592
+      "price": -10
     },
     {
       "abr": "largenatureshrine",
       "category": "Misc",
       "defname": "NatureShrine_Large",
-      "price": 1183
+      "price": -10
     },
     {
       "abr": "animusstone",
       "category": "Misc",
       "defname": "AnimusStone",
-      "price": 8333
+      "price": -10
     },
     {
       "abr": "harp",
@@ -2284,7 +2284,7 @@
       "abr": "jumppack",
       "category": "Utility",
       "defname": "Apparel_PackJump",
-      "price": 1075
+      "price": -10
     },
     {
       "abr": "low-shieldpack",
@@ -2296,79 +2296,79 @@
       "abr": "eltexhelmet",
       "category": "Headgear",
       "defname": "Apparel_PsyfocusHelmet",
-      "price": 833
+      "price": -10
     },
     {
       "abr": "eltexskullcap",
       "category": "Headgear",
       "defname": "Apparel_EltexSkullcap",
-      "price": 833
+      "price": -10
     },
     {
       "abr": "eltexshirt",
       "category": "Misc",
       "defname": "Apparel_PsyfocusShirt",
-      "price": 667
+      "price": -10
     },
     {
       "abr": "eltexvest",
       "category": "Misc",
       "defname": "Apparel_PsyfocusVest",
-      "price": 833
+      "price": -10
     },
     {
       "abr": "eltexrobe",
       "category": "Misc",
       "defname": "Apparel_PsyfocusRobe",
-      "price": 1000
+      "price": -10
     },
     {
       "abr": "formalshirt",
       "category": "Noble apparel",
       "defname": "Apparel_ShirtRuffle",
-      "price": 253
+      "price": -10
     },
     {
       "abr": "corset",
       "category": "Noble apparel",
       "defname": "Apparel_Corset",
-      "price": 222
+      "price": -10
     },
     {
       "abr": "formalvest",
       "category": "Noble apparel",
       "defname": "Apparel_VestRoyal",
-      "price": 222
+      "price": -10
     },
     {
       "abr": "prestigerobe",
       "category": "Noble apparel",
       "defname": "Apparel_RobeRoyal",
-      "price": 450
+      "price": -10
     },
     {
       "abr": "ladieshat",
       "category": "Headgear",
       "defname": "Apparel_HatLadies",
-      "price": 203
+      "price": -10
     },
     {
       "abr": "tophat",
       "category": "Headgear",
       "defname": "Apparel_HatTop",
-      "price": 203
+      "price": -10
     },
     {
       "abr": "coronet",
       "category": "Headgear",
       "defname": "Apparel_Coronet",
-      "price": 215
+      "price": -10
     },
     {
       "abr": "crown",
       "category": "Headgear",
       "defname": "Apparel_Crown",
-      "price": 322
+      "price": -10
     },
     {
       "abr": "stelliccrown",
@@ -2380,127 +2380,127 @@
       "abr": "beret",
       "category": "Headgear",
       "defname": "Apparel_Beret",
-      "price": 141
+      "price": -10
     },
     {
       "abr": "prestigereconarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorReconPrestige",
-      "price": 3292
+      "price": -10
     },
     {
       "abr": "prestigereconhelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetReconPrestige",
-      "price": 1192
+      "price": -10
     },
     {
       "abr": "prestigemarinearmor",
       "category": "Armor",
       "defname": "Apparel_ArmorMarinePrestige",
-      "price": 4217
+      "price": -10
     },
     {
       "abr": "prestigemarinehelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorMarineHelmetPrestige",
-      "price": 1417
+      "price": -10
     },
     {
       "abr": "cataphractarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorCataphract",
-      "price": 5200
+      "price": -10
     },
     {
       "abr": "cataphracthelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetCataphract",
-      "price": 1242
+      "price": -10
     },
     {
       "abr": "prestigecataphractarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorCataphractPrestige",
-      "price": 6550
+      "price": -10
     },
     {
       "abr": "prestigecataphracthelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetCataphractPrestige",
-      "price": 1925
+      "price": -10
     },
     {
       "abr": "locustarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorLocust",
-      "price": 3717
+      "price": -10
     },
     {
       "abr": "grenadierarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorMarineGrenadier",
-      "price": 3842
+      "price": -10
     },
     {
       "abr": "phoenixarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorCataphractPhoenix",
-      "price": 5800
+      "price": -10
     },
     {
       "abr": "gunlink",
       "category": "Headgear",
       "defname": "Apparel_Gunlink",
-      "price": 575
+      "price": -10
     },
     {
       "abr": "personamonosword",
       "category": "Persona weapons",
       "defname": "MeleeWeapon_MonoSwordBladelink",
-      "price": 5000
+      "price": -10
     },
     {
       "abr": "personazeushammer",
       "category": "Persona weapons",
       "defname": "MeleeWeapon_ZeusHammerBladelink",
-      "price": 5000
+      "price": -10
     },
     {
       "abr": "personaplasmasword",
       "category": "Persona weapons",
       "defname": "MeleeWeapon_PlasmaSwordBladelink",
-      "price": 5000
+      "price": -10
     },
     {
       "abr": "axe",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_Axe",
-      "price": 209
+      "price": -10
     },
     {
       "abr": "warhammer",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_Warhammer",
-      "price": 608
+      "price": -10
     },
     {
       "abr": "monosword",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_MonoSword",
-      "price": 3333
+      "price": -10
     },
     {
       "abr": "zeushammer",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_Zeushammer",
-      "price": 3333
+      "price": -10
     },
     {
       "abr": "plasmasword",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_PlasmaSword",
-      "price": 3333
+      "price": -10
     },
     {
       "abr": "orbitalmechclustertargeter",
@@ -2512,7 +2512,7 @@
       "abr": "eltexstaff",
       "category": "Melee weapons",
       "defname": "MeleeWeapon_PsyfocusStaff",
-      "price": 3333
+      "price": -10
     },
     {
       "abr": "terrorsculpture",
@@ -2596,7 +2596,7 @@
       "abr": "gibbetcage",
       "category": "Misc",
       "defname": "GibbetCage",
-      "price": 210
+      "price": -10
     },
     {
       "abr": "lightball",
@@ -2656,7 +2656,7 @@
       "abr": "skullspike",
       "category": "Misc",
       "defname": "Skullspike",
-      "price": 101
+      "price": -10
     },
     {
       "abr": "headwrap",
@@ -2668,13 +2668,13 @@
       "abr": "broadwrap",
       "category": "Headgear",
       "defname": "Apparel_Broadwrap",
-      "price": 111
+      "price": -10
     },
     {
       "abr": "visagemask",
       "category": "Headgear",
       "defname": "Apparel_VisageMask",
-      "price": 62
+      "price": -10
     },
     {
       "abr": "slicecap",
@@ -2686,13 +2686,13 @@
       "abr": "slavecollar",
       "category": "Headgear",
       "defname": "Apparel_Collar",
-      "price": 94
+      "price": -10
     },
     {
       "abr": "authoritycap",
       "category": "Headgear",
       "defname": "Apparel_AuthorityCap",
-      "price": 92
+      "price": -10
     },
     {
       "abr": "tailcap",
@@ -2710,25 +2710,25 @@
       "abr": "flophat",
       "category": "Headgear",
       "defname": "Apparel_Flophat",
-      "price": 74
+      "price": -10
     },
     {
       "abr": "slavebodystrap",
       "category": "Misc",
       "defname": "Apparel_BodyStrap",
-      "price": 275
+      "price": -10
     },
     {
       "abr": "burka",
       "category": "Misc",
       "defname": "Apparel_Burka",
-      "price": 224
+      "price": -10
     },
     {
       "abr": "robe",
       "category": "Misc",
       "defname": "Apparel_Robe",
-      "price": 297
+      "price": -10
     },
     {
       "abr": "torturecrown",
@@ -2740,19 +2740,19 @@
       "abr": "blindfold",
       "category": "Headgear",
       "defname": "Apparel_Blindfold",
-      "price": 74
+      "price": -10
     },
     {
       "abr": "morbidslab(medium)",
       "category": "Furniture",
       "defname": "MorbidSlab_Medium",
-      "price": 342
+      "price": -10
     },
     {
       "abr": "morbidslab(broad)",
       "category": "Furniture",
       "defname": "MorbidSlab_Broad",
-      "price": 508
+      "price": -10
     },
     {
       "abr": "totemicslab(medium)",
@@ -2794,19 +2794,19 @@
       "abr": "animalistslab(medium)",
       "category": "Furniture",
       "defname": "AnimalistSlab_Medium",
-      "price": 342
+      "price": -10
     },
     {
       "abr": "animalistslab(broad)",
       "category": "Furniture",
       "defname": "AnimalistSlab_Broad",
-      "price": 508
+      "price": -10
     },
     {
       "abr": "skull",
       "category": "Misc",
       "defname": "Skull",
-      "price": 8
+      "price": -10
     },
     {
       "abr": "chalice",
@@ -2860,7 +2860,7 @@
       "abr": "gauranlenseed",
       "category": "Misc",
       "defname": "GauranlenSeed",
-      "price": 117
+      "price": -10
     },
     {
       "abr": "detoxifierlung",
@@ -2920,25 +2920,25 @@
       "abr": "deathrestcasket",
       "category": "Misc",
       "defname": "DeathrestCasket",
-      "price": 492
+      "price": -10
     },
     {
       "abr": "hemopump",
       "category": "Misc",
       "defname": "Hemopump",
-      "price": 600
+      "price": -10
     },
     {
       "abr": "hemogenamplifier",
       "category": "Misc",
       "defname": "HemogenAmplifier",
-      "price": 917
+      "price": -10
     },
     {
       "abr": "glucosoidpump",
       "category": "Misc",
       "defname": "GlucosoidPump",
-      "price": 858
+      "price": -10
     },
     {
       "abr": "psychofluidpump",
@@ -2950,7 +2950,7 @@
       "abr": "deathrestaccelerator",
       "category": "Misc",
       "defname": "DeathrestAccelerator",
-      "price": 1183
+      "price": -10
     },
     {
       "abr": "toybox",
@@ -2986,7 +2986,7 @@
       "abr": "genebank",
       "category": "Production",
       "defname": "GeneBank",
-      "price": 242
+      "price": -10
     },
     {
       "abr": "pollutionpump",
@@ -2998,7 +2998,7 @@
       "abr": "bloodtorch",
       "category": "Misc",
       "defname": "SanguphageMeetingTorch",
-      "price": 41
+      "price": -10
     },
     {
       "abr": "mechbooster",
@@ -3028,13 +3028,13 @@
       "abr": "hemogenpack",
       "category": "Foods",
       "defname": "HemogenPack",
-      "price": 8
+      "price": -10
     },
     {
       "abr": "toxipotatoes",
       "category": "Vegetarian",
       "defname": "RawToxipotato",
-      "price": 1
+      "price": -10
     },
     {
       "abr": "basicsubcore",
@@ -3076,19 +3076,19 @@
       "abr": "deathrestcapacityserum",
       "category": "Misc",
       "defname": "DeathrestCapacitySerum",
-      "price": 1667
+      "price": -10
     },
     {
       "abr": "toxshell",
       "category": "Mortar shells",
       "defname": "Shell_Toxic",
-      "price": 92
+      "price": -10
     },
     {
       "abr": "genepack",
       "category": "Misc",
       "defname": "Genepack",
-      "price": 167
+      "price": -10
     },
     {
       "abr": "xenogerm",
@@ -3100,7 +3100,7 @@
       "abr": "architecapsule",
       "category": "Misc",
       "defname": "ArchiteCapsule",
-      "price": 1167
+      "price": -10
     },
     {
       "abr": "mechanoidtransponder",
@@ -3178,25 +3178,25 @@
       "abr": "mechcommanderhelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetMechCommander",
-      "price": 2150
+      "price": -10
     },
     {
       "abr": "mechlordhelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetMechlordHelmet",
-      "price": 8892
+      "price": -10
     },
     {
       "abr": "gasmask",
       "category": "Headgear",
       "defname": "Apparel_GasMask",
-      "price": 176
+      "price": -10
     },
     {
       "abr": "facemask",
       "category": "Headgear",
       "defname": "Apparel_ClothMask",
-      "price": 38
+      "price": -10
     },
     {
       "abr": "controlpack",
@@ -3214,31 +3214,31 @@
       "abr": "toxpack",
       "category": "Utility",
       "defname": "Apparel_PackTox",
-      "price": 219
+      "price": -10
     },
     {
       "abr": "mechlordsuit",
       "category": "Armor",
       "defname": "Apparel_MechlordSuit",
-      "price": 11692
+      "price": -10
     },
     {
       "abr": "heavybandolier",
       "category": "Misc",
       "defname": "Apparel_Bandolier",
-      "price": 271
+      "price": -10
     },
     {
       "abr": "sash",
       "category": "Misc",
       "defname": "Apparel_Sash",
-      "price": 89
+      "price": -10
     },
     {
       "abr": "toxbomblauncher",
       "category": "Ranged weapons",
       "defname": "Gun_ToxbombLauncher",
-      "price": 633
+      "price": -10
     },
     {
       "abr": "toxgrenades",
@@ -3250,7 +3250,7 @@
       "abr": "flamebow",
       "category": "Ranged weapons",
       "defname": "Flamebow",
-      "price": 75
+      "price": -10
     },
     {
       "abr": "poluxseed",
@@ -3370,7 +3370,7 @@
       "abr": "doomsdayrocketlauncher",
       "category": "Ranged weapons",
       "defname": "Gun_DoomsdayRocket",
-      "price": 1667
+      "price": -10
     },
     {
       "abr": "dromedarymeat",
@@ -3916,7 +3916,7 @@
       "abr": "triplerocketlauncher",
       "category": "Ranged weapons",
       "defname": "Gun_TripleRocket",
-      "price": 1667
+      "price": -10
     },
     {
       "abr": "turkeymeat",
@@ -3961,6 +3961,714 @@
       "price": 3
     },
     {
+      "abr": "aimanager",
+      "category": "Production",
+      "defname": "FM_AIManager",
+      "price": -10
+    },
+    {
+      "abr": "ammobox",
+      "category": "Furniture",
+      "defname": "JDSAmmo_BoxA",
+      "price": -10
+    },
+    {
+      "abr": "ammobox",
+      "category": "Furniture",
+      "defname": "JDSAmmo_BoxB",
+      "price": -10
+    },
+    {
+      "abr": "ammobox",
+      "category": "Furniture",
+      "defname": "JDSAmmo_BoxC",
+      "price": -10
+    },
+    {
+      "abr": "ammocrate",
+      "category": "Furniture",
+      "defname": "JDSAmmo_Crate",
+      "price": -10
+    },
+    {
+      "abr": "ammocratepiles",
+      "category": "Furniture",
+      "defname": "JDSAmmo_Crate_Piles",
+      "price": -10
+    },
+    {
+      "abr": "bankvault",
+      "category": "Furniture",
+      "defname": "JDSBank_Vault",
+      "price": -10
+    },
+    {
+      "abr": "barrel",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Barrel",
+      "price": -10
+    },
+    {
+      "abr": "barrelpile",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Barrel_Pile",
+      "price": -10
+    },
+    {
+      "abr": "basicmanagerdesk",
+      "category": "Production",
+      "defname": "FM_BasicManagerStation",
+      "price": -10
+    },
+    {
+      "abr": "basket",
+      "category": "Furniture",
+      "defname": "JDS_Basket",
+      "price": -10
+    },
+    {
+      "abr": "beercrate",
+      "category": "Furniture",
+      "defname": "JDSBeer_Crate",
+      "price": -10
+    },
+    {
+      "abr": "bigshelf",
+      "category": "Furniture",
+      "defname": "LWM_BigShelf",
+      "price": 257
+    },
+    {
+      "abr": "bulkwater",
+      "category": "Furniture",
+      "defname": "JDS_Bulk_Water",
+      "price": -10
+    },
+    {
+      "abr": "bundleswrap",
+      "category": "Furniture",
+      "defname": "JDS_Bundles_Wrap",
+      "price": -10
+    },
+    {
+      "abr": "bundleswrapbig",
+      "category": "Furniture",
+      "defname": "JDS_Bundles_Wrap_Big",
+      "price": -10
+    },
+    {
+      "abr": "bundleswrappile",
+      "category": "Furniture",
+      "defname": "JDS_Bundles_Wrap_Pile",
+      "price": -10
+    },
+    {
+      "abr": "checkerdoormat",
+      "category": "Furniture",
+      "defname": "LT_DoorMatCheckerLeather",
+      "price": -10
+    },
+    {
+      "abr": "chemfuelpump",
+      "category": "Furniture",
+      "defname": "JDS_ChemfuelPump",
+      "price": 89
+    },
+    {
+      "abr": "chemfuelstorage",
+      "category": "Furniture",
+      "defname": "JDS_Chemfuel_Storage",
+      "price": 425
+    },
+    {
+      "abr": "chemfuelstoragelarge",
+      "category": "Furniture",
+      "defname": "JDS_Large_Chemfuel_Storage",
+      "price": 1475
+    },
+    {
+      "abr": "clothingrack",
+      "category": "Furniture",
+      "defname": "LWM_Clothing_Rack",
+      "price": 170
+    },
+    {
+      "abr": "commoninfuser",
+      "category": "Infusers",
+      "defname": "Infusion_Infuser_Common",
+      "price": 333
+    },
+    {
+      "abr": "cratea",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate",
+      "price": -10
+    },
+    {
+      "abr": "cratea2",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate_Two",
+      "price": -10
+    },
+    {
+      "abr": "cratea3",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate_Three",
+      "price": -10
+    },
+    {
+      "abr": "cratea4",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate_four",
+      "price": -10
+    },
+    {
+      "abr": "crateb",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate_B",
+      "price": -10
+    },
+    {
+      "abr": "cratec",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate_C",
+      "price": -10
+    },
+    {
+      "abr": "cratelarge",
+      "category": "Furniture",
+      "defname": "JDS_Wooden_Crate_Large",
+      "price": -10
+    },
+    {
+      "abr": "doormat",
+      "category": "Furniture",
+      "defname": "LT_DoorMatLeather",
+      "price": 8
+    },
+    {
+      "abr": "doormat(blue)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBlue",
+      "price": 8
+    },
+    {
+      "abr": "doormat(green)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatGreen",
+      "price": 8
+    },
+    {
+      "abr": "doormat(orange)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatOrange",
+      "price": 8
+    },
+    {
+      "abr": "doormat(red)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatRed",
+      "price": 8
+    },
+    {
+      "abr": "doormat(teal)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatTeal",
+      "price": 8
+    },
+    {
+      "abr": "emptyinfuser",
+      "category": "Infusers",
+      "defname": "Infusion_InfuserEmpty",
+      "price": 833
+    },
+    {
+      "abr": "foodbasket",
+      "category": "Furniture",
+      "defname": "LWM_Food_Basket",
+      "price": 270
+    },
+    {
+      "abr": "hampers",
+      "category": "Furniture",
+      "defname": "LWM_FabricHamper",
+      "price": 383
+    },
+    {
+      "abr": "hayloft",
+      "category": "Furniture",
+      "defname": "LWM_Hayloft",
+      "price": 287
+    },
+    {
+      "abr": "industrialdumpster",
+      "category": "Furniture",
+      "defname": "JDSIndustrial_Dumpster",
+      "price": 3367
+    },
+    {
+      "abr": "industrialdumpster(chunk)",
+      "category": "Furniture",
+      "defname": "JDS_Industrial_Dumpster_Chunk",
+      "price": 3367
+    },
+    {
+      "abr": "industrialdumpster(slag)",
+      "category": "Furniture",
+      "defname": "JDS_Industrial_Dumpster_Slag",
+      "price": 3367
+    },
+    {
+      "abr": "industrialshelf(empty)",
+      "category": "Furniture",
+      "defname": "JDSIndustrial_shelf_empty",
+      "price": 1717
+    },
+    {
+      "abr": "industrialshelf(full)",
+      "category": "Furniture",
+      "defname": "JDSIndustrial_shelf",
+      "price": 5783
+    },
+    {
+      "abr": "largecanpallet",
+      "category": "Furniture",
+      "defname": "JDS_Large_Can_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largecheckerdoormat",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigCheckerLeather",
+      "price": 13
+    },
+    {
+      "abr": "largedoormat",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigLeather",
+      "price": 13
+    },
+    {
+      "abr": "largedoormat(blue)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigBlue",
+      "price": 13
+    },
+    {
+      "abr": "largedoormat(green)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigGreen",
+      "price": 13
+    },
+    {
+      "abr": "largedoormat(orange)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigOrange",
+      "price": 13
+    },
+    {
+      "abr": "largedoormat(red)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigRed",
+      "price": 13
+    },
+    {
+      "abr": "largedoormat(teal)",
+      "category": "Furniture",
+      "defname": "LT_DoorMatBigTeal",
+      "price": 13
+    },
+    {
+      "abr": "largelocker",
+      "category": "Furniture",
+      "defname": "JDSLarge_locker",
+      "price": 304
+    },
+    {
+      "abr": "largepallet",
+      "category": "Furniture",
+      "defname": "JDS_Large_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largepalleta",
+      "category": "Furniture",
+      "defname": "JDS_Large_A_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largepalletb",
+      "category": "Furniture",
+      "defname": "JDS_Large_B_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largepalletc",
+      "category": "Furniture",
+      "defname": "JDS_Large_C_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largepalletd",
+      "category": "Furniture",
+      "defname": "JDS_Large_D_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largepallete",
+      "category": "Furniture",
+      "defname": "JDS_Large_E_Pallet",
+      "price": -10
+    },
+    {
+      "abr": "largepostbox",
+      "category": "Furniture",
+      "defname": "JDS_Large_Post_Box",
+      "price": -10
+    },
+    {
+      "abr": "legendaryinfuser",
+      "category": "Infusers",
+      "defname": "Infusion_Infuser_Legendary",
+      "price": 3333
+    },
+    {
+      "abr": "managerdesk",
+      "category": "Production",
+      "defname": "FM_ManagerStation",
+      "price": 508
+    },
+    {
+      "abr": "mealtrayrack",
+      "category": "Furniture",
+      "defname": "LWM_MealRack",
+      "price": 255
+    },
+    {
+      "abr": "meathook",
+      "category": "Furniture",
+      "defname": "LWM_Meat_Hook",
+      "price": 254
+    },
+    {
+      "abr": "medstorage",
+      "category": "Furniture",
+      "defname": "JDS_Med_Storage",
+      "price": 224
+    },
+    {
+      "abr": "medicinecabinet",
+      "category": "Furniture",
+      "defname": "LWM_Medicine_Cabinet",
+      "price": 203
+    },
+    {
+      "abr": "metalcrate",
+      "category": "Furniture",
+      "defname": "JDS_Metal_Crate",
+      "price": 264
+    },
+    {
+      "abr": "metalcratebiggerpile",
+      "category": "Furniture",
+      "defname": "JDS_Metal_Crate_Bigger_Pile",
+      "price": 1525
+    },
+    {
+      "abr": "metalcratepile",
+      "category": "Furniture",
+      "defname": "JDS_Metal_Crate_Pile",
+      "price": 800
+    },
+    {
+      "abr": "metalcratesmallpile",
+      "category": "Furniture",
+      "defname": "JDS_Metal_Crate_Small_Pile",
+      "price": 425
+    },
+    {
+      "abr": "metalshelfa(empty)",
+      "category": "Furniture",
+      "defname": "JDSMetal_Shelf_A",
+      "price": 650
+    },
+    {
+      "abr": "metalshelfa(full)",
+      "category": "Furniture",
+      "defname": "JDSMetal_Shelf_A_Full",
+      "price": 900
+    },
+    {
+      "abr": "metalshelfb(empty)",
+      "category": "Furniture",
+      "defname": "JDSMetal_Shelf_B",
+      "price": 675
+    },
+    {
+      "abr": "metalshelfb(full)",
+      "category": "Furniture",
+      "defname": "JDSMetal_Shelf_B_Full",
+      "price": 900
+    },
+    {
+      "abr": "militarygradecratelarge",
+      "category": "Furniture",
+      "defname": "JDSMilitary_Grade_crate_Large",
+      "price": 2225
+    },
+    {
+      "abr": "militarygradecratelong",
+      "category": "Furniture",
+      "defname": "JDSMilitary_Grade_Crate_Long",
+      "price": 917
+    },
+    {
+      "abr": "militarygradecratesmall",
+      "category": "Furniture",
+      "defname": "JDSMilitaryGradeCrateSmall",
+      "price": 550
+    },
+    {
+      "abr": "militarygradecratesmallpile",
+      "category": "Furniture",
+      "defname": "JDSMilitary_Grade_Crate_Small_Pile",
+      "price": 3008
+    },
+    {
+      "abr": "pallet",
+      "category": "Furniture",
+      "defname": "LWM_Pallet",
+      "price": 220
+    },
+    {
+      "abr": "pallet",
+      "category": "Furniture",
+      "defname": "JDSPallet",
+      "price": 20
+    },
+    {
+      "abr": "palletbox",
+      "category": "Furniture",
+      "defname": "JDSPallet_Box",
+      "price": 307
+    },
+    {
+      "abr": "palletcan",
+      "category": "Furniture",
+      "defname": "JDSPallet_Can",
+      "price": 64
+    },
+    {
+      "abr": "palletcontainer",
+      "category": "Furniture",
+      "defname": "JDSPallet_Container",
+      "price": 342
+    },
+    {
+      "abr": "palletcrate",
+      "category": "Furniture",
+      "defname": "JDSPallet_Crate",
+      "price": 70
+    },
+    {
+      "abr": "palletwithwrapping",
+      "category": "Furniture",
+      "defname": "LWM_Pallet_Covered",
+      "price": 321
+    },
+    {
+      "abr": "rareinfuser",
+      "category": "Infusers",
+      "defname": "Infusion_Infuser_Rare",
+      "price": 1667
+    },
+    {
+      "abr": "resourcescrate1",
+      "category": "Furniture",
+      "defname": "JDS_1ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate10",
+      "category": "Furniture",
+      "defname": "JDS_10ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate2",
+      "category": "Furniture",
+      "defname": "JDS_2ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate3",
+      "category": "Furniture",
+      "defname": "JDS_3ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate4",
+      "category": "Furniture",
+      "defname": "JDS_4ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate5",
+      "category": "Furniture",
+      "defname": "JDS_5ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate6",
+      "category": "Furniture",
+      "defname": "JDS_6ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate7",
+      "category": "Furniture",
+      "defname": "JDS_7ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate8",
+      "category": "Furniture",
+      "defname": "JDS_8ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "resourcescrate9",
+      "category": "Furniture",
+      "defname": "JDS_9ResourcesCrate",
+      "price": 134
+    },
+    {
+      "abr": "safe",
+      "category": "Furniture",
+      "defname": "LWM_Safe",
+      "price": 1017
+    },
+    {
+      "abr": "safe",
+      "category": "Furniture",
+      "defname": "JDSSafe",
+      "price": 400
+    },
+    {
+      "abr": "shelfa(empty)",
+      "category": "Furniture",
+      "defname": "JDSShelf_A_Empty",
+      "price": 458
+    },
+    {
+      "abr": "shelfa(full)",
+      "category": "Furniture",
+      "defname": "JDSShelf_A_Full",
+      "price": 458
+    },
+    {
+      "abr": "shippingcontainerblue",
+      "category": "Furniture",
+      "defname": "JDSShippingContainerBlue",
+      "price": 9033
+    },
+    {
+      "abr": "shippingcontainergreen",
+      "category": "Furniture",
+      "defname": "JDSShippingContainerGreen",
+      "price": 9783
+    },
+    {
+      "abr": "shippingcontainerred",
+      "category": "Furniture",
+      "defname": "JDSShippingContainerRed",
+      "price": 9783
+    },
+    {
+      "abr": "silo",
+      "category": "Furniture",
+      "defname": "JDSSilo",
+      "price": 3275
+    },
+    {
+      "abr": "skip",
+      "category": "Furniture",
+      "defname": "LWM_DeepStorage_Skip",
+      "price": 305
+    },
+    {
+      "abr": "smallerlocker",
+      "category": "Furniture",
+      "defname": "JDSmaller_locker",
+      "price": 170
+    },
+    {
+      "abr": "toolbox",
+      "category": "Furniture",
+      "defname": "JDSTool_Box",
+      "price": 4092
+    },
+    {
+      "abr": "tradereportslog",
+      "category": "Misc",
+      "defname": "ASReportsLog",
+      "price": 321
+    },
+    {
+      "abr": "tradereportsprinter",
+      "category": "Misc",
+      "defname": "ASReportsPrinter",
+      "price": 317
+    },
+    {
+      "abr": "uncommoninfuser",
+      "category": "Infusers",
+      "defname": "Infusion_Infuser_Uncommon",
+      "price": 833
+    },
+    {
+      "abr": "vendingmachinea",
+      "category": "Furniture",
+      "defname": "JDSVending_Machine",
+      "price": 270
+    },
+    {
+      "abr": "vendingmachineb",
+      "category": "Furniture",
+      "defname": "JDSVending_Machine_two",
+      "price": 170
+    },
+    {
+      "abr": "verybigshelves",
+      "category": "Furniture",
+      "defname": "LWM_VeryBigShelf",
+      "price": 550
+    },
+    {
+      "abr": "weaponscabinet",
+      "category": "Furniture",
+      "defname": "LWM_WeaponsCabinet",
+      "price": 254
+    },
+    {
+      "abr": "weaponslocker",
+      "category": "Furniture",
+      "defname": "LWM_WeaponsLocker",
+      "price": 237
+    },
+    {
+      "abr": "wheelbarrow",
+      "category": "Furniture",
+      "defname": "JDSwheelbarrow",
+      "price": 54
+    },
+    {
+      "abr": "youthserum",
+      "category": "Items",
+      "defname": "MechSerumYouth",
+      "price": 2333
+    },
+    {
       "abr": "aberrantfleshbeast",
       "category": "Animals",
       "defname": "GR_AberrantFleshbeast",
@@ -3989,6 +4697,12 @@
       "category": "Animals",
       "defname": "AA_AcanthamoebaGiganteaSmall",
       "price": -10
+    },
+    {
+      "abr": "advancedshieldbattery",
+      "category": "Manufactured",
+      "defname": "AdvancedShieldBattery",
+      "price": 692
     },
     {
       "abr": "aerofleet",
@@ -4165,12 +4879,6 @@
       "price": -10
     },
     {
-      "abr": "aimanager",
-      "category": "Production",
-      "defname": "FM_AIManager",
-      "price": 7833
-    },
-    {
       "abr": "alc",
       "category": "Rimatomics Product",
       "defname": "ALC",
@@ -4253,36 +4961,6 @@
       "category": "Arcane war hammers",
       "defname": "RF_AmethystWarHammer",
       "price": 3308
-    },
-    {
-      "abr": "ammobox",
-      "category": "Furniture",
-      "defname": "JDSAmmo_BoxA",
-      "price": 600
-    },
-    {
-      "abr": "ammobox",
-      "category": "Furniture",
-      "defname": "JDSAmmo_BoxB",
-      "price": 1983
-    },
-    {
-      "abr": "ammobox",
-      "category": "Furniture",
-      "defname": "JDSAmmo_BoxC",
-      "price": 3142
-    },
-    {
-      "abr": "ammocrate",
-      "category": "Furniture",
-      "defname": "JDSAmmo_Crate",
-      "price": 169
-    },
-    {
-      "abr": "ammocratepiles",
-      "category": "Furniture",
-      "defname": "JDSAmmo_Crate_Piles",
-      "price": 1533
     },
     {
       "abr": "andrewsarchus",
@@ -4795,34 +5473,16 @@
       "price": 15
     },
     {
-      "abr": "bankvault",
-      "category": "Furniture",
-      "defname": "JDSBank_Vault",
-      "price": 21983
-    },
-    {
       "abr": "barbslinger",
       "category": "Animals",
       "defname": "AA_Barbslinger",
       "price": -10
     },
     {
-      "abr": "barrel",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Barrel",
-      "price": 204
-    },
-    {
-      "abr": "barrelpile",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Barrel_Pile",
-      "price": 675
-    },
-    {
-      "abr": "basicmanagerdesk",
-      "category": "Production",
-      "defname": "FM_BasicManagerStation",
-      "price": 262
+      "abr": "basicshieldbattery",
+      "category": "Manufactured",
+      "defname": "BasicShieldBattery",
+      "price": 280
     },
     {
       "abr": "basilisk",
@@ -4835,12 +5495,6 @@
       "category": "Eggs (fert.)",
       "defname": "MM_EggBasiliskFertilized",
       "price": -10
-    },
-    {
-      "abr": "basket",
-      "category": "Furniture",
-      "defname": "JDS_Basket",
-      "price": 104
     },
     {
       "abr": "batonofbliss",
@@ -4954,7 +5608,7 @@
       "abr": "bearffalomilk",
       "category": "Animal products",
       "defname": "GR_BearffaloMilk",
-      "price": -10
+      "price": 5
     },
     {
       "abr": "bearhorse",
@@ -5023,12 +5677,6 @@
       "price": 15
     },
     {
-      "abr": "beercrate",
-      "category": "Furniture",
-      "defname": "JDSBeer_Crate",
-      "price": 161
-    },
-    {
       "abr": "beetlefleet",
       "category": "Animals",
       "defname": "GR_Beetlefleet",
@@ -5053,16 +5701,10 @@
       "price": 10
     },
     {
-      "abr": "bigshelf",
-      "category": "Furniture",
-      "defname": "LWM_BigShelf",
-      "price": 257
-    },
-    {
       "abr": "blackhiveinsectjelly",
       "category": "Animal products",
       "defname": "AA_BlackInsectJelly",
-      "price": -10
+      "price": 15
     },
     {
       "abr": "blackinsectchitin",
@@ -5146,7 +5788,7 @@
       "abr": "bluemilk",
       "category": "Animal products",
       "defname": "AA_BlueMilk",
-      "price": -10
+      "price": 8
     },
     {
       "abr": "bobeene",
@@ -5287,12 +5929,6 @@
       "price": 3
     },
     {
-      "abr": "bulkwater",
-      "category": "Furniture",
-      "defname": "JDS_Bulk_Water",
-      "price": 264
-    },
-    {
       "abr": "bumbledrone",
       "category": "Animals",
       "defname": "AA_Bumbledrone",
@@ -5315,24 +5951,6 @@
       "category": "Animals",
       "defname": "AA_BumbledroneQueen",
       "price": -10
-    },
-    {
-      "abr": "bundleswrap",
-      "category": "Furniture",
-      "defname": "JDS_Bundles_Wrap",
-      "price": 116
-    },
-    {
-      "abr": "bundleswrapbig",
-      "category": "Furniture",
-      "defname": "JDS_Bundles_Wrap_Big",
-      "price": 725
-    },
-    {
-      "abr": "bundleswrappile",
-      "category": "Furniture",
-      "defname": "JDS_Bundles_Wrap_Pile",
-      "price": 154
     },
     {
       "abr": "cactipine",
@@ -5545,34 +6163,10 @@
       "price": -10
     },
     {
-      "abr": "checkerdoormat",
-      "category": "Furniture",
-      "defname": "LT_DoorMatCheckerLeather",
-      "price": 8
-    },
-    {
       "abr": "chemfuelmyrmidon",
       "category": "Animals",
       "defname": "AA_ChemfuelMyrmidon",
       "price": -10
-    },
-    {
-      "abr": "chemfuelpump",
-      "category": "Furniture",
-      "defname": "JDS_ChemfuelPump",
-      "price": 89
-    },
-    {
-      "abr": "chemfuelstorage",
-      "category": "Furniture",
-      "defname": "JDS_Chemfuel_Storage",
-      "price": 425
-    },
-    {
-      "abr": "chemfuelstoragelarge",
-      "category": "Furniture",
-      "defname": "JDS_Large_Chemfuel_Storage",
-      "price": 1475
     },
     {
       "abr": "chickenbear",
@@ -5638,7 +6232,7 @@
       "abr": "chickenffalomilk",
       "category": "Animal products",
       "defname": "GR_ChickenffaloMilk",
-      "price": -10
+      "price": 2
     },
     {
       "abr": "chickenhorse",
@@ -5851,12 +6445,6 @@
       "price": 3
     },
     {
-      "abr": "clothingrack",
-      "category": "Furniture",
-      "defname": "LWM_Clothing_Rack",
-      "price": 170
-    },
-    {
       "abr": "coldcrystalbowl",
       "category": "Furniture",
       "defname": "RF_ColdCrystalBowl",
@@ -5887,12 +6475,6 @@
       "price": -10
     },
     {
-      "abr": "commoninfuser",
-      "category": "Infusers",
-      "defname": "Infusion_Infuser_Common",
-      "price": 333
-    },
-    {
       "abr": "compostbarrel",
       "category": "Production",
       "defname": "CompostBarrel",
@@ -5921,48 +6503,6 @@
       "category": "Meat",
       "defname": "Meat_AA_BoulderMit",
       "price": 3
-    },
-    {
-      "abr": "cratea",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate",
-      "price": 170
-    },
-    {
-      "abr": "cratea2",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate_Two",
-      "price": 400
-    },
-    {
-      "abr": "cratea3",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate_Three",
-      "price": 667
-    },
-    {
-      "abr": "cratea4",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate_four",
-      "price": 1167
-    },
-    {
-      "abr": "crateb",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate_B",
-      "price": 237
-    },
-    {
-      "abr": "cratec",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate_C",
-      "price": 237
-    },
-    {
-      "abr": "cratelarge",
-      "category": "Furniture",
-      "defname": "JDS_Wooden_Crate_Large",
-      "price": 1675
     },
     {
       "abr": "crepuscularbeetle",
@@ -6295,42 +6835,6 @@
       "price": -10
     },
     {
-      "abr": "doormat",
-      "category": "Furniture",
-      "defname": "LT_DoorMatLeather",
-      "price": 8
-    },
-    {
-      "abr": "doormat(blue)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBlue",
-      "price": 8
-    },
-    {
-      "abr": "doormat(green)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatGreen",
-      "price": 8
-    },
-    {
-      "abr": "doormat(orange)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatOrange",
-      "price": 8
-    },
-    {
-      "abr": "doormat(red)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatRed",
-      "price": 8
-    },
-    {
-      "abr": "doormat(teal)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatTeal",
-      "price": 8
-    },
-    {
       "abr": "drainer",
       "category": "Animals",
       "defname": "AA_Drainer",
@@ -6427,6 +6931,12 @@
       "price": 8
     },
     {
+      "abr": "electricrepairbench",
+      "category": "Production",
+      "defname": "RG_ElectricRepairTable",
+      "price": 692
+    },
+    {
       "abr": "electrowomb",
       "category": "Production",
       "defname": "GR_ElectroWomb",
@@ -6503,12 +7013,6 @@
       "category": "Animals",
       "defname": "AA_EmpressButterflyLarva",
       "price": -10
-    },
-    {
-      "abr": "emptyinfuser",
-      "category": "Infusers",
-      "defname": "Infusion_InfuserEmpty",
-      "price": 833
     },
     {
       "abr": "engorgedtentacularaberration",
@@ -6737,12 +7241,6 @@
       "category": "Animals",
       "defname": "GR_Fleshling",
       "price": -10
-    },
-    {
-      "abr": "foodbasket",
-      "category": "Furniture",
-      "defname": "LWM_Food_Basket",
-      "price": 270
     },
     {
       "abr": "frostave",
@@ -7054,7 +7552,7 @@
       "abr": "gowmilk",
       "category": "Animal products",
       "defname": "AA_GowMilk",
-      "price": -10
+      "price": 7
     },
     {
       "abr": "greatdevourer",
@@ -7084,7 +7582,7 @@
       "abr": "greenmilk",
       "category": "Animal products",
       "defname": "GR_GreenMilk",
-      "price": -10
+      "price": 5
     },
     {
       "abr": "grey-coatedmouflon",
@@ -7144,13 +7642,7 @@
       "abr": "hairymilk",
       "category": "Animal products",
       "defname": "GR_WolffaloMilk",
-      "price": -10
-    },
-    {
-      "abr": "hampers",
-      "category": "Furniture",
-      "defname": "LWM_FabricHamper",
-      "price": 383
+      "price": 2
     },
     {
       "abr": "hardenedchitin",
@@ -7169,12 +7661,6 @@
       "category": "Armor",
       "defname": "ARR_Hauberk",
       "price": 533
-    },
-    {
-      "abr": "hayloft",
-      "category": "Furniture",
-      "defname": "LWM_Hayloft",
-      "price": 287
     },
     {
       "abr": "heavymagicalleather",
@@ -7585,36 +8071,6 @@
       "price": 50
     },
     {
-      "abr": "industrialdumpster",
-      "category": "Furniture",
-      "defname": "JDSIndustrial_Dumpster",
-      "price": 3367
-    },
-    {
-      "abr": "industrialdumpster(chunk)",
-      "category": "Furniture",
-      "defname": "JDS_Industrial_Dumpster_Chunk",
-      "price": 3367
-    },
-    {
-      "abr": "industrialdumpster(slag)",
-      "category": "Furniture",
-      "defname": "JDS_Industrial_Dumpster_Slag",
-      "price": 3367
-    },
-    {
-      "abr": "industrialshelf(empty)",
-      "category": "Furniture",
-      "defname": "JDSIndustrial_shelf_empty",
-      "price": 1717
-    },
-    {
-      "abr": "industrialshelf(full)",
-      "category": "Furniture",
-      "defname": "JDSIndustrial_shelf",
-      "price": 5783
-    },
-    {
       "abr": "infectedaerofleet",
       "category": "Animals",
       "defname": "AA_InfectedAerofleet",
@@ -7855,118 +8311,16 @@
       "price": 392
     },
     {
-      "abr": "largecanpallet",
-      "category": "Furniture",
-      "defname": "JDS_Large_Can_Pallet",
-      "price": 120
-    },
-    {
-      "abr": "largecheckerdoormat",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigCheckerLeather",
-      "price": 13
-    },
-    {
-      "abr": "largedoormat",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigLeather",
-      "price": 13
-    },
-    {
-      "abr": "largedoormat(blue)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigBlue",
-      "price": 13
-    },
-    {
-      "abr": "largedoormat(green)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigGreen",
-      "price": 13
-    },
-    {
-      "abr": "largedoormat(orange)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigOrange",
-      "price": 13
-    },
-    {
-      "abr": "largedoormat(red)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigRed",
-      "price": 13
-    },
-    {
-      "abr": "largedoormat(teal)",
-      "category": "Furniture",
-      "defname": "LT_DoorMatBigTeal",
-      "price": 13
-    },
-    {
       "abr": "largeelectrowomb",
       "category": "Production",
       "defname": "GR_LargeElectroWomb",
       "price": 600
     },
     {
-      "abr": "largelocker",
-      "category": "Furniture",
-      "defname": "JDSLarge_locker",
-      "price": 304
-    },
-    {
-      "abr": "largepallet",
-      "category": "Furniture",
-      "defname": "JDS_Large_Pallet",
-      "price": 333
-    },
-    {
-      "abr": "largepalleta",
-      "category": "Furniture",
-      "defname": "JDS_Large_A_Pallet",
-      "price": 867
-    },
-    {
-      "abr": "largepalletb",
-      "category": "Furniture",
-      "defname": "JDS_Large_B_Pallet",
-      "price": 867
-    },
-    {
-      "abr": "largepalletc",
-      "category": "Furniture",
-      "defname": "JDS_Large_C_Pallet",
-      "price": 867
-    },
-    {
-      "abr": "largepalletd",
-      "category": "Furniture",
-      "defname": "JDS_Large_D_Pallet",
-      "price": 867
-    },
-    {
-      "abr": "largepallete",
-      "category": "Furniture",
-      "defname": "JDS_Large_E_Pallet",
-      "price": 867
-    },
-    {
-      "abr": "largepostbox",
-      "category": "Furniture",
-      "defname": "JDS_Large_Post_Box",
-      "price": 170
-    },
-    {
       "abr": "larvalatispec",
       "category": "Animals",
       "defname": "AA_LarvalAtispec",
       "price": -10
-    },
-    {
-      "abr": "legendaryinfuser",
-      "category": "Infusers",
-      "defname": "Infusion_Infuser_Legendary",
-      "price": 3333
     },
     {
       "abr": "lensmodule",
@@ -8101,12 +8455,6 @@
       "price": 15
     },
     {
-      "abr": "managerdesk",
-      "category": "Production",
-      "defname": "FM_ManagerStation",
-      "price": 508
-    },
-    {
       "abr": "manalope",
       "category": "Animals",
       "defname": "GR_Manalope",
@@ -8233,18 +8581,6 @@
       "price": -10
     },
     {
-      "abr": "mealtrayrack",
-      "category": "Furniture",
-      "defname": "LWM_MealRack",
-      "price": 255
-    },
-    {
-      "abr": "meathook",
-      "category": "Furniture",
-      "defname": "LWM_Meat_Hook",
-      "price": 254
-    },
-    {
       "abr": "mechabear",
       "category": "Animals",
       "defname": "GR_Mechabear",
@@ -8308,7 +8644,7 @@
       "abr": "mechanoidmilk",
       "category": "Animal products",
       "defname": "GR_MechaMilk",
-      "price": -10
+      "price": 25
     },
     {
       "abr": "mechanoidwool",
@@ -8347,22 +8683,10 @@
       "price": -10
     },
     {
-      "abr": "medstorage",
-      "category": "Furniture",
-      "defname": "JDS_Med_Storage",
-      "price": 224
-    },
-    {
       "abr": "medicinalcactipinequill",
       "category": "Medicine",
       "defname": "AA_CactipineQuill",
       "price": 17
-    },
-    {
-      "abr": "medicinecabinet",
-      "category": "Furniture",
-      "defname": "LWM_Medicine_Cabinet",
-      "price": 203
     },
     {
       "abr": "megafaunagenome",
@@ -8455,82 +8779,10 @@
       "price": 67
     },
     {
-      "abr": "metalcrate",
-      "category": "Furniture",
-      "defname": "JDS_Metal_Crate",
-      "price": 264
-    },
-    {
-      "abr": "metalcratebiggerpile",
-      "category": "Furniture",
-      "defname": "JDS_Metal_Crate_Bigger_Pile",
-      "price": 1525
-    },
-    {
-      "abr": "metalcratepile",
-      "category": "Furniture",
-      "defname": "JDS_Metal_Crate_Pile",
-      "price": 800
-    },
-    {
-      "abr": "metalcratesmallpile",
-      "category": "Furniture",
-      "defname": "JDS_Metal_Crate_Small_Pile",
-      "price": 425
-    },
-    {
-      "abr": "metalshelfa(empty)",
-      "category": "Furniture",
-      "defname": "JDSMetal_Shelf_A",
-      "price": 650
-    },
-    {
-      "abr": "metalshelfa(full)",
-      "category": "Furniture",
-      "defname": "JDSMetal_Shelf_A_Full",
-      "price": 900
-    },
-    {
-      "abr": "metalshelfb(empty)",
-      "category": "Furniture",
-      "defname": "JDSMetal_Shelf_B",
-      "price": 675
-    },
-    {
-      "abr": "metalshelfb(full)",
-      "category": "Furniture",
-      "defname": "JDSMetal_Shelf_B_Full",
-      "price": 900
-    },
-    {
       "abr": "metallovore",
       "category": "Animals",
       "defname": "AA_Metallovore",
       "price": -10
-    },
-    {
-      "abr": "militarygradecratelarge",
-      "category": "Furniture",
-      "defname": "JDSMilitary_Grade_crate_Large",
-      "price": 2225
-    },
-    {
-      "abr": "militarygradecratelong",
-      "category": "Furniture",
-      "defname": "JDSMilitary_Grade_Crate_Long",
-      "price": 917
-    },
-    {
-      "abr": "militarygradecratesmall",
-      "category": "Furniture",
-      "defname": "JDSMilitaryGradeCrateSmall",
-      "price": 550
-    },
-    {
-      "abr": "militarygradecratesmallpile",
-      "category": "Furniture",
-      "defname": "JDSMilitary_Grade_Crate_Small_Pile",
-      "price": 3008
     },
     {
       "abr": "mime",
@@ -8692,7 +8944,7 @@
       "abr": "muffalobearmilk",
       "category": "Animal products",
       "defname": "GR_MuffalobearMilk",
-      "price": -10
+      "price": 7
     },
     {
       "abr": "muffalocat",
@@ -8710,7 +8962,7 @@
       "abr": "muffalochickenmilk",
       "category": "Animal products",
       "defname": "GR_MuffalochickenMilk",
-      "price": -10
+      "price": 6
     },
     {
       "abr": "muffalohorse",
@@ -8842,7 +9094,7 @@
       "abr": "nightmilk",
       "category": "Animal products",
       "defname": "AA_NightMilk",
-      "price": -10
+      "price": 8
     },
     {
       "abr": "nightwool",
@@ -9019,48 +9271,6 @@
       "price": -10
     },
     {
-      "abr": "pallet",
-      "category": "Furniture",
-      "defname": "LWM_Pallet",
-      "price": 220
-    },
-    {
-      "abr": "pallet",
-      "category": "Furniture",
-      "defname": "JDSPallet",
-      "price": 20
-    },
-    {
-      "abr": "palletbox",
-      "category": "Furniture",
-      "defname": "JDSPallet_Box",
-      "price": 307
-    },
-    {
-      "abr": "palletcan",
-      "category": "Furniture",
-      "defname": "JDSPallet_Can",
-      "price": 64
-    },
-    {
-      "abr": "palletcontainer",
-      "category": "Furniture",
-      "defname": "JDSPallet_Container",
-      "price": 342
-    },
-    {
-      "abr": "palletcrate",
-      "category": "Furniture",
-      "defname": "JDSPallet_Crate",
-      "price": 70
-    },
-    {
-      "abr": "palletwithwrapping",
-      "category": "Furniture",
-      "defname": "LWM_Pallet_Covered",
-      "price": 321
-    },
-    {
       "abr": "paraceramuffalo",
       "category": "Animals",
       "defname": "GR_Paraceramuffalo",
@@ -9070,7 +9280,7 @@
       "abr": "paraceramuffalomilk",
       "category": "Animal products",
       "defname": "GR_ParaMilk",
-      "price": -10
+      "price": 5
     },
     {
       "abr": "paraceratherium",
@@ -9361,12 +9571,6 @@
       "price": 3
     },
     {
-      "abr": "rareinfuser",
-      "category": "Infusers",
-      "defname": "Infusion_Infuser_Rare",
-      "price": 1667
-    },
-    {
       "abr": "ratffalo",
       "category": "Animals",
       "defname": "GR_Ratffalo",
@@ -9376,7 +9580,7 @@
       "abr": "ratffalomilk",
       "category": "Animal products",
       "defname": "GR_RatMilk",
-      "price": -10
+      "price": 5
     },
     {
       "abr": "ravager",
@@ -9461,66 +9665,6 @@
       "category": "Eggs (unfert.)",
       "defname": "GR_ParagonIguanaEggUnfertilized",
       "price": 60
-    },
-    {
-      "abr": "resourcescrate1",
-      "category": "Furniture",
-      "defname": "JDS_1ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate10",
-      "category": "Furniture",
-      "defname": "JDS_10ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate2",
-      "category": "Furniture",
-      "defname": "JDS_2ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate3",
-      "category": "Furniture",
-      "defname": "JDS_3ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate4",
-      "category": "Furniture",
-      "defname": "JDS_4ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate5",
-      "category": "Furniture",
-      "defname": "JDS_5ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate6",
-      "category": "Furniture",
-      "defname": "JDS_6ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate7",
-      "category": "Furniture",
-      "defname": "JDS_7ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate8",
-      "category": "Furniture",
-      "defname": "JDS_8ResourcesCrate",
-      "price": 134
-    },
-    {
-      "abr": "resourcescrate9",
-      "category": "Furniture",
-      "defname": "JDS_9ResourcesCrate",
-      "price": 134
     },
     {
       "abr": "ripperhound",
@@ -9721,18 +9865,6 @@
       "price": 17
     },
     {
-      "abr": "safe",
-      "category": "Furniture",
-      "defname": "LWM_Safe",
-      "price": 1017
-    },
-    {
-      "abr": "safe",
-      "category": "Furniture",
-      "defname": "JDSSafe",
-      "price": 400
-    },
-    {
       "abr": "salamander",
       "category": "Animals",
       "defname": "MM_Salamander",
@@ -9859,36 +9991,6 @@
       "price": -10
     },
     {
-      "abr": "shelfa(empty)",
-      "category": "Furniture",
-      "defname": "JDSShelf_A_Empty",
-      "price": 458
-    },
-    {
-      "abr": "shelfa(full)",
-      "category": "Furniture",
-      "defname": "JDSShelf_A_Full",
-      "price": 458
-    },
-    {
-      "abr": "shippingcontainerblue",
-      "category": "Furniture",
-      "defname": "JDSShippingContainerBlue",
-      "price": 9033
-    },
-    {
-      "abr": "shippingcontainergreen",
-      "category": "Furniture",
-      "defname": "JDSShippingContainerGreen",
-      "price": 9783
-    },
-    {
-      "abr": "shippingcontainerred",
-      "category": "Furniture",
-      "defname": "JDSShippingContainerRed",
-      "price": 9783
-    },
-    {
       "abr": "shockgoat",
       "category": "Animals",
       "defname": "AA_ShockGoat",
@@ -9907,10 +10009,10 @@
       "price": 2
     },
     {
-      "abr": "silo",
-      "category": "Furniture",
-      "defname": "JDSSilo",
-      "price": 3275
+      "abr": "simplerepairbench",
+      "category": "Production",
+      "defname": "RG_SimpleRepairTable",
+      "price": 342
     },
     {
       "abr": "sivatherium",
@@ -9928,13 +10030,7 @@
       "abr": "sivatheriummilk",
       "category": "Animal products",
       "defname": "SivatheriumMilk",
-      "price": -10
-    },
-    {
-      "abr": "skip",
-      "category": "Furniture",
-      "defname": "LWM_DeepStorage_Skip",
-      "price": 305
+      "price": 12
     },
     {
       "abr": "skiphound",
@@ -9959,12 +10055,6 @@
       "category": "Animals",
       "defname": "AA_Slurrypede",
       "price": -10
-    },
-    {
-      "abr": "smallerlocker",
-      "category": "Furniture",
-      "defname": "JDSmaller_locker",
-      "price": 170
     },
     {
       "abr": "smilodon",
@@ -10115,6 +10205,108 @@
       "category": "Animals",
       "defname": "AA_Swarmling",
       "price": -10
+    },
+    {
+      "abr": "t1rangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T1RangedShieldBelt",
+      "price": 1108
+    },
+    {
+      "abr": "t2empresistrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2ERRangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t2extrabatteryrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2EBRangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t2fastrechargerangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2FRRangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t2meleesupportrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2MERangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t2overclockrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2OCRangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t2rangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2RangedShieldBelt",
+      "price": 2358
+    },
+    {
+      "abr": "t2reinforcedrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2RERangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t2sharpshooterrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T2SSRangedShieldBelt",
+      "price": 3025
+    },
+    {
+      "abr": "t3empresistrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3ERRangedShieldBelt",
+      "price": 7933
+    },
+    {
+      "abr": "t3extrabatteryrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3EBRangedShieldBelt",
+      "price": 7933
+    },
+    {
+      "abr": "t3fastrechargerangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3FastRangedShieldBelt",
+      "price": 7933
+    },
+    {
+      "abr": "t3meleesupportrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3MERangedShieldBelt",
+      "price": 7933
+    },
+    {
+      "abr": "t3overclockrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3OCRangedShieldBelt",
+      "price": 7933
+    },
+    {
+      "abr": "t3rangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3RangedShieldBelt",
+      "price": 7267
+    },
+    {
+      "abr": "t3reinforcedrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3RERangedShieldBelt",
+      "price": 7933
+    },
+    {
+      "abr": "t3sssharpshooterrangedshieldbelt",
+      "category": "Apparel",
+      "defname": "Apparel_T3SSRangedShieldBelt",
+      "price": 7933
     },
     {
       "abr": "targuzzler",
@@ -10312,7 +10504,7 @@
       "abr": "thrumffalomilk",
       "category": "Animal products",
       "defname": "GR_ThrumffaloMilk",
-      "price": -10
+      "price": 10
     },
     {
       "abr": "thrumhorse",
@@ -10379,24 +10571,6 @@
       "category": "Animals",
       "defname": "MM_Tlilcoatl",
       "price": -10
-    },
-    {
-      "abr": "toolbox",
-      "category": "Furniture",
-      "defname": "JDSTool_Box",
-      "price": 4092
-    },
-    {
-      "abr": "tradereportslog",
-      "category": "Misc",
-      "defname": "ASReportsLog",
-      "price": 321
-    },
-    {
-      "abr": "tradereportsprinter",
-      "category": "Misc",
-      "defname": "ASReportsPrinter",
-      "price": 317
     },
     {
       "abr": "travelrations",
@@ -10489,12 +10663,6 @@
       "price": -10
     },
     {
-      "abr": "uncommoninfuser",
-      "category": "Infusers",
-      "defname": "Infusion_Infuser_Uncommon",
-      "price": 833
-    },
-    {
       "abr": "unicorn",
       "category": "Animals",
       "defname": "MM_Unicorn",
@@ -10529,24 +10697,6 @@
       "category": "Animals",
       "defname": "GR_ParagonBear",
       "price": -10
-    },
-    {
-      "abr": "vendingmachinea",
-      "category": "Furniture",
-      "defname": "JDSVending_Machine",
-      "price": 270
-    },
-    {
-      "abr": "vendingmachineb",
-      "category": "Furniture",
-      "defname": "JDSVending_Machine_two",
-      "price": 170
-    },
-    {
-      "abr": "verybigshelves",
-      "category": "Furniture",
-      "defname": "LWM_VeryBigShelf",
-      "price": 550
     },
     {
       "abr": "viera",
@@ -10606,31 +10756,13 @@
       "abr": "waywardmobileassembler",
       "category": "Animal",
       "defname": "AA_WaywardMobileAssembler",
-      "price": -10
-    },
-    {
-      "abr": "weaponscabinet",
-      "category": "Furniture",
-      "defname": "LWM_WeaponsCabinet",
-      "price": 254
-    },
-    {
-      "abr": "weaponslocker",
-      "category": "Furniture",
-      "defname": "LWM_WeaponsLocker",
-      "price": 237
+      "price": 1083
     },
     {
       "abr": "weirdmilk",
       "category": "Animal products",
       "defname": "GR_WeirdMilk",
-      "price": -10
-    },
-    {
-      "abr": "wheelbarrow",
-      "category": "Furniture",
-      "defname": "JDSwheelbarrow",
-      "price": 54
+      "price": 5
     },
     {
       "abr": "wildminotaur",
@@ -10783,12 +10915,6 @@
       "price": -10
     },
     {
-      "abr": "youthserum",
-      "category": "Items",
-      "defname": "MechSerumYouth",
-      "price": 2333
-    },
-    {
       "abr": "zygolophodon",
       "category": "Animals",
       "defname": "Zygolophodon",
@@ -10799,132 +10925,6 @@
       "category": "Items",
       "defname": "ZygolophodonTusk",
       "price": 1667
-    },
-    {
-      "abr": "advancedshieldbattery",
-      "category": "Manufactured",
-      "defname": "AdvancedShieldBattery",
-      "price": 692
-    },
-    {
-      "abr": "basicshieldbattery",
-      "category": "Manufactured",
-      "defname": "BasicShieldBattery",
-      "price": 280
-    },
-    {
-      "abr": "t1rangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T1RangedShieldBelt",
-      "price": 1108
-    },
-    {
-      "abr": "t2empresistrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2ERRangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t2extrabatteryrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2EBRangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t2fastrechargerangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2FRRangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t2meleesupportrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2MERangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t2overclockrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2OCRangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t2rangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2RangedShieldBelt",
-      "price": 2358
-    },
-    {
-      "abr": "t2reinforcedrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2RERangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t2sharpshooterrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T2SSRangedShieldBelt",
-      "price": 3025
-    },
-    {
-      "abr": "t3empresistrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3ERRangedShieldBelt",
-      "price": 7933
-    },
-    {
-      "abr": "t3extrabatteryrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3EBRangedShieldBelt",
-      "price": 7933
-    },
-    {
-      "abr": "t3fastrechargerangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3FastRangedShieldBelt",
-      "price": 7933
-    },
-    {
-      "abr": "t3meleesupportrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3MERangedShieldBelt",
-      "price": 7933
-    },
-    {
-      "abr": "t3overclockrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3OCRangedShieldBelt",
-      "price": 7933
-    },
-    {
-      "abr": "t3rangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3RangedShieldBelt",
-      "price": 7267
-    },
-    {
-      "abr": "t3reinforcedrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3RERangedShieldBelt",
-      "price": 7933
-    },
-    {
-      "abr": "electricrepairbench",
-      "category": "Production",
-      "defname": "RG_ElectricRepairTable",
-      "price": 692
-    },
-    {
-      "abr": "simplerepairbench",
-      "category": "Production",
-      "defname": "RG_SimpleRepairTable",
-      "price": 342
-    },
-    {
-      "abr": "t3sssharpshooterrangedshieldbelt",
-      "category": "Apparel",
-      "defname": "Apparel_T3SSRangedShieldBelt",
-      "price": 7933
     },
     {
       "abr": "zombrella",

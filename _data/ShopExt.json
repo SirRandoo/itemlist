@@ -2837,7 +2837,7 @@
       "name": "ravenous"
     },
     {
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
@@ -3522,29 +3522,6 @@
       "data": {
         "customName": false,
         "stats": [
-          "+50.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+5.40 Move speed",
-          "+10.0C Minimum comfortable temperature",
-          "+36.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+110% Global learning factor"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The heruan are a race of genetically modified xenohumans hailing from a remote glitterworld established during the First Wave of Exploration. Direct descendents of the people of Old Earth, the heruan people sent forth the Triune Expedition Fleets in the wake of the fall of Old Earth and the collapse of the Origin Systems, their mission to catalogue and preserve the breadth of humanity in order to keep their memories alive for posterity.\n\nHeruan society is centered around the Triune castes of Sun, Moon, and Star. These are not hereditary castes but ones adopted in adulthood; heruan adolescents are expected to aspire to and train themselves for future inclusion into a caste.\n\nHeruan are sleek and nimble with powerful legs. They are swift on foot and their powerful talons can be dangerous in a fight, but their relative frailty makes them poor combatants overall. Heruan are naturally inquisitive and eager to learn about unfamiliar people and cultures, preferring intellectual and creative pursuits over the prosecution of war. However, they understand that sometimes the only way to preserve the memory of others is to defend oneself against those who would destroy them.",
-      "defName": "Aelanna_Heruan",
-      "enabled": true,
-      "name": "heruan",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
@@ -3589,7 +3566,7 @@
       },
       "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nAmong the peoples of the Far East, it is believed that the Au Ra of the Azim Steppe were the first to keep livestock. They initially tamed horses to serve as mounts, and it was this achievement which led to the Au Ra's decisive rise to dominance over the plains. When the Raen subsequently departed their ancestral home, they took with them the knowledge of rearing and riding horses to the lands beyond the Steppe. After the horse, the Au Ra turned their hand to taming the yol, and these new mounts saw them expand their dominion to the skies above the Steppe. The Xaela have to this day not abandoned their ancestral home, living a nomadic life as hunters and gatherers on the vast Azim Steppe. With suitable grazing land sparse, conflict between individual tribes is common, with tribes forming, disbanding, and dying off in a ceaseless cycle of war and bloodshed. At last observation, Xaela tribes numbered fifty-one, though there is a high likelihood that recently splintered or merged tribes have rendered that count outdated. Of late, rumors swirl of a swelling of tribes who pledge spiritual allegiance to the Dusk Mother, and the abductions that have followed.",
       "defName": "ARR_AuRaXaela",
-      "enabled": false,
+      "enabled": true,
       "name": "au ra",
       "price": 2917
     },
@@ -3633,7 +3610,7 @@
       },
       "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Midlander clan comprises over half of Eorzea's total Hyur population. The name derives from the clan's long tradition of settling in low-lying regions, though in truth Midlander lines hail from a wide variety of ancestral homelands. They have established themselves in every city throughout the realm, and can be observed leading lives as diverse as their heritage.",
       "defName": "ARR_HyurMidlander",
-      "enabled": false,
+      "enabled": true,
       "name": "Hyur",
       "price": 2917
     },
@@ -3681,7 +3658,7 @@
       },
       "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Plainsfolk have settled in La Noscea and other regions where the ground is flat and easily cultivated. Though many live the life of farmers, it is not uncommon to see Plainsfolk residing in Limsa Lominsa, holding positions in the navy or working in the fisheries. They are well known for their relaxed and carefree demeanor.",
       "defName": "ARR_LalafellPlainsfolk",
-      "enabled": false,
+      "enabled": true,
       "name": "Lalafell",
       "price": 2917
     },
@@ -3729,7 +3706,7 @@
       },
       "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe self-proclaimed Seekers of the Sun are the diurnal clan of the Miqo'te race. Their preference for the warm light of day pervades all aspects of their culture, as is apparent in their devout reverence for Azeyma the Warden, goddess of the sun. Though relatively few in Eorzea, a small number of them have been accepted into everyday life by the other races in the port city of Limsa Lominsa. Others are known to make their home in the region of the Sagolii Desert.",
       "defName": "ARR_MiqoteSeeker",
-      "enabled": false,
+      "enabled": true,
       "name": "Miqo'te",
       "price": 2917
     },
@@ -3779,8 +3756,31 @@
       },
       "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nWith skin as fair as the snowcapped mountains towering above, the Veena clan make their homes in the forests lining the southwestern foothills of the Skatay Range. Like the members of their sister clan, the Veena live as hunters and gatherers, laboring not only to protect the woods, but to nurture them. As the winds of war swept up a number of those who left their mountain homes, many such hardened hunters chose to set out for the distant shores of Eorzea.",
       "defName": "ARR_VieraVeena",
-      "enabled": false,
+      "enabled": true,
       "name": "Viera",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+50.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+5.40 Move speed",
+          "+10.0C Minimum comfortable temperature",
+          "+36.0C Maximum comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+110% Global learning factor"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "The heruan are a race of genetically modified xenohumans hailing from a remote glitterworld established during the First Wave of Exploration. Direct descendents of the people of Old Earth, the heruan people sent forth the Triune Expedition Fleets in the wake of the fall of Old Earth and the collapse of the Origin Systems, their mission to catalogue and preserve the breadth of humanity in order to keep their memories alive for posterity.\n\nHeruan society is centered around the Triune castes of Sun, Moon, and Star. These are not hereditary castes but ones adopted in adulthood; heruan adolescents are expected to aspire to and train themselves for future inclusion into a caste.\n\nHeruan are sleek and nimble with powerful legs. They are swift on foot and their powerful talons can be dangerous in a fight, but their relative frailty makes them poor combatants overall. Heruan are naturally inquisitive and eager to learn about unfamiliar people and cultures, preferring intellectual and creative pursuits over the prosecution of war. However, they understand that sometimes the only way to preserve the memory of others is to defend oneself against those who would destroy them.",
+      "defName": "Aelanna_Heruan",
+      "enabled": true,
+      "name": "heruan",
       "price": 2917
     }
   ]
