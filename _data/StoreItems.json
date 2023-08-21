@@ -3112,13 +3112,13 @@
       "abr": "ovum",
       "category": "Misc",
       "defname": "HumanOvum",
-      "price": 83
+      "price": -10
     },
     {
       "abr": "embryo",
       "category": "Misc",
       "defname": "HumanEmbryo",
-      "price": 83
+      "price": -10
     },
     {
       "abr": "kidromper",

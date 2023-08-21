@@ -2484,7 +2484,7 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": false,
+      "enabled": true,
       "name": "human",
       "price": 2917
     },
@@ -2683,7 +2683,7 @@
       },
       "description": "Twi'leks were a species of tall humanoids whose skin spanned a vast array of\n      colors, including white, orange, yellow, green, pink, blue, purple, black, grey, and red.\n      Their most distinctive feature was the pair of prehensile appendages that sprouted from the\n      crown or base of their skulls, known as lekku, or head-tails.\n      Although Twi'leks normally had two lekku, some individuals had four. Super sensitive lekku\n      could grab and hold objects and react to the slightest touch. A damaged lekku could cause\n      serious harm to a Twi'lek's health.\n      The species had two sexes, male and female. While most males typically had ears with lobes\n      resembling those of humans, some males had cone-shaped hearing organs located in the same\n      place on the head, a trait customarily found in the females of the same species.\n      Although Twi'leks naturally had blunt teeth, males typically sharpened them to points.\n      Twi'leks were usually thin, although corpulent individuals were known to exist. Under normal\n      circumstances, they generally had a higher body temperature than other humanoid species.They\n      had even higher body temperatures when in fear.\n      Twi'leks and humans could breed to create a hybrid of the two species, such as when shortly\n      after the death of Kanan Jarrus, he and Hera Syndulla gave birth to a son who appeared mostly\n      human but inherited his mother's green pigment in his hair and ears. He was born after the\n      liberation of Lothal, which Syndulla lived to participate in.\n      https://starwars.fandom.com/wiki/Twi%27lek",
       "defName": "StarWarsRaces_Twilek",
-      "enabled": true,
+      "enabled": false,
       "name": "Twi'lek",
       "price": 2917
     },
