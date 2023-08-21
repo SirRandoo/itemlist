@@ -309,17 +309,7 @@
 		"abr": "equip",
 		"price": 1,
 		"karmatype": "Neutral"
-	},
-	{
-		"abr": "randomchildhood",
-		"price": 3000,
-		"karmatype": "Neutral"
-	},
-	{
-		"abr": "randomadulthood",
-		"price": 3000,
-		"karmatype": "Neutral"
 	}
 	],
-	"total": 64
+	"total": 62
 }
