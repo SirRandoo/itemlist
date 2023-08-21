@@ -1841,26 +1841,100 @@
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": -1,
-      "description": "Timmy is clumsy at manipulating aether. he can never hope to learn advanced jobs.",
+      "degree": 0,
+      "description": "Timmy has a gentle and cool-headed nature. he is less likely to insult others or starts fights, and will sometimes cheer up others.",
       "stats": [
-        "-1 maximum job count"
+        "-20% mental break threshold"
       ],
-      "conflicts": [],
+      "conflicts": [
+        "abrasive",
+        "kind",
+        "psychopath"
+      ],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
+        "conflicts": [
+          "abrasive",
+          "kind",
+          "psychopath"
+        ],
         "stats": [
-          "-1 maximum job count"
+          "-20% mental break threshold"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
+        "mod": "Big and Small + Prerequisites Framework",
         "karmaTypeForAdding": null
       },
-      "defName": "ARR_ClassOffset",
-      "name": "inept"
+      "defName": "BS_Gentle",
+      "name": "gentle"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3000,
+      "removePrice": 4000,
+      "degree": 0,
+      "description": "Timmy is large enough to use oversized weapons.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small + Prerequisites Framework",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_Giant",
+      "name": "giant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 25000,
+      "removePrice": 4000,
+      "degree": 1,
+      "description": "Timmy has the ability to feel the force that surrounds us.\n\n(Star Wars - The Force)",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Star Wars - The Force",
+        "karmaTypeForAdding": null
+      },
+      "defName": "PJ_ForceSensitive",
+      "name": "forcesensitive"
+    },
+    {
+      "canAdd": false,
+      "canRemove": true,
+      "addPrice": 3000,
+      "removePrice": 4000,
+      "degree": 2,
+      "description": "Timmy has begun to control the force, but requires further training and guidance.\n\n(Star Wars - The Force)",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Star Wars - The Force",
+        "karmaTypeForAdding": null
+      },
+      "defName": "PJ_ForceSensitive",
+      "name": "forceapprentice"
     },
     {
       "canAdd": true,
@@ -1868,57 +1942,175 @@
       "addPrice": 3000,
       "removePrice": 4000,
       "degree": 1,
-      "description": "Timmy is talented at manipulating aether. he can learn more classes than normal.",
-      "stats": [
-        "+1 maximum class count",
-        "+1 maximum job count"
+      "description": "Timmy Has begun the journey to becoming a Jedi Knight.\n\n(Star Wars - The Force)",
+      "stats": [],
+      "conflicts": [
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
       ],
-      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
-        "stats": [
-          "+1 maximum class count",
-          "+1 maximum job count"
+        "conflicts": [
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
         ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "ARR_ClassOffset",
-      "name": "adept"
+      "defName": "PJ_JediTrait",
+      "name": "jedi"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": -1,
-      "description": "Timmy has weak aether reserves. he cannot cast magic as often or as effectively as others.",
-      "stats": [
-        "-2000 magic points",
-        "x90% aetherial incantation",
-        "x90% aetherial geometry"
+      "degree": 2,
+      "description": "Timmy has attained the rank of Knight of the Jedi Order.\n\n(Star Wars - The Force)",
+      "stats": [],
+      "conflicts": [
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
       ],
-      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
-        "stats": [
-          "-2000 magic points",
-          "x90% aetherial incantation",
-          "x90% aetherial geometry"
+        "conflicts": [
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
         ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "ARR_MagicPointOffset",
-      "name": "stifled"
+      "defName": "PJ_JediTrait",
+      "name": "jediknight"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3000,
+      "removePrice": 4000,
+      "degree": 3,
+      "description": "Timmy is among the most respected of the Jedi Order, a true Master.\n\n(Star Wars - The Force)",
+      "stats": [],
+      "conflicts": [
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Star Wars - The Force",
+        "karmaTypeForAdding": null
+      },
+      "defName": "PJ_JediTrait",
+      "name": "jedimaster"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3000,
+      "removePrice": 4000,
+      "degree": 4,
+      "description": "Timmy is ranked among the elite Jedi, those who are fit to serve on the Council.\n\n(Star Wars - The Force)",
+      "stats": [],
+      "conflicts": [
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Star Wars - The Force",
+        "karmaTypeForAdding": null
+      },
+      "defName": "PJ_JediTrait",
+      "name": "jediconsular"
     },
     {
       "canAdd": true,
@@ -1926,1573 +2118,351 @@
       "addPrice": 3000,
       "removePrice": 4000,
       "degree": 1,
-      "description": "Timmy has voluminous aether reserves. he can cast magic with greater ease and potency than others.",
-      "stats": [
-        "+2000 magic points",
-        "x110% aetherial incantation",
-        "x110% aetherial geometry"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+2000 magic points",
-          "x110% aetherial incantation",
-          "x110% aetherial geometry"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
-        "karmaTypeForAdding": null
-      },
-      "defName": "ARR_MagicPointOffset",
-      "name": "wellspring"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy finds it difficult to focus on distant targets, and prefer to get up close and personal.",
-      "stats": [
-        "-2 shooting",
-        "+2 melee",
-        "-2.0 shooting accuracy",
-        "+15% aiming time",
-        "+2.0 melee hit chance",
-        "+2.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "farsighted"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "farsighted"
-        ],
-        "stats": [
-          "-2 shooting",
-          "+2 melee",
-          "-2.0 shooting accuracy",
-          "+15% aiming time",
-          "+2.0 melee hit chance",
-          "+2.0 melee dodge chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Nearsighted",
-      "name": "nearsighted"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy could spot a target from nearly a hundred meters, yet still somehow walk into walls.",
-      "stats": [
-        "+2 shooting",
-        "-2 melee",
-        "+2.0 shooting accuracy",
-        "-15% aiming time",
-        "-2.0 melee hit chance",
-        "-2.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "nearsighted"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "nearsighted"
-        ],
-        "stats": [
-          "+2 shooting",
-          "-2 melee",
-          "+2.0 shooting accuracy",
-          "-15% aiming time",
-          "-2.0 melee hit chance",
-          "-2.0 melee dodge chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Farsighted",
-      "name": "farsighted"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy's movements are smooth and graceful.",
-      "stats": [
-        "+2.0 melee dodge chance",
-        "+0.10 move speed"
-      ],
-      "conflicts": [
-        "stiff"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "stiff"
-        ],
-        "stats": [
-          "+2.0 melee dodge chance",
-          "+0.10 move speed"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Athletic",
-      "name": "athletic"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is so rigid, it's almost like he is souless.",
-      "stats": [
-        "-2.0 melee dodge chance",
-        "-0.10 move speed"
-      ],
-      "conflicts": [
-        "athletic"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "athletic"
-        ],
-        "stats": [
-          "-2.0 melee dodge chance",
-          "-0.10 move speed"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Stiff",
-      "name": "stiff"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy takes care of his personal hygiene.",
-      "stats": [
-        "-10.00% food poison chance"
-      ],
-      "conflicts": [
-        "poorhygiene"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "poorhygiene"
-        ],
-        "stats": [
-          "-10.00% food poison chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_GoodHygiene",
-      "name": "goodhygiene"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy doesn't care about his hygiene, and sometimes get sick from bad food.",
-      "stats": [
-        "+10.00% food poison chance"
-      ],
-      "conflicts": [
-        "goodhygiene"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "goodhygiene"
-        ],
-        "stats": [
-          "+10.00% food poison chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_PoorHygiene",
-      "name": "poorhygiene"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy often gets his way with things.",
-      "stats": [
-        "+25.00% negotiation ability",
-        "+25.00% Arrest success chance"
-      ],
-      "conflicts": [
-        "unconvincing"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "unconvincing"
-        ],
-        "stats": [
-          "+25.00% negotiation ability",
-          "+25.00% Arrest success chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Persuasive",
-      "name": "persuasive"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has never won a debate in his life.",
-      "stats": [
-        "-25.00% negotiation ability",
-        "-25.00% Arrest success chance"
-      ],
-      "conflicts": [
-        "persuasive"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "persuasive"
-        ],
-        "stats": [
-          "-25.00% negotiation ability",
-          "-25.00% Arrest success chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Unconvincing",
-      "name": "unconvincing"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has been in plenty of fights since he was a kid, and had built up a tolerance to injury and pain as a result.",
-      "stats": [
-        "-10% incoming damage multiplier",
-        "+5% pain shock threshold"
-      ],
-      "conflicts": [
-        "fragile",
-        "feeble"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "fragile",
-          "feeble"
-        ],
-        "stats": [
-          "-10% incoming damage multiplier",
-          "+5% pain shock threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Resilient",
-      "name": "resilient"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy lived a pampered life until now, and is unused to the brutal challenges present out in the Rim.",
-      "stats": [
-        "+10% incoming damage multiplier",
-        "-5% pain shock threshold"
-      ],
-      "conflicts": [
-        "resilient",
-        "hardy",
-        "tough"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "resilient",
-          "hardy",
-          "tough"
-        ],
-        "stats": [
-          "+10% incoming damage multiplier",
-          "-5% pain shock threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Fragile",
-      "name": "fragile"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy always tackle his tasks with great enthusism.",
-      "stats": [
-        "+20% global work speed",
-        "+0.15 move speed"
-      ],
-      "conflicts": [
-        "sluggish"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "sluggish"
-        ],
-        "stats": [
-          "+20% global work speed",
-          "+0.15 move speed"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Energetic",
-      "name": "energetic"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is slow. Sooo... slooow...",
-      "stats": [
-        "-20% global work speed",
-        "-0.15 move speed"
-      ],
-      "conflicts": [
-        "energetic"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "energetic"
-        ],
-        "stats": [
-          "-20% global work speed",
-          "-0.15 move speed"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Sluggish",
-      "name": "sluggish"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy always sleep like a baby.",
-      "stats": [
-        "+25% rest rate multiplier"
-      ],
-      "conflicts": [
-        "restless"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "restless"
-        ],
-        "stats": [
-          "+25% rest rate multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Restful",
-      "name": "restful"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy often has a difficult time falling asleep.",
-      "stats": [
-        "-25% rest rate multiplier"
-      ],
-      "conflicts": [
-        "restful"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "restful"
-        ],
-        "stats": [
-          "-25% rest rate multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Restless",
-      "name": "restless"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is quite productive when it comes to work.",
-      "stats": [
-        "+20% global work speed",
-        "+20% global learning factor"
-      ],
-      "conflicts": [
-        "inefficient"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "inefficient"
-        ],
-        "stats": [
-          "+20% global work speed",
-          "+20% global learning factor"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Efficient",
-      "name": "efficient"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is somewhat of a bottleneck in the colony.",
-      "stats": [
-        "-20% global work speed",
-        "-20% global learning factor"
-      ],
-      "conflicts": [
-        "efficient"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "efficient"
-        ],
-        "stats": [
-          "-20% global work speed",
-          "-20% global learning factor"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Inefficient",
-      "name": "inefficient"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is brave, he would stand his where others would scramble and run.",
-      "stats": [
-        "-5% mental break threshold",
-        "+5% pain shock threshold"
-      ],
-      "conflicts": [
-        "craven"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "craven"
-        ],
-        "stats": [
-          "-5% mental break threshold",
-          "+5% pain shock threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Valiant",
-      "name": "valiant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "When there's a fight, Timmy is the first to run.",
-      "stats": [
-        "+5% mental break threshold",
-        "-5% pain shock threshold"
-      ],
-      "conflicts": [
-        "valiant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "valiant"
-        ],
-        "stats": [
-          "+5% mental break threshold",
-          "-5% pain shock threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Craven",
-      "name": "craven"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy likes a good fight, he will sometimes start a fight just because he can.",
-      "stats": [
-        "+5% mental break threshold"
-      ],
-      "conflicts": [
-        "composed"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "composed"
-        ],
-        "stats": [
-          "+5% mental break threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Rowdy",
-      "name": "rowdy"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is usually calm and collected.",
-      "stats": [
-        "-5% mental break threshold"
-      ],
-      "conflicts": [
-        "rowdy"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "rowdy"
-        ],
-        "stats": [
-          "-5% mental break threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Composed",
-      "name": "composed"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is more comfortable being in hot environment than his peers.",
-      "stats": [
-        "+3.0C Maximum comfortable temperature"
-      ],
-      "conflicts": [
-        "heatintolerant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "heatintolerant"
-        ],
-        "stats": [
-          "+3.0C Maximum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_HeatTolerant",
-      "name": "heattolerant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy does not like being in the heat.",
-      "stats": [
-        "-3.0C Maximum comfortable temperature"
-      ],
-      "conflicts": [
-        "heattolerant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "heattolerant"
-        ],
-        "stats": [
-          "-3.0C Maximum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_HeatIntolerant",
-      "name": "heatintolerant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is more comfortable being in cold environment than his peers.",
-      "stats": [
-        "-3.0C Minimum comfortable temperature"
-      ],
-      "conflicts": [
-        "coldintolerant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "coldintolerant"
-        ],
-        "stats": [
-          "-3.0C Minimum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_ColdTolerant",
-      "name": "coldtolerant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy does not like being in the cold.",
-      "stats": [
-        "+3.0C Minimum comfortable temperature"
-      ],
-      "conflicts": [
-        "coldtolerant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "coldtolerant"
-        ],
-        "stats": [
-          "+3.0C Minimum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_ColdIntolerant",
-      "name": "coldintolerant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has a well built body, people around he find that rather attractive.",
-      "stats": [
-        "+5 carrying capacity",
-        "+1.0 beauty"
-      ],
-      "conflicts": [
-        "frail"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "frail"
-        ],
-        "stats": [
-          "+5 carrying capacity",
-          "+1.0 beauty"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Muscular",
-      "name": "muscular"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy looks a bit fragile, but not in a lovable way.",
-      "stats": [
-        "-5 carrying capacity",
-        "-1.0 beauty"
-      ],
-      "conflicts": [
-        "muscular"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "muscular"
-        ],
-        "stats": [
-          "-5 carrying capacity",
-          "-1.0 beauty"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Frail",
-      "name": "frail"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy doesn't eat or drink much.",
+      "description": "Timmy Has begun the journey to the Dark side of the force.\n\n(Star Wars - The Force)",
       "stats": [],
       "conflicts": [
-        "ravenous"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "ravenous"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
         ],
         "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_Abstinent",
-      "name": "abstinent"
+      "defName": "PJ_SithTrait",
+      "name": "sith"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has a bottomless pit for a stomach.",
+      "degree": 2,
+      "description": "Timmy is devoted to the dark side, spreading terror and flaring passions in their wake.\n\n(Star Wars - The Force)",
       "stats": [],
       "conflicts": [
-        "abstinent"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "abstinent"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
         ],
         "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_Ravenous",
-      "name": "ravenous"
+      "defName": "PJ_SithTrait",
+      "name": "sithinquisitor"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is naturally talented, he gets a headstart before everyone else.",
-      "stats": [
-        "+4 shooting",
-        "+4 melee",
-        "+4 construction",
-        "+4 mining",
-        "+4 cooking",
-        "+4 plants",
-        "+4 animals",
-        "+4 crafting",
-        "+4 artistic",
-        "+4 medical",
-        "+4 social",
-        "+4 intellectual"
-      ],
+      "degree": 3,
+      "description": "Timmy is among the most feared in the galaxy, the Dark Lords of the Sith.\n\n(Star Wars - The Force)",
+      "stats": [],
       "conflicts": [
-        "incompetent"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "incompetent"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
         ],
-        "stats": [
-          "+4 shooting",
-          "+4 melee",
-          "+4 construction",
-          "+4 mining",
-          "+4 cooking",
-          "+4 plants",
-          "+4 animals",
-          "+4 crafting",
-          "+4 artistic",
-          "+4 medical",
-          "+4 social",
-          "+4 intellectual"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_Gifted",
-      "name": "gifted"
+      "defName": "PJ_SithTrait",
+      "name": "sithlord"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is someone everyone loves to hate.",
-      "stats": [
-        "-4 shooting",
-        "-4 melee",
-        "-4 construction",
-        "-4 mining",
-        "-4 cooking",
-        "-4 plants",
-        "-4 animals",
-        "-4 crafting",
-        "-4 artistic",
-        "-4 medical",
-        "-4 social",
-        "-4 intellectual"
-      ],
+      "degree": 4,
+      "description": "Timmy is attuned to the dark side of the force, able to tap near-limitless power.\n\n(Star Wars - The Force)",
+      "stats": [],
       "conflicts": [
-        "gifted"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "graypadawan",
+        "grayjedi",
+        "graymaster",
+        "graysage",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "gifted"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "graypadawan",
+          "grayjedi",
+          "graymaster",
+          "graysage",
+          "forcesensitive",
+          "forceapprentice"
         ],
-        "stats": [
-          "-4 shooting",
-          "-4 melee",
-          "-4 construction",
-          "-4 mining",
-          "-4 cooking",
-          "-4 plants",
-          "-4 animals",
-          "-4 crafting",
-          "-4 artistic",
-          "-4 medical",
-          "-4 social",
-          "-4 intellectual"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_Incompetent",
-      "name": "incompetent"
+      "defName": "PJ_SithTrait",
+      "name": "sithmaster"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy takes great care in the preparation of food, he never skip a step just to have an early meal.",
-      "stats": [
-        "-0.8 cooking speed",
-        "-10.00% food poison chance"
-      ],
+      "degree": 1,
+      "description": "Timmy is exploring the balance of the Force.\n\n(Star Wars - The Force)",
+      "stats": [],
       "conflicts": [
-        "impatientcook"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "impatientcook"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "forcesensitive",
+          "forceapprentice"
         ],
-        "stats": [
-          "-0.8 cooking speed",
-          "-10.00% food poison chance"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_PatientCook",
-      "name": "patientcook"
+      "defName": "PJ_GrayTrait",
+      "name": "graypadawan"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy couldn't care less about following the recipes as long as he can get food into his mouth in record time.",
-      "stats": [
-        "+0.8 cooking speed",
-        "+10.00% food poison chance"
-      ],
+      "degree": 2,
+      "description": "Timmy is devoted to maintaining the balance of the Force.\n\n(Star Wars - The Force)",
+      "stats": [],
       "conflicts": [
-        "patientcook"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "patientcook"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "forcesensitive",
+          "forceapprentice"
         ],
-        "stats": [
-          "+0.8 cooking speed",
-          "+10.00% food poison chance"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_ImpatientCook",
-      "name": "impatientcook"
+      "defName": "PJ_GrayTrait",
+      "name": "grayjedi"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy lives a healthy lifestyle, and wakes up feeling energetic and cheerful.",
-      "stats": [
-        "+10% rest rate multiplier",
-        "+10% immunity gain speed",
-        "+5% toxic resistance",
-        "+5% toxic environment resistance",
-        "+1.0C Maximum comfortable temperature",
-        "-1.0C Minimum comfortable temperature"
-      ],
+      "degree": 3,
+      "description": "Timmy is a master Jedi, devoted to the 'living Force'.\n\n(Star Wars - The Force)",
+      "stats": [],
       "conflicts": [
-        "chronicallyill"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "chronicallyill"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "forcesensitive",
+          "forceapprentice"
         ],
-        "stats": [
-          "+10% rest rate multiplier",
-          "+10% immunity gain speed",
-          "+5% toxic resistance",
-          "+5% toxic environment resistance",
-          "+1.0C Maximum comfortable temperature",
-          "-1.0C Minimum comfortable temperature"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_Healthy",
-      "name": "healthy"
+      "defName": "PJ_GrayTrait",
+      "name": "graymaster"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3000,
       "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy gets ill quite often, and seem to require more effort to get out of bed than the average person.",
-      "stats": [
-        "-10% rest rate multiplier",
-        "-10% immunity gain speed",
-        "-5% toxic resistance",
-        "-5% toxic environment resistance",
-        "-1.0C Maximum comfortable temperature",
-        "+1.0C Minimum comfortable temperature"
-      ],
+      "degree": 4,
+      "description": "Timmy is attuned to the Living Force. he sees HIMself as an extension of it's will.\n\n(Star Wars - The Force)",
+      "stats": [],
       "conflicts": [
-        "healthy"
+        "jedi",
+        "jediknight",
+        "jedimaster",
+        "jediconsular",
+        "sith",
+        "sithinquisitor",
+        "sithlord",
+        "sithmaster",
+        "forcesensitive",
+        "forceapprentice"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "healthy"
+          "jedi",
+          "jediknight",
+          "jedimaster",
+          "jediconsular",
+          "sith",
+          "sithinquisitor",
+          "sithlord",
+          "sithmaster",
+          "forcesensitive",
+          "forceapprentice"
         ],
-        "stats": [
-          "-10% rest rate multiplier",
-          "-10% immunity gain speed",
-          "-5% toxic resistance",
-          "-5% toxic environment resistance",
-          "-1.0C Maximum comfortable temperature",
-          "+1.0C Minimum comfortable temperature"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
+        "mod": "Star Wars - The Force",
         "karmaTypeForAdding": null
       },
-      "defName": "RT_ChronicallyIll",
-      "name": "chronicallyill"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is comfortable in all seasons.",
-      "stats": [
-        "+3.0C Maximum comfortable temperature",
-        "-3.0C Minimum comfortable temperature"
-      ],
-      "conflicts": [
-        "temperatureintolerant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "temperatureintolerant"
-        ],
-        "stats": [
-          "+3.0C Maximum comfortable temperature",
-          "-3.0C Minimum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_TemperatureTolerant",
-      "name": "temperaturetolerant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy thinks that summer is way too hot, and winter is way too cold.",
-      "stats": [
-        "-3.0C Maximum comfortable temperature",
-        "+3.0C Minimum comfortable temperature"
-      ],
-      "conflicts": [
-        "temperaturetolerant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "temperaturetolerant"
-        ],
-        "stats": [
-          "-3.0C Maximum comfortable temperature",
-          "+3.0C Minimum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_TemperatureIntolerant",
-      "name": "temperatureintolerant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has good reaction time and finds physical activities less stressful than his peers.",
-      "stats": [
-        "+2.0 shooting accuracy",
-        "+2.0 melee hit chance",
-        "+2.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "clumsy"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "clumsy"
-        ],
-        "stats": [
-          "+2.0 shooting accuracy",
-          "+2.0 melee hit chance",
-          "+2.0 melee dodge chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Coordinated",
-      "name": "coordinated"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is easily distracted and often mess up when it comes to physical activities.",
-      "stats": [
-        "-2.0 shooting accuracy",
-        "-2.0 melee hit chance",
-        "-2.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "coordinated"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "coordinated"
-        ],
-        "stats": [
-          "-2.0 shooting accuracy",
-          "-2.0 melee hit chance",
-          "-2.0 melee dodge chance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Clumsy",
-      "name": "clumsy"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is what people refer to as a 'stronk boi'.",
-      "stats": [
-        "-10% incoming damage multiplier",
-        "+10% immunity gain speed",
-        "+10% toxic resistance",
-        "+10% toxic environment resistance",
-        "+1.0C Maximum comfortable temperature",
-        "-1.0C Minimum comfortable temperature"
-      ],
-      "conflicts": [
-        "fragile",
-        "feeble"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "fragile",
-          "feeble"
-        ],
-        "stats": [
-          "-10% incoming damage multiplier",
-          "+10% immunity gain speed",
-          "+10% toxic resistance",
-          "+10% toxic environment resistance",
-          "+1.0C Maximum comfortable temperature",
-          "-1.0C Minimum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Hardy",
-      "name": "hardy"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy is so fragile, it doesn't take much to take him out of action.",
-      "stats": [
-        "+10% incoming damage multiplier",
-        "-10% immunity gain speed",
-        "-10% toxic resistance",
-        "-10% toxic environment resistance",
-        "-1.0C Maximum comfortable temperature",
-        "+1.0C Minimum comfortable temperature"
-      ],
-      "conflicts": [
-        "resilient",
-        "hardy",
-        "tough"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "resilient",
-          "hardy",
-          "tough"
-        ],
-        "stats": [
-          "+10% incoming damage multiplier",
-          "-10% immunity gain speed",
-          "-10% toxic resistance",
-          "-10% toxic environment resistance",
-          "-1.0C Maximum comfortable temperature",
-          "+1.0C Minimum comfortable temperature"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Feeble",
-      "name": "feeble"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Whether by sheer optimism or a force of personality, Timmy always manages to see the bright side of life.",
-      "stats": [
-        "+3 artistic"
-      ],
-      "conflicts": [
-        "constantlybemused"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "constantlybemused"
-        ],
-        "stats": [
-          "+3 artistic"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_EasilyAmused",
-      "name": "easilyamused"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Life to Timmy is an endless, boring joke that he just can't get away from.",
-      "stats": [
-        "-3 artistic"
-      ],
-      "conflicts": [
-        "easilyamused"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "easilyamused"
-        ],
-        "stats": [
-          "-3 artistic"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_ConstantlyBemused",
-      "name": "constantlybemused"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has an interest in understanding the workings of the world, and is able to apply his knowledge in daily life.",
-      "stats": [
-        "+4 intellectual",
-        "-5% mental break threshold"
-      ],
-      "conflicts": [
-        "ignorant"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "ignorant"
-        ],
-        "stats": [
-          "+4 intellectual",
-          "-5% mental break threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Inquisitive",
-      "name": "inquisitive"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Gaps in Timmy's education and general lack of curiosity makes life often stressful for him.",
-      "stats": [
-        "-4 intellectual",
-        "+5% mental break threshold"
-      ],
-      "conflicts": [
-        "inquisitive"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "inquisitive"
-        ],
-        "stats": [
-          "-4 intellectual",
-          "+5% mental break threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Ignorant",
-      "name": "ignorant"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy likes to keep his surroundings clean, and is used to being in an organised environment.",
-      "stats": [
-        "+5% rest rate multiplier",
-        "+5% global work speed",
-        "+15% cleaning speed multiplier"
-      ],
-      "conflicts": [
-        "messy"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "messy"
-        ],
-        "stats": [
-          "+5% rest rate multiplier",
-          "+5% global work speed",
-          "+15% cleaning speed multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Tidy",
-      "name": "tidy"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy often neglect their surroundings, making it difficult for him to get work done.",
-      "stats": [
-        "-5% rest rate multiplier",
-        "-5% global work speed",
-        "-15% cleaning speed multiplier"
-      ],
-      "conflicts": [
-        "tidy"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "tidy"
-        ],
-        "stats": [
-          "-5% rest rate multiplier",
-          "-5% global work speed",
-          "-15% cleaning speed multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimTraits - General Traits",
-        "karmaTypeForAdding": null
-      },
-      "defName": "RT_Messy",
-      "name": "messy"
+      "defName": "PJ_GrayTrait",
+      "name": "graysage"
     }
   ],
   "races": [
@@ -3522,74 +2492,67 @@
       "data": {
         "customName": false,
         "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+12.0C Minimum comfortable temperature",
-          "+24.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.0 Shooting accuracy",
-          "+1.0 Melee hit chance",
-          "+110.00% Negotiation ability",
-          "+110.00% Social impact"
+          "+30.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+4.50 Move speed",
+          "+8.0C Minimum comfortable temperature",
+          "+50.0C Maximum comfortable temperature",
+          "+25 Leather amount",
+          "+100% Psychic sensitivity",
+          "+100% Mining speed"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nBelieving themselves the children of the Dawn Father, the forebears of the Auri Raen left behind their homeland to settle across Othard. They were received with hatred and hostility in the early years, until a prominent warlord of Yanxia, impressed with their valor, forged an alliance with the strange race and took them on as retainers. No matter where they came to be, with their innate martial prowess, they readily found employment as soldiers and carved out places for themselves within spheres of authority. Before long, the Raen had assumed a prominent role as warriors in service of countless great warlords, and their members spread across the Far East, from the lands of Nagxia and beyond the Ruby Sea to the isles of Hingashi, where they earned a reputation as legendary swordsmen. Yet not all chose this life. Some embraced a life of tranquility and solitude, settling in the deep valleys of Othard's mountainous eastern reaches. Others still desired to leave conflict behind completely, and availing themselves of Kojin wisdom, they created a great bubble of air at the bottom of the Ruby Sea, within which they built a village—Sui-no-Sato. To govern their fledgling society, they founded a system of hereditary rule led by the Ruby Princess, under whose guidance they live a life of seclusion, away from the turmoils of the surface.",
-      "defName": "ARR_AuRaRaen",
+      "description": "Jawas are a sentient species of meter-tall humanoids native to the Outer Rim desert world of Tatooine.",
+      "defName": "Alien_Jawa",
       "enabled": true,
-      "name": "au ra",
-      "price": 2917
+      "name": "Jawa",
+      "price": 3333
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+12.0C Minimum comfortable temperature",
-          "+24.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.0 Shooting accuracy",
-          "+1.0 Melee hit chance",
-          "+110.00% Tame animal chance",
-          "+110.00% Train animal chance"
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+4.50 Move speed",
+          "+8.0C Minimum comfortable temperature",
+          "+50.0C Maximum comfortable temperature",
+          "+25 Leather amount",
+          "+100% Psychic sensitivity",
+          "+100% Mining speed"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nAmong the peoples of the Far East, it is believed that the Au Ra of the Azim Steppe were the first to keep livestock. They initially tamed horses to serve as mounts, and it was this achievement which led to the Au Ra's decisive rise to dominance over the plains. When the Raen subsequently departed their ancestral home, they took with them the knowledge of rearing and riding horses to the lands beyond the Steppe. After the horse, the Au Ra turned their hand to taming the yol, and these new mounts saw them expand their dominion to the skies above the Steppe. The Xaela have to this day not abandoned their ancestral home, living a nomadic life as hunters and gatherers on the vast Azim Steppe. With suitable grazing land sparse, conflict between individual tribes is common, with tribes forming, disbanding, and dying off in a ceaseless cycle of war and bloodshed. At last observation, Xaela tribes numbered fifty-one, though there is a high likelihood that recently splintered or merged tribes have rendered that count outdated. Of late, rumors swirl of a swelling of tribes who pledge spiritual allegiance to the Dusk Mother, and the abductions that have followed.",
-      "defName": "ARR_AuRaXaela",
+      "description": "Tusken Raiders are a culture of nomadic, primitive sentients indigenous to Tatooine, where they were often hostile to local settlers.",
+      "defName": "Alien_TuskenRaider",
       "enabled": true,
-      "name": "au ra",
-      "price": 2917
+      "name": "Tusken Raider",
+      "price": 3333
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+70% Flammability",
+          "+100% Flammability",
           "+$1750 Market value",
           "+4.60 Move speed",
           "+16.0C Minimum comfortable temperature",
           "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
+          "+75 Leather amount"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Highlander name comes from the clan's history of dominion over the mountains of Gyr Abania. Compared to their Midlander brethren, the Highlanders are noticeably larger in build and musculature. Following the fall of their ancestral homeland of Ala Mhigo, many have sought refuge in the bustling mercantile nation of Ul'dah.",
-      "defName": "ARR_HyurHighlander",
+      "description": "The Gungans are the native inhabitants of the planet Naboo, an amphibious species with hardy lungs capable of holding breath for extended periods. Their skeletal structure is extremely flexible, as it is made of cartilaginous material rather than hard bone. The long Gungan face has a tough yet flexible bill for burrowing and rooting out food. They have long muscular tongues with which they scoop mollusks and lesser amphibians from the Naboo swamps. While most spacefarers would dismiss Gungans as primitives, they have developed an advanced technology.",
+      "defName": "GunganRace_Gungan",
       "enabled": true,
-      "name": "Hyur",
+      "name": "Gungan(Otolla)",
       "price": 2917
     },
     {
@@ -3608,10 +2571,10 @@
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Midlander clan comprises over half of Eorzea's total Hyur population. The name derives from the clan's long tradition of settling in low-lying regions, though in truth Midlander lines hail from a wide variety of ancestral homelands. They have established themselves in every city throughout the realm, and can be observed leading lives as diverse as their heritage.",
-      "defName": "ARR_HyurMidlander",
+      "description": "The Ankura were a race of the Gungan species. Unlike the Otolla, Ankuras had hooded eyes, broad wide heads, and green skin. Like the Otolla, they had long ears, which were sometimes tied together behind the head.",
+      "defName": "GunganRace_Gungan_Ankura",
       "enabled": true,
-      "name": "Hyur",
+      "name": "Gungan(Ankura)",
       "price": 2917
     },
     {
@@ -3621,21 +2584,19 @@
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
-          "+4.40 Move speed",
+          "+4.60 Move speed",
           "+16.0C Minimum comfortable temperature",
           "+26.0C Maximum comfortable temperature",
           "+75 Leather amount",
-          "+3 Honor value",
-          "+110% Animal gather speed",
-          "+110% Animal gather yield"
+          "+3 Honor value"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Dunesfolk can be found on the scorching sands of Thanalan and other such arid areas. As the founders of the merchant city of Ul'dah, they are famous for their obsession with commerce. A natural inclination to transform ideas into action has served the Dunesfolk well in their business dealings.",
-      "defName": "ARR_LalafellDunesfolk",
+      "description": "Wookiees were a tall species of furry humanoids from the planet Kashyyyk, who could\n      grow to a height of nearly three meters. They were covered from head to toe in a thick, shaggy\n      coat of hair with water-shedding properties that notably came in shades of brown, black, gray,\n      and white. The species had two sexes, female and male. The latter grew long beards in adult\n      life. The average male weighed 150 kilograms while the average female weighed 100 kilograms.\n      The Wookiees eye color ranged from blue to brown. Wookiees were big eaters, with the average\n      adult requiring 3,500-6,000 calories a day of food. Their diet consisted of wild plants,\n      berries, meat, and spices. They preferred their spices to be hot. While Wookiees did not like\n      eating blosphi extract, it provided them with enough nutrition to survive. The literary\n      collective term for Wookiees was a grove of Wookiees. Many of their kind were known to\n      understand Galactic Basic but were unable to speak it due to their species' vocal structure.\n      Wookiees had extendable claws which they used for climbing; using them for anything else\n      violated the Wookiee honor code. Despite their fearsome appearance and volatile temperament,\n      Wookiees were regarded as intelligent, sophisticated, loyal and trusting. When angered,\n      Wookiees were known to descend into a berserker rage. Wookiees had an average lifespan of 400\n      standard years, and they appeared not to age over a span of fifty years. Their lifespans\n      dramatically decreased due to the harsh working conditions in the spice mines of Kessel.\n      During their prime growing years, Wookiees were often hungry, forcing them to eat whenever\n      they could. They could learn to understand other languages, like Galactic Basic Standard, but\n      they were physically unable to speak them due to their strange vocal chords. To those who had\n      not learned to understand Shyriiwook, the Wookiee language, it appeared they spoke in a series\n      of growls and purrs. Although a rare phenomenon, Force-sensitive Wookiees were possible and\n      some joined the ranks of the Jedi, a source of great pride to their people.\n      https://starwars.fandom.com/wiki/Wookiee",
+      "defName": "StarWarsRaces_Wookiee",
       "enabled": true,
-      "name": "Lalafell",
+      "name": "Wookiee",
       "price": 2917
     },
     {
@@ -3645,21 +2606,19 @@
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
-          "+4.40 Move speed",
+          "+4.60 Move speed",
           "+16.0C Minimum comfortable temperature",
           "+26.0C Maximum comfortable temperature",
           "+75 Leather amount",
-          "+3 Honor value",
-          "+110% Plant work speed",
-          "+110% Plant harvest yield"
+          "+3 Honor value"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Plainsfolk have settled in La Noscea and other regions where the ground is flat and easily cultivated. Though many live the life of farmers, it is not uncommon to see Plainsfolk residing in Limsa Lominsa, holding positions in the navy or working in the fisheries. They are well known for their relaxed and carefree demeanor.",
-      "defName": "ARR_LalafellPlainsfolk",
+      "description": "Native to the Expansion Region planet Shili but later found throughout the galaxy,\n      the Togruta were a species of sentient humanoids whose skin spanned a vast array of colors,\n      including, but not limited to, orange, red, white, and yellow.\n      These characteristics were a result of evolution; Togruta coloration was helpful as a method\n      of camouflage from predators.\n      Their most notable features were the large organic head formations upon their heads; two large\n      cone-like horns called montrals atop their skull, and three lekku, also known as headtails,\n      that sprouted downward.\n      Both a Togruta's lekku and montrals tended to grow until they reached maturity, with females\n      generally having longer lekku than the males.\n      The male's montrals, however, were more branched than the females. A Togruta's montrals\n      allowed them to sense the movement of objects around them through echolocation, and could\n      sense up to 82 feet.\n      https://starwars.fandom.com/wiki/Togruta",
+      "defName": "StarWarsRaces_Togruta",
       "enabled": true,
-      "name": "Lalafell",
+      "name": "Togruta",
       "price": 2917
     },
     {
@@ -3669,21 +2628,19 @@
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
-          "+5.00 Move speed",
-          "+18.0C Minimum comfortable temperature",
-          "+28.0C Maximum comfortable temperature",
+          "+4.60 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
           "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+105% Hunting stealth"
+          "+3 Honor value"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe nocturnal among the Miqo'te have dubbed themselves the Keepers of the Moon. Shying from the garish light of day, they revel in the shroud of night, with most offering their piety to Menphina the Lover, goddess of the moon. Their tradition of hunting in the thick woodlands of the Black Shroud have for years thrown them into conflict with the forestfolk of Gridania, who condemn them as poachers. Of late, however, many Keepers of the Moon have found some small peace with the Gridanians, and taken to living within the city.",
-      "defName": "ARR_MiqoteKeeper",
+      "description": "Rodians were a species of reptilian humanoids.\n      They possessed large pupil-less eyes that could see in infrared spectrum.\n      Indeed, the Pantoran Kevmo Zink suspected the Rodians and his people saw different spectrums\n      of light, but he was not sure what the exact divide was.\n      Rodians also had twin saucer-like antennae that detected vibrations and twitched atop their\n      head. Rodians also had slender snouts, pointed ears, and a ridge of spines cresting their\n      skulls.\n      Their snouts were said to resemble those of tapirs.\n      Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had\n      a rough, pebbly texture, except on the snout and hands.\n      They were cold blooded and had green blood. Females were physically distinguished by their\n      mammary glands, and some of them, like Greeata Jendowanian, were capable of growing long\n      tresses.\n      The Rodian hand featured five long, dexterous fingers with suction cups at the ends. The pads\n      helped them cope with the variety of conditions associated with living in a swamp, and could\n      be used to help them climb aquatic vegetation.\n      The shape of the Rodian hand, however, was as such that if an object was designed for their\n      species, it would be uncomfortable for a human to use. Their toes were a lot like their\n      fingers: long and tipped by suction cups.\n      Although they were oxygen breathers, Rodians could breathe an air saturated with Clouzon-36\n      without the assistance of a respirator. Rodians smelled rank to humans.\n      https://starwars.fandom.com/wiki/Rodian",
+      "defName": "StarWarsRaces_Rodian",
       "enabled": true,
-      "name": "Miqo'te",
+      "name": "Rodian",
       "price": 2917
     },
     {
@@ -3693,21 +2650,19 @@
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
-          "+5.00 Move speed",
-          "+18.0C Minimum comfortable temperature",
-          "+28.0C Maximum comfortable temperature",
+          "+4.60 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
           "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+105% Hunting stealth"
+          "+3 Honor value"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe self-proclaimed Seekers of the Sun are the diurnal clan of the Miqo'te race. Their preference for the warm light of day pervades all aspects of their culture, as is apparent in their devout reverence for Azeyma the Warden, goddess of the sun. Though relatively few in Eorzea, a small number of them have been accepted into everyday life by the other races in the port city of Limsa Lominsa. Others are known to make their home in the region of the Sagolii Desert.",
-      "defName": "ARR_MiqoteSeeker",
+      "description": "Ewoks were sentient humanoids, averaging about one meter in height. Omnivorous,\n      they were covered in fur from head to toe, with brown and black as the most common colors.\n      Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes,\n      small humanoid noses, and hands that possessed two fingers and an opposable thumb.\n      Despite their small size, Ewoks were physically strong enough to overpower combat-trained\n      humans.\n      https://starwars.fandom.com/wiki/Ewok",
+      "defName": "StarWarsRaces_Ewok",
       "enabled": true,
-      "name": "Miqo'te",
+      "name": "Ewok",
       "price": 2917
     },
     {
@@ -3717,22 +2672,19 @@
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
-          "+4.80 Move speed",
-          "+18.0C Minimum comfortable temperature",
-          "+28.0C Maximum comfortable temperature",
+          "+4.60 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
           "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+1.1 Melee hit chance",
-          "+110% Hunting stealth"
+          "+3 Honor value"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nViera of the Rava clan live primarily in the Golmore Jungle, their umber skin allowing them to readily blend in with their surroundings. Though the males stand as wards of the forest, the females are adept hunters in their own right, fiercely guarding their homes and their young. Despite attempts by the Dalmascans to subjugate them, they have ever maintained a self-governing dominion. Though most would adhere to the traditions of the wood, some few have chosen to venture out into the world.",
-      "defName": "ARR_VieraRava",
+      "description": "Twi'leks were a species of tall humanoids whose skin spanned a vast array of\n      colors, including white, orange, yellow, green, pink, blue, purple, black, grey, and red.\n      Their most distinctive feature was the pair of prehensile appendages that sprouted from the\n      crown or base of their skulls, known as lekku, or head-tails.\n      Although Twi'leks normally had two lekku, some individuals had four. Super sensitive lekku\n      could grab and hold objects and react to the slightest touch. A damaged lekku could cause\n      serious harm to a Twi'lek's health.\n      The species had two sexes, male and female. While most males typically had ears with lobes\n      resembling those of humans, some males had cone-shaped hearing organs located in the same\n      place on the head, a trait customarily found in the females of the same species.\n      Although Twi'leks naturally had blunt teeth, males typically sharpened them to points.\n      Twi'leks were usually thin, although corpulent individuals were known to exist. Under normal\n      circumstances, they generally had a higher body temperature than other humanoid species.They\n      had even higher body temperatures when in fear.\n      Twi'leks and humans could breed to create a hybrid of the two species, such as when shortly\n      after the death of Kanan Jarrus, he and Hera Syndulla gave birth to a son who appeared mostly\n      human but inherited his mother's green pigment in his hair and ears. He was born after the\n      liberation of Lothal, which Syndulla lived to participate in.\n      https://starwars.fandom.com/wiki/Twi%27lek",
+      "defName": "StarWarsRaces_Twilek",
       "enabled": true,
-      "name": "Viera",
+      "name": "Twi'lek",
       "price": 2917
     },
     {
@@ -3740,48 +2692,23 @@
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.80 Move speed",
-          "+18.0C Minimum comfortable temperature",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+6.00 Move speed",
+          "+6.0C Minimum comfortable temperature",
           "+28.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+1.1 Melee hit chance",
-          "+110% Hunting stealth"
+          "+25 Leather amount",
+          "+95% Psychic sensitivity",
+          "+120% Mining speed"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nWith skin as fair as the snowcapped mountains towering above, the Veena clan make their homes in the forests lining the southwestern foothills of the Skatay Range. Like the members of their sister clan, the Veena live as hunters and gatherers, laboring not only to protect the woods, but to nurture them. As the winds of war swept up a number of those who left their mountain homes, many such hardened hunters chose to set out for the distant shores of Eorzea.",
-      "defName": "ARR_VieraVeena",
+      "description": "A race known for grace, agility, and beauty.",
+      "defName": "Alien_Twilek",
       "enabled": true,
-      "name": "Viera",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+50.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+5.40 Move speed",
-          "+10.0C Minimum comfortable temperature",
-          "+36.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+110% Global learning factor"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The heruan are a race of genetically modified xenohumans hailing from a remote glitterworld established during the First Wave of Exploration. Direct descendents of the people of Old Earth, the heruan people sent forth the Triune Expedition Fleets in the wake of the fall of Old Earth and the collapse of the Origin Systems, their mission to catalogue and preserve the breadth of humanity in order to keep their memories alive for posterity.\n\nHeruan society is centered around the Triune castes of Sun, Moon, and Star. These are not hereditary castes but ones adopted in adulthood; heruan adolescents are expected to aspire to and train themselves for future inclusion into a caste.\n\nHeruan are sleek and nimble with powerful legs. They are swift on foot and their powerful talons can be dangerous in a fight, but their relative frailty makes them poor combatants overall. Heruan are naturally inquisitive and eager to learn about unfamiliar people and cultures, preferring intellectual and creative pursuits over the prosecution of war. However, they understand that sometimes the only way to preserve the memory of others is to defend oneself against those who would destroy them.",
-      "defName": "Aelanna_Heruan",
-      "enabled": true,
-      "name": "heruan",
-      "price": 2917
+      "name": "Twilek",
+      "price": 3333
     }
   ]
 }
