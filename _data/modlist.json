@@ -186,10 +186,10 @@
     "version": null
   },
   {
-    "author": "WexMan",
-    "name": "Mines",
-    "steamId": null,
-    "version": null
+    "author": "StatistNo1, Scorpio, Rebel_Rabbit and Cain",
+    "name": "Mines 2.0",
+    "steamId": "2503894706",
+    "version": "0.0.0.0"
   },
   {
     "author": "Haplo",
@@ -348,30 +348,6 @@
     "version": "1.4.1"
   },
   {
-    "author": "hodlhodl",
-    "name": "ToolkitCore",
-    "steamId": "2018368654",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "nry",
-    "name": "Twitch Toolkit",
-    "steamId": "3013874066",
-    "version": "2.0.10.0"
-  },
-  {
-    "author": "SirRandoo",
-    "name": "ToolkitUtils",
-    "steamId": "2009500580",
-    "version": "6.3.0.1"
-  },
-  {
-    "author": "Andreas Pardeike and BleuSquid",
-    "name": "Puppeteer",
-    "steamId": "2594873651",
-    "version": "1.6.3.0"
-  },
-  {
     "author": "legodude17",
     "name": "Quality Colors",
     "steamId": "2420141361",
@@ -504,18 +480,6 @@
     "version": null
   },
   {
-    "author": "JangoD'soul",
-    "name": "[JDS] StarWars - Phase I Clone Armor",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Lady Elizabeth and JangoD'soul",
-    "name": "Star Wars Delta Squad",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Lumi",
     "name": "Star Wars Lights",
     "steamId": null,
@@ -564,10 +528,22 @@
     "version": null
   },
   {
-    "author": " Rell ",
-    "name": "StarWarsJetpack",
-    "steamId": null,
-    "version": null
+    "author": "Uuugggg",
+    "name": "Thick Armor",
+    "steamId": "1321600671",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "nry",
+    "name": "ToolkitCore",
+    "steamId": "3013877477",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "nry",
+    "name": "Twitch Toolkit",
+    "steamId": "3013874066",
+    "version": "2.0.10.0"
   },
   {
     "author": "swemoney",
@@ -592,6 +568,12 @@
     "name": "ToolkitResearch",
     "steamId": "2312827542",
     "version": "1.0.3.2"
+  },
+  {
+    "author": "SirRandoo",
+    "name": "ToolkitUtils",
+    "steamId": "2009500580",
+    "version": "6.3.0.1"
   },
   {
     "author": "TRM",
@@ -751,19 +733,7 @@
   },
   {
     "author": "JangoD'soul",
-    "name": "[JDS] The Forge - Anvil",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] Havoc Squad Trooper",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "JangoD'soul",
-    "name": "[JDS] StarWars - Phase II Clone Armor",
+    "name": "[JDS] StarWars - Phase I Clone Armor",
     "steamId": null,
     "version": null
   },

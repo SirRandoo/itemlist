@@ -2289,8 +2289,8 @@
       "name": "sithmaster"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3000,
       "removePrice": 4000,
       "degree": 1,
@@ -2377,8 +2377,8 @@
       "name": "grayjedi"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3000,
       "removePrice": 4000,
       "degree": 3,
@@ -2421,8 +2421,8 @@
       "name": "graymaster"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3000,
       "removePrice": 4000,
       "degree": 4,

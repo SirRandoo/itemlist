@@ -8,43 +8,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "ToolkitCore"
-    },
-    "description": null,
-    "name": "hello",
-    "usage": "!hello",
-    "userLevel": "Moderator",
-    "shortcut": false,
-    "defName": "HelloWorld"
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitRaids"
-    },
-    "description": null,
-    "name": "joinraid",
-    "usage": "!joinraid",
-    "userLevel": "Anyone",
-    "shortcut": false,
-    "defName": "JoinRaid"
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Updates the current list of active viewers.",
     "name": "Refresh viewers",
@@ -62,7 +26,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Awards all active viewers coins.",
     "name": "Karma round",
@@ -80,7 +44,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Gives eveyrone coins.",
     "name": "Give all coins",
@@ -98,7 +62,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Gives a viewer coins.",
     "name": "Give coins",
@@ -116,7 +80,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Shows the balance of a given user.",
     "name": "Check user",
@@ -134,7 +98,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Sets the current karma for a given user.",
     "name": "Set karma",
@@ -152,7 +116,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Toggles coin generation.",
     "name": "Toggle coins",
@@ -170,7 +134,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Shows your current balance, karma, and optionally, the amount of coins earned per cycle.",
     "name": "Check balance",
@@ -188,7 +152,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Karma explanation",
@@ -206,7 +170,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Purchase list",
@@ -224,7 +188,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Gives a viewer some of your coins.",
     "name": "Gift coins",
@@ -242,7 +206,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Join queue",
@@ -260,7 +224,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Mod info",
@@ -278,7 +242,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Buy",
@@ -296,7 +260,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Lets you wager coins to level up a skill of your choosing.",
     "name": "Level skill",
@@ -314,7 +278,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Mod settings",
@@ -332,7 +296,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "Instructions",
@@ -350,7 +314,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": null,
     "name": "All commands",
@@ -368,7 +332,7 @@
       "globalCooldown": 0,
       "hasLocalCooldown": false,
       "localCooldown": 0,
-      "mod": "Twitch Toolkit"
+      "mod": "Toolkit - Channel Points"
     },
     "description": "Shows you the complete list of installed mods.",
     "name": "Installed mods",
@@ -1240,5 +1204,41 @@
     "userLevel": "Anyone",
     "shortcut": false,
     "defName": "Divorce"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitCore"
+    },
+    "description": null,
+    "name": "hello",
+    "usage": "!hello",
+    "userLevel": "Moderator",
+    "shortcut": false,
+    "defName": "HelloWorld"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitRaids"
+    },
+    "description": null,
+    "name": "joinraid",
+    "usage": "!joinraid",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "JoinRaid"
   }
 ]
