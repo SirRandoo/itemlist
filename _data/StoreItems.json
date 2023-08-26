@@ -5530,7 +5530,7 @@
       "abr": "dc-15ablaster",
       "category": "Ranged weapons",
       "defname": "OuterRim_DC15ACarbine",
-      "price": -10
+      "price": 3417
     },
     {
       "abr": "dc-15ablasterrifle",
@@ -5542,7 +5542,7 @@
       "abr": "dc-15ablasterrifle",
       "category": "Ranged weapons",
       "defname": "JDSA_DC-15A_Blaster_Rifle",
-      "price": 3750
+      "price": -10
     },
     {
       "abr": "dc-15sblasterrifle",
@@ -5554,37 +5554,37 @@
       "abr": "dc-15xsniperrifle",
       "category": "Ranged weapons",
       "defname": "OuterRim_DC15xSniperRifle",
-      "price": -10
+      "price": 4533
     },
     {
       "abr": "dc-15xsniperrifle",
       "category": "Ranged weapons",
       "defname": "JDSA_DC-15x_Sniper_Rifle",
-      "price": 5000
+      "price": -10
     },
     {
       "abr": "dc-17blasterpistol",
       "category": "Ranged weapons",
       "defname": "JDSA_DC-17_Blaster_Pistol",
-      "price": 2500
+      "price": -10
     },
     {
       "abr": "dc-17handblaster",
       "category": "Ranged weapons",
       "defname": "OuterRim_DC17HandBlaster",
-      "price": -10
+      "price": 1800
     },
     {
       "abr": "dc-17mrepeatingblaster",
       "category": "Ranged weapons",
       "defname": "OuterRim_DC17mCarbine",
-      "price": -10
+      "price": 3417
     },
     {
       "abr": "dc-17sblasterpistol",
       "category": "Ranged weapons",
       "defname": "JDSA_DC-17S_Blaster_Pistol",
-      "price": 2500
+      "price": -10
     },
     {
       "abr": "defendercorvette",
