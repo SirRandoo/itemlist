@@ -267,7 +267,7 @@
     "author": "Neronix17",
     "name": "Tabula Rasa",
     "steamId": "1660622094",
-    "version": "1.0.8612.19583"
+    "version": "1.0.8628.15310"
   },
   {
     "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
@@ -534,6 +534,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "Sam",
+    "name": "Tilled Soil",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "nry",
     "name": "ToolkitCore",
     "steamId": "3013877477",
@@ -693,7 +699,7 @@
     "author": "CodeOptimist",
     "name": "While You're Up / PUAH+",
     "steamId": "2034960453",
-    "version": "4.0.3.3352"
+    "version": "4.0.4.466"
   },
   {
     "author": "Roolo and Owlchemist",
