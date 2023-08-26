@@ -18,6 +18,30 @@
     "version": "10.0.1"
   },
   {
+    "author": "latta",
+    "name": "FSharp.Core",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "jecrell and contributors",
+    "name": "JecsTools",
+    "steamId": "932008009",
+    "version": "1.4.1.1"
+  },
+  {
+    "author": "erdelf",
+    "name": "Humanoid Alien Races",
+    "steamId": "839005762",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Neronix17",
+    "name": "Tabula Rasa",
+    "steamId": "1660622094",
+    "version": "1.0.8628.15310"
+  },
+  {
     "author": "UnlimitedHugs",
     "name": "Allow Tool",
     "steamId": null,
@@ -118,12 +142,6 @@
     "name": "Guards For Me",
     "steamId": "1855885448",
     "version": "3.0.7.0"
-  },
-  {
-    "author": "latta",
-    "name": "FSharp.Core",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "latta",
@@ -252,24 +270,6 @@
     "version": null
   },
   {
-    "author": "jecrell and contributors",
-    "name": "JecsTools",
-    "steamId": "932008009",
-    "version": "1.4.1.1"
-  },
-  {
-    "author": "erdelf",
-    "name": "Humanoid Alien Races",
-    "steamId": "839005762",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Neronix17",
-    "name": "Tabula Rasa",
-    "steamId": "1660622094",
-    "version": "1.0.8628.15310"
-  },
-  {
     "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
     "name": "Vanilla Expanded Framework",
     "steamId": "2023507013",
@@ -394,6 +394,12 @@
     "name": "RimCities",
     "steamId": "1775170117",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Jaxe",
+    "name": "RimHUD",
+    "steamId": "1508850027",
+    "version": "1.13.0.0"
   },
   {
     "author": "Jecrell",

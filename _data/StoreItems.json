@@ -6358,7 +6358,7 @@
       "abr": "kraytdragonhide",
       "category": "Leathers",
       "defname": "KraytDragon_hide",
-      "price": 3
+      "price": 25
     },
     {
       "abr": "kraytdragonhorn",
@@ -8458,37 +8458,37 @@
       "abr": "nanotechslabbed",
       "category": "Furniture",
       "defname": "SlabBed_NanoBed",
-      "price": -10
+      "price": 187
     },
     {
       "abr": "nanotechslabdoublebed",
       "category": "Furniture",
       "defname": "SlabDoubleBed_NanoBed",
-      "price": -10
+      "price": 442
     },
     {
       "abr": "nanotechsimplebed",
       "category": "Furniture",
       "defname": "Bed_Simple_NanoBed",
-      "price": -10
+      "price": 221
     },
     {
       "abr": "nanotechergonomicbed",
       "category": "Furniture",
       "defname": "Bed_Ergonomic_NanoBed",
-      "price": -10
+      "price": 533
     },
     {
       "abr": "nanotechergonomicdoublebed",
       "category": "Furniture",
       "defname": "Bed_DoubleErgonomic_NanoBed",
-      "price": -10
+      "price": 1017
     },
     {
       "abr": "nanotechroyalposterbed",
       "category": "Furniture",
       "defname": "Bed_Kingsize_NanoBed",
-      "price": -10
+      "price": 2167
     }
   ],
   "total": 1415
