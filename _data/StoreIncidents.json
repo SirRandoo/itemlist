@@ -177,6 +177,11 @@
 	},
 	{
 		"abr": "raid",
+		"price": 1500,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "siegeraid",
 		"price": 2500,
 		"karmatype": "Bad"
 	},
@@ -209,11 +214,6 @@
 		"abr": "removetrait",
 		"price": 1,
 		"karmatype": "Good"
-	},
-	{
-		"abr": "genderswap",
-		"price": 600,
-		"karmatype": "Neutral"
 	},
 	{
 		"abr": "visitcolony",
