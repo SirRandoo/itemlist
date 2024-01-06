@@ -3,8 +3,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
       "stats": [],
@@ -25,8 +25,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
       "stats": [
@@ -51,10 +51,10 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
-      "description": "Timmy is an exceptionally agreeable and giving person. he rarely insults others and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance. his agreeableness also makes him more likely to conform to prevailing opinions.",
+      "description": "Timmy is an exceptionally agreeable and giving person. he rarely insults others or starts fights, and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance.",
       "stats": [
         "x200% global certainty loss factor"
       ],
@@ -83,8 +83,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
       "stats": [
@@ -111,8 +111,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
       "stats": [
@@ -137,8 +137,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
       "stats": [
@@ -163,8 +163,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
       "stats": [
@@ -205,8 +205,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
       "stats": [
@@ -245,8 +245,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
       "stats": [
@@ -275,8 +275,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy likes to be up during the night, and sleep during the day.\n\nhe gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\nhe doesn't get a mood penalty for being in the dark.",
       "stats": [],
@@ -297,8 +297,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
       "stats": [],
@@ -325,8 +325,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
       "stats": [
@@ -357,8 +357,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
       "stats": [
@@ -395,8 +395,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy is romantically attracted to people of his own gender.",
       "stats": [],
@@ -417,8 +417,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy is romantically attracted to both men and women.",
       "stats": [],
@@ -439,8 +439,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has no sexual attraction to anyone at all.",
       "stats": [],
@@ -461,8 +461,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
       "stats": [],
@@ -483,8 +483,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy breathes heavily all the time, and sweats constantly. People find it creepy.",
       "stats": [],
@@ -505,8 +505,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy loves fire. he will never extinguish fires, and will occasionally go on random fire starting sprees. he will be happy around flames, and happier when wielding an incendiary weapon.",
       "stats": [
@@ -533,8 +533,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
       "stats": [
@@ -567,8 +567,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
       "stats": [
@@ -595,8 +595,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has a knack for learning. he picks things up much faster than others.",
       "stats": [
@@ -621,8 +621,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy is slow on the uptake. he learns much slower than others.",
       "stats": [
@@ -653,8 +653,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
       "stats": [
@@ -679,8 +679,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced with artificial body parts or xenogenetics.",
       "stats": [],
@@ -705,8 +705,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts and xenogenes are unethical and disgusting.",
       "stats": [],
@@ -731,8 +731,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy really dislikes and distrusts men.",
       "stats": [],
@@ -753,8 +753,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy really dislikes and distrusts women.",
       "stats": [],
@@ -775,10 +775,10 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
-      "description": "Timmy has a fantastic memory for detail. he will learn new skills slightly faster than other people.",
+      "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
       "stats": [
         "+25% global learning factor"
       ],
@@ -801,8 +801,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
       "stats": [
@@ -827,8 +827,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
@@ -853,8 +853,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
       "stats": [
@@ -885,8 +885,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
       "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
       "stats": [
@@ -911,8 +911,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy is always falling behind the group whenever he goes anywhere.",
       "stats": [
@@ -939,8 +939,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy likes to be where he's going. he walks quicker than most people.",
       "stats": [
@@ -965,8 +965,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
       "stats": [
@@ -991,8 +991,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
       "stats": [],
@@ -1013,8 +1013,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
       "stats": [],
@@ -1035,8 +1035,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
       "stats": [
@@ -1063,8 +1063,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy is just naturally upbeat about his situation, pretty much all the time, no matter what it is.",
       "stats": [],
@@ -1085,8 +1085,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy is naturally optimistic about life. It's hard to get him down.",
       "stats": [],
@@ -1107,8 +1107,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy tends to look on the bad side of life.",
       "stats": [],
@@ -1129,8 +1129,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -2,
       "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
       "stats": [],
@@ -1151,8 +1151,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
       "stats": [
@@ -1179,8 +1179,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
       "stats": [
@@ -1207,8 +1207,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy tends to crack under pressure.",
       "stats": [
@@ -1235,8 +1235,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -2,
       "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
       "stats": [
@@ -1263,8 +1263,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
       "stats": [
@@ -1291,8 +1291,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
       "stats": [
@@ -1319,8 +1319,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
       "stats": [
@@ -1345,8 +1345,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
       "stats": [
@@ -1371,8 +1371,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy is a little bit lazy.",
       "stats": [
@@ -1397,8 +1397,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -2,
       "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
       "stats": [
@@ -1423,8 +1423,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
       "stats": [
@@ -1449,8 +1449,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
       "stats": [
@@ -1475,8 +1475,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
       "stats": [
@@ -1501,8 +1501,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -2,
       "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
       "stats": [
@@ -1527,8 +1527,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
       "stats": [
@@ -1559,8 +1559,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
       "stats": [
@@ -1591,8 +1591,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 2,
       "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
       "stats": [
@@ -1617,8 +1617,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy has a pretty face, which predisposes people to like him.",
       "stats": [
@@ -1643,8 +1643,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
       "stats": [
@@ -1669,8 +1669,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -2,
       "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
       "stats": [
@@ -1695,8 +1695,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 1,
       "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
       "stats": [
@@ -1721,8 +1721,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
       "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
       "stats": [
@@ -1747,136 +1747,88 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has fragile skin and bones. he takes more damage than other people from the same blows.",
-      "stats": [
-        "x115% incoming damage multiplier"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "x115% incoming damage multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Biotech",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Delicate",
-      "name": "delicate"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "The fewer people in Timmy's faction, the happier he is. Being alone is best of all.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Biotech",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Recluse",
-      "name": "recluse"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 1,
-      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Humanoid Alien Races",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Xenophobia",
-      "name": "xenophobe"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": -1,
-      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Humanoid Alien Races",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Xenophobia",
-      "name": "xenophile"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 0,
-      "description": "Timmy has a gentle and cool-headed nature. he is less likely to insult others or starts fights, and will sometimes cheer up others.",
+      "description": "Timmy always shies away from danger. he is usually the first to flee from battle.",
       "stats": [
-        "-20% mental break threshold"
+        "+25% suppressability"
       ],
-      "conflicts": [
-        "abrasive",
-        "kind",
-        "psychopath"
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "conflicts": [
-          "abrasive",
-          "kind",
-          "psychopath"
-        ],
+        "conflicts": [],
         "stats": [
-          "-20% mental break threshold"
+          "+25% suppressability"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Big and Small + Prerequisites Framework",
+        "mod": "Combat Extended",
         "karmaTypeForAdding": null
       },
-      "defName": "BS_Gentle",
-      "name": "gentle"
+      "defName": "Bravery",
+      "name": "cowardly"
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
+      "addPrice": 5000,
+      "removePrice": 500,
+      "degree": 1,
+      "description": "Few things scare Timmy. In battle he stands unfazed where others panic and flee.",
+      "stats": [
+        "-50% suppressability"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-50% suppressability"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Combat Extended",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Bravery",
+      "name": "brave"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 5000,
+      "removePrice": 500,
+      "degree": 2,
+      "description": "Timmy laughs in the face of danger. Some ascribe it to bravery, others to stupidity. Either way, Timmy seems to lack any sense of self-preservation and will never flee from a threatening situation.",
+      "stats": [
+        "-100% suppressability"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-100% suppressability"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Combat Extended",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Bravery",
+      "name": "fearless"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 5000,
+      "removePrice": 500,
       "degree": 0,
-      "description": "Timmy is large enough to use oversized weapons.",
+      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1886,19 +1838,19 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Big and Small + Prerequisites Framework",
+        "mod": "Vanilla Fishing Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "BS_Giant",
-      "name": "giant"
+      "defName": "VCEF_Fisherman",
+      "name": "fisherman"
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 25000,
-      "removePrice": 4000,
-      "degree": 1,
-      "description": "Timmy has the ability to feel the force that surrounds us.\n\n(Star Wars - The Force)",
+      "addPrice": 5000,
+      "removePrice": 500,
+      "degree": 2,
+      "description": "Timmy is obsessed with germs and will wash much more frequently than normal.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1908,19 +1860,19 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
+        "mod": "Dubs Bad Hygiene",
         "karmaTypeForAdding": null
       },
-      "defName": "PJ_ForceSensitive",
-      "name": "forcesensitive"
+      "defName": "Hygienic",
+      "name": "germaphobe"
     },
     {
-      "canAdd": false,
+      "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 2,
-      "description": "Timmy has begun to control the force, but requires further training and guidance.\n\n(Star Wars - The Force)",
+      "addPrice": 5000,
+      "removePrice": 500,
+      "degree": 1,
+      "description": "Timmy is very hygienic and will wash more frequently.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1930,539 +1882,55 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
+        "mod": "Dubs Bad Hygiene",
         "karmaTypeForAdding": null
       },
-      "defName": "PJ_ForceSensitive",
-      "name": "forceapprentice"
+      "defName": "Hygienic",
+      "name": "hygienic"
     },
     {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 1,
-      "description": "Timmy Has begun the journey to becoming a Jedi Knight.\n\n(Star Wars - The Force)",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 5000,
+      "removePrice": 500,
+      "degree": -1,
+      "description": "Timmy is very unhygienic and will wash less frequently.",
       "stats": [],
-      "conflicts": [
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "conflicts": [
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
+        "conflicts": [],
         "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
+        "mod": "Dubs Bad Hygiene",
         "karmaTypeForAdding": null
       },
-      "defName": "PJ_JediTrait",
-      "name": "jedi"
+      "defName": "Hygienic",
+      "name": "unhygienic"
     },
     {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 2,
-      "description": "Timmy has attained the rank of Knight of the Jedi Order.\n\n(Star Wars - The Force)",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 5000,
+      "removePrice": 500,
+      "degree": -2,
+      "description": "Timmy has very low standards of cleanliness and will only wash when they absolutely have to.",
       "stats": [],
-      "conflicts": [
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "conflicts": [
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
+        "conflicts": [],
         "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
+        "mod": "Dubs Bad Hygiene",
         "karmaTypeForAdding": null
       },
-      "defName": "PJ_JediTrait",
-      "name": "jediknight"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 3,
-      "description": "Timmy is among the most respected of the Jedi Order, a true Master.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_JediTrait",
-      "name": "jedimaster"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 4,
-      "description": "Timmy is ranked among the elite Jedi, those who are fit to serve on the Council.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_JediTrait",
-      "name": "jediconsular"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 1,
-      "description": "Timmy Has begun the journey to the Dark side of the force.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_SithTrait",
-      "name": "sith"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 2,
-      "description": "Timmy is devoted to the dark side, spreading terror and flaring passions in their wake.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_SithTrait",
-      "name": "sithinquisitor"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 3,
-      "description": "Timmy is among the most feared in the galaxy, the Dark Lords of the Sith.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_SithTrait",
-      "name": "sithlord"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 4,
-      "description": "Timmy is attuned to the dark side of the force, able to tap near-limitless power.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "graypadawan",
-        "grayjedi",
-        "graymaster",
-        "graysage",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "graypadawan",
-          "grayjedi",
-          "graymaster",
-          "graysage",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_SithTrait",
-      "name": "sithmaster"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 1,
-      "description": "Timmy is exploring the balance of the Force.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_GrayTrait",
-      "name": "graypadawan"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 2,
-      "description": "Timmy is devoted to maintaining the balance of the Force.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_GrayTrait",
-      "name": "grayjedi"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 3,
-      "description": "Timmy is a master Jedi, devoted to the 'living Force'.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_GrayTrait",
-      "name": "graymaster"
-    },
-    {
-      "canAdd": false,
-      "canRemove": false,
-      "addPrice": 3000,
-      "removePrice": 4000,
-      "degree": 4,
-      "description": "Timmy is attuned to the Living Force. he sees HIMself as an extension of it's will.\n\n(Star Wars - The Force)",
-      "stats": [],
-      "conflicts": [
-        "jedi",
-        "jediknight",
-        "jedimaster",
-        "jediconsular",
-        "sith",
-        "sithinquisitor",
-        "sithlord",
-        "sithmaster",
-        "forcesensitive",
-        "forceapprentice"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "jedi",
-          "jediknight",
-          "jedimaster",
-          "jediconsular",
-          "sith",
-          "sithinquisitor",
-          "sithlord",
-          "sithmaster",
-          "forcesensitive",
-          "forceapprentice"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Star Wars - The Force",
-        "karmaTypeForAdding": null
-      },
-      "defName": "PJ_GrayTrait",
-      "name": "graysage"
+      "defName": "Hygienic",
+      "name": "slob"
     }
   ],
   "races": [
@@ -2472,6 +1940,9 @@
         "stats": [
           "+60.00 Mass",
           "+70% Flammability",
+          "+1.0 Melee dodge chance",
+          "+100% Melee critical chance",
+          "+100% Melee parry chance",
           "+$1750 Market value",
           "+4.60 Move speed",
           "+16.0C Minimum comfortable temperature",
@@ -2492,223 +1963,31 @@
       "data": {
         "customName": false,
         "stats": [
-          "+30.00 Mass",
-          "+30% Flammability",
-          "+$2000 Market value",
-          "+4.50 Move speed",
-          "+8.0C Minimum comfortable temperature",
-          "+50.0C Maximum comfortable temperature",
-          "+25 Leather amount",
-          "+100% Psychic sensitivity",
-          "+100% Mining speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Jawas are a sentient species of meter-tall humanoids native to the Outer Rim desert world of Tatooine.",
-      "defName": "Alien_Jawa",
-      "enabled": true,
-      "name": "Jawa",
-      "price": 3333
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+30% Flammability",
-          "+$2000 Market value",
-          "+4.50 Move speed",
-          "+8.0C Minimum comfortable temperature",
-          "+50.0C Maximum comfortable temperature",
-          "+25 Leather amount",
-          "+100% Psychic sensitivity",
-          "+100% Mining speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Tusken Raiders are a culture of nomadic, primitive sentients indigenous to Tatooine, where they were often hostile to local settlers.",
-      "defName": "Alien_TuskenRaider",
-      "enabled": true,
-      "name": "Tusken Raider",
-      "price": 3333
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
+          "+70.00 Mass",
           "+100% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount"
+          "-60.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+0% Psychic sensitivity",
+          "+0% Toxic resistance",
+          "+0 Meat amount",
+          "+0 Leather amount",
+          "+0 Carrying capacity",
+          "+0.00% Social impact",
+          "+0 Armor - Blunt",
+          "+0 Armor - Sharp",
+          "+0.0% Armor - Heat",
+          "+0.1 Melee dodge chance",
+          "+10% Melee critical chance",
+          "+5% Melee parry chance"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "The Gungans are the native inhabitants of the planet Naboo, an amphibious species with hardy lungs capable of holding breath for extended periods. Their skeletal structure is extremely flexible, as it is made of cartilaginous material rather than hard bone. The long Gungan face has a tough yet flexible bill for burrowing and rooting out food. They have long muscular tongues with which they scoop mollusks and lesser amphibians from the Naboo swamps. While most spacefarers would dismiss Gungans as primitives, they have developed an advanced technology.",
-      "defName": "GunganRace_Gungan",
-      "enabled": true,
-      "name": "Gungan(Otolla)",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The Ankura were a race of the Gungan species. Unlike the Otolla, Ankuras had hooded eyes, broad wide heads, and green skin. Like the Otolla, they had long ears, which were sometimes tied together behind the head.",
-      "defName": "GunganRace_Gungan_Ankura",
-      "enabled": true,
-      "name": "Gungan(Ankura)",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Wookiees were a tall species of furry humanoids from the planet Kashyyyk, who could\n      grow to a height of nearly three meters. They were covered from head to toe in a thick, shaggy\n      coat of hair with water-shedding properties that notably came in shades of brown, black, gray,\n      and white. The species had two sexes, female and male. The latter grew long beards in adult\n      life. The average male weighed 150 kilograms while the average female weighed 100 kilograms.\n      The Wookiees eye color ranged from blue to brown. Wookiees were big eaters, with the average\n      adult requiring 3,500-6,000 calories a day of food. Their diet consisted of wild plants,\n      berries, meat, and spices. They preferred their spices to be hot. While Wookiees did not like\n      eating blosphi extract, it provided them with enough nutrition to survive. The literary\n      collective term for Wookiees was a grove of Wookiees. Many of their kind were known to\n      understand Galactic Basic but were unable to speak it due to their species' vocal structure.\n      Wookiees had extendable claws which they used for climbing; using them for anything else\n      violated the Wookiee honor code. Despite their fearsome appearance and volatile temperament,\n      Wookiees were regarded as intelligent, sophisticated, loyal and trusting. When angered,\n      Wookiees were known to descend into a berserker rage. Wookiees had an average lifespan of 400\n      standard years, and they appeared not to age over a span of fifty years. Their lifespans\n      dramatically decreased due to the harsh working conditions in the spice mines of Kessel.\n      During their prime growing years, Wookiees were often hungry, forcing them to eat whenever\n      they could. They could learn to understand other languages, like Galactic Basic Standard, but\n      they were physically unable to speak them due to their strange vocal chords. To those who had\n      not learned to understand Shyriiwook, the Wookiee language, it appeared they spoke in a series\n      of growls and purrs. Although a rare phenomenon, Force-sensitive Wookiees were possible and\n      some joined the ranks of the Jedi, a source of great pride to their people.\n      https://starwars.fandom.com/wiki/Wookiee",
-      "defName": "StarWarsRaces_Wookiee",
-      "enabled": true,
-      "name": "Wookiee",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Native to the Expansion Region planet Shili but later found throughout the galaxy,\n      the Togruta were a species of sentient humanoids whose skin spanned a vast array of colors,\n      including, but not limited to, orange, red, white, and yellow.\n      These characteristics were a result of evolution; Togruta coloration was helpful as a method\n      of camouflage from predators.\n      Their most notable features were the large organic head formations upon their heads; two large\n      cone-like horns called montrals atop their skull, and three lekku, also known as headtails,\n      that sprouted downward.\n      Both a Togruta's lekku and montrals tended to grow until they reached maturity, with females\n      generally having longer lekku than the males.\n      The male's montrals, however, were more branched than the females. A Togruta's montrals\n      allowed them to sense the movement of objects around them through echolocation, and could\n      sense up to 82 feet.\n      https://starwars.fandom.com/wiki/Togruta",
-      "defName": "StarWarsRaces_Togruta",
-      "enabled": true,
-      "name": "Togruta",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Rodians were a species of reptilian humanoids.\n      They possessed large pupil-less eyes that could see in infrared spectrum.\n      Indeed, the Pantoran Kevmo Zink suspected the Rodians and his people saw different spectrums\n      of light, but he was not sure what the exact divide was.\n      Rodians also had twin saucer-like antennae that detected vibrations and twitched atop their\n      head. Rodians also had slender snouts, pointed ears, and a ridge of spines cresting their\n      skulls.\n      Their snouts were said to resemble those of tapirs.\n      Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had\n      a rough, pebbly texture, except on the snout and hands.\n      They were cold blooded and had green blood. Females were physically distinguished by their\n      mammary glands, and some of them, like Greeata Jendowanian, were capable of growing long\n      tresses.\n      The Rodian hand featured five long, dexterous fingers with suction cups at the ends. The pads\n      helped them cope with the variety of conditions associated with living in a swamp, and could\n      be used to help them climb aquatic vegetation.\n      The shape of the Rodian hand, however, was as such that if an object was designed for their\n      species, it would be uncomfortable for a human to use. Their toes were a lot like their\n      fingers: long and tipped by suction cups.\n      Although they were oxygen breathers, Rodians could breathe an air saturated with Clouzon-36\n      without the assistance of a respirator. Rodians smelled rank to humans.\n      https://starwars.fandom.com/wiki/Rodian",
-      "defName": "StarWarsRaces_Rodian",
-      "enabled": true,
-      "name": "Rodian",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Ewoks were sentient humanoids, averaging about one meter in height. Omnivorous,\n      they were covered in fur from head to toe, with brown and black as the most common colors.\n      Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes,\n      small humanoid noses, and hands that possessed two fingers and an opposable thumb.\n      Despite their small size, Ewoks were physically strong enough to overpower combat-trained\n      humans.\n      https://starwars.fandom.com/wiki/Ewok",
-      "defName": "StarWarsRaces_Ewok",
-      "enabled": true,
-      "name": "Ewok",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Twi'leks were a species of tall humanoids whose skin spanned a vast array of\n      colors, including white, orange, yellow, green, pink, blue, purple, black, grey, and red.\n      Their most distinctive feature was the pair of prehensile appendages that sprouted from the\n      crown or base of their skulls, known as lekku, or head-tails.\n      Although Twi'leks normally had two lekku, some individuals had four. Super sensitive lekku\n      could grab and hold objects and react to the slightest touch. A damaged lekku could cause\n      serious harm to a Twi'lek's health.\n      The species had two sexes, male and female. While most males typically had ears with lobes\n      resembling those of humans, some males had cone-shaped hearing organs located in the same\n      place on the head, a trait customarily found in the females of the same species.\n      Although Twi'leks naturally had blunt teeth, males typically sharpened them to points.\n      Twi'leks were usually thin, although corpulent individuals were known to exist. Under normal\n      circumstances, they generally had a higher body temperature than other humanoid species.They\n      had even higher body temperatures when in fear.\n      Twi'leks and humans could breed to create a hybrid of the two species, such as when shortly\n      after the death of Kanan Jarrus, he and Hera Syndulla gave birth to a son who appeared mostly\n      human but inherited his mother's green pigment in his hair and ears. He was born after the\n      liberation of Lothal, which Syndulla lived to participate in.\n      https://starwars.fandom.com/wiki/Twi%27lek",
-      "defName": "StarWarsRaces_Twilek",
+      "description": "A zombie",
+      "defName": "Zombie",
       "enabled": false,
-      "name": "Twi'lek",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+30% Flammability",
-          "+$2000 Market value",
-          "+6.00 Move speed",
-          "+6.0C Minimum comfortable temperature",
-          "+28.0C Maximum comfortable temperature",
-          "+25 Leather amount",
-          "+95% Psychic sensitivity",
-          "+120% Mining speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A race known for grace, agility, and beauty.",
-      "defName": "Alien_Twilek",
-      "enabled": true,
-      "name": "Twilek",
-      "price": 3333
+      "name": "Zombie",
+      "price": 1
     }
   ]
 }

@@ -343,60 +343,6 @@
   },
   {
     "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitUtils"
-    },
-    "description": "Sets the user's pawn's favorite color to the color specified. The color can be a name or a hexcode.",
-    "name": "Set favorite color",
-    "usage": "!setfavoritecolor <color>",
-    "userLevel": "Anyone",
-    "shortcut": false,
-    "defName": "SetFavoriteColor"
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitUtils"
-    },
-    "description": "Sets the user's pawn's favourite colour to the colour specified. The colour can be a name or a hex code.",
-    "name": "Set favourite colour",
-    "usage": "!setfavouritecolour <color>",
-    "userLevel": "Anyone",
-    "shortcut": false,
-    "defName": "SetFavouriteColour"
-  },
-  {
-    "data": {
-      "isShortcut": false,
-      "isBuy": false,
-      "isBalance": false,
-      "hasGlobalCooldown": false,
-      "globalCooldown": 0,
-      "hasLocalCooldown": false,
-      "localCooldown": 0,
-      "mod": "ToolkitUtils"
-    },
-    "description": null,
-    "name": "Dye apparel",
-    "usage": "!dye",
-    "userLevel": "Anyone",
-    "shortcut": false,
-    "defName": "DyeApparel"
-  },
-  {
-    "data": {
       "isShortcut": true,
       "isBuy": false,
       "isBalance": false,

@@ -1,6 +1,11 @@
 {
 	"incitems" : [
 	{
+		"abr": "tornado",
+		"price": 5000,
+		"karmatype": "Bad"
+	},
+	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -57,7 +62,7 @@
 	},
 	{
 		"abr": "solarflare",
-		"price": 500,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
@@ -86,11 +91,6 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "refugeechased",
-		"price": 650,
-		"karmatype": "Neutral"
-	},
-	{
 		"abr": "animaltame",
 		"price": 150,
 		"karmatype": "Good"
@@ -98,11 +98,6 @@
 	{
 		"abr": "resourcepodcrash",
 		"price": 300,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "transportpodcrash",
-		"price": 600,
 		"karmatype": "Good"
 	},
 	{
@@ -133,6 +128,11 @@
 	{
 		"abr": "ambrosiasprout",
 		"price": 150,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "herdmigration",
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
@@ -176,6 +176,11 @@
 		"karmatype": "Bad"
 	},
 	{
+		"abr": "militaryaid",
+		"price": 2000,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "raid",
 		"price": 1500,
 		"karmatype": "Bad"
@@ -201,6 +206,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "pawn",
+		"price": 1,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "levelskill",
 		"price": 1500,
 		"karmatype": "Good"
@@ -216,6 +226,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "genderswap",
+		"price": 500,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "visitcolony",
 		"price": 300,
 		"karmatype": "Good"
@@ -229,6 +244,16 @@
 		"abr": "randominspire",
 		"price": 450,
 		"karmatype": "Good"
+	},
+	{
+		"abr": "torytalkervote",
+		"price": 2000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "hodlbotvote",
+		"price": 2000,
+		"karmatype": "Neutral"
 	},
 	{
 		"abr": "reviveall",
@@ -287,7 +312,7 @@
 	},
 	{
 		"abr": "removepassion",
-		"price": 5000,
+		"price": 2500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -319,7 +344,17 @@
 		"abr": "equip",
 		"price": 1,
 		"karmatype": "Neutral"
+	},
+	{
+		"abr": "randomchildhood",
+		"price": 1000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "randomadulthood",
+		"price": 1000,
+		"karmatype": "Neutral"
 	}
 	],
-	"total": 64
+	"total": 71
 }
