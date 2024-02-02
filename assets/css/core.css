@@ -1,0 +1,116 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 12px;
+    transition: 0.3s;
+    font-size: 0.75em;
+}
+
+.tab button:hover {
+    background-color: #cccccc;
+}
+
+.tabContent {
+    display: none;
+    animation: fadeEffect 320ms;
+    border-top: none;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.search {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #dddddd;
+    margin-bottom: 12px;
+}
+
+table {
+    display: table;
+}
+
+th {
+  font-size: 0.9em;
+}
+
+th.priceWithData {
+    width: 20%;
+}
+th.karmaType {
+  width: 20%;
+}
+th.price {
+    width: 15%;
+}
+th.author {
+  width: 30%;
+}
+th.version {
+  width: 20%;
+}
+td.description {
+    font-size: 0.8em;
+}
+span.eventRedirect {
+  cursor: pointer;
+  text-decoration: underline;
+  color:#22527b;;
+}
+span.metadata {
+    font-size: 0.8em;
+    padding: 0px;
+    font-style: italic;
+    color: #5a5454;
+}
+
+@media screen and (max-width: break) {
+  th.priceWithData {
+    font-size: 0.9em;
+  }
+  th.price {
+      font-size: 0.9em;
+  }
+  td.description {
+    font-size: 0.8em;
+  }
+  span.metadata {
+    font-size: 0.8em;
+    padding: 0px;
+    font-style: italic;
+    color: #5a5454;
+  }
+}
+
+@media screen and (max-width: sm-break) {
+  th.priceWithData {
+    font-size: 0.85em;
+  }
+  th.price {
+    font-size: 0.85em;
+  }
+  td.description {
+    font-size: 0.8em;
+  }
+  span.metadata {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #5a5454;
+  }
+}
