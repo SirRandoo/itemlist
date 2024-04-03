@@ -70,4 +70,13 @@ mods:
 # Build settings
 remote_theme: sylhare/Type-on-Strap
 plugins:
-  -
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+markdown: kramdown
+sass:
+  style: compressed
+
+permalink: pretty
