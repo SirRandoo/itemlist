@@ -2,32 +2,32 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 800,
+		"price": 25000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 2600,
+		"price": 75000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "clearweather",
-		"price": 400,
+		"price": 250,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "rain",
-		"price": 350,
+		"price": 1,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "vomitrain",
-		"price": 650,
+		"price": 250,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "foggyrain",
-		"price": 300,
+		"price": 250,
 		"karmatype": "Neutral"
 	},
 	{
@@ -37,37 +37,37 @@
 	},
 	{
 		"abr": "drythunderstorm",
-		"price": 450,
+		"price": 250,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "snowgentle",
-		"price": 350,
+		"price": 50,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "snowhard",
-		"price": 450,
+		"price": 150,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "fog",
-		"price": 300,
+		"price": 250,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "heatwave",
-		"price": 750,
+		"price": 250,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "flashstorm",
-		"price": 400,
+		"price": 250,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "coldsnap",
-		"price": 800,
+		"price": 250,
 		"karmatype": "Bad"
 	},
 	{
@@ -77,22 +77,22 @@
 	},
 	{
 		"abr": "shortcircuit",
-		"price": 500,
+		"price": 1000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 6500,
+		"price": 10000,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3200,
+		"price": 10000,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "eclipse",
-		"price": 450,
+		"price": 250,
 		"karmatype": "Bad"
 	},
 	{
@@ -116,11 +116,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "transportpodcrash",
-		"price": 600,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "tradercaravan",
 		"price": 275,
 		"karmatype": "Good"
@@ -134,11 +129,6 @@
 		"abr": "meteor",
 		"price": 150,
 		"karmatype": "Neutral"
-	},
-	{
-		"abr": "maninblack",
-		"price": 350,
-		"karmatype": "Good"
 	},
 	{
 		"abr": "madanimal",
@@ -233,7 +223,7 @@
 	{
 		"abr": "dropraid",
 		"price": 1500,
-		"karmatype": "Bad"
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "sapperraid",
@@ -268,7 +258,7 @@
 	{
 		"abr": "randomdisease",
 		"price": 1000,
-		"karmatype": "Bad"
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "disease",
@@ -357,7 +347,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 500,
+		"price": 1,
 		"karmatype": "Neutral"
 	},
 	{
@@ -372,7 +362,7 @@
 	},
 	{
 		"abr": "rescueme",
-		"price": 800,
+		"price": 1200,
 		"karmatype": "Neutral"
 	},
 	{
@@ -397,6 +387,11 @@
 	},
 	{
 		"abr": "settraits",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "cleartraits",
 		"price": 1,
 		"karmatype": "Neutral"
 	},
@@ -436,5 +431,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 87
+	"total": 86
 }
