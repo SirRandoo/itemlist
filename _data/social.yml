@@ -16,23 +16,23 @@ reddit:
 soundcloud:
 stack_overflow:
 stack_exchange:
-steam:
+steam: KeikuKiku
 tumblr:
-twitter:
+twitter: keikukiku
 vimeo:
 wordpress:
 youtube: # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
-twitch: sirrandoo
+twitch: keikukiku
 tiktok:
 
 # Share button options
 share:
-  facebook: true
+  facebook: 
   twitter: true
   tumblr:
   pinterest:
   pocket:
-  reddit: true
+  reddit: 
   linkedin:
   wordpress:
-  email: true
+  email: 
