@@ -1,7 +1,36 @@
+
+.site-header {
+    background-color: #2c292a;
+}
+
+.site-header a {
+    color: #eeaa00;
+}
+
+h1 {
+  color: #eeaa00;
+}
+
+h2 {
+  color: #e0e0e0;
+}
+
+ul {    color: #b0b0b0;
+}
+
+
+body { 
+  background-color: #0c090a; 
+}
+
+p {
+    color: #b0b0b0;
+}
+
 .tab {
     overflow: hidden;
-    border: 1px solid #cccccc;
-    background-color: #f1f1f1;
+    border: 1px solid #454545;
+    background-color: #0c090a;
 }
 
 .tab button {
@@ -12,16 +41,18 @@
     padding: 12px 12px;
     transition: 0.3s;
     font-size: 0.75em;
+    color: #ffaa00;
 }
 
 .tab button:hover {
-    background-color: #cccccc;
+    background-color: #2c3539;
 }
 
 .tabContent {
     display: none;
     animation: fadeEffect 320ms;
     border-top: none;
+    color: #ffaa00;
 }
 
 @keyframes fadeEffect {
@@ -36,38 +67,59 @@
 
 .search {
     width: 100%;
+    background-color: #1c191a;
     font-size: 16px;
+    color: #ffaa00;
     padding: 12px 20px 12px 40px;
-    border: 1px solid #dddddd;
+    border: 1px solid #454545;
     margin-bottom: 12px;
 }
 
+
+
 table {
     display: table;
+    color: #dddddd;
+}
+
+table tbody tr:hover {
+    background-color: #2c3539;
 }
 
 th {
   font-size: 0.9em;
+  color: #e09000;
+  border: 1px solid rgba(200,100,0,0.3);
 }
 
 th.priceWithData {
     width: 20%;
 }
+
 th.karmaType {
   width: 20%;
 }
+
 th.price {
     width: 15%;
 }
+
 th.author {
   width: 30%;
 }
+
 th.version {
   width: 20%;
 }
+
+td {
+    border: 1px solid rgba(200,100,0,0.3);
+}
+
 td.description {
     font-size: 0.8em;
 }
+
 span.eventRedirect {
   cursor: pointer;
   text-decoration: underline;
@@ -77,7 +129,7 @@ span.metadata {
     font-size: 0.8em;
     padding: 0px;
     font-style: italic;
-    color: #5a5454;
+    color: #a0a0a0;
 }
 
 @media screen and (max-width: break) {
@@ -94,7 +146,7 @@ span.metadata {
     font-size: 0.8em;
     padding: 0px;
     font-style: italic;
-    color: #5a5454;
+    color: #a0a0a0;
   }
 }
 
@@ -111,6 +163,6 @@ span.metadata {
   span.metadata {
     font-size: 0.85em;
     font-style: italic;
-    color: #5a5454;
+    color: #a0a0a0;
   }
 }
