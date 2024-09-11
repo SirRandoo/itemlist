@@ -24,7 +24,7 @@ title: Store
         {%- assign weaponsForDisplay = weaponsForDisplay | push: item | sort: "abr" -%}
         {%- continue -%}
     {%- endif -%}
-                         
+
     {%- if item.category == "Animals" -%}
         {%- assign animalsForDisplay = animalsForDisplay | push: item | sort: "abr" -%}
         {%- continue -%}
@@ -89,7 +89,7 @@ title: Store
 
     {%- assign headers = headers | join: ',' -%}
 
-    {%- include store_tab.html 
+    {%- include store_tab.html
         id='items'
         type='Item'
         buyName=buy

@@ -33,7 +33,7 @@ permalink: /commands
             <thead>
                 <tr>
                     <th style="width: 35%">{{- site.data.language.command_name_header -}}</th>
-                    
+
                     {%- if site.commands.userlevel -%}
                         <th style="width: 18%">{{- site.data.language.user_level_header -}}</th>
                     {%- endif -%}
@@ -70,7 +70,7 @@ permalink: /commands
                         {%- if site.commands.userlevel -%}
                             <td>{{- command.userLevel -}}</td>
                         {%- endif -%}
-                        
+
                         <td>
                             {{- command.description -}}
 
