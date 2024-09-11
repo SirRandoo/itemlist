@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.10
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  
+  <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5"> <!-- Theme Mode--> <script> const darkBtn = "Dark"; const lightBtn = "Light"; const isAutoTheme = false; const preferredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; if (isAutoTheme) { document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme') ?? preferredTheme); } else { document.documentElement.setAttribute('data-theme', "light"); } </script> <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)--> <script defer src="/itemlist/assets/js/main.min.js"></script> <!-- CSS --> <link rel="stylesheet" href="/itemlist/assets/css/main.css"> <!--Favicon--> <link rel="shortcut icon" href="/itemlist/assets/img/favicon.png" type="image/x-icon"> <!-- KaTeX 0.16.9 --> <!-- Mermaid 10.8.0 --> <!-- Simple Jekyll Search 1.10.0 --> <script src="/itemlist/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script> <!-- Google Analytics / Cookie Consent --> <script> const cookieName = 'cookie-notice-dismissed-'; const isCookieConsent = ''; const analyticsName = ''; const analyticsNameGA4 = ''; </script> <!-- seo tags --> <meta property="og:image" content="/itemlist/"> <meta property="og:type" content="website" /> <!-- Begin Jekyll SEO tag v2.8.0 --> <title>Commands | SirRandoo’s Purchase List</title> <meta name="generator" content="Jekyll v4.3.3" /> <meta property="og:title" content="Commands" /> <meta property="og:locale" content="en_US" /> <meta name="description" content="A custom version of Toolkit’s item list to support all the latest features of Utils." /> <meta property="og:description" content="A custom version of Toolkit’s item list to support all the latest features of Utils." /> <link rel="canonical" href="/itemlist/commands" /> <meta property="og:url" content="/itemlist/commands" /> <meta property="og:site_name" content="SirRandoo’s Purchase List" /> <meta property="og:type" content="website" /> <meta name="twitter:card" content="summary" /> <meta property="twitter:title" content="Commands" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","description":"A custom version of Toolkit’s item list to support all the latest features of Utils.","headline":"Commands","url":"/itemlist/commands"}</script> <!-- End Jekyll SEO tag --> <!-- RSS --> <link rel="alternate" type="application/atom+xml" title="SirRandoo's Purchase List" href="/itemlist/feed.xml"/> <link type="application/atom+xml" rel="alternate" href="/itemlist/feed.xml" title="SirRandoo&apos;s Purchase List" /> <!-- Twitter Cards --> <meta name="twitter:title" content="Commands"> <meta name="twitter:card" content="summary"> <meta name="twitter:image" content="/itemlist/"> <meta name="twitter:image:alt" content="Commands"> </head>
+  <body>
+    
+    <header class="site-header"> <!-- Logo and title --> <div class="branding"> <a class="site-title" aria-label="SirRandoo's Purchase List" href="/itemlist/"> SirRandoo's Purchase List </a> </div> <!-- Toggle menu --> <nav class="clear"> <a aria-label="pull" id="pull" class="toggle" href="#"> <i class="fas fa-bars fa-lg"></i> </a> <!-- Menu --> <ul class="hide"> <li class="separator"> | </li> <li> <a class="clear" aria-label="Commands" title="Commands" href="/itemlist/commands"> <span class="navbar-label ">Commands</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Store" title="Store" href="/itemlist/"> <span class="navbar-label ">Store</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Info" title="Info" href="/itemlist/info"> <span class="navbar-label ">Info</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Mod List" title="Mod List" href="/itemlist/modlist"> <span class="navbar-label ">Mod List</span> </a> </li> </ul> </nav> </header>
+    <div class="content">
+      <article >
+    <header id="main" style="background-image: url('')">
+        <div class="title-padder">
+            
+                <h1 id="Commands" class="title"> Commands</h1>
+                
+            
+        </div>
+    </header>
+    <section class="post-content">
+    
+            <script src="/itemlist/assets/js/filter.js"></script>
+<link rel="stylesheet" href="/itemlist/assets/css/core.css"/>
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script><div id="commands"><input type="text"
+        aria-label="Commandsearchbox"
+        class="search"
+        id="commandsInput"
+        onkeyup="filterTable('commands')"
+        placeholder="Search for commands...">
+<table class="sortable" style="display: table">
+            <thead>
+                <tr>
+                    <th style="width: 35%">Command Name</th><th style="width: 18%">User Level</th><th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody><tr>
+                        <td id="abandon-pawn">
+                            <a href="#abandon-pawn">Abandon pawn</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !leave
+                                    </span></td><td>Anyone</td><td>Makes your pawn leave the colony.</td>
+                    </tr><tr>
+                        <td id="add-passion">
+                            <a href="#add-passion">Add passion</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !passion <skill>
+                                    </span></td><td>Anyone</td><td>Upgrades a skill's passion... sometimes.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy passion <skill>
+                                    </span></td>
+                    </tr><tr>
+                        <td id="add-trait">
+                            <a href="#add-trait">Add trait</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !trait
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy trait
+                                    </span></td>
+                    </tr><tr>
+                        <td id="all-commands">
+                            <a href="#all-commands">All commands</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !allcommands
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="backpack">
+                            <a href="#backpack">Backpack</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !backpack <item> [quantity]
+                                    </span></td><td>Anyone</td><td>It's like buy item, but it gets added to your inventory if possible.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy backpack <item> [quantity]
+                                    </span></td>
+                    </tr><tr>
+                        <td id="buy">
+                            <a href="#buy">Buy</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !buy
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="check-balance">
+                            <a href="#check-balance">Check balance</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !bal
+                                    </span></td><td>Anyone</td><td>Shows your current balance, karma, and optionally, the amount of coins earned per cycle.</td>
+                    </tr><tr>
+                        <td id="check-user">
+                            <a href="#check-user">Check user</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !checkuser <viewer>
+                                    </span></td><td>Moderator</td><td>Shows the balance of a given user.</td>
+                    </tr><tr>
+                        <td id="colonist-count">
+                            <a href="#colonist-count">Colonist count</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !colonists
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="colony-wealth">
+                            <a href="#colony-wealth">Colony wealth</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !wealth
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="database">
+                            <a href="#database">Database</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !rwdata <category/weaponname> [weaponname]
+                                    </span></td><td>Anyone</td><td>Provides some information about supported things. Supported categories are: 'weapons'</td>
+                    </tr><tr>
+                        <td id="factions">
+                            <a href="#factions">Factions</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !factions
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="fix-all-pawns">
+                            <a href="#fix-all-pawns">Fix all pawns</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !fixallpawns
+                                    </span></td><td>Moderator</td><td></td>
+                    </tr><tr>
+                        <td id="fix-viewer-pawn">
+                            <a href="#fix-viewer-pawn">Fix viewer pawn</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !fixmypawn
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="full-heal">
+                            <a href="#full-heal">Full heal</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !fullheal
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy fullheal
+                                    </span></td>
+                    </tr><tr>
+                        <td id="give-all-coins">
+                            <a href="#give-all-coins">Give all coins</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !giveallcoins <coins>
+                                    </span></td><td>Moderator</td><td>Gives eveyrone coins.</td>
+                    </tr><tr>
+                        <td id="give-coins">
+                            <a href="#give-coins">Give coins</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !givecoins <viewer> <coins>
+                                    </span></td><td>Moderator</td><td>Gives a viewer coins.</td>
+                    </tr><tr>
+                        <td id="heal-any-pawn">
+                            <a href="#heal-any-pawn">Heal any pawn</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !healanypawn
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy healanypawn
+                                    </span></td>
+                    </tr><tr>
+                        <td id="heal-me">
+                            <a href="#heal-me">Heal me</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !healme
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy healme
+                                    </span></td>
+                    </tr><tr>
+                        <td id="healall">
+                            <a href="#healall">Healall</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !healall
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy healall
+                                    </span></td>
+                    </tr><tr>
+                        <td id="installed-mods">
+                            <a href="#installed-mods">Installed mods</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !installedmods
+                                    </span></td><td>Anyone</td><td>Shows you the complete list of installed mods.</td>
+                    </tr><tr>
+                        <td id="instructions">
+                            <a href="#instructions">Instructions</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !instructions
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="insult">
+                            <a href="#insult">Insult</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !insult [target]
+                                    </span></td><td>Anyone</td><td>Makes your pawn insult a random viewer. If a viewer is specified, you'll insult them instead.</td>
+                    </tr><tr>
+                        <td id="join-queue">
+                            <a href="#join-queue">Join queue</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !joinqueue
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="karma-explanation">
+                            <a href="#karma-explanation">Karma explanation</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !whatiskarma
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="karma-round">
+                            <a href="#karma-round">Karma round</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !karmaround
+                                    </span></td><td>Moderator</td><td>Awards all active viewers coins.</td>
+                    </tr><tr>
+                        <td id="level-skill">
+                            <a href="#level-skill">Level skill</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !levelskill <skill> <coins>
+                                    </span></td><td>Anyone</td><td>Lets you wager coins to level up a skill of your choosing.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy levelskill <skill> <coins>
+                                    </span></td>
+                    </tr><tr>
+                        <td id="lookup">
+                            <a href="#lookup">Lookup</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !lookup <item/category> [query]
+                                    </span></td><td>Anyone</td><td>Shows the first few results for the query in the given category. Valid categories are: 'pawns', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'.</td>
+                    </tr><tr>
+                        <td id="mod-info">
+                            <a href="#mod-info">Mod info</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !modinfo
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="mod-settings">
+                            <a href="#mod-settings">Mod settings</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !modsettings
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="passion-shuffle">
+                            <a href="#passion-shuffle">Passion shuffle</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !passionshuffle [skill]
+                                    </span></td><td>Anyone</td><td>Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy passionshuffle [skill]
+                                    </span></td>
+                    </tr><tr>
+                        <td id="price-check">
+                            <a href="#price-check">Price check</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !price <item/category> [query]
+                                    </span></td><td>Anyone</td><td>Similar to the lookup command, except it'll show the price for the first valid match.</td>
+                    </tr><tr>
+                        <td id="purchase-list">
+                            <a href="#purchase-list">Purchase list</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !purchaselist
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="refresh-viewers">
+                            <a href="#refresh-viewers">Refresh viewers</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !refreshviewers
+                                    </span></td><td>Moderator</td><td>Updates the current list of active viewers.</td>
+                    </tr><tr>
+                        <td id="remove-passion">
+                            <a href="#remove-passion">Remove passion</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !removepassion <skill>
+                                    </span></td><td>Anyone</td><td>Downgrades a skill's passion... sometimes.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy removepassion <skill>
+                                    </span></td>
+                    </tr><tr>
+                        <td id="remove-trait">
+                            <a href="#remove-trait">Remove trait</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !removetrait
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy removetrait
+                                    </span></td>
+                    </tr><tr>
+                        <td id="replace-trait">
+                            <a href="#replace-trait">Replace trait</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !replacetrait <old> <new>
+                                    </span></td><td>Anyone</td><td>Replaces a trait with a different trait.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy replacetrait <old> <new>
+                                    </span></td>
+                    </tr><tr>
+                        <td id="rescue-me">
+                            <a href="#rescue-me">Rescue me</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !rescueme
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy rescueme
+                                    </span></td>
+                    </tr><tr>
+                        <td id="research">
+                            <a href="#research">Research</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !research [project/item]
+                                    </span></td><td>Anyone</td><td>Shows the current research progress. If a project is specified, it'll show the progress of that instead.</td>
+                    </tr><tr>
+                        <td id="revive-all">
+                            <a href="#revive-all">Revive all</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !reviveall
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy reviveall
+                                    </span></td>
+                    </tr><tr>
+                        <td id="revive-any-pawn">
+                            <a href="#revive-any-pawn">Revive any pawn</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !reviveanypawn
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy reviveanypawn
+                                    </span></td>
+                    </tr><tr>
+                        <td id="revive-me">
+                            <a href="#revive-me">Revive me</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !reviveme
+                                    </span></td><td>Anyone</td><td><br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy reviveme
+                                    </span></td>
+                    </tr><tr>
+                        <td id="set-karma">
+                            <a href="#set-karma">Set karma</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !setkarma <viewer> <karma>
+                                    </span></td><td>Moderator</td><td>Sets the current karma for a given user.</td>
+                    </tr><tr>
+                        <td id="surgery">
+                            <a href="#surgery">Surgery</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !surgery <item> <quantity/bodypart>
+                                    </span></td><td>Anyone</td><td>Purchases the part specified and queues it for surgery on your pawn.<br/>
+                                <span class="metadata">
+                                    This is a shortcut for 
+                                        !buy surgery <item> <quantity/bodypart>
+                                    </span></td>
+                    </tr><tr>
+                        <td id="toggle-coins">
+                            <a href="#toggle-coins">Toggle coins</a><br/>
+                                <span class="metadata">From Twitch Toolkit</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !togglecoins
+                                    </span></td><td>Moderator</td><td>Toggles coin generation.</td>
+                    </tr><tr>
+                        <td id="toggle-store">
+                            <a href="#toggle-store">Toggle store</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !togglestore
+                                    </span></td><td>Moderator</td><td></td>
+                    </tr><tr>
+                        <td id="unstick">
+                            <a href="#unstick">Unstick</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !unstick
+                                    </span></td><td>Moderator</td><td></td>
+                    </tr><tr>
+                        <td id="unstick-me">
+                            <a href="#unstick-me">Unstick me</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !imstuck
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="viewer-body">
+                            <a href="#viewer-body">Viewer body</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnbody
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="viewer-gear">
+                            <a href="#viewer-gear">Viewer gear</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawngear
+                                    </span></td><td>Anyone</td><td>Shows an overview of your pawn's gear.</td>
+                    </tr><tr>
+                        <td id="viewer-health">
+                            <a href="#viewer-health">Viewer health</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnhealth [capacity]
+                                    </span></td><td>Anyone</td><td>Shows an overview of your pawn's health. If a capacity is specified, it'll show what's affecting it.</td>
+                    </tr><tr>
+                        <td id="viewer-kill-count">
+                            <a href="#viewer-kill-count">Viewer kill count</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnkills
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="viewer-needs">
+                            <a href="#viewer-needs">Viewer needs</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnneeds
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="viewer-relations">
+                            <a href="#viewer-relations">Viewer relations</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnrelations [viewer]
+                                    </span></td><td>Anyone</td><td>Shows your pawn's relationships to other viewers.</td>
+                    </tr><tr>
+                        <td id="viewer-skills">
+                            <a href="#viewer-skills">Viewer skills</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnskills
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="viewer-stats">
+                            <a href="#viewer-stats">Viewer stats</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnstats [stat1] [stat2]
+                                    </span></td><td>Anyone</td><td>Shows your current stats within a given category.</td>
+                    </tr><tr>
+                        <td id="viewer-story">
+                            <a href="#viewer-story">Viewer story</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnstory
+                                    </span></td><td>Anyone</td><td></td>
+                    </tr><tr>
+                        <td id="viewer-work">
+                            <a href="#viewer-work">Viewer work</a><br/>
+                                <span class="metadata">From ToolkitUtils</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !mypawnwork [worktype=priority] [...]
+                                    </span></td><td>Anyone</td><td>Shows your pawn's work priorities.</td>
+                    </tr><tr>
+                        <td id="hello">
+                            <a href="#hello">hello</a><br/>
+                                <span class="metadata">From ToolkitCore</span><br/>
+                                <span class="metadata">
+                                    Usage: 
+                                         !hello
+                                    </span></td><td>Moderator</td><td></td>
+                    </tr></tbody>
+        </table></div>
+
+            
+    </section>
+    <!-- Tag list for portfolio -->
+    
+    
+    <div class="tag-list"></div>
+</article>
+
+    </div>
+    
+    <footer class="site-footer"> <p class="text"> Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a></p> <div class="footer-icons"> <ul> <!-- Social icons from Font Awesome, if enabled --> </ul> </div> </footer>
+  </body>
+</html>
