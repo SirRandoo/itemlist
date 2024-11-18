@@ -3,7 +3,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
@@ -25,7 +25,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
@@ -51,10 +51,10 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
-      "description": "Timmy is an exceptionally agreeable and giving person. he rarely insults others or starts fights, and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance.",
+      "description": "Timmy is an exceptionally agreeable and giving person. he rarely insults others and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance. his agreeableness also makes him more likely to conform to prevailing opinions.",
       "stats": [
         "x200% global certainty loss factor"
       ],
@@ -83,7 +83,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
@@ -111,7 +111,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
@@ -137,7 +137,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
@@ -163,7 +163,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
@@ -205,7 +205,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
@@ -245,7 +245,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
@@ -275,7 +275,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy likes to be up during the night, and sleep during the day.\n\nhe gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\nhe doesn't get a mood penalty for being in the dark.",
@@ -297,7 +297,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
@@ -325,7 +325,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
@@ -357,7 +357,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
@@ -395,7 +395,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy is romantically attracted to people of his own gender.",
@@ -417,7 +417,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy is romantically attracted to both men and women.",
@@ -439,7 +439,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has no sexual attraction to anyone at all.",
@@ -461,7 +461,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
@@ -483,7 +483,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy breathes heavily all the time, and sweats constantly. People find it creepy.",
@@ -505,7 +505,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy loves fire. he will never extinguish fires, and will occasionally go on random fire starting sprees. he will be happy around flames, and happier when wielding an incendiary weapon.",
@@ -533,7 +533,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
@@ -567,7 +567,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
@@ -595,7 +595,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has a knack for learning. he picks things up much faster than others.",
@@ -621,7 +621,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy is slow on the uptake. he learns much slower than others.",
@@ -653,10 +653,10 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
-      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
+      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever and is not bothered by darkness. However, Timmy will be unhappy while outdoors.",
       "stats": [
         "Morbid meditation focus type allowed."
       ],
@@ -679,7 +679,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced with artificial body parts or xenogenetics.",
@@ -705,7 +705,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts and xenogenes are unethical and disgusting.",
@@ -731,7 +731,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy really dislikes and distrusts men.",
@@ -753,7 +753,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy really dislikes and distrusts women.",
@@ -775,7 +775,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
@@ -801,7 +801,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
@@ -827,7 +827,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
@@ -853,7 +853,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
@@ -885,7 +885,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
@@ -911,7 +911,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy is always falling behind the group whenever he goes anywhere.",
@@ -939,7 +939,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy likes to be where he's going. he walks quicker than most people.",
@@ -965,7 +965,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
@@ -991,7 +991,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
@@ -1013,7 +1013,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
@@ -1035,7 +1035,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
@@ -1063,7 +1063,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy is just naturally upbeat about his situation, pretty much all the time, no matter what it is.",
@@ -1085,7 +1085,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy is naturally optimistic about life. It's hard to get him down.",
@@ -1107,7 +1107,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy tends to look on the bad side of life.",
@@ -1129,7 +1129,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -2,
       "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
@@ -1151,7 +1151,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
@@ -1179,7 +1179,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
@@ -1207,7 +1207,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy tends to crack under pressure.",
@@ -1235,7 +1235,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -2,
       "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
@@ -1263,7 +1263,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
@@ -1291,7 +1291,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
@@ -1319,7 +1319,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
@@ -1345,7 +1345,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
@@ -1371,7 +1371,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy is a little bit lazy.",
@@ -1397,7 +1397,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -2,
       "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
@@ -1423,7 +1423,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
@@ -1449,7 +1449,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
@@ -1475,7 +1475,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
@@ -1501,7 +1501,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -2,
       "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
@@ -1527,7 +1527,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
@@ -1559,7 +1559,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
@@ -1591,7 +1591,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 2,
       "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
@@ -1617,7 +1617,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy has a pretty face, which predisposes people to like him.",
@@ -1643,7 +1643,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
@@ -1669,7 +1669,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -2,
       "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
@@ -1695,7 +1695,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
       "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
@@ -1721,7 +1721,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
       "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
@@ -1747,110 +1747,36 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 500,
-      "degree": -1,
-      "description": "Timmy always shies away from danger. he is usually the first to flee from battle.",
-      "stats": [
-        "+25% suppressability"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+25% suppressability"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Combat Extended",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Bravery",
-      "name": "cowardly"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 500,
-      "degree": 1,
-      "description": "Few things scare Timmy. In battle he stands unfazed where others panic and flee.",
-      "stats": [
-        "-50% suppressability"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-50% suppressability"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Combat Extended",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Bravery",
-      "name": "brave"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 500,
-      "degree": 2,
-      "description": "Timmy laughs in the face of danger. Some ascribe it to bravery, others to stupidity. Either way, Timmy seems to lack any sense of self-preservation and will never flee from a threatening situation.",
-      "stats": [
-        "-100% suppressability"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-100% suppressability"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Combat Extended",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Bravery",
-      "name": "fearless"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 0,
-      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
-      "stats": [],
+      "description": "Timmy has fragile skin and bones. he takes more damage than other people from the same blows.",
+      "stats": [
+        "x115% incoming damage multiplier"
+      ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
-        "stats": [],
+        "stats": [
+          "x115% incoming damage multiplier"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Vanilla Fishing Expanded",
+        "mod": "Biotech",
         "karmaTypeForAdding": null
       },
-      "defName": "VCEF_Fisherman",
-      "name": "fisherman"
+      "defName": "Delicate",
+      "name": "delicate"
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
-      "degree": 2,
-      "description": "Timmy is obsessed with germs and will wash much more frequently than normal.",
+      "degree": 0,
+      "description": "The fewer people in Timmy's faction, the happier he is. Being alone is best of all.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1860,19 +1786,169 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Dubs Bad Hygiene",
+        "mod": "Biotech",
         "karmaTypeForAdding": null
       },
-      "defName": "Hygienic",
-      "name": "germaphobe"
+      "defName": "Recluse",
+      "name": "recluse"
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy has outstanding memory, both in terms of retaining information but also muscle memory. his skills will never decay.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "PerfectMemory",
+      "name": "perfectmemory"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy has deep knowledge of the twisted patterns of dark psychic energy. he can study unnatural entities faster than others. he will also periodically teach this inhuman knowledge to others when he gets the chance.",
+      "stats": [
+        "+100% study efficiency",
+        "+50% entity study rate"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+100% study efficiency",
+          "+50% entity study rate"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Occultist",
+      "name": "occultist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy has the ability to make everyone feel better and inspire them to be the best version of themselves.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Joyous",
+      "name": "joyous"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy doesn't have basic needs like eating, sleeping, or comfort. his body is driven by some unknown mechanism, which has turned his eyes completely white.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BodyMastery",
+      "name": "bodymastery"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is a peculiar person who seems fixated on horrendous ideas. Talking to him is often upsetting.",
+      "stats": [
+        "Morbid meditation focus type allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Disturbing",
+      "name": "disturbing"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is strangely intrigued by unnatural entities and is easily enthralled by them.",
+      "stats": [
+        "Artistic meditation focus type disabled.",
+        "Void meditation focus type allowed.",
+        "Only mental break \"entity liberator\" allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Artistic meditation focus type disabled.",
+          "Void meditation focus type allowed.",
+          "Only mental break \"entity liberator\" allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VoidFascination",
+      "name": "voidfascination"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": 1,
-      "description": "Timmy is very hygienic and will wash more frequently.",
+      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1882,19 +1958,19 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Dubs Bad Hygiene",
+        "mod": "Humanoid Alien Races",
         "karmaTypeForAdding": null
       },
-      "defName": "Hygienic",
-      "name": "hygienic"
+      "defName": "HAR_Xenophobia",
+      "name": "xenophobe"
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
       "degree": -1,
-      "description": "Timmy is very unhygienic and will wash less frequently.",
+      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1904,33 +1980,125 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Dubs Bad Hygiene",
+        "mod": "Humanoid Alien Races",
         "karmaTypeForAdding": null
       },
-      "defName": "Hygienic",
-      "name": "unhygienic"
+      "defName": "HAR_Xenophobia",
+      "name": "xenophile"
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
+      "addPrice": 4000,
       "removePrice": 500,
-      "degree": -2,
-      "description": "Timmy has very low standards of cleanliness and will only wash when they absolutely have to.",
-      "stats": [],
+      "degree": -1,
+      "description": "Timmy is clumsy at manipulating aether. he can never hope to learn advanced jobs.",
+      "stats": [
+        "-1 maximum job count"
+      ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
-        "stats": [],
+        "stats": [
+          "-1 maximum job count"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Dubs Bad Hygiene",
+        "mod": "A Rim Reborn - Classes and Jobs",
         "karmaTypeForAdding": null
       },
-      "defName": "Hygienic",
-      "name": "slob"
+      "defName": "ARR_ClassOffset",
+      "name": "inept"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 1,
+      "description": "Timmy is talented at manipulating aether. he can learn more classes than normal.",
+      "stats": [
+        "+1 maximum class count",
+        "+1 maximum job count"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+1 maximum class count",
+          "+1 maximum job count"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "A Rim Reborn - Classes and Jobs",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ARR_ClassOffset",
+      "name": "adept"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": -1,
+      "description": "Timmy has weak aether reserves. he cannot cast magic as often or as effectively as others.",
+      "stats": [
+        "-2000 magic points",
+        "x90% aetherial incantation",
+        "x90% aetherial geometry"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-2000 magic points",
+          "x90% aetherial incantation",
+          "x90% aetherial geometry"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "A Rim Reborn - Classes and Jobs",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ARR_MagicPointOffset",
+      "name": "stifled"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 4000,
+      "removePrice": 500,
+      "degree": 1,
+      "description": "Timmy has voluminous aether reserves. he can cast magic with greater ease and potency than others.",
+      "stats": [
+        "+2000 magic points",
+        "x110% aetherial incantation",
+        "x110% aetherial geometry"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+2000 magic points",
+          "x110% aetherial incantation",
+          "x110% aetherial geometry"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "A Rim Reborn - Classes and Jobs",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ARR_MagicPointOffset",
+      "name": "wellspring"
     }
   ],
   "races": [
@@ -1940,13 +2108,10 @@
         "stats": [
           "+60.00 Mass",
           "+70% Flammability",
-          "+1.0 Melee dodge chance",
-          "+100% Melee critical chance",
-          "+100% Melee parry chance",
           "+$1750 Market value",
           "+4.60 Move speed",
-          "+16.0C Minimum comfortable temperature",
-          "+26.0C Maximum comfortable temperature",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
           "+75 Leather amount",
           "+3 Honor value"
         ],
@@ -1955,7 +2120,7 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": true,
+      "enabled": false,
       "name": "human",
       "price": 2917
     },
@@ -1963,31 +2128,315 @@
       "data": {
         "customName": false,
         "stats": [
-          "+70.00 Mass",
-          "+100% Flammability",
-          "-60.0C Minimum comfortable temperature",
-          "+200.0C Maximum comfortable temperature",
-          "+0% Psychic sensitivity",
-          "+0% Toxic resistance",
-          "+0 Meat amount",
-          "+0 Leather amount",
-          "+0 Carrying capacity",
-          "+0.00% Social impact",
-          "+0 Armor - Blunt",
-          "+0 Armor - Sharp",
-          "+0.0% Armor - Heat",
-          "+0.1 Melee dodge chance",
-          "+10% Melee critical chance",
-          "+5% Melee parry chance"
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "A zombie",
-      "defName": "Zombie",
+      "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
+      "defName": "CreepJoiner",
       "enabled": false,
-      "name": "Zombie",
-      "price": 1
+      "name": "human",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+12.0C Min comfortable temperature",
+          "+24.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+1.0 Shooting accuracy",
+          "+1.0 Melee hit chance",
+          "+110.00% Negotiation ability",
+          "+110.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nBelieving themselves the children of the Dawn Father, the forebears of the Auri Raen left behind their homeland to settle across Othard. They were received with hatred and hostility in the early years, until a prominent warlord of Yanxia, impressed with their valor, forged an alliance with the strange race and took them on as retainers. No matter where they came to be, with their innate martial prowess, they readily found employment as soldiers and carved out places for themselves within spheres of authority. Before long, the Raen had assumed a prominent role as warriors in service of countless great warlords, and their members spread across the Far East, from the lands of Nagxia and beyond the Ruby Sea to the isles of Hingashi, where they earned a reputation as legendary swordsmen. Yet not all chose this life. Some embraced a life of tranquility and solitude, settling in the deep valleys of Othard's mountainous eastern reaches. Others still desired to leave conflict behind completely, and availing themselves of Kojin wisdom, they created a great bubble of air at the bottom of the Ruby Sea, within which they built a village—Sui-no-Sato. To govern their fledgling society, they founded a system of hereditary rule led by the Ruby Princess, under whose guidance they live a life of seclusion, away from the turmoils of the surface.",
+      "defName": "ARR_AuRaRaen",
+      "enabled": false,
+      "name": "au ra",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+12.0C Min comfortable temperature",
+          "+24.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+1.0 Shooting accuracy",
+          "+1.0 Melee hit chance",
+          "+110.00% Tame animal chance",
+          "+110.00% Train animal chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nAmong the peoples of the Far East, it is believed that the Au Ra of the Azim Steppe were the first to keep livestock. They initially tamed horses to serve as mounts, and it was this achievement which led to the Au Ra's decisive rise to dominance over the plains. When the Raen subsequently departed their ancestral home, they took with them the knowledge of rearing and riding horses to the lands beyond the Steppe. After the horse, the Au Ra turned their hand to taming the yol, and these new mounts saw them expand their dominion to the skies above the Steppe. The Xaela have to this day not abandoned their ancestral home, living a nomadic life as hunters and gatherers on the vast Azim Steppe. With suitable grazing land sparse, conflict between individual tribes is common, with tribes forming, disbanding, and dying off in a ceaseless cycle of war and bloodshed. At last observation, Xaela tribes numbered fifty-one, though there is a high likelihood that recently splintered or merged tribes have rendered that count outdated. Of late, rumors swirl of a swelling of tribes who pledge spiritual allegiance to the Dusk Mother, and the abductions that have followed.",
+      "defName": "ARR_AuRaXaela",
+      "enabled": false,
+      "name": "au ra",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+105.00% Negotiation ability",
+          "+110.00% Social impact",
+          "+110.00% Conversion power"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "The Elezen are a characteristically tall people, long of limb and slender of build. They are also possessed of a somewhat extended lifespan in comparison to the Hyur. The Elezen once claimed sole dominion over Eorzea, their presence predating that of the other races, and, as such, developed a heightened sense of honor and pride. In years past, the Hyur migration into Elezen lands sparked bitter conflict. At present, however, the mutual understanding reached between the two races allows them to work towards mutual peace and prosperity.\n\nFor the past several centuries, the Duskwight Elezen have lived in the woodland caverns of Eorzea. These cave-dwelling Elezen are the descendants of a branch that split from the main Wildwood clan during the founding of Gridania. The Duskwight despise the \"shackles\" of urban life, and it is not uncommon for this reclusive people to avoid the city-states altogether.",
+      "defName": "ARR_ElezenDuskwight",
+      "enabled": false,
+      "name": "elezen",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+105.00% Negotiation ability",
+          "+110.00% Social impact",
+          "+110.00% Conversion power"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "The Elezen are a characteristically tall people, long of limb and slender of build. They are also possessed of a somewhat extended lifespan in comparison to the Hyur. The Elezen once claimed sole dominion over Eorzea, their presence predating that of the other races, and, as such, developed a heightened sense of honor and pride. In years past, the Hyur migration into Elezen lands sparked bitter conflict. At present, however, the mutual understanding reached between the two races allows them to work towards mutual peace and prosperity.\n\nThe forests, of which the Black Shroud is the tangled heart, have been home to the Wildwood Elezen for hundreds of years. Many of the Wildwood, however, have been drawn to the city-states they helped found, such as Ishgard and Gridania. Their fondness for law and order has contributed to a reputation for being haughty and argumentative.",
+      "defName": "ARR_ElezenWildwood",
+      "enabled": false,
+      "name": "elezen",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Highlander name comes from the clan's history of dominion over the mountains of Gyr Abania. Compared to their Midlander brethren, the Highlanders are noticeably larger in build and musculature. Following the fall of their ancestral homeland of Ala Mhigo, many have sought refuge in the bustling mercantile nation of Ul'dah.",
+      "defName": "ARR_HyurHighlander",
+      "enabled": false,
+      "name": "Hyur",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Midlander clan comprises over half of Eorzea's total Hyur population. The name derives from the clan's long tradition of settling in low-lying regions, though in truth Midlander lines hail from a wide variety of ancestral homelands. They have established themselves in every city throughout the realm, and can be observed leading lives as diverse as their heritage.",
+      "defName": "ARR_HyurMidlander",
+      "enabled": false,
+      "name": "Hyur",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.40 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+110% Animal gather speed",
+          "+110% Animal gather yield"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Dunesfolk can be found on the scorching sands of Thanalan and other such arid areas. As the founders of the merchant city of Ul'dah, they are famous for their obsession with commerce. A natural inclination to transform ideas into action has served the Dunesfolk well in their business dealings.",
+      "defName": "ARR_LalafellDunesfolk",
+      "enabled": false,
+      "name": "Lalafell",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.40 Move speed",
+          "+16.0C Min comfortable temperature",
+          "+26.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+110% Plant work speed",
+          "+110% Plant harvest yield"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Plainsfolk have settled in La Noscea and other regions where the ground is flat and easily cultivated. Though many live the life of farmers, it is not uncommon to see Plainsfolk residing in Limsa Lominsa, holding positions in the navy or working in the fisheries. They are well known for their relaxed and carefree demeanor.",
+      "defName": "ARR_LalafellPlainsfolk",
+      "enabled": false,
+      "name": "Lalafell",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+5.00 Move speed",
+          "+18.0C Min comfortable temperature",
+          "+28.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+1.1 Shooting accuracy",
+          "+105% Hunting stealth"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe nocturnal among the Miqo'te have dubbed themselves the Keepers of the Moon. Shying from the garish light of day, they revel in the shroud of night, with most offering their piety to Menphina the Lover, goddess of the moon. Their tradition of hunting in the thick woodlands of the Black Shroud have for years thrown them into conflict with the forestfolk of Gridania, who condemn them as poachers. Of late, however, many Keepers of the Moon have found some small peace with the Gridanians, and taken to living within the city.",
+      "defName": "ARR_MiqoteKeeper",
+      "enabled": false,
+      "name": "Miqo'te",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+5.00 Move speed",
+          "+18.0C Min comfortable temperature",
+          "+28.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+1.1 Shooting accuracy",
+          "+105% Hunting stealth"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe self-proclaimed Seekers of the Sun are the diurnal clan of the Miqo'te race. Their preference for the warm light of day pervades all aspects of their culture, as is apparent in their devout reverence for Azeyma the Warden, goddess of the sun. Though relatively few in Eorzea, a small number of them have been accepted into everyday life by the other races in the port city of Limsa Lominsa. Others are known to make their home in the region of the Sagolii Desert.",
+      "defName": "ARR_MiqoteSeeker",
+      "enabled": false,
+      "name": "Miqo'te",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.80 Move speed",
+          "+18.0C Min comfortable temperature",
+          "+28.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+1.1 Shooting accuracy",
+          "+1.1 Melee hit chance",
+          "+110% Hunting stealth"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nViera of the Rava clan live primarily in the Golmore Jungle, their umber skin allowing them to readily blend in with their surroundings. Though the males stand as wards of the forest, the females are adept hunters in their own right, fiercely guarding their homes and their young. Despite attempts by the Dalmascans to subjugate them, they have ever maintained a self-governing dominion. Though most would adhere to the traditions of the wood, some few have chosen to venture out into the world.",
+      "defName": "ARR_VieraRava",
+      "enabled": false,
+      "name": "Viera",
+      "price": 2917
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.80 Move speed",
+          "+18.0C Min comfortable temperature",
+          "+28.0C Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+1.1 Shooting accuracy",
+          "+1.1 Melee hit chance",
+          "+110% Hunting stealth"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nWith skin as fair as the snowcapped mountains towering above, the Veena clan make their homes in the forests lining the southwestern foothills of the Skatay Range. Like the members of their sister clan, the Veena live as hunters and gatherers, laboring not only to protect the woods, but to nurture them. As the winds of war swept up a number of those who left their mountain homes, many such hardened hunters chose to set out for the distant shores of Eorzea.",
+      "defName": "ARR_VieraVeena",
+      "enabled": false,
+      "name": "Viera",
+      "price": 2917
     }
   ]
 }
