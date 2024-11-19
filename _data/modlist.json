@@ -120,18 +120,6 @@
     "version": "2.1.0+7d56af4a193adaf667037ad4fdfbcf54b8c71fce"
   },
   {
-    "author": "Uuugggg",
-    "name": "Replace Stuff",
-    "steamId": "1372003680",
-    "version": "1.1.0.0"
-  },
-  {
-    "author": "PeteTimesSix",
-    "name": "Simple sidearms",
-    "steamId": "927155256",
-    "version": "1.4.6.0"
-  },
-  {
     "author": "nry",
     "name": "ToolkitCore",
     "steamId": "3013877477",
@@ -150,16 +138,16 @@
     "version": "7.0.5.0-beta+e8d2ab06fe38b0b1f43d53750a3b8ba18d5edcda"
   },
   {
-    "author": "hodlhodl",
+    "author": "swemoney",
+    "name": "Toolkit - Channel Points",
+    "steamId": "1916651243",
+    "version": "1.5.0"
+  },
+  {
+    "author": "sirrandoo",
     "name": "ToolkitCreator",
     "steamId": "2099493475",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "SirRandoo",
-    "name": "ToolkitResearch",
-    "steamId": "2312827542",
-    "version": "1.0.3.2"
   },
   {
     "author": "SirRandoo",
@@ -168,10 +156,10 @@
     "version": "1.2.1+7ccb7fa1f193a57b700662cc86a5e7d810bda4fd"
   },
   {
-    "author": "swemoney",
-    "name": "Toolkit - Channel Points",
-    "steamId": "1916651243",
-    "version": "1.5.0"
+    "author": "SirRandoo",
+    "name": "ToolkitResearch",
+    "steamId": "2312827542",
+    "version": "2.0.0+288828fa92335d0d96e9251a76cc6cf6476421a0"
   },
   {
     "author": "Captolamia",

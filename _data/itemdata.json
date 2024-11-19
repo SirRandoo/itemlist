@@ -14800,7 +14800,7 @@
     "KarmaType": null
   },
   "ARR_LeatherCuirass": {
-    "CustomName": null,
+    "CustomName": "leathercuirass",
     "HasQuantityLimit": false,
     "IsMelee": false,
     "IsRanged": false,
