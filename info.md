@@ -2,6 +2,7 @@
 title: Info
 layout: page
 permalink: /info
+store: false
 ---
 
 {%- assign utils = false -%}

@@ -1,12 +1,8 @@
 ---
 layout: page
 title: Store
+store: true
 ---
-
-<link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} "/>
-<script src="{{- 'assets/js/tabs.js' | relative_url -}}"></script>
-<script src="{{- 'assets/js/filter.js' | relative_url -}}"></script>
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
 {%- assign itemsForDisplay = '' | split: ',' -%}
 {%- assign eventsForDisplay = site.data.StoreIncidents.incitems | where_exp: "incident", "incident.price > 0" | sort: "abr" -%}
@@ -16,191 +12,193 @@ title: Store
 {%- assign weaponsForDisplay = '' | split: ',' -%}
 
 {%- for item in site.data.StoreItems.items -%}
-    {%- if item.price <= 0 -%}
-        {%- continue -%}
-    {%- endif -%}
+{%- if item.price <= 0 -%}
+{%- continue -%}
+{%- endif -%}
 
-    {%- if site.data.itemdata[item.defname].IsWeapon -%}
-        {%- assign weaponsForDisplay = weaponsForDisplay | push: item | sort: "abr" -%}
-        {%- continue -%}
-    {%- endif -%}
+{%- if site.data.itemdata[item.defname].IsWeapon -%}
+{%- assign weaponsForDisplay = weaponsForDisplay | push: item | sort: "abr" -%}
+{%- continue -%}
+{%- endif -%}
 
-    {%- if item.category == "Animals" -%}
-        {%- assign animalsForDisplay = animalsForDisplay | push: item | sort: "abr" -%}
-        {%- continue -%}
-    {%- endif -%}
+{%- if item.category == "Animals" -%}
+{%- assign animalsForDisplay = animalsForDisplay | push: item | sort: "abr" -%}
+{%- continue -%}
+{%- endif -%}
 
-    {%- if item.category != "Animal" -%}
-        {%- assign itemsForDisplay = itemsForDisplay | push: item | sort: "abr" -%}
-        {%- continue -%}
-    {%- endif -%}
+{%- if item.category != "Animal" -%}
+{%- assign itemsForDisplay = itemsForDisplay | push: item | sort: "abr" -%}
+{%- continue -%}
+{%- endif -%}
 {%- endfor -%}
 
 {%- for trait in site.data.ShopExt.traits -%}
-    {%- if trait.canAdd == true or trait.canRemove == true -%}
-        {%- assign traitsForDisplay = traitsForDisplay | push: trait | sort: "name" -%}
-    {%- endif -%}
+{%- if trait.canAdd == true or trait.canRemove == true -%}
+{%- assign traitsForDisplay = traitsForDisplay | push: trait | sort: "name" -%}
+{%- endif -%}
 {%- endfor -%}
 
 {%- assign buy = "" -%}
 {%- for command in site.data.commands -%}
-    {%- if command.data.isBuy == true -%}
-        {%- capture buy -%}
-            {{- command.usage | split: " " | first -}}
-        {%- endcapture -%}
-        {%- break -%}
-    {%- endif -%}
+{%- if command.data.isBuy == true -%}
+{%- capture buy -%}
+{{- command.usage | split: " " | first -}}
+{%- endcapture -%}
+{%- break -%}
+{%- endif -%}
 {%- endfor -%}
 
 <div class="tab">
     {%- if itemsForDisplay.size > 0 -%}
-        {%- include tab.html id='items' -%}
+    {%- include tab.html id='items' -%}
     {%- endif -%}
 
     {%- if eventsForDisplay.size > 0 -%}
-        {%- include tab.html id='events' -%}
+    {%- include tab.html id='events' -%}
     {%- endif -%}
 
     {%- if weaponsForDisplay.size > 0 -%}
-        {%- include tab.html id='weapons' -%}
+    {%- include tab.html id='weapons' -%}
     {%- endif -%}
 
     {%- if animalsForDisplay.size > 0 -%}
-        {%- include tab.html id='animals' -%}
+    {%- include tab.html id='animals' -%}
     {%- endif -%}
 
     {%- if traitsForDisplay.size > 0 -%}
-        {%- include tab.html id='traits' -%}
+    {%- include tab.html id='traits' -%}
     {%- endif -%}
 
     {%- if kindsForDisplay.size > 0 -%}
-        {%- include tab.html id='kinds' -%}
+    {%- include tab.html id='kinds' -%}
     {%- endif -%}
 </div>
 
 {%- if itemsForDisplay.size > 0 -%}
-    {%- assign headers = '' | split: ',' -%}
-    {%- assign headers = headers | push: site.data.language.name_header -%}
-    {%- assign headers = headers | push: site.data.language.cost_header -%}
+{%- assign headers = '' | split: ',' -%}
+{%- assign headers = headers | push: site.data.language.name_header -%}
+{%- assign headers = headers | push: site.data.language.cost_header -%}
 
-    {%- if site.store.items.category -%}
-        {%- assign headers = headers | push: site.data.language.category_header -%}
-    {%- endif -%}
+{%- if site.store.items.category -%}
+{%- assign headers = headers | push: site.data.language.category_header -%}
+{%- endif -%}
 
-    {%- assign headers = headers | join: ',' -%}
+{%- assign headers = headers | join: ',' -%}
 
-    {%- include store_tab.html
-        id='items'
-        type='Item'
-        buyName=buy
-        headers=headers
-        priceDataHeaders='Cost'
-        displayData=itemsForDisplay
-        placeholder=site.data.language.search_items -%}
+{%- include store_tab.html
+id='items'
+type='Item'
+buyName=buy
+headers=headers
+priceDataHeaders='Cost'
+displayData=itemsForDisplay
+placeholder=site.data.language.search_items -%}
 {%- endif -%}
 
 {%- if eventsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }},{{ site.data.language.karma_type_header }}
-    {% endcapture %}
+{% capture headers %}
+{{ site.data.language.name_header }},{{ site.data.language.cost_header }},{{ site.data.language.karma_type_header }}
+{% endcapture %}
 
-    {%- include store_tab.html
-        id='events'
-        type='Event'
-        buyName=buy
-        headers=headers
-        karmaHeaders=site.data.language.karma_type_header
-        displayData=eventsForDisplay
-        placeholder=site.data.language.search_events -%}
+{%- include store_tab.html
+id='events'
+type='Event'
+buyName=buy
+headers=headers
+karmaHeaders=site.data.language.karma_type_header
+displayData=eventsForDisplay
+placeholder=site.data.language.search_events -%}
 {%- endif -%}
 
 {%- if weaponsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }}
-    {% endcapture %}
+{% capture headers %}
+{{ site.data.language.name_header }},{{ site.data.language.cost_header }}
+{% endcapture %}
 
-    {%- include store_tab.html
-        id='weapons'
-        type='Weapon'
-        buyName=buy
-        headers=headers
-        priceDataHeaders=site.data.language.cost_header
-        displayData=weaponsForDisplay
-        placeholder=site.data.language.search_weapons -%}
+{%- include store_tab.html
+id='weapons'
+type='Weapon'
+buyName=buy
+headers=headers
+priceDataHeaders=site.data.language.cost_header
+displayData=weaponsForDisplay
+placeholder=site.data.language.search_weapons -%}
 {%- endif -%}
 
 {%- if animalsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }}
-    {% endcapture %}
+{% capture headers %}
+{{ site.data.language.name_header }},{{ site.data.language.cost_header }}
+{% endcapture %}
 
-    {%- include store_tab.html
-        id='animals'
-        type='Animal'
-        buyName=buy
-        headers=headers
-        priceDataHeaders=site.data.language.cost_header
-        displayData=animalsForDisplay
-        placeholder=site.data.language.search_animals -%}
+{%- include store_tab.html
+id='animals'
+type='Animal'
+buyName=buy
+headers=headers
+priceDataHeaders=site.data.language.cost_header
+displayData=animalsForDisplay
+placeholder=site.data.language.search_animals -%}
 {%- endif -%}
 
 {%- if traitsForDisplay.size > 0 -%}
-    {%- assign headers = site.data.language.name_header | split: ',' -%}
+{%- assign headers = site.data.language.name_header | split: ',' -%}
 
-    {%- if site.store.traits.description or site.store.traits.conflicts or site.store.traits.stats or site.store.traits.limit -%}
-        {%- assign headers = headers | push: site.data.language.description_header -%}
-    {%- endif -%}
+{%- if site.store.traits.description or site.store.traits.conflicts or site.store.traits.stats or site.store.traits.limit -%}
+{%- assign headers = headers | push: site.data.language.description_header -%}
+{%- endif -%}
 
-    {%- assign headers = headers | push: site.data.language.add_cost_header -%}
-    {%- assign headers = headers | push: site.data.language.remove_cost_header -%}
-    {%- assign headers = headers | join: ',' -%}
+{%- assign headers = headers | push: site.data.language.add_cost_header -%}
+{%- assign headers = headers | push: site.data.language.remove_cost_header -%}
+{%- assign headers = headers | join: ',' -%}
 
-    {% capture priceDataHeaders %}
-        {{ site.data.language.add_cost_header }},{{ site.data.language.remove_cost_header }}
-    {% endcapture %}
+{% capture priceDataHeaders %}
+{{ site.data.language.add_cost_header }},{{ site.data.language.remove_cost_header }}
+{% endcapture %}
 
-    {%- include store_tab.html
-        id='traits'
-        type='Trait'
-        buyName=buyName
-        priceDataHeaders=priceDataHeaders
-        headers=headers
-        displayData=traitsForDisplay
-        placeholder=site.data.language.search_traits -%}
+{%- include store_tab.html
+id='traits'
+type='Trait'
+buyName=buyName
+priceDataHeaders=priceDataHeaders
+headers=headers
+displayData=traitsForDisplay
+placeholder=site.data.language.search_traits -%}
 {%- endif -%}
 
 {%- if kindsForDisplay.size > 0 -%}
-    {% capture headers %}
-        {{ site.data.language.name_header }},{{ site.data.language.cost_header }}
-    {% endcapture %}
+{% capture headers %}
+{{ site.data.language.name_header }},{{ site.data.language.cost_header }}
+{% endcapture %}
 
-    {%- include store_tab.html
-        id='kinds'
-        type='Pawn'
-        buyName=buyName
-        priceDataHeaders=site.data.language.price_header
-        headers=headers
-        displayData=kindsForDisplay
-        placeholder=site.data.language.search_pawn_kinds -%}
+{%- include store_tab.html
+id='kinds'
+type='Pawn'
+buyName=buyName
+priceDataHeaders=site.data.language.price_header
+headers=headers
+displayData=kindsForDisplay
+placeholder=site.data.language.search_pawn_kinds -%}
 {%- endif -%}
 
 
 <script>
     window.addEventListener("load", function (event) {
-        var query = "";
-        var queryStarted = false;
-        var tab = "items";
-        var url = document.URL;
+        let e;
+        let i;
+        let query = "";
+        let queryStarted = false;
+        const tab = "items";
+        const url = document.URL;
 
-        for (var i = 0; i < url.length; i++) {
-            var e = url[i];
+        for (i = 0; i < url.length; i++) {
+            e = url[i];
 
-            if (e == "?") {
+            if (e === "?") {
                 queryStarted = true;
                 continue;
             }
 
-            if (e == "#" || e == "/") {
+            if (e === "#" || e === "/") {
                 queryStarted = false;
                 continue;
             }
@@ -214,16 +212,16 @@ title: Store
             return document.getElementsByClassName("tabLinks")[0].click();
         }
 
-        var segments = query.split("&");
-        for (var i = 0; i < segments.length; i++) {
-            var e = segments[i].split('=');
+        const segments = query.split("&");
+        for (i = 0; i < segments.length; i++) {
+            e = segments[i].split('=');
 
-            if (e[1] == null || e[1] == "") {
+            if (e[1] == null || e[1] === "") {
                 continue;
             }
 
-            if (e[0].toUpperCase() == "TAB") {
-                return changeTab({ currentTarget: document.getElementById(e[1]) }, e[1])
+            if (e[0].toUpperCase() === "TAB") {
+                return changeTab({currentTarget: document.getElementById(e[1])}, e[1])
             }
         }
 
