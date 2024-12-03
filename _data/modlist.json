@@ -6,6 +6,12 @@
     "version": "2.3.1.0"
   },
   {
+    "author": "UnlimitedHugs",
+    "name": "HugsLib",
+    "steamId": "818773962",
+    "version": "11.0.4"
+  },
+  {
     "author": "erdelf",
     "name": "Humanoid Alien Races",
     "steamId": "839005762",
@@ -66,10 +72,22 @@
     "version": null
   },
   {
+    "author": "Inglix",
+    "name": "Apparel Tainted Only When Corpse Rots",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Supes",
     "name": "Auto Seller",
     "steamId": "1440321094",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Fuu Chan",
+    "name": "Auto Strip on Haul",
+    "steamId": "2560725133",
+    "version": "2.0.0.0"
   },
   {
     "author": "CrashM",
@@ -84,16 +102,34 @@
     "version": "3.2.0.0"
   },
   {
+    "author": "Side1iner",
+    "name": "CleaningAreaTemp",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Dubwise",
     "name": "Dubs Mint Menus",
     "steamId": "1446523594",
     "version": "1.0.0"
   },
   {
-    "author": "Little White Mouse",
-    "name": "LWM's Deep Storage",
-    "steamId": "1617282896",
-    "version": "1.5.0.4"
+    "author": "Supes",
+    "name": "Map Wide Orbital Trade Beacon",
+    "steamId": "1839069104",
+    "version": "1.0.0.3"
+  },
+  {
+    "author": "ALIEN",
+    "name": "Milkable Muffalo",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Doug",
+    "name": "No Job Authors",
+    "steamId": "2009825774",
+    "version": "1.0.0.0"
   },
   {
     "author": "Vesper",
@@ -120,6 +156,12 @@
     "version": "2.1.0+7d56af4a193adaf667037ad4fdfbcf54b8c71fce"
   },
   {
+    "author": "leafzxg",
+    "name": "Thrumbo Extension",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "nry",
     "name": "ToolkitCore",
     "steamId": "3013877477",
@@ -130,12 +172,6 @@
     "name": "Twitch Toolkit",
     "steamId": "3013874066",
     "version": "2.0.10.0"
-  },
-  {
-    "author": "SirRandoo",
-    "name": "ToolkitUtils",
-    "steamId": "2009500580",
-    "version": "7.0.5.0-beta+e8d2ab06fe38b0b1f43d53750a3b8ba18d5edcda"
   },
   {
     "author": "swemoney",
@@ -162,15 +198,45 @@
     "version": "2.0.0+288828fa92335d0d96e9251a76cc6cf6476421a0"
   },
   {
+    "author": "SirRandoo",
+    "name": "ToolkitUtils",
+    "steamId": "2009500580",
+    "version": "7.0.5.0-beta+e8d2ab06fe38b0b1f43d53750a3b8ba18d5edcda"
+  },
+  {
     "author": "Captolamia",
     "name": "TwitchToolkit - Lootboxes (resurrected) 1.5",
     "steamId": "3239583412",
     "version": "1.5.0.1"
   },
   {
+    "author": "Little White Mouse",
+    "name": "LWM's Deep Storage",
+    "steamId": "1617282896",
+    "version": "1.5.0.4"
+  },
+  {
+    "author": "Aelanna",
+    "name": "Weapon Racks",
+    "steamId": "2788630748",
+    "version": "1.3.0.0"
+  },
+  {
     "author": "FrozenSnowFox",
     "name": "[FSF] Filth Vanishes With Rain And Time",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "erdelf (original) & Kiame (support)",
+    "name": "[KV] Don't stop the music",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "KittahKhan",
+    "name": "[Kit] Graze up",
+    "steamId": "2302739121",
+    "version": "1.0.0.0"
   }
 ]
