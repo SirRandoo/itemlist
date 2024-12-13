@@ -38,7 +38,7 @@
 	{
 		"abr": "snowhard",
 		"price": 450,
-		"karmatype": "Neutral"
+		"karmatype": "Bad"
 	},
 	{
 		"abr": "fog",
@@ -57,7 +57,12 @@
 	},
 	{
 		"abr": "coldsnap",
-		"price": 1000,
+		"price": 800,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "solarflare",
+		"price": 500,
 		"karmatype": "Bad"
 	},
 	{
@@ -67,7 +72,7 @@
 	},
 	{
 		"abr": "eclipse",
-		"price": 700,
+		"price": 450,
 		"karmatype": "Bad"
 	},
 	{
@@ -77,7 +82,7 @@
 	},
 	{
 		"abr": "blight",
-		"price": 900,
+		"price": 700,
 		"karmatype": "Bad"
 	},
 	{
@@ -123,7 +128,7 @@
 	{
 		"abr": "ambrosiasprout",
 		"price": 150,
-		"karmatype": "Neutral"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "herdmigration",
@@ -171,18 +176,23 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "raid",
-		"price": 1500,
-		"karmatype": "Doom"
+		"abr": "militaryaid",
+		"price": 700,
+		"karmatype": "Good"
 	},
 	{
-		"abr": "randomdisease",
-		"price": 2000,
+		"abr": "raid",
+		"price": 1500,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "manhunterpack",
+		"price": 1500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "reviveanypawn",
-		"price": 5000,
+		"price": 1200,
 		"karmatype": "Good"
 	},
 	{
@@ -197,11 +207,6 @@
 	},
 	{
 		"abr": "removetrait",
-		"price": 1,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "item",
 		"price": 1,
 		"karmatype": "Good"
 	},
@@ -221,23 +226,23 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "torytalkervote",
-		"price": 750,
-		"karmatype": "Neutral"
+		"abr": "reviveall",
+		"price": 22664,
+		"karmatype": "Good"
 	},
 	{
-		"abr": "hodlbotvote",
-		"price": 800,
-		"karmatype": "Neutral"
+		"abr": "reviveme",
+		"price": 2833,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 10000,
+		"price": 17336,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healanypawn",
-		"price": 750,
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
@@ -262,7 +267,7 @@
 	},
 	{
 		"abr": "rescueme",
-		"price": 100,
+		"price": 1200,
 		"karmatype": "Neutral"
 	},
 	{
@@ -277,7 +282,7 @@
 	},
 	{
 		"abr": "removepassion",
-		"price": 1000,
+		"price": 500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -319,7 +324,12 @@
 		"abr": "randomadulthood",
 		"price": 3000,
 		"karmatype": "Neutral"
+	},
+	{
+		"abr": "sanctuary",
+		"price": 100000,
+		"karmatype": "Good"
 	}
 	],
-	"total": 64
+	"total": 66
 }
