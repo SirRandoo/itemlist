@@ -13177,7 +13177,7 @@
     "KarmaTypeForEquipping": null,
     "version": 2,
     "Mod": "RimWorld",
-    "KarmaType": null
+    "KarmaType": "Neutral"
   },
   "Meat_Dryad_Basic": {
     "CustomName": null,
