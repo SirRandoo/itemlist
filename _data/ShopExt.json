@@ -1863,7 +1863,7 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
+      "addPrice": 7500,
       "removePrice": 500,
       "degree": 0,
       "description": "Timmy doesn't have basic needs like eating, sleeping, or comfort. his body is driven by some unknown mechanism, which has turned his eyes completely white.",
@@ -1943,8 +1943,42 @@
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 500,
-      "degree": 1,
-      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
+      "degree": 0,
+      "description": "Timmy has a gentle and cool-headed nature. he is less likely to insult others or starts fights, and will sometimes cheer up others.",
+      "stats": [
+        "-20% mental break threshold"
+      ],
+      "conflicts": [
+        "abrasive",
+        "kind",
+        "psychopath"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "kind",
+          "psychopath"
+        ],
+        "stats": [
+          "-20% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Framework",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_Gentle",
+      "name": "gentle"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is able to use oversized weapons.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1954,19 +1988,207 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Humanoid Alien Races",
+        "mod": "Big and Small - Framework",
         "karmaTypeForAdding": null
       },
-      "defName": "HAR_Xenophobia",
-      "name": "xenophobe"
+      "defName": "BS_Giant",
+      "name": "giant"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 500,
-      "degree": -1,
-      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+      "degree": 0,
+      "description": "Timmy is truly gigantic by the standards of their kind. They are sturdier than usual, but being significantly larger than normal for their kind does slow them down somewhat and make them more prone to early heart attacks and other health-issues.",
+      "stats": [
+        "x130% body size multipler",
+        "x110% construction speed",
+        "x90% move speed",
+        "x80% lifespan factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x130% body size multipler",
+          "x110% construction speed",
+          "x90% move speed",
+          "x80% lifespan factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Gigantism",
+      "name": "gigantism"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is both taller and bulkier than usual for their kind. This makes them sturdier but slightly slower.",
+      "stats": [
+        "x115% body size multipler",
+        "x105% construction speed",
+        "x98% move speed",
+        "x95% lifespan factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x115% body size multipler",
+          "x105% construction speed",
+          "x98% move speed",
+          "x95% lifespan factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Large",
+      "name": "large"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is a bit smaller than usual for their kind.",
+      "stats": [
+        "x80% body size multipler",
+        "x95% mining speed",
+        "x95% construction speed",
+        "x95% deep drilling speed",
+        "x93% move speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x80% body size multipler",
+          "x95% mining speed",
+          "x95% construction speed",
+          "x95% deep drilling speed",
+          "x93% move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Small",
+      "name": "small"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is much smaller than usual for their kind.",
+      "stats": [
+        "x60% body size multipler",
+        "x75% mining speed",
+        "x75% construction speed",
+        "x75% deep drilling speed",
+        "x85% move speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x60% body size multipler",
+          "x75% mining speed",
+          "x75% construction speed",
+          "x75% deep drilling speed",
+          "x85% move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Dwarfism",
+      "name": "dwarfism"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy learns faster in skills they lack passion in.\n\n(This increase to no-passion learning will not show in the skill UI)",
+      "stats": [
+        "+0.35 skill learning (no passion)",
+        "+15% global learning factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.35 skill learning (no passion)",
+          "+15% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Passioned_Learning",
+      "name": "diligentstudent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy learns much faster in skills they lack passion in.\n\n(This increase to no-passion learning will not show in the skill UI)",
+      "stats": [
+        "+0.65 skill learning (no passion)",
+        "+30% global learning factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.65 skill learning (no passion)",
+          "+30% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Very_Passioned_Learning",
+      "name": "verydiligentstudent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "There is something about Timmy that makes predators not consider them prey",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1976,37 +2198,207 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Humanoid Alien Races",
+        "mod": "Big and Small - Genes & More",
         "karmaTypeForAdding": null
       },
-      "defName": "HAR_Xenophobia",
-      "name": "xenophile"
+      "defName": "BS_AnimalFriend",
+      "name": "animalfriend"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 500,
-      "degree": -1,
-      "description": "Timmy is clumsy at manipulating aether. he can never hope to learn advanced jobs.",
+      "degree": 0,
+      "description": "Timmy loves alcohol. he will never stop being addicted to it.",
       "stats": [
-        "-1 maximum job count"
+        "+10% mental break threshold",
+        "x150% recreation power"
+      ],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler"
+        ],
+        "stats": [
+          "+10% mental break threshold",
+          "x150% recreation power"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_AlcoholAddict",
+      "name": "alcohollover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy doesn't react to insults or to either part failing a flirt attempt.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_InsultProof",
+      "name": "uninsultable"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy isn't bothered by rough appearances, a bit of rough living. Timmy also doesn't care as much for royal titles.",
+      "stats": [],
+      "conflicts": [
+        "greedy",
+        "jealous",
+        "bodypurist",
+        "misandrist",
+        "misogynist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "greedy",
+          "jealous",
+          "bodypurist",
+          "misandrist",
+          "misogynist"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_Unpretentious",
+      "name": "unpretentious"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is a successful product of an ancient experimental project, he almost entirely specialized for combat. he is extremely hard to defeat.",
+      "stats": [
+        "x60% incoming damage multiplier",
+        "x75% aiming time",
+        "x105% shooting accuracy",
+        "x130% immunity gain speed",
+        "x0% psychic sensitivity"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "-1 maximum job count"
+          "x60% incoming damage multiplier",
+          "x75% aiming time",
+          "x105% shooting accuracy",
+          "x130% immunity gain speed",
+          "x0% psychic sensitivity"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
+        "mod": "Ancient urban ruins",
         "karmaTypeForAdding": null
       },
-      "defName": "ARR_ClassOffset",
-      "name": "inept"
+      "defName": "AM_Elite",
+      "name": "successfulproducts"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy is a fashion guy who is skilled at shooting in a slide shovel, he can use gun to blast everything he sees.",
+      "stats": [
+        "x70% incoming damage multiplier",
+        "x1% aiming time",
+        "x155% shooting accuracy",
+        "x0% psychic sensitivity"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x70% incoming damage multiplier",
+          "x1% aiming time",
+          "x155% shooting accuracy",
+          "x0% psychic sensitivity"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Ancient urban ruins",
+        "karmaTypeForAdding": null
+      },
+      "defName": "AM_MallGuards",
+      "name": "fashionguy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 500,
+      "degree": 0,
+      "description": "Timmy was implanted with an excessive amount of parasites, which completely destroyed his sanity but greatly increased his strength.",
+      "stats": [
+        "+50.0 melee dodge chance",
+        "-10.5 melee hit chance",
+        "+300% melee damage factor",
+        "-50.0C min comfortable temperature",
+        "x45% incoming damage multiplier",
+        "x0% psychic sensitivity",
+        "x0% stagger time multiplier"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+50.0 melee dodge chance",
+          "-10.5 melee hit chance",
+          "+300% melee damage factor",
+          "-50.0C min comfortable temperature",
+          "x45% incoming damage multiplier",
+          "x0% psychic sensitivity",
+          "x0% stagger time multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Ancient urban ruins",
+        "karmaTypeForAdding": null
+      },
+      "defName": "AM_Slaughter",
+      "name": "parasiticfailedproduct"
     },
     {
       "canAdd": true,
@@ -2014,87 +2406,33 @@
       "addPrice": 3500,
       "removePrice": 500,
       "degree": 1,
-      "description": "Timmy is talented at manipulating aether. he can learn more classes than normal.",
+      "description": "NAME is an robot. As a robot HE is a bit faster and not really sensible for psychic phenomena.",
       "stats": [
-        "+1 maximum class count",
-        "+1 maximum job count"
+        "+0.10 move speed",
+        "+20% global work speed",
+        "-100% psychic sensitivity",
+        "+95% toxic resistance",
+        "-90% mental break threshold"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "+1 maximum class count",
-          "+1 maximum job count"
+          "+0.10 move speed",
+          "+20% global work speed",
+          "-100% psychic sensitivity",
+          "+95% toxic resistance",
+          "-90% mental break threshold"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
+        "mod": "Misc. Robots",
         "karmaTypeForAdding": null
       },
-      "defName": "ARR_ClassOffset",
-      "name": "adept"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 500,
-      "degree": -1,
-      "description": "Timmy has weak aether reserves. he cannot cast magic as often or as effectively as others.",
-      "stats": [
-        "-2000 magic points",
-        "x90% aetherial incantation",
-        "x90% aetherial geometry"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-2000 magic points",
-          "x90% aetherial incantation",
-          "x90% aetherial geometry"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
-        "karmaTypeForAdding": null
-      },
-      "defName": "ARR_MagicPointOffset",
-      "name": "stifled"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 500,
-      "degree": 1,
-      "description": "Timmy has voluminous aether reserves. he can cast magic with greater ease and potency than others.",
-      "stats": [
-        "+2000 magic points",
-        "x110% aetherial incantation",
-        "x110% aetherial geometry"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+2000 magic points",
-          "x110% aetherial incantation",
-          "x110% aetherial geometry"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "A Rim Reborn - Classes and Jobs",
-        "karmaTypeForAdding": null
-      },
-      "defName": "ARR_MagicPointOffset",
-      "name": "wellspring"
+      "defName": "AIRobot_BaseTrait",
+      "name": "robot"
     }
   ],
   "races": [
@@ -2116,9 +2454,9 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": false,
+      "enabled": true,
       "name": "human",
-      "price": 2917
+      "price": 8000
     },
     {
       "data": {
@@ -2140,298 +2478,6 @@
       "defName": "CreepJoiner",
       "enabled": false,
       "name": "human",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+12.0C Min comfortable temperature",
-          "+24.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.0 Shooting accuracy",
-          "+1.0 Melee hit chance",
-          "+110.00% Negotiation ability",
-          "+110.00% Social impact"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nBelieving themselves the children of the Dawn Father, the forebears of the Auri Raen left behind their homeland to settle across Othard. They were received with hatred and hostility in the early years, until a prominent warlord of Yanxia, impressed with their valor, forged an alliance with the strange race and took them on as retainers. No matter where they came to be, with their innate martial prowess, they readily found employment as soldiers and carved out places for themselves within spheres of authority. Before long, the Raen had assumed a prominent role as warriors in service of countless great warlords, and their members spread across the Far East, from the lands of Nagxia and beyond the Ruby Sea to the isles of Hingashi, where they earned a reputation as legendary swordsmen. Yet not all chose this life. Some embraced a life of tranquility and solitude, settling in the deep valleys of Othard's mountainous eastern reaches. Others still desired to leave conflict behind completely, and availing themselves of Kojin wisdom, they created a great bubble of air at the bottom of the Ruby Sea, within which they built a village—Sui-no-Sato. To govern their fledgling society, they founded a system of hereditary rule led by the Ruby Princess, under whose guidance they live a life of seclusion, away from the turmoils of the surface.",
-      "defName": "ARR_AuRaRaen",
-      "enabled": false,
-      "name": "au ra",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+12.0C Min comfortable temperature",
-          "+24.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.0 Shooting accuracy",
-          "+1.0 Melee hit chance",
-          "+110.00% Tame animal chance",
-          "+110.00% Train animal chance"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Auri creation myth holds that the world was created by the Dawn Father Azim, god of the sun, and the Dusk Mother Nhaama, goddess of the moon. The two deities quarreled over which should rule the new world, and created mortals to serve as their soldiers to wage a war by proxy. These were the first Au Ra—the Raen, children of the Dawn Father, and the Xaela, chosen of the Dusk Mother. At the culmination of their bitter struggle, the clans set aside their differences and learned to love one another, giving birth to a new generation. On seeing this, Azim and Nhaama returned to the heavens and bequeathed the world to their children.\n\nAmong the peoples of the Far East, it is believed that the Au Ra of the Azim Steppe were the first to keep livestock. They initially tamed horses to serve as mounts, and it was this achievement which led to the Au Ra's decisive rise to dominance over the plains. When the Raen subsequently departed their ancestral home, they took with them the knowledge of rearing and riding horses to the lands beyond the Steppe. After the horse, the Au Ra turned their hand to taming the yol, and these new mounts saw them expand their dominion to the skies above the Steppe. The Xaela have to this day not abandoned their ancestral home, living a nomadic life as hunters and gatherers on the vast Azim Steppe. With suitable grazing land sparse, conflict between individual tribes is common, with tribes forming, disbanding, and dying off in a ceaseless cycle of war and bloodshed. At last observation, Xaela tribes numbered fifty-one, though there is a high likelihood that recently splintered or merged tribes have rendered that count outdated. Of late, rumors swirl of a swelling of tribes who pledge spiritual allegiance to the Dusk Mother, and the abductions that have followed.",
-      "defName": "ARR_AuRaXaela",
-      "enabled": false,
-      "name": "au ra",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+105.00% Negotiation ability",
-          "+110.00% Social impact",
-          "+110.00% Conversion power"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The Elezen are a characteristically tall people, long of limb and slender of build. They are also possessed of a somewhat extended lifespan in comparison to the Hyur. The Elezen once claimed sole dominion over Eorzea, their presence predating that of the other races, and, as such, developed a heightened sense of honor and pride. In years past, the Hyur migration into Elezen lands sparked bitter conflict. At present, however, the mutual understanding reached between the two races allows them to work towards mutual peace and prosperity.\n\nFor the past several centuries, the Duskwight Elezen have lived in the woodland caverns of Eorzea. These cave-dwelling Elezen are the descendants of a branch that split from the main Wildwood clan during the founding of Gridania. The Duskwight despise the \"shackles\" of urban life, and it is not uncommon for this reclusive people to avoid the city-states altogether.",
-      "defName": "ARR_ElezenDuskwight",
-      "enabled": false,
-      "name": "elezen",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+105.00% Negotiation ability",
-          "+110.00% Social impact",
-          "+110.00% Conversion power"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The Elezen are a characteristically tall people, long of limb and slender of build. They are also possessed of a somewhat extended lifespan in comparison to the Hyur. The Elezen once claimed sole dominion over Eorzea, their presence predating that of the other races, and, as such, developed a heightened sense of honor and pride. In years past, the Hyur migration into Elezen lands sparked bitter conflict. At present, however, the mutual understanding reached between the two races allows them to work towards mutual peace and prosperity.\n\nThe forests, of which the Black Shroud is the tangled heart, have been home to the Wildwood Elezen for hundreds of years. Many of the Wildwood, however, have been drawn to the city-states they helped found, such as Ishgard and Gridania. Their fondness for law and order has contributed to a reputation for being haughty and argumentative.",
-      "defName": "ARR_ElezenWildwood",
-      "enabled": false,
-      "name": "elezen",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Highlander name comes from the clan's history of dominion over the mountains of Gyr Abania. Compared to their Midlander brethren, the Highlanders are noticeably larger in build and musculature. Following the fall of their ancestral homeland of Ala Mhigo, many have sought refuge in the bustling mercantile nation of Ul'dah.",
-      "defName": "ARR_HyurHighlander",
-      "enabled": false,
-      "name": "Hyur",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Over the course of some one thousand years and three great migratory waves, the Hyur have come to be the most populous of the civilized races in Eorzea. Compared to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as is their resulting lack of a unified cultural identity.\n\nThe Midlander clan comprises over half of Eorzea's total Hyur population. The name derives from the clan's long tradition of settling in low-lying regions, though in truth Midlander lines hail from a wide variety of ancestral homelands. They have established themselves in every city throughout the realm, and can be observed leading lives as diverse as their heritage.",
-      "defName": "ARR_HyurMidlander",
-      "enabled": false,
-      "name": "Hyur",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.40 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+110% Animal gather speed",
-          "+110% Animal gather yield"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Dunesfolk can be found on the scorching sands of Thanalan and other such arid areas. As the founders of the merchant city of Ul'dah, they are famous for their obsession with commerce. A natural inclination to transform ideas into action has served the Dunesfolk well in their business dealings.",
-      "defName": "ARR_LalafellDunesfolk",
-      "enabled": false,
-      "name": "Lalafell",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.40 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+110% Plant work speed",
-          "+110% Plant harvest yield"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "The Lalafell are a folk both rotund and diminutive. Small by any race's standards and possessed of a childlike countenance, it proves difficult for non-Lalafell to gauge an individual's age with any degree of accuracy. Originally an agricultural people inhabiting the fertile islands of the south seas, they found their way to Eorzea via the burgeoning trade routes. Lalafell are welcoming of outsiders, and share prosperous relations with all of the other races of Eorzea.\n\nThe Plainsfolk have settled in La Noscea and other regions where the ground is flat and easily cultivated. Though many live the life of farmers, it is not uncommon to see Plainsfolk residing in Limsa Lominsa, holding positions in the navy or working in the fisheries. They are well known for their relaxed and carefree demeanor.",
-      "defName": "ARR_LalafellPlainsfolk",
-      "enabled": false,
-      "name": "Lalafell",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+5.00 Move speed",
-          "+18.0C Min comfortable temperature",
-          "+28.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+105% Hunting stealth"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe nocturnal among the Miqo'te have dubbed themselves the Keepers of the Moon. Shying from the garish light of day, they revel in the shroud of night, with most offering their piety to Menphina the Lover, goddess of the moon. Their tradition of hunting in the thick woodlands of the Black Shroud have for years thrown them into conflict with the forestfolk of Gridania, who condemn them as poachers. Of late, however, many Keepers of the Moon have found some small peace with the Gridanians, and taken to living within the city.",
-      "defName": "ARR_MiqoteKeeper",
-      "enabled": false,
-      "name": "Miqo'te",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+5.00 Move speed",
-          "+18.0C Min comfortable temperature",
-          "+28.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+105% Hunting stealth"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Though their presence in Eorzea is lesser than that of the other races, the Miqo'te are easily distinguished by their large, projecting ears and restless, feline tails. The ancestors of this line first made their way to the realm during the Age of Endless Frost in the Fifth Umbral Era, traversing frozen seas in pursuit of the wildlife upon which they subsisted. Instinctual territoriality causes many among them to lead solitary lifestyles. Males in particular are said to shy from contact with others.\n\nThe self-proclaimed Seekers of the Sun are the diurnal clan of the Miqo'te race. Their preference for the warm light of day pervades all aspects of their culture, as is apparent in their devout reverence for Azeyma the Warden, goddess of the sun. Though relatively few in Eorzea, a small number of them have been accepted into everyday life by the other races in the port city of Limsa Lominsa. Others are known to make their home in the region of the Sagolii Desert.",
-      "defName": "ARR_MiqoteSeeker",
-      "enabled": false,
-      "name": "Miqo'te",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.80 Move speed",
-          "+18.0C Min comfortable temperature",
-          "+28.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+1.1 Melee hit chance",
-          "+110% Hunting stealth"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nViera of the Rava clan live primarily in the Golmore Jungle, their umber skin allowing them to readily blend in with their surroundings. Though the males stand as wards of the forest, the females are adept hunters in their own right, fiercely guarding their homes and their young. Despite attempts by the Dalmascans to subjugate them, they have ever maintained a self-governing dominion. Though most would adhere to the traditions of the wood, some few have chosen to venture out into the world.",
-      "defName": "ARR_VieraRava",
-      "enabled": false,
-      "name": "Viera",
-      "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.80 Move speed",
-          "+18.0C Min comfortable temperature",
-          "+28.0C Max comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value",
-          "+1.1 Shooting accuracy",
-          "+1.1 Melee hit chance",
-          "+110% Hunting stealth"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "Of tall stature and slender frame, the Viera's physical appearance is strikingly similar to that of the Hyur and Elezen, save for their distinctive long ears. Adhering to a strict code known as the Green Word, they are prohibited from contact with the outside world under threat of exile. Their society is purely matriarchal, and males of age are seldom, if ever, found within the bounds of any village. They instead serve as protectors of the wood from the shadows, that no evil may ever encroach on their sacred lands.\n\nWith skin as fair as the snowcapped mountains towering above, the Veena clan make their homes in the forests lining the southwestern foothills of the Skatay Range. Like the members of their sister clan, the Veena live as hunters and gatherers, laboring not only to protect the woods, but to nurture them. As the winds of war swept up a number of those who left their mountain homes, many such hardened hunters chose to set out for the distant shores of Eorzea.",
-      "defName": "ARR_VieraVeena",
-      "enabled": false,
-      "name": "Viera",
       "price": 2917
     }
   ]

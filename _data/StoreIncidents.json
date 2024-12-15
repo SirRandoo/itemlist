@@ -216,11 +216,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "berescued",
-		"price": 900,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "randominspire",
 		"price": 450,
 		"karmatype": "Good"
@@ -331,5 +326,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 66
+	"total": 65
 }
