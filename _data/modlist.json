@@ -12,28 +12,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
-    "name": "Vanilla Expanded Framework",
-    "steamId": "2023507013",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "UnlimitedHugs",
     "name": "HugsLib",
     "steamId": "818773962",
     "version": "11.0.4"
-  },
-  {
-    "author": "MO",
-    "name": "Ancient urban ruins",
-    "steamId": "3316062206",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Meteores",
-    "name": "Ancient Urban Ruins All Deconstructible",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "Supes",
@@ -90,16 +72,16 @@
     "version": "1.0.0"
   },
   {
+    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
+    "name": "Vanilla Expanded Framework",
+    "steamId": "2023507013",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "AobaKuma",
     "name": "Fortifications - Industrial",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "notfood",
-    "name": "Infused",
-    "steamId": "731287727",
-    "version": "1.1.1.0"
   },
   {
     "author": "dhultgren",
@@ -108,28 +90,10 @@
     "version": null
   },
   {
-    "author": "Supes",
-    "name": "Map Wide Orbital Trade Beacon",
-    "steamId": "1839069104",
-    "version": "1.0.0.3"
-  },
-  {
     "author": "ALIEN",
     "name": "Milkable Muffalo",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Haplo",
-    "name": "Misc. Robots",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "cabmoomoo",
-    "name": "Misc. Robots++",
-    "steamId": "3253308913",
-    "version": "3.3.0.0"
   },
   {
     "author": "Doug",
@@ -150,28 +114,10 @@
     "version": "1.0.0+3becb974cac33361f1e8b9711923eddced9e53ab"
   },
   {
-    "author": "Peppsen",
-    "name": "P-Music",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Little White Mouse",
-    "name": "LWM's Deep Storage",
-    "steamId": "1617282896",
-    "version": "1.5.0.4"
-  },
-  {
-    "author": "Mehni",
-    "name": "Pick Up And Haul",
-    "steamId": "1279012058",
-    "version": "1.0.0+9f86e76c731e01a0010144331d5dc54c9b5f8a37"
-  },
-  {
-    "author": "Hatti",
-    "name": "QualityBuilder",
-    "steamId": "754637870",
-    "version": "1.0.18"
+    "author": "Redundantusage",
+    "name": "Oops All Gene Banks",
+    "steamId": "2883683444",
+    "version": "1.0.0.0"
   },
   {
     "author": "The White Crayon (Updated for 1.1 by Ogliss)",
@@ -186,22 +132,22 @@
     "version": "2.1.0+7d56af4a193adaf667037ad4fdfbcf54b8c71fce"
   },
   {
-    "author": "Smash Phil and Neceros",
-    "name": "SRTS Expanded",
-    "steamId": "2878587061",
-    "version": "1.4.7"
+    "author": "Uuugggg",
+    "name": "Replace Stuff",
+    "steamId": "1372003680",
+    "version": "1.1.0.0"
   },
   {
-    "author": "RemingtonRyder",
-    "name": "Sometimes Raids Go Wrong",
-    "steamId": "1551336515",
-    "version": "1.0.8884.37791"
+    "author": "Jaxe",
+    "name": "RimHUD",
+    "steamId": "1508850027",
+    "version": "1.15.3.0"
   },
   {
-    "author": "Scherub",
-    "name": "Stonecutting Extended",
-    "steamId": "2571676542",
-    "version": "1.6.0+dd0f8eb4b330bb7a72b94713ab8b965f9d2320df"
+    "author": "Loconeko",
+    "name": "Roads of the Rim (Continued)",
+    "steamId": "2280318231",
+    "version": "1.5.1"
   },
   {
     "author": "leafzxg",
@@ -264,34 +210,46 @@
     "version": "1.5.0.1"
   },
   {
+    "author": "RemingtonRyder",
+    "name": "Ugh You Got Me",
+    "steamId": "1542424705",
+    "version": "1.0.8847.22466"
+  },
+  {
     "author": "Nephlite and Maxim",
     "name": "Utility Columns",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Oskar Potocki, Sarg Bjornson and Chowder",
-    "name": "Vanilla Brewing Expanded",
-    "steamId": "2186560858",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Sarg Bjornson, Chowder and Trahspanda",
-    "name": "Vanilla Brewing Expanded - Coffees and Teas",
+    "author": "Oskar Potocki, Trunken and Sarg",
+    "name": "Vanilla Apparel Expanded",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Jaxe",
-    "name": "RimHUD",
-    "steamId": "1508850027",
-    "version": "1.15.3.0"
+    "author": "Oskar Potocki, Trunken and Sarg Bjornson",
+    "name": "Vanilla Armour Expanded",
+    "steamId": null,
+    "version": null
   },
   {
-    "author": "legodude17 and Oskar Potocki",
-    "name": "Vanilla Skills Expanded",
-    "steamId": "2854967442",
-    "version": "1.0.0.0"
+    "author": "Oskar Potocki, Sarg Bjornson and Taranchuk",
+    "name": "Vanilla Christmas Expanded",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki, Sarg Bjornson and Chowder",
+    "name": "Vanilla Plants Expanded",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki, AveryTheKitty and Taranchuk",
+    "name": "Vanilla Weapons Expanded - Coilguns",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Oskar Potocki, Trunken and Sarg Bjornson",
@@ -300,10 +258,28 @@
     "version": null
   },
   {
+    "author": "Oskar Potocki and Taranchuk",
+    "name": "Vanilla Weapons Expanded - Heavy Weapons",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki",
+    "name": "Vanilla Weapons Expanded - Laser",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Oskar Potocki",
     "name": "Vanilla Weapons Expanded - Non-Lethal",
     "steamId": "2454918354",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki",
+    "name": "Vanilla Weapons Expanded - Quickdraw",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "bodlosh",
@@ -318,15 +294,75 @@
     "version": "1.0.0+4ee7aafb566237826b23c6e55b2c46e43e5343c2"
   },
   {
+    "author": "erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van and Reann Shepard",
+    "name": "Vanilla Psycasts Expanded",
+    "steamId": "2842502659",
+    "version": "1.1.0.0"
+  },
+  {
+    "author": "Sarg Bjornson and AFriend",
+    "name": "Alpha Animals",
+    "steamId": "1541721856",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Allie, Erin, Major Quadrangle, Matsay and Sarg",
+    "name": "Alpha Genes",
+    "steamId": "2891845502",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Rimatomics",
+    "steamId": "1127530465",
+    "version": "1.7.7368"
+  },
+  {
+    "author": "Little White Mouse",
+    "name": "LWM's Deep Storage",
+    "steamId": "1617282896",
+    "version": "1.5.0.4"
+  },
+  {
+    "author": "Mehni",
+    "name": "Pick Up And Haul",
+    "steamId": "1279012058",
+    "version": "1.0.0+9f86e76c731e01a0010144331d5dc54c9b5f8a37"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Rimefeller",
+    "steamId": "1321849735",
+    "version": "1.2.7364"
+  },
+  {
+    "author": "Weilbyte",
+    "name": "Snap Out!",
+    "steamId": "1319782555",
+    "version": "0.9.0"
+  },
+  {
+    "author": "Oskar Potocki, Sarg Bjornson and Chowder",
+    "name": "Vanilla Brewing Expanded",
+    "steamId": "2186560858",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Sarg Bjornson, Chowder and Trahspanda",
+    "name": "Vanilla Brewing Expanded - Coffees and Teas",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "FrozenSnowFox",
+    "name": "[FSF] Complex Jobs",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Grizzlemethis",
     "name": "[GMT] Trading Spot",
     "steamId": "2874517333",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "erdelf (original) & Kiame (support)",
-    "name": "[KV] Don't stop the music",
-    "steamId": null,
-    "version": null
   }
 ]

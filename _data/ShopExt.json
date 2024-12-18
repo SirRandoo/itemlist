@@ -1942,7 +1942,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy has a gentle and cool-headed nature. he is less likely to insult others or starts fights, and will sometimes cheer up others.",
       "stats": [
@@ -1976,7 +1976,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy is able to use oversized weapons.",
       "stats": [],
@@ -1998,7 +1998,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy is truly gigantic by the standards of their kind. They are sturdier than usual, but being significantly larger than normal for their kind does slow them down somewhat and make them more prone to early heart attacks and other health-issues.",
       "stats": [
@@ -2030,7 +2030,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy is both taller and bulkier than usual for their kind. This makes them sturdier but slightly slower.",
       "stats": [
@@ -2062,7 +2062,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy is a bit smaller than usual for their kind.",
       "stats": [
@@ -2096,7 +2096,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy is much smaller than usual for their kind.",
       "stats": [
@@ -2130,7 +2130,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy learns faster in skills they lack passion in.\n\n(This increase to no-passion learning will not show in the skill UI)",
       "stats": [
@@ -2158,7 +2158,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy learns much faster in skills they lack passion in.\n\n(This increase to no-passion learning will not show in the skill UI)",
       "stats": [
@@ -2186,7 +2186,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "There is something about Timmy that makes predators not consider them prey",
       "stats": [],
@@ -2208,7 +2208,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy loves alcohol. he will never stop being addicted to it.",
       "stats": [
@@ -2244,7 +2244,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy doesn't react to insults or to either part failing a flirt attempt.",
       "stats": [],
@@ -2266,7 +2266,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy isn't bothered by rough appearances, a bit of rough living. Timmy also doesn't care as much for royal titles.",
       "stats": [],
@@ -2300,139 +2300,75 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
+      "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy is a successful product of an ancient experimental project, he almost entirely specialized for combat. he is extremely hard to defeat.",
-      "stats": [
-        "x60% incoming damage multiplier",
-        "x75% aiming time",
-        "x105% shooting accuracy",
-        "x130% immunity gain speed",
-        "x0% psychic sensitivity"
-      ],
+      "description": "Psychic enthrallment caused by incredibly strong mental influence. Thralls don't need to sleep or have recreation, but are unable to do skilled work and engage in social interactions.",
+      "stats": [],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
-        "stats": [
-          "x60% incoming damage multiplier",
-          "x75% aiming time",
-          "x105% shooting accuracy",
-          "x130% immunity gain speed",
-          "x0% psychic sensitivity"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Ancient urban ruins",
+        "mod": "Vanilla Psycasts Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "AM_Elite",
-      "name": "successfulproducts"
+      "defName": "VPE_Thrall",
+      "name": "thrall"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
-      "degree": 0,
-      "description": "Timmy is a fashion guy who is skilled at shooting in a slide shovel, he can use gun to blast everything he sees.",
+      "removePrice": 5500,
+      "degree": 2,
+      "description": "Timmy possesses an unnatural, almost pristine beauty that makes him stand out among others of his kind.",
       "stats": [
-        "x70% incoming damage multiplier",
-        "x1% aiming time",
-        "x155% shooting accuracy",
-        "x0% psychic sensitivity"
+        "+3.0 beauty"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "x70% incoming damage multiplier",
-          "x1% aiming time",
-          "x155% shooting accuracy",
-          "x0% psychic sensitivity"
+          "+3.0 beauty"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Ancient urban ruins",
+        "mod": "Alpha Genes",
         "karmaTypeForAdding": null
       },
-      "defName": "AM_MallGuards",
-      "name": "fashionguy"
+      "defName": "AG_Beauty",
+      "name": "angelicbeauty"
     },
     {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 500,
-      "degree": 0,
-      "description": "Timmy was implanted with an excessive amount of parasites, which completely destroyed his sanity but greatly increased his strength.",
+      "removePrice": 5500,
+      "degree": -2,
+      "description": "Timmy is so unfathomably ugly and grotesque that merely looking at him is enough to make other people nauseous.",
       "stats": [
-        "+50.0 melee dodge chance",
-        "-10.5 melee hit chance",
-        "+300% melee damage factor",
-        "-50.0C min comfortable temperature",
-        "x45% incoming damage multiplier",
-        "x0% psychic sensitivity",
-        "x0% stagger time multiplier"
+        "-3.0 beauty"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "+50.0 melee dodge chance",
-          "-10.5 melee hit chance",
-          "+300% melee damage factor",
-          "-50.0C min comfortable temperature",
-          "x45% incoming damage multiplier",
-          "x0% psychic sensitivity",
-          "x0% stagger time multiplier"
+          "-3.0 beauty"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Ancient urban ruins",
+        "mod": "Alpha Genes",
         "karmaTypeForAdding": null
       },
-      "defName": "AM_Slaughter",
-      "name": "parasiticfailedproduct"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 500,
-      "degree": 1,
-      "description": "NAME is an robot. As a robot HE is a bit faster and not really sensible for psychic phenomena.",
-      "stats": [
-        "+0.10 move speed",
-        "+20% global work speed",
-        "-100% psychic sensitivity",
-        "+95% toxic resistance",
-        "-90% mental break threshold"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+0.10 move speed",
-          "+20% global work speed",
-          "-100% psychic sensitivity",
-          "+95% toxic resistance",
-          "-90% mental break threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Misc. Robots",
-        "karmaTypeForAdding": null
-      },
-      "defName": "AIRobot_BaseTrait",
-      "name": "robot"
+      "defName": "AG_Beauty",
+      "name": "repulsive"
     }
   ],
   "races": [
@@ -2456,7 +2392,7 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
-      "price": 8000
+      "price": 10000
     },
     {
       "data": {
