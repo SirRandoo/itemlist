@@ -211,6 +211,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "genderswap",
+		"price": 250,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "visitcolony",
 		"price": 300,
 		"karmatype": "Good"
@@ -321,5 +326,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 64
+	"total": 65
 }
