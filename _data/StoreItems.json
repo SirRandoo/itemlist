@@ -1972,7 +1972,7 @@
       "abr": "alphabeaver",
       "category": "Animals",
       "defname": "Alphabeaver",
-      "price": 417
+      "price": -10
     },
     {
       "abr": "pig",
@@ -4012,7 +4012,7 @@
       "abr": "archotechapparel-integrator",
       "category": "Archotech",
       "defname": "BS_IndestructibelApparel",
-      "price": 4667
+      "price": -10
     },
     {
       "abr": "autocannon",
@@ -4240,7 +4240,7 @@
       "abr": "acanthamoebagigantea,huge",
       "category": "Animals",
       "defname": "AA_AcanthamoebaGiganteaHuge",
-      "price": 1167
+      "price": 1168
     },
     {
       "abr": "acanthamoebagigantea,large",
@@ -4546,7 +4546,7 @@
       "abr": "blizzarisk",
       "category": "Animals",
       "defname": "AA_Blizzarisk",
-      "price": 833
+      "price": -10
     },
     {
       "abr": "blizzariskclutchmother",
@@ -4774,7 +4774,7 @@
       "abr": "cinderlisk",
       "category": "Animals",
       "defname": "AA_Cinderlisk",
-      "price": 958
+      "price": -10
     },
     {
       "abr": "cinderliskegg(fert.)",
@@ -5164,7 +5164,7 @@
       "abr": "eyeling",
       "category": "Animals",
       "defname": "AA_Eyeling",
-      "price": 167
+      "price": -10
     },
     {
       "abr": "fairylamps",
@@ -5824,7 +5824,7 @@
       "abr": "infectedaerofleet",
       "category": "Animals",
       "defname": "AA_InfectedAerofleet",
-      "price": 300
+      "price": -10
     },
     {
       "abr": "insect-likehumanoid",
@@ -6286,7 +6286,7 @@
       "abr": "mime",
       "category": "Animals",
       "defname": "AA_Mime",
-      "price": 1667
+      "price": -10
     },
     {
       "abr": "missilefuselage",
@@ -6346,7 +6346,7 @@
       "abr": "moribundgallatross",
       "category": "Animals",
       "defname": "AA_GallatrossMoribund",
-      "price": 1667
+      "price": -10
     },
     {
       "abr": "mothsilk",
@@ -6508,7 +6508,7 @@
       "abr": "ocularjelly",
       "category": "Animals",
       "defname": "AA_OcularJelly",
-      "price": 417
+      "price": -10
     },
     {
       "abr": "ocularjellymeat",
@@ -6520,13 +6520,13 @@
       "abr": "ocularnightling",
       "category": "Animals",
       "defname": "AA_OcularNightling",
-      "price": 1250
+      "price": -10
     },
     {
       "abr": "ocularoriginator",
       "category": "Animals",
       "defname": "AA_OcularOriginator",
-      "price": 1417
+      "price": -10
     },
     {
       "abr": "onions",
@@ -8920,7 +8920,7 @@
       "abr": "summonedeyeling",
       "category": "Animals",
       "defname": "AA_Summoned_Eyeling",
-      "price": 167
+      "price": -10
     },
     {
       "abr": "summonedmammothworm",
@@ -9358,7 +9358,7 @@
       "abr": "unblinkingeye",
       "category": "Animals",
       "defname": "AA_UnblinkingEye",
-      "price": 2000
+      "price": -10
     },
     {
       "abr": "uncuredplasteel",
@@ -9619,11 +9619,29 @@
       "price": 13
     },
     {
+      "abr": "snowsculpture",
+      "category": "Art",
+      "defname": "VCE_SnowSculpture",
+      "price": 125
+    },
+    {
+      "abr": "festiverug(broad)",
+      "category": "Furniture",
+      "defname": "VCE_FestiveRug_Broad",
+      "price": 383
+    },
+    {
+      "abr": "festiverug(medium)",
+      "category": "Furniture",
+      "defname": "VCE_FestiveRug_Medium",
+      "price": 257
+    },
+    {
       "abr": "zombrella",
       "category": "Misc",
       "defname": "Zombrella",
-      "price": 3333
+      "price": -10
     }
   ],
-  "total": 1604
+  "total": 1607
 }

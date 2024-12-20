@@ -90,6 +90,18 @@
     "version": null
   },
   {
+    "author": "Supes",
+    "name": "Map Wide Orbital Trade Beacon",
+    "steamId": "1839069104",
+    "version": "1.0.0.3"
+  },
+  {
+    "author": "Owlchemist",
+    "name": "Mid-saver Saver",
+    "steamId": "3261311100",
+    "version": "1.5"
+  },
+  {
     "author": "ALIEN",
     "name": "Milkable Muffalo",
     "steamId": null,
@@ -117,6 +129,18 @@
     "author": "Redundantusage",
     "name": "Oops All Gene Banks",
     "steamId": "2883683444",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Peppsen",
+    "name": "P-Music",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "TwoPenny",
+    "name": "Portraits of the Rim",
+    "steamId": "2937991425",
     "version": "1.0.0.0"
   },
   {
@@ -294,6 +318,12 @@
     "version": "1.0.0+4ee7aafb566237826b23c6e55b2c46e43e5343c2"
   },
   {
+    "author": "UnlimitedHugs",
+    "name": "Allow Tool",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van and Reann Shepard",
     "name": "Vanilla Psycasts Expanded",
     "steamId": "2842502659",
@@ -364,5 +394,11 @@
     "name": "[GMT] Trading Spot",
     "steamId": "2874517333",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "erdelf (original) & Kiame (support)",
+    "name": "[KV] Don't stop the music",
+    "steamId": null,
+    "version": null
   }
 ]
