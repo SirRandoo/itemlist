@@ -66,6 +66,12 @@
     "version": null
   },
   {
+    "author": "We're in Heaven",
+    "name": "Colony Manager Fork",
+    "steamId": "3262932412",
+    "version": "1.5"
+  },
+  {
     "author": "Dubwise",
     "name": "Dubs Mint Menus",
     "steamId": "1446523594",
@@ -114,6 +120,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "avilmask",
+    "name": "Non uno Pinata (don't drop items)",
+    "steamId": "1778821244",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Vesper",
     "name": "Not My Fault",
     "steamId": null,
@@ -144,6 +156,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "tiagorbrodrigues",
+    "name": "Quality Colors 1.5 - Forked",
+    "steamId": "3224462440",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "The White Crayon (Updated for 1.1 by Ogliss)",
     "name": "Quarry",
     "steamId": "2007576583",
@@ -156,10 +174,22 @@
     "version": "2.1.0+7d56af4a193adaf667037ad4fdfbcf54b8c71fce"
   },
   {
+    "author": "MRGames",
+    "name": "Removes Skill Decay",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Uuugggg",
     "name": "Replace Stuff",
     "steamId": "1372003680",
     "version": "1.1.0.0"
+  },
+  {
+    "author": "Garethp",
+    "name": "Replace Stuff Mod Compatibility",
+    "steamId": "2642161586",
+    "version": "2.0.3"
   },
   {
     "author": "Jaxe",
@@ -172,6 +202,12 @@
     "name": "Roads of the Rim (Continued)",
     "steamId": "2280318231",
     "version": "1.5.1"
+  },
+  {
+    "author": "Smash Phil and Neceros",
+    "name": "SRTS Expanded",
+    "steamId": "2878587061",
+    "version": "1.4.7"
   },
   {
     "author": "leafzxg",
@@ -270,6 +306,12 @@
     "version": null
   },
   {
+    "author": "Oskar Potocki and Taranchuk",
+    "name": "Vanilla Trading Expanded",
+    "steamId": "2785616901",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Oskar Potocki, AveryTheKitty and Taranchuk",
     "name": "Vanilla Weapons Expanded - Coilguns",
     "steamId": null,
@@ -352,6 +394,12 @@
     "name": "LWM's Deep Storage",
     "steamId": "1617282896",
     "version": "1.5.0.4"
+  },
+  {
+    "author": "Haplo",
+    "name": "Misc. Robots",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Mehni",

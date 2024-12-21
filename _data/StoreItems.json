@@ -9637,11 +9637,107 @@
       "price": 257
     },
     {
+      "abr": "aimanager",
+      "category": "Production",
+      "defname": "FM_AIManager",
+      "price": -10
+    },
+    {
+      "abr": "basicmanagerdesk",
+      "category": "Production",
+      "defname": "FM_BasicManagerStation",
+      "price": -10
+    },
+    {
+      "abr": "cleanerbasestation",
+      "category": "Furniture",
+      "defname": "AIRobot_RechargeStation_Cleaner",
+      "price": -10
+    },
+    {
+      "abr": "cleaningbot",
+      "category": "Animal",
+      "defname": "AIRobot_Cleaner",
+      "price": -10
+    },
+    {
+      "abr": "haulerbasestation",
+      "category": "Furniture",
+      "defname": "AIRobot_RechargeStation_Hauler",
+      "price": -10
+    },
+    {
+      "abr": "haulingbot",
+      "category": "Animal",
+      "defname": "AIRobot_Hauler",
+      "price": -10
+    },
+    {
+      "abr": "managerdesk",
+      "category": "Production",
+      "defname": "FM_ManagerStation",
+      "price": -10
+    },
+    {
+      "abr": "sraf:canary",
+      "category": "Buildings",
+      "defname": "SRAF",
+      "price": 20258
+    },
+    {
+      "abr": "sraf:tek-7",
+      "category": "Buildings",
+      "defname": "SRAFTek",
+      "price": 31292
+    },
+    {
+      "abr": "srtsmk.i:skip",
+      "category": "Buildings",
+      "defname": "SRTSSkip",
+      "price": 9150
+    },
+    {
+      "abr": "srtsmk.ii:albatross",
+      "category": "Buildings",
+      "defname": "SRTSMkII",
+      "price": 29875
+    },
+    {
+      "abr": "srtsmk.iii:phoenix",
+      "category": "Buildings",
+      "defname": "SRTSMkIII",
+      "price": 52792
+    },
+    {
+      "abr": "srtsmk.iiip:pelican",
+      "category": "Buildings",
+      "defname": "SRTSMkIIIp",
+      "price": 61100
+    },
+    {
+      "abr": "srtsmk.iv:genesis",
+      "category": "Buildings",
+      "defname": "SRTSMkIV",
+      "price": 218617
+    },
+    {
+      "abr": "milkandcookies",
+      "category": "Meals",
+      "defname": "VCE_MilkAndCookies",
+      "price": 67
+    },
+    {
+      "abr": "superpod",
+      "category": "Buildings",
+      "defname": "SRTSSuperpod",
+      "price": 6958
+    },
+    {
       "abr": "zombrella",
       "category": "Misc",
       "defname": "Zombrella",
       "price": -10
     }
   ],
-  "total": 1607
+  "total": 1623
 }
