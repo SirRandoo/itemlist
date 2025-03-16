@@ -1,16 +1,6 @@
 {
 	"incitems" : [
 	{
-		"abr": "tornado",
-		"price": 800,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "tornados",
-		"price": 2600,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -111,13 +101,13 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "resourcepodcrash",
-		"price": 300,
+		"abr": "wandererjoins",
+		"price": 50,
 		"karmatype": "Good"
 	},
 	{
-		"abr": "transportpodcrash",
-		"price": 600,
+		"abr": "resourcepodcrash",
+		"price": 300,
 		"karmatype": "Good"
 	},
 	{
@@ -251,11 +241,6 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "infestation",
-		"price": 2500,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "manhunterpack",
 		"price": 1500,
 		"karmatype": "Bad"
@@ -357,7 +342,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 500,
+		"price": 1,
 		"karmatype": "Neutral"
 	},
 	{
@@ -401,6 +386,11 @@
 		"karmatype": "Neutral"
 	},
 	{
+		"abr": "cleartraits",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "use",
 		"price": 1,
 		"karmatype": "Neutral"
@@ -436,5 +426,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 87
+	"total": 85
 }
